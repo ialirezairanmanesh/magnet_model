@@ -17,70 +17,7 @@ from torch_geometric.data import Data # Used for type hinting and potentially la
 from torch_geometric.nn import TransformerConv, global_mean_pool
 import torch.nn.functional as F2
 from sklearn.model_selection import train_test_split
-# Assuming data_extraction provides these functions:
-# from data_extraction import load_processed_data, load_graph_data, load_sequence_data
-
-# Placeholder for data loading functions if data_extraction.py is not available
-# --- Start Placeholder ---
-def load_processed_data(data_path="path/to/your/data", test_size=0.2, random_state=42):
-    """
-    Placeholder function to simulate loading and splitting data.
-    Replace this with your actual data loading logic from data_extraction.py.
-
-    Expected return format:
-        X_tabular_train, X_tabular_test: numpy arrays or pandas DataFrames for tabular features.
-        graph_data: A single torch_geometric.data.Data object representing the shared graph.
-                    (Needs modification if each sample has its own graph).
-        seq_data_train, seq_data_test: numpy arrays or tensors for sequence data (e.g., API calls).
-        y_train, y_test: pandas Series or numpy arrays for labels.
-    """
-    print("--- Using Placeholder Data Loading ---")
-    # Example dimensions (replace with your actual data shapes)
-    num_samples = 1000
-    num_tabular_features = 215
-    num_nodes = 500 # Example number of nodes in the *single* graph
-    node_feature_dim = 128
-    edge_feature_dim = 10
-    seq_len = 20 # Corresponds to seq_max_len
-    vocab_size = 1000 # Corresponds to seq_vocab_size
-
-    # Simulate Tabular Data
-    X_tabular = np.random.rand(num_samples, num_tabular_features)
-    # Simulate Sequence Data (integer tokens)
-    seq_data = np.random.randint(0, vocab_size, size=(num_samples, seq_len))
-    # Simulate Labels (binary)
-    y = np.random.randint(0, 2, size=num_samples)
-
-    # Simulate *Single* Graph Data (using random data)
-    # Node features
-    x_graph = torch.randn(num_nodes, node_feature_dim)
-    # Edge index (sparse connectivity)
-    edge_index = torch.randint(0, num_nodes, (2, num_nodes * 5)) # Example: 5 edges per node on average
-    # Edge features
-    edge_attr = torch.randn(edge_index.shape[1], edge_feature_dim)
-    # Create PyG Data object
-    graph_data = Data(x=x_graph, edge_index=edge_index, edge_attr=edge_attr)
-    print(f"Placeholder Graph: {graph_data}")
-
-
-    # Split data
-    indices = np.arange(num_samples)
-    train_indices, test_indices = train_test_split(indices, test_size=test_size, stratify=y, random_state=random_state)
-
-    X_tabular_train, X_tabular_test = X_tabular[train_indices], X_tabular[test_indices]
-    seq_data_train, seq_data_test = seq_data[train_indices], seq_data[test_indices]
-    y_train, y_test = y[train_indices], y[test_indices]
-
-    # Convert y to pandas Series for consistency with original code's potential input type
-    y_train = pd.Series(y_train)
-    y_test = pd.Series(y_test)
-
-    print(f"Train samples: {len(y_train)}, Test samples: {len(y_test)}")
-    print(f"Tabular shape: {X_tabular_train.shape}, Seq shape: {seq_data_train.shape}")
-
-    return X_tabular_train, X_tabular_test, graph_data, seq_data_train, seq_data_test, y_train, y_test
-# --- End Placeholder ---
-
+from data_extraction import load_processed_data
 
 # Check if GPU is available
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -281,7 +218,7 @@ class GraphTransformer(nn.Module):
         for layer in self.layers:
             # Note: TransformerConv internally handles concatenation or averaging of heads
             x_new = layer(x, edge_index, edge_attr)
-            x = x + self.dropout(F.relu(x_new)) # Residual connection with ReLU
+            x = x + self.dropout(F2.relu(x_new)) # Residual connection with ReLU
 
         x = self.norm(x) # Normalize node embeddings
 
@@ -528,6 +465,31 @@ class MAGNET(nn.Module):
         # Return final classification logits, SSL output, and attention weights
         return logits, self_supervised_output, tab_attention, fusion_attention
 
+# این تابع را قبل از تابع train_and_evaluate_magnet اضافه کنید
+def custom_collate_fn(batch):
+    """
+    تابع سفارشی برای ترکیب داده‌ها در یک بچ
+    این تابع به درستی با ترکیبی از داده‌های معمولی و PyTorch Geometric کار می‌کند
+    """
+    tabular_batch = []
+    seq_batch = []
+    target_batch = []
+    
+    # همه نمونه‌ها از گراف یکسان استفاده می‌کنند، پس فقط اولی را می‌گیریم
+    graph_data = batch[0][0][1]  # گراف از اولین نمونه
+    
+    for (tabular, graph, seq), target in batch:
+        tabular_batch.append(tabular)
+        seq_batch.append(seq)
+        target_batch.append(target)
+    
+    # تبدیل به تنسور
+    tabular_batch = torch.stack(tabular_batch)
+    seq_batch = torch.stack(seq_batch)
+    target_batch = torch.tensor(target_batch)
+    
+    return (tabular_batch, graph_data, seq_batch), target_batch
+
 # --- Training and Evaluation Function ---
 def train_and_evaluate_magnet(config, sample_percentage=100):
     """
@@ -650,8 +612,9 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
     train_dataset = MultiModalDataset(X_tabular_train_scaled, graph_data_single, seq_data_train, y_train)
     test_dataset = MultiModalDataset(X_tabular_test_scaled, graph_data_single, seq_data_test, y_test)
 
-    train_loader = DataLoader(train_dataset, batch_size=config['batch_size'], shuffle=True, num_workers=0) # num_workers > 0 can speed up loading
-    test_loader = DataLoader(test_dataset, batch_size=config['batch_size'], shuffle=False, num_workers=0)
+    # استفاده از تابع collate_fn سفارشی
+    train_loader = DataLoader(train_dataset, batch_size=config['batch_size'], shuffle=True, num_workers=0, collate_fn=custom_collate_fn)
+    test_loader = DataLoader(test_dataset, batch_size=config['batch_size'], shuffle=False, num_workers=0, collate_fn=custom_collate_fn)
 
     # --- 5. Initialize Model ---
     model = MAGNET(
@@ -672,15 +635,32 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
 
     # --- 6. Define Loss, Optimizer, Scheduler ---
     criterion = nn.CrossEntropyLoss(weight=class_weights)
-    # Define the self-supervised criterion (needs a well-defined target)
-    # Using MSELoss as before, but the target needs careful consideration.
-    # Let's keep the placeholder target logic but add a warning/comment.
     self_supervised_criterion = nn.MSELoss()
 
     optimizer = optim.AdamW(model.parameters(), lr=config['learning_rate'], weight_decay=config['weight_decay'])
-    # Cosine annealing scheduler for potentially better convergence
-    scheduler = optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=10, T_mult=2, eta_min=config['learning_rate'] * 0.01)
-
+    
+    # بهبود scheduler برای کاهش نرخ یادگیری در صورت عدم بهبود
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer, mode='max', factor=0.5, patience=5, verbose=True
+    )
+    
+    # پارامترهای توقف زودهنگام
+    early_stop_patience = config.get('early_stop_patience', 10)
+    no_improve_epochs = 0
+    
+    # اضافه کردن این بخش بعد از مقداردهی اولیه پارامترها
+    fast_mode = config.get('fast_mode', False)
+    if fast_mode:
+        print("⚡ حالت سریع فعال است - برخی محاسبات پیچیده حذف می‌شوند ⚡")
+        # در حالت سریع، برخی محاسبات پیچیده را رد می‌کنیم
+        alpha = 0.0  # غیرفعال کردن SSL
+    
+    # در بخش آموزش، این تغییرات را اعمال کنید
+    skip_validation = config.get('skip_validation', False)
+    validation_frequency = config.get('validation_frequency', 1)
+    
+    # گام‌های تجمیع گرادیان
+    grad_accumulation_steps = config.get('grad_accumulation_steps', 1)
 
     # --- 7. Training Loop ---
     print(f"\n--- Starting Training for {config['num_epochs']} epochs ---")
@@ -691,13 +671,12 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
         model.train()
         total_train_loss = 0.0
         total_ssl_loss = 0.0
+        optimizer.zero_grad()  # صفر کردن گرادیان‌ها در ابتدای هر epoch
 
         for i, ((tabular, graph, seq), targets) in enumerate(train_loader):
             # Move batch data to device
             tabular, seq, targets = tabular.to(device), seq.to(device), targets.to(device)
             # Graph is already on device
-
-            optimizer.zero_grad()
 
             # Forward pass
             logits, self_supervised_output, _, _ = model(tabular, graph, seq) # graph is the single shared graph
@@ -739,14 +718,20 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
             # --- End SSL Target Calculation ---
 
 
-            # Combined loss (adjust the weight alpha, e.g., 0.1-0.5)
-            alpha = 0.2 # Weight for the SSL loss
+            # Combined loss (adjust the weight alpha)
             loss = classification_loss + alpha * self_supervised_loss
-
-            # Backward pass and optimization
+            
+            # تقسیم loss برای تجمیع گرادیان
+            loss = loss / grad_accumulation_steps
+            
+            # Backward pass
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0) # Gradient clipping
-            optimizer.step()
+            
+            # بروزرسانی وزن‌ها فقط در گام‌های مشخص
+            if (i + 1) % grad_accumulation_steps == 0 or (i + 1) == len(train_loader):
+                torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)  # Gradient clipping
+                optimizer.step()
+                optimizer.zero_grad()
 
             total_train_loss += classification_loss.item()
             total_ssl_loss += self_supervised_loss.item() if isinstance(self_supervised_loss, torch.Tensor) else self_supervised_loss
@@ -760,7 +745,8 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
 
         with torch.no_grad():
             for (tabular, graph, seq), targets in test_loader:
-                tabular, seq, targets = tabular.to(device), seq.to(device), targets.to(device)
+                tabular, seq = tabular.to(device), seq.to(device)
+                targets = targets.to(device)
                 # Graph is already on device
 
                 logits, _, _, _ = model(tabular, graph, seq)
@@ -781,22 +767,34 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
         val_recall = recall_score(all_targets, all_preds, zero_division=0)
         val_f1 = f1_score(all_targets, all_preds, zero_division=0)
 
-        # Step the scheduler
-        scheduler.step()
-
-        print(f"Epoch [{epoch+1}/{config['num_epochs']}] | "
-              f"Train Loss: {avg_train_loss:.4f} | "
-              f"Val Loss: {avg_val_loss:.4f} | "
-              f"Val F1: {val_f1:.4f} | "
-              f"SSL Loss: {avg_ssl_loss:.4f}")
-
-        # Save the best model based on validation F1 score
-        if val_f1 > best_val_f1:
-            best_val_f1 = val_f1
-            best_model_state = model.state_dict().copy()
-            print(f"*** New best model saved (Epoch {epoch+1}, Val F1: {best_val_f1:.4f}) ***")
-
-
+        # استفاده از scheduler با معیار F1
+        scheduler.step(val_f1)
+        
+        # اجرای validation فقط در اپوک‌های خاص برای سرعت بیشتر
+        run_validation = not skip_validation or (epoch % validation_frequency == 0)
+        
+        if run_validation:
+            print(f"Epoch [{epoch+1}/{config['num_epochs']}] | "
+                  f"Train Loss: {avg_train_loss:.4f} | "
+                  f"Val Loss: {avg_val_loss:.4f} | "
+                  f"Val F1: {val_f1:.4f} | "
+                  f"SSL Loss: {avg_ssl_loss:.4f}")
+            
+            # Save the best model based on validation F1 score
+            if val_f1 > best_val_f1:
+                best_val_f1 = val_f1
+                best_model_state = model.state_dict().copy()
+                no_improve_epochs = 0
+                print(f"*** New best model saved (Epoch {epoch+1}, Val F1: {best_val_f1:.4f}) ***")
+            else:
+                no_improve_epochs += 1
+                if no_improve_epochs >= early_stop_patience:
+                    print(f"Early stopping at epoch {epoch+1}")
+                    break
+        else:
+            # در اپوک‌هایی که validation نداریم، فقط loss آموزش را نمایش می‌دهیم
+            print(f"Epoch [{epoch+1}/{config['num_epochs']}] | Train Loss: {avg_train_loss:.4f}")
+    
     # --- 8. Final Evaluation ---
     if best_model_state:
         print("\nLoading best model for final evaluation...")
@@ -807,20 +805,19 @@ def train_and_evaluate_magnet(config, sample_percentage=100):
     model.eval()
     all_preds = []
     all_targets = []
-    # Store attention weights if needed for later analysis
-    # all_tab_attention = []
-    # all_fusion_attention = []
 
     with torch.no_grad():
         for (tabular, graph, seq), targets in test_loader:
-            tabular, graph, seq, targets = tabular.to(device), seq.to(device), targets.to(device)
+            # اصلاح شده - فقط tabular و seq به device منتقل می‌شوند
+            tabular = tabular.to(device)
+            seq = seq.to(device)
+            targets = targets.to(device)
+            # graph قبلاً به device منتقل شده است
+
             logits, _, tab_attention, fusion_attention = model(tabular, graph, seq)
             _, preds = torch.max(logits, 1)
             all_preds.extend(preds.cpu().numpy())
             all_targets.extend(targets.cpu().numpy())
-            # if tab_attention is not None and fusion_attention is not None:
-            #     all_tab_attention.append([att.cpu() for att in tab_attention]) # List of tensors per layer
-            #     all_fusion_attention.append(fusion_attention.cpu())
 
     # Calculate final metrics
     final_accuracy = accuracy_score(all_targets, all_preds)
