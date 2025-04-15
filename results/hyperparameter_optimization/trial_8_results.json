@@ -1,0 +1,57 @@
+{
+  "trial_number": 8,
+  "params": {
+    "embedding_dim": 64,
+    "num_heads": 8,
+    "num_layers": 1,
+    "dim_feedforward": 256,
+    "dropout": 0.15000000000000002,
+    "batch_size": 32,
+    "learning_rate": 0.0006121001240723876,
+    "weight_decay": 0.0017864388037403538,
+    "num_epochs": 10,
+    "patience": 5,
+    "data_percentage": 50,
+    "optimizer": "RMSprop",
+    "scheduler": "CosineAnnealingWarmRestarts"
+  },
+  "metrics": {
+    "accuracy": 0.8840446240638786,
+    "precision": 0.886700952898431,
+    "recall": 0.9728284987310207,
+    "f1": 0.9276711862311622,
+    "auc": 0.8828993777678146
+  },
+  "fold_metrics": [
+    {
+      "epoch": 10,
+      "train_loss": 0.4148175906465978,
+      "val_loss": 0.3875710088014603,
+      "accuracy": 0.900516795865633,
+      "precision": 0.9037854889589906,
+      "recall": 0.9728353140916808,
+      "f1": 0.9370400654129191,
+      "auc": 0.9239939430092232
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.40396964884534176,
+      "val_loss": 0.37383772611618044,
+      "accuracy": 0.9094437257438551,
+      "precision": 0.9058641975308642,
+      "recall": 0.9848993288590604,
+      "f1": 0.9437299035369775,
+      "auc": 0.9397395063132747
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.5603269259540402,
+      "val_loss": 0.5636061239242554,
+      "accuracy": 0.8421733505821475,
+      "precision": 0.850453172205438,
+      "recall": 0.9607508532423208,
+      "f1": 0.9022435897435898,
+      "auc": 0.7849646839809458
+    }
+  ]
+}

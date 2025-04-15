@@ -334,6 +334,13 @@ class ModalityFusion(nn.Module):
         # Final classifier takes the fused representation
         self.classifier = nn.Linear(embedding_dim, self.num_classes) # Use num_classes
 
+        # New SSL head
+        self.ssl_head = nn.Sequential(
+            nn.Linear(3 * embedding_dim, embedding_dim),
+            nn.ReLU(),
+            nn.Linear(embedding_dim, embedding_dim)  # تطبیق با ابعاد ورودی
+        )
+
     def forward(self, tab_emb, graph_emb, seq_emb):
         # tab_emb shape: (batch_size, embedding_dim) - After pooling in MAGNET
         # graph_emb shape: (1, embedding_dim) - From GraphTransformer (single graph)

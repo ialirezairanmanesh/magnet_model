@@ -77,7 +77,19 @@ def train_epoch(model, train_loader, criterion, optimizer, device, ssl_weight=0.
             if ssl_weight > 0:
                 # مجموع سه مدالیته به عنوان هدف خودنظارتی
                 combined = torch.cat([tabular, seq], dim=1)
-                ssl_loss = nn.MSELoss()(ssl_output, combined)
+                
+                # تطبیق ابعاد با استفاده از یک لایه خطی موقت
+                if ssl_output.shape[1] != combined.shape[1]:
+                    print(f"تطبیق ابعاد SSL: {ssl_output.shape} -> {combined.shape}")
+                    if not hasattr(model, 'ssl_adapter'):
+                        model.ssl_adapter = nn.Linear(ssl_output.shape[1], combined.shape[1]).to(device)
+                    
+                    # استفاده از adapter برای تبدیل ابعاد
+                    adapted_output = model.ssl_adapter(ssl_output)
+                    ssl_loss = nn.MSELoss()(adapted_output, combined)
+                else:
+                    ssl_loss = nn.MSELoss()(ssl_output, combined)
+                
                 loss = main_loss + ssl_weight * ssl_loss
                 total_ssl_loss += ssl_loss.item()
             else:
@@ -183,38 +195,104 @@ def evaluate(model, val_loader, criterion, device):
     return metrics
 
 # تابع ذخیره مدل
-def save_model(model, config, results, scaler, optimizer, scheduler, epoch, model_path):
-    """ذخیره مدل و متااطلاعات مربوطه"""
-    checkpoint = {
-        'epoch': epoch,
-        'model_state_dict': model.state_dict(),
-        'optimizer_state_dict': optimizer.state_dict(),
-        'scheduler_state_dict': scheduler.state_dict() if scheduler else None,
-        'config': config,
-        'results': results,
-        'scaler': scaler,
-    }
-    torch.save(checkpoint, model_path)
-    print(f"مدل در {model_path} ذخیره شد")
+def save_model(model, config, metrics, scaler, optimizer, scheduler, epoch, path):
+    """ذخیره مدل و اطلاعات مرتبط با آن"""
+    try:
+        # تبدیل اشیاء NumPy به لیست یا عدد معمولی
+        processed_metrics = {}
+        for key, value in metrics.items():
+            if 'numpy' in str(type(value)):
+                if hasattr(value, 'tolist'):
+                    processed_metrics[key] = value.tolist()
+                else:
+                    processed_metrics[key] = float(value)
+            else:
+                processed_metrics[key] = value
+        
+        # حذف ماتریس اغتشاش از metrics و ذخیره آن به صورت جداگانه
+        if 'confusion_matrix' in processed_metrics:
+            cm = processed_metrics.pop('confusion_matrix')
+            if hasattr(cm, 'tolist'):
+                cm = cm.tolist()
+            # ذخیره ماتریس اغتشاش در یک فایل جداگانه
+            cm_path = path.replace('.pth', '_confusion_matrix.npy')
+            np.save(cm_path, cm)
+            
+        save_dict = {
+            'model_state_dict': model.state_dict(),
+            'config': config,
+            'results': processed_metrics,
+            'epoch': epoch
+        }
+        
+        if scaler is not None:
+            save_dict['scaler'] = scaler
+            
+        if optimizer is not None:
+            save_dict['optimizer_state_dict'] = optimizer.state_dict()
+            
+        if scheduler is not None:
+            save_dict['scheduler_state_dict'] = scheduler.state_dict()
+        
+        torch.save(save_dict, path)
+        return True
+    except Exception as e:
+        print(f"خطا در ذخیره مدل: {e}")
+        # اگر ذخیره کامل شکست خورد، فقط وزن‌ها را ذخیره کنید
+        try:
+            print("تلاش برای ذخیره فقط وزن‌های مدل...")
+            torch.save(model.state_dict(), path.replace('.pth', '_weights_only.pth'))
+            return True
+        except Exception as e2:
+            print(f"خطا در ذخیره وزن‌های مدل: {e2}")
+            return False
 
 # تابع بارگذاری مدل
-def load_model(model_path, model, optimizer=None, scheduler=None):
-    """بارگذاری مدل از فایل ذخیره شده"""
-    checkpoint = torch.load(model_path, map_location=device)
-    model.load_state_dict(checkpoint['model_state_dict'])
+def load_model(model_path, model=None, device=None):
+    """بارگذاری مدل از فایل"""
+    if device is None:
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
-    if optimizer and 'optimizer_state_dict' in checkpoint:
-        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+    try:
+        # بارگذاری با weights_only=False برای پشتیبانی از PyTorch 2.6
+        checkpoint = torch.load(model_path, map_location=device, weights_only=False)
         
-    if scheduler and 'scheduler_state_dict' in checkpoint and checkpoint['scheduler_state_dict']:
-        scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+        if model is None:
+            # اگر مدل داده نشده، یک مدل جدید با پارامترهای ذخیره شده بسازید
+            config = checkpoint.get('config', {})
+            model = MAGNET(
+                tabular_dim=config.get('tabular_dim', 215),
+                graph_dim=config.get('graph_dim', 10),
+                seq_dim=config.get('seq_dim', 215),
+                embedding_dim=config.get('embedding_dim', 64),
+                num_heads=config.get('num_heads', 2),
+                num_layers=config.get('num_layers', 2),
+                dim_feedforward=config.get('dim_feedforward', 256),
+                dropout=config.get('dropout', 0.3),
+                num_classes=config.get('num_classes', 2)
+            ).to(device)
+        
+        # بارگذاری وزن‌های مدل
+        model.load_state_dict(checkpoint['model_state_dict'])
+        
+        # برگرداندن اطلاعات اضافی
+        return model, checkpoint.get('scaler'), checkpoint.get('config'), checkpoint.get('results'), checkpoint.get('optimizer_state_dict'), checkpoint.get('scheduler_state_dict'), checkpoint.get('epoch', 0)
     
-    epoch = checkpoint.get('epoch', 0)
-    config = checkpoint.get('config', {})
-    results = checkpoint.get('results', {})
-    scaler = checkpoint.get('scaler', None)
-    
-    return model, optimizer, scheduler, epoch, config, results, scaler
+    except Exception as e:
+        print(f"خطا در بارگذاری مدل: {e}")
+        
+        try:
+            # تلاش مجدد با استفاده از روش جایگزین
+            print("تلاش برای بارگذاری فقط وزن‌های مدل...")
+            checkpoint = torch.load(model_path, map_location=device, weights_only=True)
+            
+            if model is not None:
+                model.load_state_dict(checkpoint)
+                return model, None, None, None, None, None, 0
+        except Exception as e2:
+            print(f"خطا در بارگذاری وزن‌های مدل: {e2}")
+        
+        return None, None, None, None, None, None, 0
 
 # تابع رسم نمودارها
 def plot_training_curves(history, save_path=None):
@@ -314,11 +392,23 @@ def main(args):
     print("\nبارگذاری داده‌ها...")
     X_tabular_train, X_tabular_test, graph_data, seq_data_train, seq_data_test, y_train, y_test = load_processed_data()
     
-    # تبدیل به آرایه‌های numpy
-    if hasattr(y_train, 'values'):
-        y_train = y_train.values
-    if hasattr(y_test, 'values'):
-        y_test = y_test.values
+    # بعد از بارگذاری داده‌ها، اضافه کنید:
+    print(f"نوع y_train: {type(y_train)}")
+
+    # اگر y_train یک متد یا تابع است، باید آن را فراخوانی کنیم
+    if callable(y_train):
+        print("y_train یک تابع است، در حال فراخوانی...")
+        y_train = y_train()
+        print(f"نوع جدید y_train: {type(y_train)}")
+
+    # تبدیل به numpy array برای اطمینان
+    if hasattr(y_train, 'numpy'):
+        y_train = y_train.numpy()  # برای تنسورهای PyTorch
+    elif hasattr(y_train, 'values'):
+        y_train = y_train.values  # برای DataFrame های Pandas
+
+    y_train = np.array(y_train)
+    print(f"شکل نهایی y_train: {y_train.shape}")
     
     # اطلاعات داده‌ها
     print(f"تعداد نمونه‌های آموزشی: {len(y_train)}")
@@ -604,32 +694,32 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='آموزش نهایی مدل MAGNET برای پایان‌نامه')
     
     # پارامترهای معماری
-    parser.add_argument('--embedding_dim', type=int, default=96, 
-                        help='ابعاد embedding (پیشنهاد: 96)')
-    parser.add_argument('--num_heads', type=int, default=4, 
-                        help='تعداد سرهای توجه در ترانسفورمر (پیشنهاد: 4)')
-    parser.add_argument('--num_layers', type=int, default=3, 
-                        help='تعداد لایه‌های ترانسفورمر (پیشنهاد: 3)')
+    parser.add_argument('--embedding_dim', type=int, default=64, 
+                        help='ابعاد embedding (پیشنهاد: 64)')
+    parser.add_argument('--num_heads', type=int, default=2, 
+                        help='تعداد سرهای توجه در ترانسفورمر (پیشنهاد: 2)')
+    parser.add_argument('--num_layers', type=int, default=2, 
+                        help='تعداد لایه‌های ترانسفورمر (پیشنهاد: 2)')
     parser.add_argument('--dim_feedforward', type=int, default=256, 
                         help='ابعاد لایه feed-forward در ترانسفورمر (پیشنهاد: 256)')
     parser.add_argument('--dropout', type=float, default=0.3, 
                         help='نرخ dropout (پیشنهاد: 0.3)')
     
     # پارامترهای آموزش
-    parser.add_argument('--batch_size', type=int, default=64, 
-                        help='اندازه batch (پیشنهاد: 64)')
+    parser.add_argument('--batch_size', type=int, default=32, 
+                        help='اندازه batch (پیشنهاد: 32)')
     parser.add_argument('--learning_rate', type=float, default=0.0005, 
                         help='نرخ یادگیری (پیشنهاد: 0.0005)')
     parser.add_argument('--weight_decay', type=float, default=0.01, 
                         help='ضریب weight decay (پیشنهاد: 0.01)')
-    parser.add_argument('--epochs', type=int, default=50, 
-                        help='تعداد اپوک‌ها (پیشنهاد: 50)')
-    parser.add_argument('--ssl_weight', type=float, default=0.1, 
-                        help='ضریب وزن یادگیری خودنظارتی (پیشنهاد: 0.1)')
+    parser.add_argument('--epochs', type=int, default=30, 
+                        help='تعداد اپوک‌ها (پیشنهاد: 30)')
+    parser.add_argument('--ssl_weight', type=float, default=0, 
+                        help='ضریب وزن یادگیری خودنظارتی (پیشنهاد: 0)')
     
     # پارامترهای اجرا
-    parser.add_argument('--data_percentage', type=int, default=100, 
-                        help='درصد داده‌ها برای آموزش (پیشنهاد: 100)')
+    parser.add_argument('--data_percentage', type=int, default=50, 
+                        help='درصد داده‌ها برای آموزش (پیشنهاد: 50)')
     parser.add_argument('--patience', type=int, default=7, 
                         help='تعداد اپوک برای early stopping (پیشنهاد: 7)')
     parser.add_argument('--num_workers', type=int, default=4, 
