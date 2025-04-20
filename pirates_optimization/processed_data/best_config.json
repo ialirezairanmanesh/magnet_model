@@ -1,0 +1,1 @@
+{"embedding_dim": 16, "num_heads": 8, "num_layers": 3, "dim_feedforward": 64, "dropout": 0.12938017783768804, "batch_size": 16, "learning_rate": 0.004640161143684186, "weight_decay": 0.037634345791649954}
