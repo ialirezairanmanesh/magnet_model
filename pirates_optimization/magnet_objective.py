@@ -2,6 +2,10 @@ import torch
 import numpy as np
 from magnet_model import MAGNET, train_and_evaluate_magnet
 from tqdm import tqdm
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, SubsetRandomSampler
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 def magnet_objective(x):
     """
@@ -100,10 +104,10 @@ def magnet_objective(x):
         print("پایان ارزیابی این مجموعه پارامترها")
         print("="*50 + "\n")
         
-        return error
+        return error, metrics  # برگرداندن خطا و تمام metrics
     
     except Exception as e:
         # در صورت بروز خطا، یک مقدار بزرگ برگردان
         print(f"\nخطا در ارزیابی: {str(e)}")
         print("برگرداندن حداکثر خطا (1.0)")
-        return 1.0  # حداکثر خطا 
+        return 1.0, {'f1': 0.0, 'accuracy': 0.0, 'precision': 0.0, 'recall': 0.0}  # برگرداندن خطا و metrics خالی 

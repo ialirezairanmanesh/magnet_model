@@ -1,0 +1,12 @@
+{
+  "embedding_dim": 16,
+  "num_heads": 4,
+  "num_layers": 1,
+  "dim_feedforward": 64,
+  "dropout": 0.2,
+  "batch_size": 16,
+  "learning_rate": 0.00014837154209034243,
+  "weight_decay": 0.0029090774469748447,
+  "optimizer": "RMSprop",
+  "scheduler": "OneCycleLR"
+}

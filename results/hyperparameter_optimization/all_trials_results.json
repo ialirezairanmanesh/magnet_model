@@ -1,0 +1,329 @@
+{
+  "trials": [
+    {
+      "trial_number": 0,
+      "params": {
+        "embedding_dim": 16,
+        "num_heads": 4,
+        "num_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.2,
+        "batch_size": 16,
+        "learning_rate": 0.00014837154209034243,
+        "weight_decay": 0.0029090774469748447,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "RMSprop",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.7969676406452483,
+        "precision": 0.8122054412964154,
+        "recall": 0.9552582020021806,
+        "f1": 0.8762999319185268,
+        "auc": 0.7299343018537913
+      }
+    },
+    {
+      "trial_number": 1,
+      "params": {
+        "embedding_dim": 64,
+        "num_heads": 8,
+        "num_layers": 2,
+        "dim_feedforward": 64,
+        "dropout": 0.2,
+        "batch_size": 16,
+        "learning_rate": 0.00023406119840067301,
+        "weight_decay": 0.008633585625833898,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "ReduceLROnPlateau"
+      },
+      "metrics": {
+        "accuracy": 0.9245670803930679,
+        "precision": 0.9442434230585451,
+        "recall": 0.9589882945970012,
+        "f1": 0.9512130927263002,
+        "auc": 0.9649557104608851
+      }
+    },
+    {
+      "trial_number": 2,
+      "params": {
+        "embedding_dim": 16,
+        "num_heads": 4,
+        "num_layers": 2,
+        "dim_feedforward": 64,
+        "dropout": 0.1,
+        "batch_size": 16,
+        "learning_rate": 0.006712682548857099,
+        "weight_decay": 0.00019256794788815665,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "RMSprop",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.7668000441248735,
+        "precision": 0.7668000441248735,
+        "recall": 1.0,
+        "f1": 0.8678525149567998,
+        "auc": 0.5613811109129462
+      }
+    },
+    {
+      "trial_number": 3,
+      "params": {
+        "embedding_dim": 16,
+        "num_heads": 4,
+        "num_layers": 2,
+        "dim_feedforward": 256,
+        "dropout": 0.15000000000000002,
+        "batch_size": 16,
+        "learning_rate": 0.0008157998864309397,
+        "weight_decay": 0.0722494208965414,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "RMSprop",
+        "scheduler": "ReduceLROnPlateau"
+      },
+      "metrics": {
+        "accuracy": 0.8064622882758207,
+        "precision": 0.815648358484029,
+        "recall": 0.9672229360756028,
+        "f1": 0.8845046405952477,
+        "auc": 0.6884532729009615
+      }
+    },
+    {
+      "trial_number": 4,
+      "params": {
+        "embedding_dim": 16,
+        "num_heads": 8,
+        "num_layers": 2,
+        "dim_feedforward": 256,
+        "dropout": 0.1,
+        "batch_size": 32,
+        "learning_rate": 0.0012091904912592565,
+        "weight_decay": 0.002101681884441971,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "RMSprop",
+        "scheduler": "ReduceLROnPlateau"
+      },
+      "metrics": {
+        "accuracy": 0.8543132620872624,
+        "precision": 0.873828871548965,
+        "recall": 0.9507720382051051,
+        "f1": 0.9102209650320129,
+        "auc": 0.7996180394999933
+      }
+    },
+    {
+      "trial_number": 7,
+      "params": {
+        "embedding_dim": 16,
+        "num_heads": 2,
+        "num_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.15000000000000002,
+        "batch_size": 16,
+        "learning_rate": 0.005082979876686096,
+        "weight_decay": 0.0009698406686287919,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "ReduceLROnPlateau"
+      },
+      "metrics": {
+        "accuracy": 0.9482769571219887,
+        "precision": 0.9597348424464638,
+        "recall": 0.9734305660859333,
+        "f1": 0.9663561434696937,
+        "auc": 0.9794734783648528
+      }
+    },
+    {
+      "trial_number": 8,
+      "params": {
+        "embedding_dim": 64,
+        "num_heads": 8,
+        "num_layers": 1,
+        "dim_feedforward": 256,
+        "dropout": 0.15000000000000002,
+        "batch_size": 32,
+        "learning_rate": 0.0006121001240723876,
+        "weight_decay": 0.0017864388037403538,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "RMSprop",
+        "scheduler": "CosineAnnealingWarmRestarts"
+      },
+      "metrics": {
+        "accuracy": 0.8840446240638786,
+        "precision": 0.886700952898431,
+        "recall": 0.9728284987310207,
+        "f1": 0.9276711862311622,
+        "auc": 0.8828993777678146
+      }
+    },
+    {
+      "trial_number": 10,
+      "params": {
+        "embedding_dim": 32,
+        "num_heads": 2,
+        "num_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "learning_rate": 0.00011507947246513043,
+        "weight_decay": 0.00029992360225577727,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.9271583024403506,
+        "precision": 0.9418211359076136,
+        "recall": 0.9650228736982117,
+        "f1": 0.9531036791335984,
+        "auc": 0.955026520515951
+      }
+    },
+    {
+      "trial_number": 11,
+      "params": {
+        "embedding_dim": 32,
+        "num_heads": 2,
+        "num_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.3,
+        "batch_size": 16,
+        "learning_rate": 0.00010459072482109556,
+        "weight_decay": 0.00028017753297292117,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.9310264715812416,
+        "precision": 0.9562436079081097,
+        "recall": 0.9534935905886903,
+        "f1": 0.9547199153371716,
+        "auc": 0.9653867014269899
+      }
+    },
+    {
+      "trial_number": 13,
+      "params": {
+        "embedding_dim": 32,
+        "num_heads": 2,
+        "num_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.2,
+        "batch_size": 16,
+        "learning_rate": 0.00031025302574602253,
+        "weight_decay": 0.0006708944840281642,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.9478396083137501,
+        "precision": 0.9714055748956868,
+        "recall": 0.9599321818356253,
+        "f1": 0.9655911104928533,
+        "auc": 0.9834460589380405
+      }
+    },
+    {
+      "trial_number": 14,
+      "params": {
+        "embedding_dim": 32,
+        "num_heads": 2,
+        "num_layers": 1,
+        "dim_feedforward": 64,
+        "dropout": 0.2,
+        "batch_size": 16,
+        "learning_rate": 0.0003122216544587877,
+        "weight_decay": 0.0009922266569367894,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.9413713030097398,
+        "precision": 0.958796601719118,
+        "recall": 0.9650010269444427,
+        "f1": 0.9617791359711235,
+        "auc": 0.9723899086949483
+      }
+    },
+    {
+      "trial_number": 16,
+      "params": {
+        "embedding_dim": 32,
+        "num_heads": 2,
+        "num_layers": 1,
+        "dim_feedforward": 128,
+        "dropout": 0.2,
+        "batch_size": 16,
+        "learning_rate": 0.0003179702108750333,
+        "weight_decay": 0.0007240643508876789,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "AdamW",
+        "scheduler": "OneCycleLR"
+      },
+      "metrics": {
+        "accuracy": 0.9508603793179141,
+        "precision": 0.9613705046439804,
+        "recall": 0.9746160159799461,
+        "f1": 0.9679091789195532,
+        "auc": 0.9771028156014608
+      }
+    },
+    {
+      "trial_number": 19,
+      "params": {
+        "embedding_dim": 64,
+        "num_heads": 4,
+        "num_layers": 1,
+        "dim_feedforward": 128,
+        "dropout": 0.2,
+        "batch_size": 16,
+        "learning_rate": 0.0018984960342824176,
+        "weight_decay": 0.0010956175512645931,
+        "num_epochs": 10,
+        "patience": 5,
+        "data_percentage": 50,
+        "optimizer": "Adam",
+        "scheduler": "CosineAnnealingWarmRestarts"
+      },
+      "metrics": {
+        "accuracy": 0.951293828200474,
+        "precision": 0.9646768915085021,
+        "recall": 0.972429248085836,
+        "f1": 0.9684157085763613,
+        "auc": 0.9835740988149396
+      }
+    }
+  ]
+} 

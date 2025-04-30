@@ -80,9 +80,9 @@ def train_epoch(model, train_loader, criterion, optimizer, device, ssl_weight=0.
                 
                 # تطبیق ابعاد با استفاده از یک لایه خطی موقت
                 if ssl_output.shape[1] != combined.shape[1]:
-                    print(f"تطبیق ابعاد SSL: {ssl_output.shape} -> {combined.shape}")
                     if not hasattr(model, 'ssl_adapter'):
                         model.ssl_adapter = nn.Linear(ssl_output.shape[1], combined.shape[1]).to(device)
+                        print(f"\nتطبیق ابعاد SSL: {ssl_output.shape} -> {combined.shape}")
                     
                     # استفاده از adapter برای تبدیل ابعاد
                     adapted_output = model.ssl_adapter(ssl_output)
@@ -347,17 +347,17 @@ def main(args):
     
     # تنظیمات پایه مدل
     config = {
-        # پارامترهای معماری
-        'embedding_dim': args.embedding_dim,
-        'num_heads': args.num_heads,
-        'num_layers': args.num_layers,
-        'dim_feedforward': args.dim_feedforward,
-        'dropout': args.dropout,
+        # پارامترهای معماری (بهترین مقادیر از Pirates)
+        'embedding_dim': 32,  # بهترین مقدار از Pirates
+        'num_heads': 2,      # بهترین مقدار از Pirates
+        'num_layers': 1,     # بهترین مقدار از Pirates
+        'dim_feedforward': 64,  # بهترین مقدار از Pirates
+        'dropout': 0.2,      # بهترین مقدار از Pirates
         
-        # پارامترهای آموزش
-        'batch_size': args.batch_size,
-        'learning_rate': args.learning_rate,
-        'weight_decay': args.weight_decay,
+        # پارامترهای آموزش (بهترین مقادیر از Pirates)
+        'batch_size': 16,    # بهترین مقدار از Pirates
+        'learning_rate': 0.0018984960342824176,  # بهترین مقدار از Optuna
+        'weight_decay': 0.0010956175512645931,   # بهترین مقدار از Optuna
         'num_epochs': args.epochs,
         'alpha_ssl': args.ssl_weight,
         
@@ -517,19 +517,19 @@ def main(args):
     else:
         criterion = nn.CrossEntropyLoss()
     
-    optimizer = optim.AdamW(
+    # تنظیم بهینه‌ساز با بهترین پارامترهای یافت شده توسط Optuna
+    optimizer = optim.Adam(
         model.parameters(), 
         lr=config['learning_rate'],
         weight_decay=config['weight_decay']
     )
     
-    # برنامه‌ریز نرخ یادگیری: کاهش در صورت عدم بهبود
-    scheduler = ReduceLROnPlateau(
-        optimizer, 
-        mode='max', 
-        factor=0.5, 
-        patience=3, 
-        verbose=True
+    # برنامه‌ریز نرخ یادگیری: CosineAnnealingWarmRestarts (بهترین از Optuna)
+    scheduler = optim.lr_scheduler.CosineAnnealingWarmRestarts(
+        optimizer,
+        T_0=5,  # تعداد اپوک‌ها برای اولین سیکل
+        T_mult=2,  # ضریب افزایش برای سیکل‌های بعدی
+        eta_min=1e-6  # حداقل نرخ یادگیری
     )
     
     # --- آموزش مدل ---
@@ -581,7 +581,7 @@ def main(args):
         current_lr = optimizer.param_groups[0]['lr']
         
         # به‌روزرسانی برنامه‌ریز نرخ یادگیری
-        scheduler.step(val_metrics['f1'])
+        scheduler.step()
         
         # ثبت سابقه
         history['train_loss'].append(train_loss)

@@ -1,0 +1,18 @@
+{
+    "embedding_dim": 32,
+    "num_heads": 2,
+    "num_layers": 1,
+    "dim_feedforward": 64,
+    "dropout": 0.2,
+    "batch_size": 16,
+    "learning_rate": 0.0018984960342824176,
+    "weight_decay": 0.0010956175512645931,
+    "num_epochs": 10,
+    "alpha_ssl": 0.1,
+    "tabular_dim": 215,
+    "graph_node_dim": 215,
+    "graph_edge_dim": 1,
+    "seq_vocab_size": 1000,
+    "seq_max_len": 100,
+    "num_classes": 2
+}

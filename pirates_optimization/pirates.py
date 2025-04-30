@@ -15,7 +15,8 @@ from selection import roullet_wheel as rw
 
 class Pirates():
     def __init__(self, func, fmax=(), fmin=(), hr=0.2, ms=3, max_r=1, num_ships=5, dimensions=2, max_iter=10, max_wind=1, c={},
-                 top_ships=10, dynamic_sails=False, iteration_plots=False, animate=False, log=False, quiet=False):
+                 top_ships=10, dynamic_sails=False, iteration_plots=False, animate=False, log=False, quiet=False,
+                 sailing_radius=0.3, plundering_radius=0.1):
 
         self.num_ships = num_ships              #  Number of particles
         self.num_top_ships = top_ships          #  Number of top ships
@@ -25,12 +26,32 @@ class Pirates():
         self.animate = animate                  #  Enable animation
         self.max_iter = max_iter                #  Max iteration
         self.func_obj = func                    #  Handler to all function properties (name, fopt, xopt, bounds)
-        self.cost_func = self.func_obj.func     #  Cost function itself
+        # Check if func_obj is a function or an object with a func method
+        if callable(self.func_obj) and not hasattr(self.func_obj, 'func'):
+            self.cost_func = self.func_obj      # If it's a function, use it directly
+        else:
+            self.cost_func = self.func_obj.func  # If it's an object, use its func method
         self.fmin = fmin                        #  Problem min range (0, 0) for each dimension
         self.fmax = fmax                        #  Problem max range (10, 100) for each dimension
         self.dimensions = dimensions            #  Problem dimensions
-        self.c = c                              #  Constant weights of leader, private map, map, top ships
+        
+        # Default values for constant weights if not provided
+        default_c = {
+            'leader': 0.5,
+            'private_map': 0.5,
+            'map': 0.5,
+            'top_ships': 0.5
+        }
+        self.c = {**default_c, **c}            #  Constant weights with defaults
+        
         self.iteration_plots = iteration_plots  #  Plot curves in specefic iterations
+
+        # Sailing parameters
+        self.sailing_radius = sailing_radius
+        self.plundering_radius = plundering_radius
+        self.initial_sailing_radius = sailing_radius
+        self.initial_plundering_radius = plundering_radius
+        self.sailing_angles = True  # Enable sailing angles
 
         self.knot = None
         self.max_wind = max_wind
@@ -106,39 +127,50 @@ class Pirates():
         self.sails = np.random.choice(self.sails_stats, self.num_ships, replace=True)
 
     def update_sails(self):
-        for i in range(self.num_ships):
-            #  Bug: was reseting leader sails [FIXED]
-            if i == self.leader_index:
-                continue
-
-            if self.dynamic_sails:
-                #  decrease precentage
-                half = (np.pi/4) - (iteration / self.max_iter * (np.pi/4))
-                full = (np.pi/2) - (iteration / self.max_iter * (np.pi/2))
-            else:
-                #  half = np.pi/4
-                half = 0.7071067811865475
-                #  full = np.pi/2
-                full = 1
-
-            if self.vtable[i]:
-                self.sails[i] = half
-            else:
-                self.sails[i] = full
-
+        """
+        Update the sailing parameters based on the current iteration
+        """
+        # Update sailing radius gradually
+        self.sailing_radius = self.initial_sailing_radius * (1 - (self.iter / self.max_iter))
+        self.plundering_radius = self.initial_plundering_radius * (1 - (self.iter / self.max_iter))
+        
+        # Update sailing angles range
+        if self.sailing_angles:
+            half = (np.pi/4) - (self.iter / self.max_iter * (np.pi/4))
+            self.sailing_angle_range = (-half, half)
 
     def cal_costs(self):
+        """
+        Calculate costs for all ships and return best cost and metrics
+        
+        Returns:
+        --------
+        tuple (float, dict) or None
+            Best cost and its corresponding metrics, or None if cost function doesn't return metrics
+        """
+        best_error = float('inf')
+        best_metrics = None
+        
         for i in range(self.num_ships):
-            self.costs[i] = self.cost_func(self.ships[i])
-
-        #  Raise error if there is a cost lower than optimum cost of function
-        #  if any(self.costs < self.func_obj.fopt):
-            #  indices = np.argwhere(self.costs < self.func_obj.fopt)
-            #  print('There is a cost under fopt')
-            #  print(indices)
-            #  print(self.ships[indices])
-            #  print(self.costs[indices])
-            #  raise False
+            result = self.cost_func(self.ships[i])
+            
+            if isinstance(result, tuple) and len(result) == 2:
+                error, metrics = result
+                self.costs[i] = error  # Only store the error value
+                
+                # Store best metrics
+                if error < best_error:
+                    best_error = error
+                    best_metrics = metrics
+            else:
+                # Cost function only returned a single value
+                self.costs[i] = result
+        
+        if best_metrics is not None:
+            return best_error, best_metrics
+        
+        # For older versions that don't return metrics, return None
+        return None
 
     def update_leader(self):
         leader_index = np.argmin(self.costs)
@@ -218,7 +250,13 @@ class Pirates():
         for axis in range(self.dimensions):
             tale[axis] = np.random.choice(self.map[:,axis], p=selection_probs)
 
-        tale_cost = self.cost_func(tale)
+        result = self.cost_func(tale)
+        
+        # اگر نتیجه یک tuple است، فقط مقدار خطا را استخراج می‌کنیم
+        if isinstance(result, tuple) and len(result) == 2:
+            tale_cost, _ = result
+        else:
+            tale_cost = result
 
         if tale_cost < self.costs[self.leader_index]:
             self.log('Tale exchanged with the leader!', self.costs[self.leader_index], '--->', tale_cost, c='YELLOW')
@@ -484,7 +522,13 @@ class Pirates():
                 beta = 0.5
 
             new_ship = alfa * self.ships[ship_1] + beta * self.ships[ship_2]
-            new_ship_cost = self.cost_func(new_ship)
+            result = self.cost_func(new_ship)
+            
+            # اگر نتیجه یک tuple است، فقط مقدار خطا را استخراج می‌کنیم
+            if isinstance(result, tuple) and len(result) == 2:
+                new_ship_cost, _ = result
+            else:
+                new_ship_cost = result
 
             if new_ship_cost < self.costs[ship_1] and new_ship_cost < self.costs[ship_2]:
                 #  CAPTURE --
@@ -522,13 +566,6 @@ class Pirates():
                         # same cost for both ships in battle
                         # draw
                         #  pass
-            # When new ship is better than of on of the other ships
-            #  else:
-                #  if new_ship_cost < self.costs[ship_1]:
-                    #  self.ships[ship_1] = new_ship
-                #  elif new_ship_cost < self.costs[ship_2]:
-                    #  self.ships[ship_2] = new_ship
-
 
     def hurricane(self):
         # Don't run hurricane after T/landa of algorithm , landa=3
@@ -563,12 +600,24 @@ class Pirates():
         self.bsf_list.append(self.costs[self.leader_index])
         # If bsf costs list is not empty
         if len(self.bsf_list) >= 2:
-            #  If new bsf is greater than the old one something is wrong
-            if self.bsf_list[-2] < self.costs[self.leader_index]:
-                print('BSF being updated wrong...')
-                print('Old:', self.bsf_list[-2], '-->', 'New:', self.costs[self.leader_index])
-                print('iteration', self.iter, 'leader index', self.leader_index, 'leder velo', self.v[self.leader_index])
-                raise ValueError
+            # در حالت کمینه‌سازی، هزینه کمتر بهتر است
+            if self.problem == 'min':
+                # اگر هزینه جدید بیشتر از قبلی باشد، اشتباه است
+                if self.bsf_list[-2] < self.costs[self.leader_index]:
+                    print('BSF being updated wrong...')
+                    print('Old:', self.bsf_list[-2], '-->', 'New:', self.costs[self.leader_index])
+                    print('iteration', self.iter, 'leader index', self.leader_index, 'leder velo', self.v[self.leader_index])
+                    # به جای ایجاد خطا، مقدار قبلی را نگه می‌داریم
+                    self.bsf_list[-1] = self.bsf_list[-2]
+            # در حالت بیشینه‌سازی، هزینه بیشتر بهتر است
+            elif self.problem == 'max':
+                # اگر هزینه جدید کمتر از قبلی باشد، اشتباه است
+                if self.bsf_list[-2] > self.costs[self.leader_index]:
+                    print('BSF being updated wrong...')
+                    print('Old:', self.bsf_list[-2], '-->', 'New:', self.costs[self.leader_index])
+                    print('iteration', self.iter, 'leader index', self.leader_index, 'leder velo', self.v[self.leader_index])
+                    # به جای ایجاد خطا، مقدار قبلی را نگه می‌داریم
+                    self.bsf_list[-1] = self.bsf_list[-2]
 
     def update_avg(self):
         self.avg.append(np.average(self.costs))
@@ -660,7 +709,7 @@ class Pirates():
         plt.show()
 
     def update_animation(self):
-        if not self.animate: #or self.dimensions != 2:
+        if not self.animate:
             return
 
         x, y, *_ = self.ships.T
@@ -696,9 +745,73 @@ class Pirates():
 
     def update_r(self):
         #  Dynamicly and linearly increase r
-        if self.r is None or self.r < self.max_r:
-            self.r = self.iter / self.max_iter * self.max_r
+        if not self.max_r:
+            self.r = 0
+            return
+        self.r = self.iter / self.max_iter * self.max_r
 
+    def run_iteration(self):
+        """
+        اجرای یک تکرار از الگوریتم و برگرداندن بهترین هزینه و پارامترها
+        
+        Returns:
+        --------
+        tuple (float, numpy.ndarray, dict)
+            هزینه بهترین موقعیت، آرایه پارامترهای آن و معیارهای ارزیابی
+        """
+        self.update_r()
+        
+        # به‌روزرسانی شماره تکرار
+        self.iter += 1
+        
+        # محاسبه هزینه‌ها
+        error_and_metrics = self.cal_costs()
+        self.update_avg()
+        
+        self.update_private_map()
+        
+        # یافتن رهبر
+        self.update_leader()
+        self.update_bsf()
+        
+        # به‌روزرسانی جدول دید
+        self.update_vtable()
+        
+        # به‌روزرسانی بادبان‌ها
+        self.update_sails()
+        
+        # ایجاد نقشه و داستان
+        self.update_map()
+        self.generate_tale()
+        
+        self.update_top_ships()
+        
+        # به‌روزرسانی باد
+        self.update_wind()
+        
+        # به‌روزرسانی سرعت و موقعیت‌ها
+        self.update_velocity()
+        self.update_positions()
+        
+        self.battle()
+        self.update_leader()
+        
+        # اجرای طوفان در صورت نیاز
+        self.hurricane()
+        
+        self.update_trajectory()
+        
+        # به‌روزرسانی انیمیشن
+        self.update_animation()
+        
+        # برگرداندن بهترین هزینه، پارامترها و معیارها
+        if error_and_metrics and isinstance(error_and_metrics, tuple) and len(error_and_metrics) == 2:
+            error, metrics = error_and_metrics
+            return error, self.ships[self.leader_index], metrics
+        else:
+            # اگر تابع هزینه metrics را برنگرداند، یک دیکشنری خالی برمی‌گردانیم
+            default_metrics = {'f1': 0.0, 'accuracy': 0.0, 'precision': 0.0, 'recall': 0.0}
+            return self.costs[self.leader_index], self.ships[self.leader_index], default_metrics
 
     def start(self):
 
@@ -779,3 +892,27 @@ class Pirates():
             self.show_results()
             self.plot_results_curves()
             self.show_positions()
+
+    def search(self):
+        """
+        Run the optimization algorithm and return best results
+        
+        Returns:
+        --------
+        tuple
+            (best_position, best_cost, best_metrics)
+        """
+        # Run the optimization algorithm
+        self.start()
+        
+        # Get results from cal_costs
+        result = self.cal_costs()
+        
+        if result is not None:
+            best_cost, best_metrics = result
+        else:
+            best_cost = self.costs[self.leader_index]
+            best_metrics = {'f1': 0.0, 'accuracy': 0.0, 'precision': 0.0, 'recall': 0.0}
+        
+        # Return best position, cost, and metrics
+        return self.ships[self.leader_index], best_cost, best_metrics
