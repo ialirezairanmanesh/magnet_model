@@ -1,0 +1,28 @@
+% !TeX root=SBUKThesis-main.tex
+\chapter*{\vspace{-3cm}\fontsize{14}{15}\selectfont Abstract}
+\thispagestyle{empty}
+\vspace{-1.5cm}\setlength{\parindent}{20pt}\fontsize{12}{13}\selectfont
+The performance of large language models (LLMs) relies heavily on prompt engineering. Manual methods such as programming and problem solving have improved the reasoning process to some extent, but they often fall short in ensuring diversity in the generated prompts and limit overall effectiveness. 
+On the other hand, prompt generation methods have overcome this limitation by introducing a self-reflective improvement mechanism. By leveraging a genetic algorithm with a binary tournament selection strategy, they gradually evolve instructional prompts. This algorithm enables the prompt generator to iteratively explore the prompt space while optimizing for both diversity and performance simultaneously.
+Despite the significant advancements made by prompt generation methods in creating optimal prompts, a new challenge has emerged — the increased computational burden and complexity of these approaches, which makes their practical application difficult in many real-world scenarios.
+To address these issues, we propose SimplePromptBreeder that utilizes a local search strategy to optimize prompts. This approach employs a probabilistic model called Determinantal Point Processes (DPPs) to select high-quality and diverse prompts, directly balancing performance and diversity without relying on complex self-referential mechanisms.
+
+We evaluated the optimal prompt generation method on eight benchmark datasets: 
+\lr{MultiArith}, 
+\lr{SingleEq}, 
+\lr{AddSub}, 
+\lr{SVAMP}, 
+\lr{SQA}, 
+\lr{CSQA}, 
+\lr{AQuA-RAT}, and 
+\lr{GSM8K}, 
+achieving a relative improvement of \lr{23.4\%} over the problem-and-solve approach and a relative improvement of \lr{54.7\%} over the PromptBreeder method.
+
+\par\vspace{.5cm}\setlength{\parindent}{0pt}
+\textbf{Keywords:} Large Language Models, Prompt Engineering, Instructional Prompts, Determinantal Point Processes, Diversity, Quality
+
+
+
+
+ \par\vspace{.5cm}\setlength{\parindent}{0pt}{\bfseries \fontsize{12}{13}\selectfont Keywords: Large Language Models, Prompt Engineering, Instructional Prompts, Determinantal Point Processes, Diversity, Quality }
+

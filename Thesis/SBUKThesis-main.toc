@@ -1,0 +1,50 @@
+\vspace {-1.5cm}\textbf {عنوان}~\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
+\contentsline {chapter}{\numberline {1}کلیات پژوهش}{1}{chapter.1}%
+\contentsline {section}{\numberline {1-1}مقدمه و بیان مسئله}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1-1-1}طراحی دستی اعلان}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1-1-2}روش\/های بهینه\/سازی اعلان و خودکارسازی مهندسی اعلان}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1-1-3}مجموعه داده\/های مربوطه}{3}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1-2} ضرورت تحقیق و اهداف}{4}{section.1.2}%
+\contentsline {section}{\numberline {1-3}سازماندهی پایان نامه}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {2}پیشینه تحقیق و مفاهیم پایه}{7}{chapter.2}%
+\contentsline {section}{\numberline {2-1}مقدمه}{8}{section.2.1}%
+\contentsline {section}{\numberline {2-2}بررسی مدل‌های زبانی بزرگ}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2-2-1}تاریخچه و تکامل مدل‌ها}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2-2-2}معماری‌ها و کاربردهای اصلی}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2-2-3}مدل بزرگ زبانی Mistral}{12}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2-3}مهندسی اعلان}{13}{section.2.3}%
+\contentsline {section}{\numberline {2-4}روش‌های دستی در مهندسی اعلان}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}یادگیری درون متنی}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2-4-2}روش زنجیره تفکر}{19}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2-4-3}روش استدلال بدون دیدن نمونه آموزشی}{19}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2-4-4}روش برنامه تفکر}{21}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2-4-5}روش بهینه سازی با اعلان}{21}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2-4-6}روش برنامه\/ریزی و حل}{23}{subsection.2.4.6}%
+\contentsline {section}{\numberline {2-5}بهینه‌سازی خودکار اعلان‌ها}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2-5-1}روش زنجیره تفکر خودکار}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2-5-2}روش مهندس اعلان خودکار}{26}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2-5-3}روش مولد اعلان}{27}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2-6}جمع‌بندی مباحث ارائه‌شده}{29}{section.2.6}%
+\contentsline {chapter}{\numberline {3}روش‌های پیشنهادی}{31}{chapter.3}%
+\contentsline {section}{\numberline {3-1}مقدمه}{32}{section.3.1}%
+\contentsline {section}{\numberline {3-2}روش مولد اعلان ساده}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3-2-1}نمونه‌گیری}{35}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3-2-2}انتخاب}{36}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3-2-3}ارزیابی}{40}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}نتایج و بحث}{42}{chapter.4}%
+\contentsline {section}{\numberline {4-1}مجموعه داده های مورد استفاده}{43}{section.4.1}%
+\contentsline {section}{\numberline {4-2}متغیرهای روش مولد اعلان ساده}{43}{section.4.2}%
+\contentsline {section}{\numberline {4-3}روش های مرجع}{44}{section.4.3}%
+\contentsline {section}{\numberline {4-4}نمایش دوبعدی اعلان ها}{44}{section.4.4}%
+\contentsline {section}{\numberline {4-5}نتایج}{45}{section.4.5}%
+\contentsline {section}{\numberline {4-6}سربار محاسباتی}{46}{section.4.6}%
+\contentsline {section}{\numberline {4-7}خروجی ها}{47}{section.4.7}%
+\contentsline {chapter}{\numberline {5}نتیجه گیری و پیشنهادات آتی}{51}{chapter.5}%
+\contentsline {section}{\numberline {5-1}نتیجه‌گیری}{52}{section.5.1}%
+\contentsline {section}{\numberline {5-2}پیشنهادات آتی}{52}{section.5.2}%
+\contentsline {chapter}{پیوست}{60}{chapter*.21}%
+\contentsline {chapter}{توضیحات تکمیلی}{62}{appendix*.23}%
+\contentsline {section}{مقدمه}{62}{section*.24}%
+\contentsline {section}{اعلان های دستوری برای نمونه\/گیری روش مولد اعلان ساده}{62}{section*.24}%
+\contentsline {section}{ارزیابی}{67}{Item.39}%
+\contentsline {section}{سایر روش ها}{70}{Item.42}%

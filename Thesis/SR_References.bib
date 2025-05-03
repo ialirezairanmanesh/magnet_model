@@ -1,0 +1,471 @@
+@misc{CoT,
+	title={Chain-of-Thought Prompting Elicits Reasoning in Large Language Models}, 
+	author={Jason Wei and Xuezhi Wang and Dale Schuurmans and Maarten Bosma and Brian Ichter and Fei Xia and Ed Chi and Quoc Le and Denny Zhou},
+	year={2023},
+	eprint={2201.11903},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2201.11903}, 
+}
+
+@misc{PoT,
+	title={Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks}, 
+	author={Wenhu Chen and Xueguang Ma and Xinyi Wang and William W. Cohen},
+	year={2023},
+	eprint={2211.12588},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2211.12588}, 
+}
+
+@misc{PS,
+	title={Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models}, 
+	author={Lei Wang and Wanyu Xu and Yihuai Lan and Zhiqiang Hu and Yunshi Lan and Roy Ka-Wei Lee and Ee-Peng Lim},
+	year={2023},
+	eprint={2305.04091},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2305.04091}, 
+}
+
+@misc{PromptBreeder,
+	title={Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution}, 
+	author={Chrisantha Fernando and Dylan Banarse and Henryk Michalewski and Simon Osindero and Tim Rocktäschel},
+	year={2023},
+	eprint={2309.16797},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2309.16797}, 
+}
+
+@article{DPP_for_ML,
+	title={Determinantal Point Processes for Machine Learning},
+	volume={5},
+	ISSN={1935-8245},
+	url={http://dx.doi.org/10.1561/2200000044},
+	DOI={10.1561/2200000044},
+	number={2–3},
+	journal={Foundations and Trends® in Machine Learning},
+	publisher={Now Publishers},
+	author={Kulesza, Alex},
+	year={2012},
+	pages={123–286} }
+	
+@misc{DPP,
+	title={Determinantal point processes}, 
+	author={Alexei Borodin},
+	year={2009},
+	eprint={0911.1153},
+	archivePrefix={arXiv},
+	primaryClass={math.PR},
+	url={https://arxiv.org/abs/0911.1153}, 
+}
+
+@misc{GSM8k,
+	title={Training Verifiers to Solve Math Word Problems}, 
+	author={Karl Cobbe and Vineet Kosaraju and Mohammad Bavarian and Mark Chen and Heewoo Jun and Lukasz Kaiser and Matthias Plappert and Jerry Tworek and Jacob Hilton and Reiichiro Nakano and Christopher Hesse and John Schulman},
+	year={2021},
+	eprint={2110.14168},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2110.14168}, 
+}
+
+@misc{SVAMP,
+	title={Are NLP Models really able to Solve Simple Math Word Problems?}, 
+	author={Arkil Patel and Satwik Bhattamishra and Navin Goyal},
+	year={2021},
+	eprint={2103.07191},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2103.07191}, 
+}
+
+@misc{MultiArith,
+	title={Solving General Arithmetic Word Problems}, 
+	author={Subhro Roy and Dan Roth},
+	year={2016},
+	eprint={1608.01413},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/1608.01413}, 
+}
+
+@inproceedings{AddSub,
+	title = "Learning to Solve Arithmetic Word Problems with Verb Categorization",
+	author = "Hosseini, Mohammad Javad  and
+	Hajishirzi, Hannaneh  and
+	Etzioni, Oren  and
+	Kushman, Nate",
+	editor = "Moschitti, Alessandro  and
+	Pang, Bo  and
+	Daelemans, Walter",
+	booktitle = "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+	month = oct,
+	year = "2014",
+	address = "Doha, Qatar",
+	publisher = "Association for Computational Linguistics",
+	url = "https://aclanthology.org/D14-1058/",
+	doi = "10.3115/v1/D14-1058",
+	pages = "523--533"
+}
+
+@misc{AquaRat,
+	title={Program Induction by Rationale Generation : Learning to Solve and Explain Algebraic Word Problems}, 
+	author={Wang Ling and Dani Yogatama and Chris Dyer and Phil Blunsom},
+	year={2017},
+	eprint={1705.04146},
+	archivePrefix={arXiv},
+	primaryClass={cs.AI},
+	url={https://arxiv.org/abs/1705.04146}, 
+}
+
+@article{SingleEQ,
+	title = "Parsing Algebraic Word Problems into Equations",
+	author = "Koncel-Kedziorski, Rik  and
+	Hajishirzi, Hannaneh  and
+	Sabharwal, Ashish  and
+	Etzioni, Oren  and
+	Ang, Siena Dumas",
+	editor = "Collins, Michael  and
+	Lee, Lillian",
+	journal = "Transactions of the Association for Computational Linguistics",
+	volume = "3",
+	year = "2015",
+	address = "Cambridge, MA",
+	publisher = "MIT Press",
+	url = "https://aclanthology.org/Q15-1042/",
+	doi = "10.1162/tacl_a_00160",
+	pages = "585--597",
+	abstract = "This paper formalizes the problem of solving multi-sentence algebraic word problems as that of generating and scoring equation trees. We use integer linear programming to generate equation trees and score their likelihood by learning local and global discriminative models. These models are trained on a small set of word problems and their answers, without any manual annotation, in order to choose the equation that best matches the problem text. We refer to the overall system as Alges. We compare Alges with previous work and show that it covers the full gamut of arithmetic operations whereas Hosseini et al. (2014) only handle addition and subtraction. In addition, Alges overcomes the brittleness of the Kushman et al. (2014) approach on single-equation problems, yielding a 15{\%} to 50{\%} reduction in error."
+}
+
+@inproceedings{CSQA,
+	title = "{C}ommonsense{QA}: A Question Answering Challenge Targeting Commonsense Knowledge",
+	author = "Talmor, Alon  and
+	Herzig, Jonathan  and
+	Lourie, Nicholas  and
+	Berant, Jonathan",
+	editor = "Burstein, Jill  and
+	Doran, Christy  and
+	Solorio, Thamar",
+	booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+	month = jun,
+	year = "2019",
+	address = "Minneapolis, Minnesota",
+	publisher = "Association for Computational Linguistics",
+	url = "https://aclanthology.org/N19-1421/",
+	doi = "10.18653/v1/N19-1421",
+	pages = "4149--4158",
+	abstract = "When answering a question, people often draw upon their rich world knowledge in addition to the particular context. Recent work has focused primarily on answering questions given some relevant document or context, and required very little general background. To investigate question answering with prior knowledge, we present CommonsenseQA: a challenging new dataset for commonsense question answering. To capture common sense beyond associations, we extract from ConceptNet (Speer et al., 2017) multiple target concepts that have the same semantic relation to a single source concept. Crowd-workers are asked to author multiple-choice questions that mention the source concept and discriminate in turn between each of the target concepts. This encourages workers to create questions with complex semantics that often require prior knowledge. We create 12,247 questions through this procedure and demonstrate the difficulty of our task with a large number of strong baselines. Our best baseline is based on BERT-large (Devlin et al., 2018) and obtains 56{\%} accuracy, well below human performance, which is 89{\%}."
+}
+
+@misc{SQA,
+	title={Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies}, 
+	author={Mor Geva and Daniel Khashabi and Elad Segal and Tushar Khot and Dan Roth and Jonathan Berant},
+	year={2021},
+	eprint={2101.02235},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2101.02235}, 
+}
+
+@misc{attention,
+	title={Attention Is All You Need}, 
+	author={Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
+	year={2023},
+	eprint={1706.03762},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/1706.03762}, 
+}
+
+@misc{GPT,
+	title={Generative Pre-trained Transformer: A Comprehensive Review on Enabling Technologies, Potential Applications, Emerging Challenges, and Future Directions}, 
+	author={Gokul Yenduri and Ramalingam M and Chemmalar Selvi G and Supriya Y and Gautam Srivastava and Praveen Kumar Reddy Maddikunta and Deepti Raj G and Rutvij H Jhaveri and Prabadevi B and Weizheng Wang and Athanasios V. Vasilakos and Thippa Reddy Gadekallu},
+	year={2023},
+	eprint={2305.10435},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2305.10435}, 
+}
+
+@misc{Bert,
+	title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
+	author={Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova},
+	year={2019},
+	eprint={1810.04805},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/1810.04805}, 
+}
+
+@misc{ZSL,
+	title={Classifier and Exemplar Synthesis for Zero-Shot Learning}, 
+	author={Soravit Changpinyo and Wei-Lun Chao and Boqing Gong and Fei Sha},
+	year={2019},
+	eprint={1812.06423},
+	archivePrefix={arXiv},
+	primaryClass={cs.CV},
+	url={https://arxiv.org/abs/1812.06423}, 
+}
+
+@misc{FSL,
+	title={Learning from Few Examples: A Summary of Approaches to Few-Shot Learning}, 
+	author={Archit Parnami and Minwoo Lee},
+	year={2022},
+	eprint={2203.04291},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2203.04291}, 
+}
+
+@misc{beysian,
+	title={An Explanation of In-context Learning as Implicit Bayesian Inference}, 
+	author={Sang Michael Xie and Aditi Raghunathan and Percy Liang and Tengyu Ma},
+	year={2022},
+	eprint={2111.02080},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2111.02080}, 
+}
+
+@misc{auto_cot,
+	title={Automatic Chain of Thought Prompting in Large Language Models}, 
+	author={Zhuosheng Zhang and Aston Zhang and Mu Li and Alex Smola},
+	year={2022},
+	eprint={2210.03493},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2210.03493}, 
+}
+
+@misc{LLMzeroshot,
+	title={Large Language Models are Zero-Shot Reasoners}, 
+	author={Takeshi Kojima and Shixiang Shane Gu and Machel Reid and Yutaka Matsuo and Yusuke Iwasawa},
+	year={2023},
+	eprint={2205.11916},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2205.11916}, 
+}
+
+@misc{opro,
+	title={Large Language Models as Optimizers}, 
+	author={Chengrun Yang and Xuezhi Wang and Yifeng Lu and Hanxiao Liu and Quoc V. Le and Denny Zhou and Xinyun Chen},
+	year={2024},
+	eprint={2309.03409},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2309.03409}, 
+}
+
+@inproceedings{sentenceBert,
+	title = "Sentence-{BERT}: Sentence Embeddings using {S}iamese {BERT}-Networks",
+	author = "Reimers, Nils  and
+	Gurevych, Iryna",
+	editor = "Inui, Kentaro  and
+	Jiang, Jing  and
+	Ng, Vincent  and
+	Wan, Xiaojun",
+	booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+	month = nov,
+	year = "2019",
+	address = "Hong Kong, China",
+	publisher = "Association for Computational Linguistics",
+	url = "https://aclanthology.org/D19-1410/",
+	doi = "10.18653/v1/D19-1410",
+	pages = "3982--3992",
+	abstract = "BERT (Devlin et al., 2018) and RoBERTa (Liu et al., 2019) has set a new state-of-the-art performance on sentence-pair regression tasks like semantic textual similarity (STS). However, it requires that both sentences are fed into the network, which causes a massive computational overhead: Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations ({\textasciitilde}65 hours) with BERT. The construction of BERT makes it unsuitable for semantic similarity search as well as for unsupervised tasks like clustering. In this publication, we present Sentence-BERT (SBERT), a modification of the pretrained BERT network that use siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. We evaluate SBERT and SRoBERTa on common STS tasks and transfer learning tasks, where it outperforms other state-of-the-art sentence embeddings methods."
+}
+
+@misc{APE,
+	title={Large Language Models Are Human-Level Prompt Engineers}, 
+	author={Yongchao Zhou and Andrei Ioan Muresanu and Ziwen Han and Keiran Paster and Silviu Pitis and Harris Chan and Jimmy Ba},
+	year={2023},
+	eprint={2211.01910},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2211.01910}, 
+}
+
+@misc{palm2,
+	title={PaLM 2 Technical Report}, 
+	author={Rohan Anil and Andrew M. Dai and Orhan Firat and Melvin Johnson and Dmitry Lepikhin and Alexandre Passos and Siamak Shakeri and Emanuel Taropa and Paige Bailey and Zhifeng Chen and Eric Chu and Jonathan H. Clark and Laurent El Shafey and Yanping Huang and Kathy Meier-Hellstern and Gaurav Mishra and Erica Moreira and Mark Omernick and Kevin Robinson and Sebastian Ruder and Yi Tay and Kefan Xiao and Yuanzhong Xu and Yujing Zhang and Gustavo Hernandez Abrego and Junwhan Ahn and Jacob Austin and Paul Barham and Jan Botha and James Bradbury and Siddhartha Brahma and Kevin Brooks and Michele Catasta and Yong Cheng and Colin Cherry and Christopher A. Choquette-Choo and Aakanksha Chowdhery and Clément Crepy and Shachi Dave and Mostafa Dehghani and Sunipa Dev and Jacob Devlin and Mark Díaz and Nan Du and Ethan Dyer and Vlad Feinberg and Fangxiaoyu Feng and Vlad Fienber and Markus Freitag and Xavier Garcia and Sebastian Gehrmann and Lucas Gonzalez and Guy Gur-Ari and Steven Hand and Hadi Hashemi and Le Hou and Joshua Howland and Andrea Hu and Jeffrey Hui and Jeremy Hurwitz and Michael Isard and Abe Ittycheriah and Matthew Jagielski and Wenhao Jia and Kathleen Kenealy and Maxim Krikun and Sneha Kudugunta and Chang Lan and Katherine Lee and Benjamin Lee and Eric Li and Music Li and Wei Li and YaGuang Li and Jian Li and Hyeontaek Lim and Hanzhao Lin and Zhongtao Liu and Frederick Liu and Marcello Maggioni and Aroma Mahendru and Joshua Maynez and Vedant Misra and Maysam Moussalem and Zachary Nado and John Nham and Eric Ni and Andrew Nystrom and Alicia Parrish and Marie Pellat and Martin Polacek and Alex Polozov and Reiner Pope and Siyuan Qiao and Emily Reif and Bryan Richter and Parker Riley and Alex Castro Ros and Aurko Roy and Brennan Saeta and Rajkumar Samuel and Renee Shelby and Ambrose Slone and Daniel Smilkov and David R. So and Daniel Sohn and Simon Tokumine and Dasha Valter and Vijay Vasudevan and Kiran Vodrahalli and Xuezhi Wang and Pidong Wang and Zirui Wang and Tao Wang and John Wieting and Yuhuai Wu and Kelvin Xu and Yunhan Xu and Linting Xue and Pengcheng Yin and Jiahui Yu and Qiao Zhang and Steven Zheng and Ce Zheng and Weikang Zhou and Denny Zhou and Slav Petrov and Yonghui Wu},
+	year={2023},
+	eprint={2305.10403},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2305.10403}, 
+}
+
+@misc{mistral,
+	title={Mistral 7B}, 
+	author={Albert Q. Jiang and Alexandre Sablayrolles and Arthur Mensch and Chris Bamford and Devendra Singh Chaplot and Diego de las Casas and Florian Bressand and Gianna Lengyel and Guillaume Lample and Lucile Saulnier and Lélio Renard Lavaud and Marie-Anne Lachaux and Pierre Stock and Teven Le Scao and Thibaut Lavril and Thomas Wang and Timothée Lacroix and William El Sayed},
+	year={2023},
+	eprint={2310.06825},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2310.06825}, 
+}
+
+@article{pca,
+	abstract = {Principal Components Analysis (PCA) as a method of multivariate statistics was created before the Second World War. However, the wider application of this method only occurred in the 1960s, during the "Quantitative Revolution" in the Natural and Social Sciences. The main reason for this time-lag was the huge difficulty posed by calculations involving this method. Only with the advent and development of computers did the almost unlimited application of multivariate statistical methods, including principal components, become possible. At the same time, requirements arose for precise numerical methods concerning, among other things, the calculation of eigenvalues and eigenvectors, because the application of principal components to technical problems required absolute accuracy. On the other hand, numerous applications in Social Sciences gave rise to a significant increase in the ability to interpret these nonobservable variables, which is just what the principal components are. In the application of principal components, the problem is not only to do with their formal properties but above all, their empirical origins. The authors considered these two tendencies during the creation of the program for principal components. This program-entitled PCA-accompanies this paper. It analyzes consecutively, matrices of variance-covariance and correlations, and performs the following functions: • - the determination of eigenvalues and eigenvectors of these matrices. • - the testing of principal components. • - the calculation of coefficients of determination between selected components and the initial variables, and the testing of these coefficients, • - the determination of the share of variation of all the initial variables in the variation of particular components, • - construction of a dendrite for the initial set of variables, • - the construction of a dendrite for a selected pattern of the principal components, • - the scatter of the objects studied in a selected coordinate system. Thus, the PCA program performs many more functions especially in testing and graphics, than PCA programs in conventional statistical packages. Included in this paper are a theoretical description of principal components, the basic rules for their interpretation and also statistical testing. © 1993.},
+	author = {Andrzej Maćkiewicz and Waldemar Ratajczak},
+	doi = {10.1016/0098-3004(93)90090-R},
+	issn = {0098-3004},
+	issue = {3},
+	journal = {Computers and Geosciences},
+	keywords = {Bartlett's statistics,Coefficients of determination,Correlation matrix,Eigenvalues,Eigenvectors,FORTRAN 77,Principal Components Analysis,Variance-covariance matrix},
+	month = {3},
+	pages = {303-342},
+	publisher = {Pergamon},
+	title = {Principal components analysis (PCA)},
+	volume = {19},
+	year = {1993},
+}
+
+
+@article{tsne,
+	author  = {Laurens van der Maaten and Geoffrey Hinton},
+	title   = {Visualizing Data using t-SNE},
+	journal = {Journal of Machine Learning Research},
+	year    = {2008},
+	volume  = {9},
+	number  = {86},
+	pages   = {2579--2605},
+	url     = {http://jmlr.org/papers/v9/vandermaaten08a.html}
+}
+
+@misc{unleashingpotentialpromptengineering,
+	title={Unleashing the potential of prompt engineering in Large Language Models: a comprehensive review}, 
+	author={Banghao Chen and Zhaofeng Zhang and Nicolas Langrené and Shengxin Zhu},
+	year={2024},
+	eprint={2310.14735},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2310.14735}, 
+}
+
+@misc{ShowYourWork,
+	title={Show Your Work: Scratchpads for Intermediate Computation with Language Models}, 
+	author={Maxwell Nye and Anders Johan Andreassen and Guy Gur-Ari and Henryk Michalewski and Jacob Austin and David Bieber and David Dohan and Aitor Lewkowycz and Maarten Bosma and David Luan and Charles Sutton and Augustus Odena},
+	year={2021},
+	eprint={2112.00114},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2112.00114}, 
+}
+
+@misc{leasttomostpromptingenablescomplex,
+	title={Least-to-Most Prompting Enables Complex Reasoning in Large Language Models}, 
+	author={Denny Zhou and Nathanael Schärli and Le Hou and Jason Wei and Nathan Scales and Xuezhi Wang and Dale Schuurmans and Claire Cui and Olivier Bousquet and Quoc Le and Ed Chi},
+	year={2023},
+	eprint={2205.10625},
+	archivePrefix={arXiv},
+	primaryClass={cs.AI},
+	url={https://arxiv.org/abs/2205.10625}, 
+}
+
+@misc{selfconsistencyimproveschainthought,
+	title={Self-Consistency Improves Chain of Thought Reasoning in Language Models}, 
+	author={Xuezhi Wang and Jason Wei and Dale Schuurmans and Quoc Le and Ed Chi and Sharan Narang and Aakanksha Chowdhery and Denny Zhou},
+	year={2023},
+	eprint={2203.11171},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2203.11171}, 
+}
+
+@misc{largelanguagemodelshumanlevel,
+	title={Large Language Models Are Human-Level Prompt Engineers}, 
+	author={Yongchao Zhou and Andrei Ioan Muresanu and Ziwen Han and Keiran Paster and Silviu Pitis and Harris Chan and Jimmy Ba},
+	year={2023},
+	eprint={2211.01910},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2211.01910}, 
+}
+
+@misc{textpatternseffectivechain,
+	title={Text and Patterns: For Effective Chain of Thought, It Takes Two to Tango}, 
+	author={Aman Madaan and Amir Yazdanbakhsh},
+	year={2022},
+	eprint={2209.07686},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2209.07686}, 
+}
+
+@inproceedings{TowardsUnderstandingCoTPrompting,
+	title = "Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters",
+	author = "Wang, Boshi  and
+	Min, Sewon  and
+	Deng, Xiang  and
+	Shen, Jiaming  and
+	Wu, You  and
+	Zettlemoyer, Luke  and
+	Sun, Huan",
+	editor = "Rogers, Anna  and
+	Boyd-Graber, Jordan  and
+	Okazaki, Naoaki",
+	booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+	month = jul,
+	year = "2023",
+	address = "Toronto, Canada",
+	publisher = "Association for Computational Linguistics",
+	url = "https://aclanthology.org/2023.acl-long.153/",
+	doi = "10.18653/v1/2023.acl-long.153",
+	pages = "2717--2739",
+	abstract = "Chain-of-Thought (CoT) prompting can dramatically improve the multi-step reasoning abilities of large language models (LLMs). CoT explicitly encourages the LLM to generate intermediate rationales for solving a problem, by providing a series of reasoning steps in the demonstrations. Despite its success, there is still little understanding of what makes CoT prompting effective and which aspects of the demonstrated reasoning steps contribute to its performance. In this paper, we show that CoT reasoning is possible even with invalid demonstrations - prompting with invalid reasoning steps can achieve over 80-90{\%} of the performance obtained using CoT under various metrics, while still generating coherent lines of reasoning during inference. Further experiments show that other aspects of the rationales, such as being relevant to the query and correctly ordering the reasoning steps, are much more important for effective CoT reasoning. Overall, these findings both deepen our understanding of CoT prompting, and open up new questions regarding LLMs' capability to learn to reason in context."
+}
+
+@misc{cotcollectionimprovingzeroshot,
+	title={The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning}, 
+	author={Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},
+	year={2023},
+	eprint={2305.14045},
+	archivePrefix={arXiv},
+	primaryClass={cs.CL},
+	url={https://arxiv.org/abs/2305.14045}, 
+}
+
+@misc{revealingmysterychainthought,
+	title={Towards Revealing the Mystery behind Chain of Thought: A Theoretical Perspective}, 
+	author={Guhao Feng and Bohang Zhang and Yuntian Gu and Haotian Ye and Di He and Liwei Wang},
+	year={2023},
+	eprint={2305.15408},
+	archivePrefix={arXiv},
+	primaryClass={cs.LG},
+	url={https://arxiv.org/abs/2305.15408}, 
+}
+
+
+
+@misc{epiccosteffectivesearchbasedprompt,
+	title={EPiC: Cost-effective Search-based Prompt Engineering of LLMs for Code Generation}, 
+	author={Hamed Taherkhani and Melika Sepindband and Hung Viet Pham and Song Wang and Hadi Hemmati},
+	year={2024},
+	eprint={2408.11198},
+	archivePrefix={arXiv},
+	primaryClass={cs.SE},
+	url={https://arxiv.org/abs/2408.11198}, 
+}
+
+@inproceedings{ExploringthePromptSpaceofLLMsthroughEvolutionarySampling,
+	author = {Saletta, Martina and Ferretti, Claudio},
+	title = {Exploring the Prompt Space of Large Language Models through Evolutionary Sampling},
+	year = {2024},
+	isbn = {9798400704949},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3638529.3654049},
+	doi = {10.1145/3638529.3654049},
+	abstract = {Large language models (LLMs) are increasingly gaining relevance in every-day life, due to their apparent ability in solving tasks that demand intricate linguistic comprehension. Recent studies state that one of the key points that impact their outcome is the quality of the prompt used to interact with them. This work proposes a grammar-based evolutionary approach for exploring the prompt space of LLMs, driven by a fitness function that aims at optimizing the performance on a given task. We tested our technique by steering two state-of-the-art models through evolved prompts, and by comparing the performance they obtain on 8 benchmark tasks with that obtained when using other baseline prompts on the same tasks, showing that in most cases our prompts yield better results. Further, we defined a constrained mutation operator that limits the changes to specific grammar non-terminals, allowing to study and highlight the elements in the prompt that mostly affect the output of the LLM. Finally, a thorough discussion points out some issues that limit the relevance of the emerging prompt engineering discipline, given the existence of many effective prompt structures and the possible diversity that can be observed in the LLM output given the same input to the model.},
+	booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+	pages = {1345–1353},
+	numpages = {9},
+	keywords = {large language models, prompt evolution, evolution strategies, local search},
+	location = {Melbourne, VIC, Australia},
+	series = {GECCO '24}
+}
