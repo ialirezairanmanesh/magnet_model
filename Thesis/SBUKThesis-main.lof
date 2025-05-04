@@ -1,19 +1,19 @@
 \vspace {-1.5cm}\textbf {عنوان}~\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2-1}{\ignorespaces دیاگرام معماری ترنسفورمر }}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {2-2}{\ignorespaces مثالی از یادگیری بدون نمونه در یادگیری درون متنی}}{18}{figure.caption.7}%
-\contentsline {figure}{\numberline {2-3}{\ignorespaces مثالی از روش زنجیره تفکر برای حل یک سوال از دیتاست \lr {GSM8K}}}{22}{figure.caption.8}%
-\contentsline {figure}{\numberline {2-4}{\ignorespaces مقایسه روش استدلال بدون دیدن نمونه آموزشی و روش زنجیره تفکر}}{22}{figure.caption.9}%
-\contentsline {figure}{\numberline {2-5}{\ignorespaces مقایسه روش برنامه تفکر و روش زنجیره تفکر}}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {2-6}{\ignorespaces دیاگرام روش بهینه سازی با اعلان}}{25}{figure.caption.11}%
-\contentsline {figure}{\numberline {2-7}{\ignorespaces یک مثال از روش برنامه\/ریزی و حل}}{27}{figure.caption.12}%
-\contentsline {figure}{\numberline {2-8}{\ignorespaces دیاگرام روش auto-CoT}}{29}{figure.caption.13}%
-\contentsline {figure}{\numberline {2-9}{\ignorespaces دیاگرام روش مولد اعلان}}{31}{figure.caption.14}%
+\contentsline {figure}{\numberline {2-1}{\ignorespaces دیاگرام معماری ترنسفورمر }}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces مثالی از یادگیری بدون نمونه در یادگیری درون متنی}}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces مثالی از روش زنجیره تفکر برای حل یک سوال از دیتاست \lr {GSM8K}}}{21}{figure.caption.8}%
+\contentsline {figure}{\numberline {2-4}{\ignorespaces مقایسه روش استدلال بدون دیدن نمونه آموزشی و روش زنجیره تفکر}}{21}{figure.caption.9}%
+\contentsline {figure}{\numberline {2-5}{\ignorespaces مقایسه روش برنامه تفکر و روش زنجیره تفکر}}{23}{figure.caption.10}%
+\contentsline {figure}{\numberline {2-6}{\ignorespaces دیاگرام روش بهینه سازی با اعلان}}{24}{figure.caption.11}%
+\contentsline {figure}{\numberline {2-7}{\ignorespaces یک مثال از روش برنامه\/ریزی و حل}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {2-8}{\ignorespaces دیاگرام روش auto-CoT}}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {2-9}{\ignorespaces دیاگرام روش مولد اعلان}}{30}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces مقایسه پیچیدگی محاسباتی روش مولد اعلان و روش مولد اعلان ساده}}{35}{figure.caption.15}%
-\contentsline {figure}{\numberline {3-2}{\ignorespaces دیاگرام روش مولد اعلان ساده}}{36}{figure.caption.16}%
-\contentsline {figure}{\numberline {3-3}{\ignorespaces دیاگرام مرحله ارزیابی روش مولد اعلان ساده}}{43}{figure.caption.18}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces مقایسه پیچیدگی محاسباتی روش مولد اعلان و روش مولد اعلان ساده}}{34}{figure.caption.15}%
+\contentsline {figure}{\numberline {3-2}{\ignorespaces دیاگرام روش مولد اعلان ساده}}{35}{figure.caption.16}%
+\contentsline {figure}{\numberline {3-3}{\ignorespaces دیاگرام مرحله ارزیابی روش مولد اعلان ساده}}{42}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces نمایش دو بعدی بردار اعلان ها برای ارزیابی انتخاب در روش مولد اعلان ساده}}{47}{figure.caption.20}%
+\contentsline {figure}{\numberline {4-1}{\ignorespaces نمایش دو بعدی بردار اعلان ها برای ارزیابی انتخاب در روش مولد اعلان ساده}}{46}{figure.caption.20}%
 \addvspace {10\p@ }

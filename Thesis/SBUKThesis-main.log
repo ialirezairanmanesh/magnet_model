@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.3)  4 MAY 2025 19:22
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.3)  5 MAY 2025 00:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1871,97 +1871,92 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 \openout2 = `SBUKThesis-chapter1.aux'.
 
  (./SBUKThesis-chapter1.tex
-فصل 1.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
-
 
 [1
 
 
 
 
-
-
 ]
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 5.
-
-Overfull \hbox (1.00357pt too wide) in paragraph at lines 10--11
-[]\TU/XBZar(0)/m/n/12 ویژگی‌های تک‌وجهی تکیه دارند، اغلب با محدودیت‌هایی نظیر ن
-اتوانی در پردازش داده‌های پیچیده چندوجهی[]
- []
-
+! You can't use `macro parameter character #' in horizontal mode.
+l.55   \@makefnmark#
+                    1}
+? 
 
 
 [2
 
 ]
+فصل 1.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 14.
+(Font)              scaled to size 20.74pt on input line 57.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 57.
+
+
+[3
+
+]
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 13.0pt on input line 70.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 71.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.10004pt on input line 14.
+(Font)              scaled to size 9.10004pt on input line 71.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 6.37003pt on input line 14.
-
-Overfull \hbox (15.17545pt too wide) in paragraph at lines 22--24
-[][]\TU/XBZar(0)/m/n/12 جهت رفع محدودیتهای روشهای دستی، رویکردهای خودکارسازی مه
-ندسی اعلان به کمک الگوریتمهای[]
- []
+(Font)              scaled to size 6.37003pt on input line 71.
 
 
-Overfull \hbox (7.66666pt too wide) in paragraph at lines 24--29
-[][]\TU/XBZar(0)/m/n/12 الگوریتمهای تکاملی [][][][][][][][][][][][]: روشهایی ما
-نند مولد اعلان [][][][][][][][][][][][][[]] از یک چارچوب تکاملی برپایه الگوریتم
-های[]
- []
+[4
 
-
-
-[3]
-
-[4]
+]
 
 [5]
 
-[6]
+[6])
 
-[7])
-
-[8]
+[7]
 \openout2 = `SBUKThesis-chapter2.aux'.
 
  (./SBUKThesis-chapter2.tex
 فصل 2.
 
 
+[8
+
+
+
+
+
+
+]
+
 [9
 
-
-
-
-
-
 ]
 
-[10
+Package natbib Warning: Citation `attention' on page 10 undefined on input line
+ 46.
 
-]
 
-[11]
+
+[10]
 File: images/transformer.png Graphic file (type bmp)
 <images/transformer.png>
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 91.
 
 
+[11]
+
+Package natbib Warning: Citation `mistral' on page 12 undefined on input line 1
+13.
+
+
+
 [12]
 
 [13]
-
-[14]
 Overfull \hbox (7.46255pt too wide) in paragraph at lines 144--146
 [][]\TU/XBZar(0)/m/n/12 مهندسی اعلان می‌تواند به کاهش سوگیری‌های موجود در مدل‌ه
 ای زبانی کمک کند و نتایج منصفانه‌تری[]
@@ -1969,47 +1964,73 @@ Overfull \hbox (7.46255pt too wide) in paragraph at lines 144--146
 
 
 
+[14]
+
 [15]
 
-[16]
+Package natbib Warning: Citation `ZSL' on page 16 undefined on input line 206.
 
-[17]
+
+
+[16]
 File: images/ZeroShot.png Graphic file (type bmp)
 <images/ZeroShot.png>
 
 
+[17]
+
+Package natbib Warning: Citation `FSL' on page 18 undefined on input line 235.
+
+
+
 [18]
 
-[19]
+Package natbib Warning: Citation `beysian' on page 19 undefined on input line 2
+70.
+
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 280.
 
 
-[20]
+[19]
 File: images/Cot.png Graphic file (type bmp)
 <images/Cot.png>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 9.96452pt on input line 302.
 
 
-[21]
+Package natbib Warning: Citation `LLMzeroshot' on page 20 undefined on input li
+ne 308.
+
+
+Package natbib Warning: Citation `palm2' on page 20 undefined on input line 310
+.
+
+
+
+[20]
 File: images/zerocot.png Graphic file (type bmp)
 <images/zerocot.png>
 
 
-[22]
+[21]
 File: images/pot.png Graphic file (type bmp)
 <images/pot.png>
 
 
-[23]
+Package natbib Warning: Citation `opro' on page 22 undefined on input line 351.
+
+
+
+
+[22]
 File: images/opro.png Graphic file (type bmp)
 <images/opro.png>
 
 
-[24]
+[23]
 
-[25]
+[24]
 File: images/ps.png Graphic file (type bmp)
 <images/ps.png>
 
@@ -2019,32 +2040,44 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 450--451
 
 
 
+[25]
+
+Package natbib Warning: Citation `auto_cot' on page 26 undefined on input line 
+463.
+
+
+
 [26]
 
-[27]
+Package natbib Warning: Citation `sentenceBert' on page 27 undefined on input l
+ine 466.
+
 File: images/autocot.png Graphic file (type bmp)
 <images/autocot.png>
 
+Package natbib Warning: Citation `APE' on page 27 undefined on input line 493.
+
+
+
+[27]
 
 [28]
-
-[29]
 File: images/promptbreeder.png Graphic file (type bmp)
 <images/promptbreeder.png>
 
 
-[30]
+[29]
 
-[31])
+[30])
 
-[32]
+[31]
 \openout2 = `SBUKThesis-chapter3.aux'.
 
  (./SBUKThesis-chapter3.tex
 فصل 3.
 
 
-[33
+[32
 
 
 
@@ -2052,20 +2085,59 @@ File: images/promptbreeder.png Graphic file (type bmp)
 
 
 ]
+
+Package natbib Warning: Citation `selfconsistencyimproveschainthought' on page 
+33 undefined on input line 13.
+
+
+Package natbib Warning: Citation `TowardsUnderstandingCoTPrompting' on page 33 
+undefined on input line 13.
+
+
+Package natbib Warning: Citation `cotcollectionimprovingzeroshot' on page 33 un
+defined on input line 13.
+
+
+Package natbib Warning: Citation `revealingmysterychainthought' on page 33 unde
+fined on input line 13.
+
+
+Package natbib Warning: Citation `textpatternseffectivechain' on page 33 undefi
+ned on input line 18.
+
+
+Package natbib Warning: Citation `APE' on page 33 undefined on input line 18.
+
+
+Package natbib Warning: Citation `opro' on page 33 undefined on input line 20.
+
+
+Package natbib Warning: Citation `ExploringthePromptSpaceofLLMsthroughEvolution
+arySampling' on page 33 undefined on input line 20.
+
+
+Package natbib Warning: Citation `epiccosteffectivesearchbasedprompt' on page 3
+3 undefined on input line 20.
+
 File: images/tf.png Graphic file (type bmp)
 <images/tf.png>
 
 
-[34
+[33
 
 ]
 
-[35]
+Package natbib Warning: Citation `mistral' on page 34 undefined on input line 5
+3.
+
+
+
+[34]
 File: images/flow.png Graphic file (type bmp)
 <images/flow.png>
 
 
-[36]
+[35]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 100.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
@@ -2089,11 +2161,18 @@ LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Package natbib Warning: Citation `ZSL' on page 36 undefined on input line 155.
+
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 157.
 
 
-[37]
+[36]
+
+Package natbib Warning: Citation `FSL' on page 37 undefined on input line 160.
+
+
 Overfull \hbox (3.31998pt too wide) in paragraph at lines 162--163
 [][]\TU/XBZar(0)/m/n/12 در نهایت، در سومین رویکرد نمونه‌گیری، به مدل زبانی دستو
 ر داده می‌شود تا با استفاده از دستورالعمل‌های[]
@@ -2107,11 +2186,11 @@ Overfull \hbox (0.44173pt too wide) in paragraph at lines 168--173
 
 
 
+[37]
+
 [38]
 
 [39]
-
-[40]
 Overfull \hbox (4.56868pt too wide) in paragraph at lines 267--273
 []\TU/XBZar(0)/m/n/12 دترمینانی برای انتخاب زیرمجموعه بهینه از نظر تنوع و کیفیت
  استفاده می‌شود. در این فرآیند، زیرمجموعه‌هایی[]
@@ -2119,36 +2198,49 @@ Overfull \hbox (4.56868pt too wide) in paragraph at lines 267--273
 
 
 
-[41]
+[40]
 File: images/evaluation.png Graphic file (type bmp)
 <images/evaluation.png>
 )
 
-[42]
+[41]
 
-[43]
+[42]
 \openout2 = `SBUKThesis-chapter4.aux'.
 
  (./SBUKThesis-chapter4.tex
 فصل 4.
 
 
+[43
+
+
+
+
+
+]
+
 [44
 
-
-
-
-
 ]
 
-[45
+Package natbib Warning: Citation `mistral' on page 45 undefined on input line 6
+9.
 
-]
 
-[46]
+Package natbib Warning: Citation `pca' on page 45 undefined on input line 82.
+
+
+Package natbib Warning: Citation `tsne' on page 45 undefined on input line 82.
+
+
+
+[45]
 File: images/eval.png Graphic file (type bmp)
 <images/eval.png>
 
+
+[46]
 
 [47]
 
@@ -2156,18 +2248,16 @@ File: images/eval.png Graphic file (type bmp)
 
 [49]
 
-[50]
+[50])
 
-[51])
-
-[52]
+[51]
 \openout2 = `SBUKThesis-chapter5.aux'.
 
  (./SBUKThesis-chapter5.tex
 فصل 5.
 
 
-[53
+[52
 
 
 
@@ -2176,16 +2266,16 @@ File: images/eval.png Graphic file (type bmp)
 
 ]
 
-[54
+[53
 
 ])
 
-[55]
+[54]
 \openout2 = `SBUKThesis-references.aux'.
 
  (./SBUKThesis-references.tex (./SBUKThesis-main.bbl
 
-[56
+[55
 
 
 
@@ -2193,31 +2283,76 @@ File: images/eval.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.92004pt on input line 29.
-
-Underfull \hbox (badness 2970) in paragraph at lines 41--46
-[][]\TU/TimesNewRoman(0)/m/n/12 Rik Koncel-Kedziorski, Hannaneh Hajishirzi, Ash
-ish Sabharwal, Oren Etzioni, and[]
- []
+(Font)              scaled to size 10.92004pt on input line 8.
 
 
-
-[57
+[56
 
 ]
 
+[57])
+! Undefined control sequence.
+<argument> \bibitemsep 
+                       
+l.10 \setlength{\bibitemsep}{0.5\baselineskip}
+                                              
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.11 \setlength
+               {\bibnamesep}{0.5\baselineskip}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.11 \setlength
+               {\bibnamesep}{0.5\baselineskip}
+? 
+! Undefined control sequence.
+<argument> \bibnamesep 
+                       
+l.11 \setlength{\bibnamesep}{0.5\baselineskip}
+                                              
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.12 \setlength
+               {\bibinitsep}{0.5\baselineskip}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.12 \setlength
+               {\bibinitsep}{0.5\baselineskip}
+? 
+! Undefined control sequence.
+<argument> \bibinitsep 
+                       
+l.12 \setlength{\bibinitsep}{0.5\baselineskip}
+                                              
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \scan_stop: 
+l.13 
+     
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \scan_stop: 
+l.13 
+     
+? 
+)
+
 [58]
-
-[59]
-
-[60]))
-
-[61]
 \openout2 = `SBUKThesis-peyvast.aux'.
 
  (./SBUKThesis-peyvast.tex
 
-[62
+[59
 
 
 
@@ -2229,7 +2364,7 @@ ish Sabharwal, Oren Etzioni, and[]
 
  (./SBUKThesis-appendix1.tex
 
-[63
+[60
 
 
 
@@ -2242,17 +2377,17 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[64
+[61
 
 ]
 
+[62]
+
+[63]
+
+[64]
+
 [65]
-
-[66]
-
-[67]
-
-[68]
 Underfull \hbox (badness 10000) in paragraph at lines 161--166
 [][]
  []
@@ -2280,18 +2415,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--202
 
 
 
-[69]
+[66]
 
-[70]
+[67]
 
-[71]
+[68]
 Overfull \hbox (13.19017pt too wide) in paragraph at lines 225--234
  [][][][] 
  []
 
 )
 
-[72]
+[69]
 \openout2 = `lasttable.aux'.
 
  (./lasttable.tex
@@ -2337,7 +2472,7 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 85.
 
 
-[73
+[70
 
 
 
@@ -2424,7 +2559,7 @@ od on eight benchmark datasets: []MultiArith[],[]
 
 )
 
-[74
+[71
 
 
 
@@ -2449,11 +2584,15 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 14.56006pt on input line 26.
 )
 
-[75
+[72
 
 
 
-] (./SBUKThesis-main.aux (./SBUKThesis-inthenameofGod.aux)
+]
+
+Package natbib Warning: There were undefined citations.
+
+(./SBUKThesis-main.aux (./SBUKThesis-inthenameofGod.aux)
 (./SBUKThesis-persian-cover.aux) (./SBUKThesis-taeed.aux)
 (./SBUKThesis-student.aux) (./SBUKThesis-dedication.aux)
 (./SBUKThesis-acknowledgments.aux) (./SBUKThesis-persian-abstract.aux)
@@ -2474,19 +2613,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
-(rerunfilecheck)             Checksum: B75400C0696ED9B8D78B2D55A90BD062;9779.
+(rerunfilecheck)             Checksum: EEEB95CB0BDDA3DFCCB7A898E6F51C42;9373.
  ) 
 Here is how much of TeX's memory you used:
- 39384 strings out of 475402
- 853134 string characters out of 5765235
- 1357212 words of memory out of 5000000
- 61360 multiletter control sequences out of 15000+600000
+ 39354 strings out of 475402
+ 852210 string characters out of 5765235
+ 1356735 words of memory out of 5000000
+ 61330 multiletter control sequences out of 15000+600000
  570569 words of font info for 162 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  101i,19n,112p,2318b,1009s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on SBUKThesis-main.pdf (87 pages).
+Output written on SBUKThesis-main.pdf (84 pages).
