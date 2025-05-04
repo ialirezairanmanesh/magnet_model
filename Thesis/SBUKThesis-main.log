@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.3)  4 MAY 2025 00:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.3)  4 MAY 2025 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1813,9 +1813,9 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 \openout2 = `SBUKThesis-persian-abstract.aux'.
 
  (./SBUKThesis-persian-abstract.tex
-Overfull \hbox (7.50357pt too wide) in paragraph at lines 8--9
-[][]\TU/XBZar(0)/b/n/12 واژگان کلیدی: تشخیص بدافزار، یادگیری عمیق، داده‌های چند
-وجهی، امنیت اندروید، ترنسفورمر. []
+Overfull \hbox (3.12076pt too wide) in paragraph at lines 8--9
+[][]\TU/XBZar(0)/b/n/12 واژگان کلیدی: تشخیص بدافزار، ترنسفومر، یادگیری عمیق، دا
+ده‌های چندوجهی، امنیت اندروید،[]
  []
 
 )
@@ -1888,23 +1888,10 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 ]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 13.0pt on input line 5.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.10004pt on input line 7.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 6.37003pt on input line 7.
 
-Overfull \hbox (15.17545pt too wide) in paragraph at lines 28--30
-[][]\TU/XBZar(0)/m/n/12 جهت رفع محدودیتهای روشهای دستی، رویکردهای خودکارسازی مه
-ندسی اعلان به کمک الگوریتمهای[]
- []
-
-
-Overfull \hbox (12.35416pt too wide) in paragraph at lines 30--35
-[][]\TU/XBZar(0)/m/n/12 الگوریتمهای تکاملی [][][][][][][][][][][][]: روشهایی ما
-نند مولد اعلان [][][][][][][][][][][][][[]] از یک چارچوب تکاملی برپایه الگوریتم
-های[]
+Overfull \hbox (1.00357pt too wide) in paragraph at lines 10--11
+[]\TU/XBZar(0)/m/n/12 ویژگی‌های تک‌وجهی تکیه دارند، اغلب با محدودیت‌هایی نظیر ن
+اتوانی در پردازش داده‌های پیچیده چندوجهی[]
  []
 
 
@@ -1912,21 +1899,45 @@ Overfull \hbox (12.35416pt too wide) in paragraph at lines 30--35
 [2
 
 ]
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 14.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 9.10004pt on input line 14.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 6.37003pt on input line 14.
+
+Overfull \hbox (15.17545pt too wide) in paragraph at lines 22--24
+[][]\TU/XBZar(0)/m/n/12 جهت رفع محدودیتهای روشهای دستی، رویکردهای خودکارسازی مه
+ندسی اعلان به کمک الگوریتمهای[]
+ []
+
+
+Overfull \hbox (7.66666pt too wide) in paragraph at lines 24--29
+[][]\TU/XBZar(0)/m/n/12 الگوریتمهای تکاملی [][][][][][][][][][][][]: روشهایی ما
+نند مولد اعلان [][][][][][][][][][][][][[]] از یک چارچوب تکاملی برپایه الگوریتم
+های[]
+ []
+
+
 
 [3]
 
 [4]
 
-[5])
+[5]
 
 [6]
+
+[7])
+
+[8]
 \openout2 = `SBUKThesis-chapter2.aux'.
 
  (./SBUKThesis-chapter2.tex
 فصل 2.
 
 
-[7
+[9
 
 
 
@@ -1935,22 +1946,22 @@ Overfull \hbox (12.35416pt too wide) in paragraph at lines 30--35
 
 ]
 
-[8
+[10
 
 ]
 
-[9]
+[11]
 File: images/transformer.png Graphic file (type bmp)
 <images/transformer.png>
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 91.
 
 
-[10]
-
-[11]
-
 [12]
+
+[13]
+
+[14]
 Overfull \hbox (7.46255pt too wide) in paragraph at lines 144--146
 [][]\TU/XBZar(0)/m/n/12 مهندسی اعلان می‌تواند به کاهش سوگیری‌های موجود در مدل‌ه
 ای زبانی کمک کند و نتایج منصفانه‌تری[]
@@ -1958,47 +1969,47 @@ Overfull \hbox (7.46255pt too wide) in paragraph at lines 144--146
 
 
 
-[13]
-
-[14]
-
 [15]
-File: images/ZeroShot.png Graphic file (type bmp)
-<images/ZeroShot.png>
-
 
 [16]
 
 [17]
+File: images/ZeroShot.png Graphic file (type bmp)
+<images/ZeroShot.png>
+
+
+[18]
+
+[19]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 280.
 
 
-[18]
+[20]
 File: images/Cot.png Graphic file (type bmp)
 <images/Cot.png>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 9.96452pt on input line 302.
 
 
-[19]
+[21]
 File: images/zerocot.png Graphic file (type bmp)
 <images/zerocot.png>
 
 
-[20]
+[22]
 File: images/pot.png Graphic file (type bmp)
 <images/pot.png>
 
 
-[21]
+[23]
 File: images/opro.png Graphic file (type bmp)
 <images/opro.png>
 
 
-[22]
+[24]
 
-[23]
+[25]
 File: images/ps.png Graphic file (type bmp)
 <images/ps.png>
 
@@ -2008,32 +2019,32 @@ Overfull \hbox (28.45273pt too wide) in paragraph at lines 450--451
 
 
 
-[24]
+[26]
 
-[25]
+[27]
 File: images/autocot.png Graphic file (type bmp)
 <images/autocot.png>
 
 
-[26]
+[28]
 
-[27]
+[29]
 File: images/promptbreeder.png Graphic file (type bmp)
 <images/promptbreeder.png>
 
 
-[28]
-
-[29])
-
 [30]
+
+[31])
+
+[32]
 \openout2 = `SBUKThesis-chapter3.aux'.
 
  (./SBUKThesis-chapter3.tex
 فصل 3.
 
 
-[31
+[33
 
 
 
@@ -2045,16 +2056,16 @@ File: images/tf.png Graphic file (type bmp)
 <images/tf.png>
 
 
-[32
+[34
 
 ]
 
-[33]
+[35]
 File: images/flow.png Graphic file (type bmp)
 <images/flow.png>
 
 
-[34]
+[36]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 100.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
@@ -2082,7 +2093,7 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 157.
 
 
-[35]
+[37]
 Overfull \hbox (3.31998pt too wide) in paragraph at lines 162--163
 [][]\TU/XBZar(0)/m/n/12 در نهایت، در سومین رویکرد نمونه‌گیری، به مدل زبانی دستو
 ر داده می‌شود تا با استفاده از دستورالعمل‌های[]
@@ -2096,11 +2107,11 @@ Overfull \hbox (0.44173pt too wide) in paragraph at lines 168--173
 
 
 
-[36]
-
-[37]
-
 [38]
+
+[39]
+
+[40]
 Overfull \hbox (4.56868pt too wide) in paragraph at lines 267--273
 []\TU/XBZar(0)/m/n/12 دترمینانی برای انتخاب زیرمجموعه بهینه از نظر تنوع و کیفیت
  استفاده می‌شود. در این فرآیند، زیرمجموعه‌هایی[]
@@ -2108,21 +2119,21 @@ Overfull \hbox (4.56868pt too wide) in paragraph at lines 267--273
 
 
 
-[39]
+[41]
 File: images/evaluation.png Graphic file (type bmp)
 <images/evaluation.png>
 )
 
-[40]
+[42]
 
-[41]
+[43]
 \openout2 = `SBUKThesis-chapter4.aux'.
 
  (./SBUKThesis-chapter4.tex
 فصل 4.
 
 
-[42
+[44
 
 
 
@@ -2130,33 +2141,33 @@ File: images/evaluation.png Graphic file (type bmp)
 
 ]
 
-[43
+[45
 
 ]
 
-[44]
+[46]
 File: images/eval.png Graphic file (type bmp)
 <images/eval.png>
 
-
-[45]
-
-[46]
 
 [47]
 
 [48]
 
-[49])
+[49]
 
 [50]
+
+[51])
+
+[52]
 \openout2 = `SBUKThesis-chapter5.aux'.
 
  (./SBUKThesis-chapter5.tex
 فصل 5.
 
 
-[51
+[53
 
 
 
@@ -2165,16 +2176,16 @@ File: images/eval.png Graphic file (type bmp)
 
 ]
 
-[52
+[54
 
 ])
 
-[53]
+[55]
 \openout2 = `SBUKThesis-references.aux'.
 
  (./SBUKThesis-references.tex (./SBUKThesis-main.bbl
 
-[54
+[56
 
 
 
@@ -2191,22 +2202,22 @@ ish Sabharwal, Oren Etzioni, and[]
 
 
 
-[55
+[57
 
 ]
 
-[56]
-
-[57]
-
-[58]))
+[58]
 
 [59]
+
+[60]))
+
+[61]
 \openout2 = `SBUKThesis-peyvast.aux'.
 
  (./SBUKThesis-peyvast.tex
 
-[60
+[62
 
 
 
@@ -2218,7 +2229,7 @@ ish Sabharwal, Oren Etzioni, and[]
 
  (./SBUKThesis-appendix1.tex
 
-[61
+[63
 
 
 
@@ -2231,17 +2242,17 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[62
+[64
 
 ]
-
-[63]
-
-[64]
 
 [65]
 
 [66]
+
+[67]
+
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 161--166
 [][]
  []
@@ -2269,18 +2280,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--202
 
 
 
-[67]
-
-[68]
-
 [69]
+
+[70]
+
+[71]
 Overfull \hbox (13.19017pt too wide) in paragraph at lines 225--234
  [][][][] 
  []
 
 )
 
-[70]
+[72]
 \openout2 = `lasttable.aux'.
 
  (./lasttable.tex
@@ -2326,7 +2337,7 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 85.
 
 
-[71
+[73
 
 
 
@@ -2413,7 +2424,7 @@ od on eight benchmark datasets: []MultiArith[],[]
 
 )
 
-[72
+[74
 
 
 
@@ -2438,7 +2449,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 14.56006pt on input line 26.
 )
 
-[73
+[75
 
 
 
@@ -2463,16 +2474,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
 (rerunfilecheck)             Checksum: B75400C0696ED9B8D78B2D55A90BD062;9779.
  ) 
 Here is how much of TeX's memory you used:
- 39387 strings out of 475402
- 853153 string characters out of 5765235
- 1357277 words of memory out of 5000000
- 61363 multiletter control sequences out of 15000+600000
+ 39384 strings out of 475402
+ 853134 string characters out of 5765235
+ 1357212 words of memory out of 5000000
+ 61360 multiletter control sequences out of 15000+600000
  570569 words of font info for 162 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  101i,19n,112p,2318b,1009s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on SBUKThesis-main.pdf (85 pages).
+Output written on SBUKThesis-main.pdf (87 pages).
