@@ -1,19 +1,11 @@
 \vspace {-1.5cm}\textbf {عنوان}~\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2-1}{\ignorespaces دیاگرام معماری ترنسفورمر }}{12}{figure.caption.6}%
-\contentsline {figure}{\numberline {2-2}{\ignorespaces مثالی از یادگیری بدون نمونه در یادگیری درون متنی}}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {2-3}{\ignorespaces مثالی از روش زنجیره تفکر برای حل یک سوال از دیتاست \lr {GSM8K}}}{21}{figure.caption.8}%
-\contentsline {figure}{\numberline {2-4}{\ignorespaces مقایسه روش استدلال بدون دیدن نمونه آموزشی و روش زنجیره تفکر}}{21}{figure.caption.9}%
-\contentsline {figure}{\numberline {2-5}{\ignorespaces مقایسه روش برنامه تفکر و روش زنجیره تفکر}}{23}{figure.caption.10}%
-\contentsline {figure}{\numberline {2-6}{\ignorespaces دیاگرام روش بهینه سازی با اعلان}}{24}{figure.caption.11}%
-\contentsline {figure}{\numberline {2-7}{\ignorespaces یک مثال از روش برنامه\/ریزی و حل}}{26}{figure.caption.12}%
-\contentsline {figure}{\numberline {2-8}{\ignorespaces دیاگرام روش auto-CoT}}{28}{figure.caption.13}%
-\contentsline {figure}{\numberline {2-9}{\ignorespaces دیاگرام روش مولد اعلان}}{30}{figure.caption.14}%
+\contentsline {figure}{\numberline {2-1}{\ignorespaces ساختار کلی یک شبکه عصبی کانولوشنی (CNN): ابتدا تصویر ورودی یا ماتریس ویژگی وارد شبکه می‌شود. در مرحله استخراج ویژگی، لایه‌های کانولوشنی و تجمعی به ترتیب ویژگی‌های محلی را استخراج و ابعاد داده را کاهش می‌دهند. سپس داده‌ها به یک بردار یک‌بعدی تبدیل شده (Flattening) و وارد لایه‌های کاملاً متصل می‌شوند تا فرایند طبقه‌بندی نهایی انجام گیرد. این ساختار باعث می‌شود شبکه بتواند به صورت خودکار و بدون نیاز به مهندسی ویژگی دستی، الگوهای پیچیده را شناسایی کند. برگرفته از \cite {Alsaleh2023}.}}{18}{figure.caption.6}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces نمایی از یک مدل شبکه عصبی گرافی (GNN): ابتدا گراف ورودی (با ویژگی‌های اولیه گره‌ها و ساختار اتصالات) به مدل داده می‌شود. سپس در چندین بلوک GNN (لایه)، اطلاعات گره‌ها با تجمیع اطلاعات از همسایگان و به‌روزرسانی با استفاده از شبکه‌های عصبی کوچک، به‌طور مکرر پالایش می‌شود تا بازنمایی‌های غنی‌تری (گراف تبدیل‌شده) حاصل شود. در نهایت، این بازنمایی‌ها می‌توانند برای وظایف مختلف مانند طبقه‌بندی کل گراف (مثلاً بدافزار/سالم)، طبقه‌بندی گره‌ها (مثلاً شناسایی توابع مخرب) یا پیش‌بینی لبه‌ها استفاده شوند. برگرفته و بازطراحی‌شده بر اساس \cite {sanchez-lengeling2021a}.}}{20}{figure.caption.7}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces ساختار کلی معماری ترنسفورمر شامل بخش کدگذار (Encoder) در سمت چپ و گشاینده (Decoder) در سمت راست. هر دو بخش از پشته‌ای از لایه‌های یکسان تشکیل شده‌اند که عمدتاً شامل مکانیزم توجه چندسر (Multi-Head Attention) و شبکه‌های عصبی پیش‌خور (Feed Forward) هستند. اتصالات باقیمانده (Add) و نرمال‌سازی لایه‌ای (Norm) نیز برای پایداری آموزش استفاده می‌شوند. گشاینده علاوه بر توجه خودی، از توجه متقابل (Cross-Attention) برای در نظر گرفتن خروجی کدگذار نیز بهره می‌برد. این معماری امکان پردازش موازی و مدل‌سازی وابستگی‌های بلندمدت را فراهم می‌کند. برگرفته و بازطراحی‌شده بر اساس \cite {attention}.}}{22}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces مقایسه پیچیدگی محاسباتی روش مولد اعلان و روش مولد اعلان ساده}}{34}{figure.caption.15}%
-\contentsline {figure}{\numberline {3-2}{\ignorespaces دیاگرام روش مولد اعلان ساده}}{35}{figure.caption.16}%
-\contentsline {figure}{\numberline {3-3}{\ignorespaces دیاگرام مرحله ارزیابی روش مولد اعلان ساده}}{42}{figure.caption.18}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces معماری مدل MAGNET شامل سه ماژول تخصصی (EnhancedTabTransformer، GraphTransformer، SequenceTransformer)، لایه ادغام چندوجهی و طبقه‌بند باینری.}}{42}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces نمایش دو بعدی بردار اعلان ها برای ارزیابی انتخاب در روش مولد اعلان ساده}}{46}{figure.caption.20}%
+\contentsline {figure}{\numberline {4-1}{\ignorespaces نمایش دو بعدی بردار اعلان ها برای ارزیابی انتخاب در روش مولد اعلان ساده}}{51}{figure.caption.11}%
 \addvspace {10\p@ }
