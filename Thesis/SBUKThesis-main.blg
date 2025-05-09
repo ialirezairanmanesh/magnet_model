@@ -1,85 +1,33 @@
-This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: SBUKThesis-main.aux
-A level-1 auxiliary file: SBUKThesis-inthenameofGod.aux
-A level-1 auxiliary file: SBUKThesis-persian-cover.aux
-A level-1 auxiliary file: SBUKThesis-taeed.aux
-A level-1 auxiliary file: SBUKThesis-student.aux
-A level-1 auxiliary file: SBUKThesis-dedication.aux
-A level-1 auxiliary file: SBUKThesis-acknowledgments.aux
-A level-1 auxiliary file: SBUKThesis-persian-abstract.aux
-A level-1 auxiliary file: SBUKThesis-chapter1.aux
-A level-1 auxiliary file: SBUKThesis-chapter2.aux
-A level-1 auxiliary file: SBUKThesis-chapter3.aux
-A level-1 auxiliary file: SBUKThesis-chapter4.aux
-A level-1 auxiliary file: SBUKThesis-chapter5.aux
-A level-1 auxiliary file: SBUKThesis-references.aux
-The style file: unsrt.bst
-A level-1 auxiliary file: SBUKThesis-peyvast.aux
-A level-1 auxiliary file: SBUKThesis-appendix1.aux
-A level-1 auxiliary file: lasttable.aux
-A level-1 auxiliary file: SBUKThesis-english-abstract.aux
-A level-1 auxiliary file: SBUKThesis-english-cover.aux
-Database file #1: SBUKThesis-bibliography.bib
-Warning--I didn't find a database entry for "attention"
-Warning--I didn't find a database entry for "mistral"
-Warning--I didn't find a database entry for "ZSL"
-Warning--I didn't find a database entry for "FSL"
-Warning--I didn't find a database entry for "beysian"
-Warning--I didn't find a database entry for "LLMzeroshot"
-Warning--I didn't find a database entry for "palm2"
-Warning--I didn't find a database entry for "opro"
-Warning--I didn't find a database entry for "auto_cot"
-Warning--I didn't find a database entry for "sentenceBert"
-Warning--I didn't find a database entry for "APE"
-Warning--I didn't find a database entry for "selfconsistencyimproveschainthought"
-Warning--I didn't find a database entry for "TowardsUnderstandingCoTPrompting"
-Warning--I didn't find a database entry for "cotcollectionimprovingzeroshot"
-Warning--I didn't find a database entry for "revealingmysterychainthought"
-Warning--I didn't find a database entry for "textpatternseffectivechain"
-Warning--I didn't find a database entry for "ExploringthePromptSpaceofLLMsthroughEvolutionarySampling"
-Warning--I didn't find a database entry for "epiccosteffectivesearchbasedprompt"
-Warning--I didn't find a database entry for "pca"
-Warning--I didn't find a database entry for "tsne"
-You've used 20 entries,
-            1791 wiz_defined-function locations,
-            614 strings with 8545 characters,
-and the built_in function-call counts, 5843 in all, are:
-= -- 515
-> -- 328
-< -- 7
-+ -- 116
-- -- 96
-* -- 409
-:= -- 919
-add.period$ -- 60
-call.type$ -- 20
-change.case$ -- 20
-chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 249
-empty$ -- 482
-format.name$ -- 96
-if$ -- 1295
-int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 20
-newline$ -- 103
-num.names$ -- 20
-pop$ -- 50
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 158
-stack$ -- 0
-substring$ -- 448
-swap$ -- 92
-text.length$ -- 7
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 54
-width$ -- 22
-write$ -- 216
-(There were 20 warnings)
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'SBUKThesis-main.blg'
+[155] biber:340> INFO - === Sat May 10, 2025, 02:20:12
+[177] Biber.pm:420> INFO - Reading 'SBUKThesis-main.bcf'
+[309] Biber.pm:994> INFO - Found 40 citekeys in bib section 0
+[342] Biber.pm:4463> INFO - Processing section 0
+[359] Biber.pm:4654> INFO - Looking for bibtex file 'SBUKThesis-bibliography.bib' for section 0
+[362] bibtex.pm:1713> INFO - LaTeX decoding ...
+[413] bibtex.pm:1519> INFO - Found BibTeX data source 'SBUKThesis-bibliography.bib'
+[1129] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1129] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1129] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1130] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1201] bbl.pm:676> INFO - Writing 'SBUKThesis-main.bbl' with encoding 'UTF-8'
+[1242] bbl.pm:779> INFO - Output to SBUKThesis-main.bbl
+[1242] Biber.pm:131> WARN - I didn't find a database entry for 'Nataraj2011' (section 0)
+[1242] Biber.pm:131> WARN - I didn't find a database entry for 'Devlin2019' (section 0)
+[1243] Biber.pm:131> WARN - I didn't find a database entry for 'Radford2018' (section 0)
+[1243] Biber.pm:131> WARN - I didn't find a database entry for 'Radford2019' (section 0)
+[1243] Biber.pm:131> WARN - I didn't find a database entry for 'Brown2020' (section 0)
+[1243] Biber.pm:131> WARN - I didn't find a database entry for 'Dosovitskiy2021' (section 0)
+[1243] Biber.pm:131> WARN - I didn't find a database entry for 'Yun2019' (section 0)
+[1243] Biber.pm:131> WARN - I didn't find a database entry for 'Kingma2015' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'Yuan2014' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'Zhu2018' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'TaintDroid' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'NetworkAnalysis' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'spreitzenbarth2013mobile' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'Paszke2019' (section 0)
+[1244] Biber.pm:131> WARN - I didn't find a database entry for 'FeyLenssen2019' (section 0)
+[1245] Biber.pm:131> WARN - I didn't find a database entry for 'Pedregosa2011' (section 0)
+[1245] Biber.pm:131> WARN - I didn't find a database entry for 'PIRATES' (section 0)
+[1245] Biber.pm:133> INFO - WARNINGS: 17

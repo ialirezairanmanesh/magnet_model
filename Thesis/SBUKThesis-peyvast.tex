@@ -1,3 +1,221 @@
 \addcontentsline{toc}{chapter}{پیوست}
 \chapter*{پیوست‌ها}\label{peyvast}
 
+% پیوست A: کدهای پیاده‌سازی مدل MAGNET
+\section{پیوست A: کدهای پیاده‌سازی مدل MAGNET}
+
+\subsection{کد معماری مدل MAGNET}
+این بخش کد اصلی معماری مدل MAGNET را ارائه می‌دهد که در فصل 3 به‌صورت شبه‌کد توصیف شد. این کد با استفاده از PyTorch پیاده‌سازی شده است.
+
+\begin{LTR}
+\begin{lstlisting}[language=Python, caption={کد معماری مدل MAGNET}, label={lst:magnet_architecture}, basicstyle=\scriptsize\ttfamily]
+import torch
+import torch.nn as nn
+
+class MAGNET(nn.Module):
+    def __init__(self, embedding_dim=64, lstm_num_layers=1, dropout=0.2):
+        super(MAGNET, self).__init__()        
+        self.embedding_dim = embedding_dim
+        # Transformation layers for different data modalities
+        self.tab_to_emb = nn.Linear(430, embedding_dim)
+        self.graph_to_emb = nn.Linear(embedding_dim, embedding_dim)
+        self.sequence_processor = nn.LSTM(embedding_dim, embedding_dim, 
+                                         num_layers=lstm_num_layers, batch_first=True)
+        # Fusion and classification layers
+        self.fusion_layer = nn.Linear(3 * embedding_dim, embedding_dim)
+        self.classifier = nn.Linear(embedding_dim, 1)
+        self.dropout_layer = nn.Dropout(dropout)
+    def forward(self, tab_data, graph_data, seq_data):
+        # tab_data: (batch_size, 430)
+        # graph_data: (batch_size, embedding_dim)
+        # seq_data: (batch_size, seq_len, embedding_dim)
+        # Transform different data types to embedding vectors
+        tab_emb = torch.relu(self.tab_to_emb(tab_data))
+        graph_emb = torch.relu(self.graph_to_emb(graph_data))
+        
+        # Process sequential data with LSTM
+        lstm_out, (hn, cn) = self.sequence_processor(seq_data)
+        # Use the last output vector from LSTM for each sample in batch
+        seq_emb = lstm_out[:, -1, :]
+        # Concatenate embedding vectors
+        combined_embeddings = torch.cat((tab_emb, graph_emb, seq_emb), dim=-1)
+        # Apply fusion layer and activation
+        fused_representation = self.fusion_layer(combined_embeddings)
+        fused_representation = torch.relu(fused_representation)
+        fused_representation = self.dropout_layer(fused_representation)
+        # Final classification
+        output = torch.sigmoid(self.classifier(fused_representation))
+        return output
+\end{lstlisting}
+\end{LTR}
+
+\subsection{کد بهینه‌سازی با PIRATES}
+این بخش قسمت اصلی کد بهینه‌سازی PIRATES را نشان می‌دهد که برای تنظیم ابرپارامترها استفاده شد.
+
+\begin{LTR}
+\begin{lstlisting}[language=Python, caption={کد بهینه‌سازی با PIRATES}, label={lst:pirates_optimization}, basicstyle=\scriptsize\ttfamily]
+import numpy as np
+
+class Pirates():
+    def __init__(self, func, fmax=(), fmin=(), hr=0.2, ms=3, max_r=1, 
+                 num_ships=5, dimensions=2, max_iter=10, max_wind=1, c={},
+                 top_ships=10, sailing_radius=0.3, plundering_radius=0.1):        
+        # Main algorithm parameters
+        self.num_ships = num_ships
+        self.num_top_ships = top_ships
+        self.max_iter = max_iter
+        # Objective function parameters
+        self.func_obj = func
+        self.cost_func = self.func_obj.func
+        self.fmin = fmin
+        self.fmax = fmax
+        self.dimensions = dimensions
+        # Weight parameters
+        default_c = {
+            'leader': 0.5,
+            'private_map': 0.5,
+            'map': 0.5,
+            'top_ships': 0.5
+        }
+        self.c = {**default_c, **c}
+        # Movement parameters
+        self.sailing_radius = sailing_radius
+        self.plundering_radius = plundering_radius
+        # Leader and map variables
+        self.leader_index = None
+        self.hr = 1 - hr
+        self.r = None
+        self.max_r = max_r
+        self.ms = ms
+        self.map = None
+        # Problem type
+        self.problem = 'min'
+        # Chart variables
+        self.bsf_position = None
+        self.bsf_list = []
+        # Initialization
+        self.random_init()
+        self.iter = 0
+    def search(self):
+        """
+        Run optimization algorithm and return best results
+        Returns:
+        --------
+        tuple
+            (best position, best cost, best metrics)
+        """
+        # Run algorithm
+        self.start()
+        # Get results
+        result = self.cal_costs()
+        if result is not None:
+            best_cost, best_metrics = result
+        else:
+            best_cost = self.costs[self.leader_index]
+            best_metrics = {'f1': 0.0, 'accuracy': 0.0, 
+                          'precision': 0.0, 'recall': 0.0}
+        return self.ships[self.leader_index], best_cost, best_metrics
+\end{lstlisting}
+\end{LTR}
+
+% پیوست B: داده‌های خام و پیش‌پردازش
+\section{پیوست \lr{B}: داده‌های خام و پیش‌پردازش}
+
+\subsection{نمونه داده‌های خام DREBIN}
+این جدول نمونه‌ای از داده‌های خام دیتاست DREBIN را نشان می‌دهد که برای آموزش مدل استفاده شد.
+
+\begin{table}[ht]
+    \centering
+    \caption{نمونه‌ای از داده‌های خام دیتاست DREBIN}
+    \label{tab:raw_data_sample}
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{شناسه نمونه} & \textbf{تعداد مجوزها} & \textbf{فراخوانی‌های API} & \textbf{برچسب} \\ 
+        \hline
+        001 & 15 & \lr{["read\_contacts", "send\_sms"]} & 1 \\ 
+        \hline
+        002 & 8 & \lr{["get\_accounts"]} & 0 \\ 
+        \hline
+        003 & 12 & \lr{["read\_phone\_state", "write\_external\_storage"]} & 1 \\ 
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{توضیحات پیش‌پردازش}
+داده‌ها پیش‌پردازش شدند تا برای مدل مناسب شوند:
+
+\begin{itemize}
+    \item تنظیم ابعاد ویژگی‌ها از (16, 32) به (16, 430)
+    \item نرمال‌سازی با استفاده از استانداردسازی \lr{z-score}
+    \item تبدیل داده‌های متنی به بردارهای باینری
+\end{itemize}
+
+% پیوست C: جزئیات سخت‌افزاری و نرم‌افزاری
+\section{پیوست \lr{C}: جزئیات سخت‌افزاری و نرم‌افزاری}
+
+\subsection{مشخصات سخت‌افزاری}
+آزمایش‌ها با استفاده از زیرساخت زیر اجرا شدند:
+\begin{itemize}
+    \item \lr{GPU}: \lr{NVIDIA RTX 3090} با 24 گیگابایت \lr{VRAM}
+    \item \lr{CPU}: \lr{Intel Xeon E5-2690 v4} با 32 هسته
+    \item \lr{RAM}: 128 گیگابایت
+\end{itemize}
+
+\subsection{مشخصات نرم‌افزاری}
+محیط نرم‌افزاری شامل موارد زیر بود:
+\begin{itemize}
+    \item زبان برنامه‌نویسی: \lr{Python 3.8.5}
+    \item کتابخانه‌ها: 
+    \begin{itemize}
+        \item \lr{PyTorch 1.9.0}
+        \item \lr{PyTorch Geometric 1.7.0}
+        \item \lr{Optuna 2.10.0}
+    \end{itemize}
+    \item سیستم‌عامل: \lr{Ubuntu 20.04 LTS}
+\end{itemize}
+
+% پیوست D: نتایج اضافی و ماتریس‌های کامل
+\section{پیوست \lr{D}: نتایج اضافی و ماتریس‌های کامل}
+
+\subsection{ماتریس درهم‌ریختگی کامل}
+این جدول ماتریس درهم‌ریختگی را برای مجموعه تست با 1,451 نمونه نشان می‌دهد.
+
+\begin{table}[ht]
+    \centering
+    \caption{ماتریس درهم‌ریختگی برای مجموعه تست}
+    \label{tab:confusion_matrix}
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{پیش‌بینی/واقعیت} & \textbf{کلاس 0} & \textbf{کلاس 1} \\ 
+        \hline
+        \multicolumn{1}{|c|}{\textbf{کلاس 0}} & \lr{304 (TN)} & \lr{23 (FP)} \\ 
+        \hline
+        \multicolumn{1}{|c|}{\textbf{کلاس 1}} & \lr{17 (FN)} & \lr{1107 (TP)} \\ 
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{گزارش طبقه‌بندی برای هر دسته}
+این جدول نتایج هر دسته در اعتبارسنجی متقاطع 5-تایی را نشان می‌دهد.
+
+\begin{table}[ht]
+    \centering
+    \caption{گزارش طبقه‌بندی برای هر دسته در اعتبارسنجی متقاطع}
+    \label{tab:fold_results}
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        \textbf{دسته} & \textbf{\lr{F1 Score}} & \textbf{دقت} & \textbf{\lr{AUC}} & \textbf{زیان} \\ 
+        \hline
+        دسته 1 & \lr{0.9858} & \lr{0.9785} & \lr{0.9950} & \lr{0.0786} \\ 
+        \hline
+        دسته 2 & \lr{0.9846} & \lr{0.9763} & \lr{0.9955} & \lr{0.0735} \\ 
+        \hline
+        دسته 3 & \lr{0.9839} & \lr{0.9752} & \lr{0.9945} & \lr{0.0839} \\ 
+        \hline
+        دسته 4 & \lr{0.9742} & \lr{0.9601} & \lr{0.9861} & \lr{0.1199} \\ 
+        \hline
+        دسته 5 & \lr{0.9808} & \lr{0.9709} & \lr{0.9946} & \lr{0.0864} \\ 
+        \hline
+    \end{tabular}
+\end{table}
+

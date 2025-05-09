@@ -2,27 +2,7 @@
 \chapter*{\vspace{-3cm}\fontsize{14}{15}\selectfont Abstract}
 \thispagestyle{empty}
 \vspace{-1.5cm}\setlength{\parindent}{20pt}\fontsize{12}{13}\selectfont
-The performance of large language models (LLMs) relies heavily on prompt engineering. Manual methods such as programming and problem solving have improved the reasoning process to some extent, but they often fall short in ensuring diversity in the generated prompts and limit overall effectiveness. 
-On the other hand, prompt generation methods have overcome this limitation by introducing a self-reflective improvement mechanism. By leveraging a genetic algorithm with a binary tournament selection strategy, they gradually evolve instructional prompts. This algorithm enables the prompt generator to iteratively explore the prompt space while optimizing for both diversity and performance simultaneously.
-Despite the significant advancements made by prompt generation methods in creating optimal prompts, a new challenge has emerged — the increased computational burden and complexity of these approaches, which makes their practical application difficult in many real-world scenarios.
-To address these issues, we propose SimplePromptBreeder that utilizes a local search strategy to optimize prompts. This approach employs a probabilistic model called Determinantal Point Processes (DPPs) to select high-quality and diverse prompts, directly balancing performance and diversity without relying on complex self-referential mechanisms.
-
-We evaluated the optimal prompt generation method on eight benchmark datasets: 
-\lr{MultiArith}, 
-\lr{SingleEq}, 
-\lr{AddSub}, 
-\lr{SVAMP}, 
-\lr{SQA}, 
-\lr{CSQA}, 
-\lr{AQuA-RAT}, and 
-\lr{GSM8K}, 
-achieving a relative improvement of \lr{23.4\%} over the problem-and-solve approach and a relative improvement of \lr{54.7\%} over the PromptBreeder method.
+Android malware detection has become a major challenge in information security due to the increasing cyber threats. Traditional methods, especially those relying solely on single-modal feature analysis, often face limitations such as inability to process complex multi-modal data and poor generalization against new threats. These shortcomings highlight the need for developing novel and efficient approaches. This research developed a multi-modal model called Multi-modal Attention-based Graph Neural Transformer with Dynamic Embedding (MAGNET) that leverages a combination of tabular, graph, and sequential data, such as API call sequences, for Android malware detection. The main objective was to improve detection accuracy and robustness using an advanced architecture based on deep learning and transformers. The research methodology included hyperparameter optimization with advanced algorithms like PIRATES and Optuna, model training with a dataset containing 4641 training samples and 1451 test samples, and 5-fold cross-validation. Features used included static features such as permissions, API calls, intents, and component names, as well as dynamic features like network activity and file access. Data was represented as binary or normalized numerical vectors. Feature dimensions were adjusted to 430 features after preprocessing. Tools used included deep learning libraries such as PyTorch, data preprocessing techniques like standardization and normalization, and graph data structures. Raw materials included real data from Android application behaviors, comprising static and dynamic features, which were carefully prepared. Results showed that the proposed model demonstrated outstanding performance with high accuracy, significant stability, and good generalizability, showing considerable improvement over previous methods. These achievements highlighted the model's potential for application in real security systems. Future research should focus on increasing data volume, integrating advanced self-supervised methods, testing the model in more diverse environments, and optimizing its execution time to enhance model performance in more complex and realistic scenarios. Additionally, examining the impact of incorporating newer data and developing algorithms resistant to adversarial attacks could open new avenues for future research. This study took an effective step toward enhancing automated malware detection systems and provided a solid foundation for developing more advanced security solutions.
 
 \par\vspace{.5cm}\setlength{\parindent}{0pt}
-\textbf{Keywords:} Large Language Models, Prompt Engineering, Instructional Prompts, Determinantal Point Processes, Diversity, Quality
-
-
-
-
- \par\vspace{.5cm}\setlength{\parindent}{0pt}{\bfseries \fontsize{12}{13}\selectfont Keywords: Large Language Models, Prompt Engineering, Instructional Prompts, Determinantal Point Processes, Diversity, Quality }
-
+\textbf{Keywords:} Malware Detection, Transformer, Deep Learning, Multi-modal Data, Android Security, Android Malware
