@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.3)  17 MAY 2025 00:25
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.5.3)  17 MAY 2025 00:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2267,19 +2267,7 @@ Overfull \hbox (12.06454pt too wide) in paragraph at lines 8--8
 
 [14
 
-]
-Overfull \hbox (3.28485pt too wide) in paragraph at lines 14--14
- [][][] [][][][][][]\TU/XBZar(0)/m/n/12 شکل []مقایسه کلی عملکرد مدل MAGNET در م
-راحل مختلف. نمودار میله‌ای نشان‌دهنده[][][][][] 
- []
-
-
-Overfull \hbox (4.23642pt too wide) in paragraph at lines 17--17
- [][][] [][][][][][]\TU/XBZar(0)/m/n/12 شکل []عملکرد هر ماژول (EnhancedTabTrans
-former، GraphTransformer،[][][][][] 
- []
-
-)
+])
 \tf@lof=\write8
 \openout8 = `SBUKThesis-main.lof'.
 
@@ -2625,58 +2613,117 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [52]
 
 [53]
-Overfull \hbox (7.02676pt too wide) in paragraph at lines 191--205
+
+[54]
+
+[55]
+
+[56]
+Overfull \hbox (7.02676pt too wide) in paragraph at lines 270--284
  [][][][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fig_cv_metrics.png Graphic file (type bmp)
 <fig_cv_metrics.png>
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 214.
+(Font)              scaled to size 10.95pt on input line 293.
 File: fig_cv_loss.png Graphic file (type bmp)
 <fig_cv_loss.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54]
 File: fig_overall_comparison.png Graphic file (type bmp)
 <fig_overall_comparison.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[55]
+[57]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: images/fig_literature_comparison.png Graphic file (type bmp)
 <images/fig_literature_comparison.png>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[56]
+
+
+[58]
 File: images/fig_baseline_metrics_comparison.png Graphic file (type bmp)
 <images/fig_baseline_metrics_comparison.png>
 
 
-LaTeX Warning: Reference `fig:baseline_metrics' on page 57 undefined on input l
-ine 327.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `tab:baseline_comparison' on page 59 undefined on inpu
+t line 406.
 
-[57]
 
-[58]
+LaTeX Warning: Reference `fig:baseline_comparison' on page 59 undefined on inpu
+t line 406.
+
+
+LaTeX Warning: Reference `fig:baseline_metrics' on page 59 undefined on input l
+ine 406.
+
+
 
 [59]
 
+LaTeX Warning: Reference `fig:module_comparison' on page 60 undefined on input 
+line 411.
+
+
+
 [60]
+
+LaTeX Warning: Reference `fig:ablation_study' on page 61 undefined on input lin
+e 413.
+
+
+LaTeX Warning: Reference `fig:training_progress' on page 61 undefined on input 
+line 415.
+
+
+LaTeX Warning: Reference `tab:cv_results' on page 61 undefined on input line 41
+8.
+
+
+LaTeX Warning: Reference `tab:comparison_with_literature' on page 61 undefined 
+on input line 418.
+
+
+LaTeX Warning: Reference `fig:module_comparison' on page 61 undefined on input 
+line 420.
+
+
+LaTeX Warning: Reference `fig:ablation_study' on page 61 undefined on input lin
+e 420.
+
+
+LaTeX Warning: Reference `fig:training_progress' on page 61 undefined on input 
+line 420.
+
+
+LaTeX Warning: Reference `fig:module_comparison' on page 61 undefined on input 
+line 422.
+
+
+LaTeX Warning: Reference `fig:ablation_study' on page 61 undefined on input lin
+e 422.
+
+
+LaTeX Warning: Reference `fig:training_progress' on page 61 undefined on input 
+line 422.
+
 File: images/fig_module_comparison_en.png Graphic file (type bmp)
 <images/fig_module_comparison_en.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3007,17 +3054,26 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
-(rerunfilecheck)             Checksum: 405780329492022A944B0D67FB45D7CF;28617.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `SBUKThesis-main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SBUKThesis-main.out':
+(rerunfilecheck)             Before: A37CB9752B673875A903995209030447;29556
+(rerunfilecheck)             After:  DD8D3FE11B7FB5B4CF00025FCF985713;28617.
 Package logreq Info: Writing requests to 'SBUKThesis-main.run.xml'.
 \openout1 = `SBUKThesis-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46666 strings out of 475402
- 1003794 string characters out of 5765235
- 2219536 words of memory out of 5000000
- 68583 multiletter control sequences out of 15000+600000
+ 46670 strings out of 475402
+ 1003866 string characters out of 5765235
+ 2219242 words of memory out of 5000000
+ 68587 multiletter control sequences out of 15000+600000
  572438 words of font info for 170 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  101i,14n,112p,2618b,4921s stack positions out of 10000i,1000n,20000p,200000b,200000s

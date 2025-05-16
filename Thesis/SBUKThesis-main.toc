@@ -90,21 +90,21 @@
 \contentsline {subsection}{\numberline {4-3-2}روند تغییر هزینه و همگرایی}{49}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4-3-3}تحلیل پویایی جمعیت: باد، سرعت و شتاب}{50}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4-3-4}جمع‌بندی تحلیل فرآیند بهینه‌سازی}{51}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4-3-5}مدل‌های پایه}{51}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4-3-6}محیط اجرا}{52}{subsection.4.3.6}%
-\contentsline {section}{\numberline {4-4}معیارهای ارزیابی}{52}{section.4.4}%
-\contentsline {section}{\numberline {4-5}نتایج کلی مدل MAGNET}{54}{section.4.5}%
-\contentsline {subsection}{\numberline {4-5-1}ماتریس درهم‌ریختگی و عملکرد به تفکیک کلاس}{54}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4-5-2}نتایج اعتبارسنجی متقاطع}{54}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4-5-3}نتایج آموزش و بهینه‌سازی}{54}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4-6}مقایسه با مدل‌های پایه}{55}{section.4.6}%
-\contentsline {section}{\numberline {4-7}مقایسه با مدل‌های یادگیری ماشین}{56}{section.4.7}%
-\contentsline {section}{\numberline {4-8}تحلیل جزئی‌تر}{58}{section.4.8}%
-\contentsline {section}{\numberline {4-9}تحلیل حساسیت پارامترهای الگوریتم}{58}{section.4.9}%
-\contentsline {subsection}{\numberline {4-9-1}تحلیل حساسیت پارامترهای معماری مدل}{59}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4-9-2}تحلیل حساسیت پارامترهای آموزش}{59}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4-9-3}مقایسه حساسیت بین الگوریتم‌های بهینه‌سازی}{60}{subsection.4.9.3}%
-\contentsline {subsection}{\numberline {4-9-4}توصیه‌های عملی}{60}{subsection.4.9.4}%
+\contentsline {section}{\numberline {4-4}تحلیل حساسیت پارامترهای الگوریتم}{52}{section.4.4}%
+\contentsline {subsection}{\numberline {4-4-1}تحلیل حساسیت پارامترهای معماری مدل}{52}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4-4-2}تحلیل حساسیت پارامترهای آموزش}{52}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4-4-3}مقایسه حساسیت بین الگوریتم‌های بهینه‌سازی}{53}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4-4-4}توصیه‌های عملی}{53}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4-4-5}مدل‌های پایه}{54}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4-4-6}محیط اجرا}{54}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4-5}معیارهای ارزیابی}{55}{section.4.5}%
+\contentsline {section}{\numberline {4-6}نتایج کلی مدل MAGNET}{56}{section.4.6}%
+\contentsline {subsection}{\numberline {4-6-1}ماتریس درهم‌ریختگی و عملکرد به تفکیک کلاس}{56}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4-6-2}نتایج اعتبارسنجی متقاطع}{57}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4-6-3}نتایج آموزش و بهینه‌سازی}{57}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4-7}مقایسه با مدل‌های پایه}{58}{section.4.7}%
+\contentsline {section}{\numberline {4-8}مقایسه با مدل‌های یادگیری ماشین}{59}{section.4.8}%
+\contentsline {section}{\numberline {4-9}تحلیل جزئی‌تر}{60}{section.4.9}%
 \contentsline {section}{\numberline {4-10}جمع‌بندی}{61}{section.4.10}%
 \contentsline {chapter}{\numberline {5}نتیجه گیری و پیشنهادات آتی}{64}{chapter.5}%
 \contentsline {section}{\numberline {5-1}نتیجه‌گیری}{65}{section.5.1}%
