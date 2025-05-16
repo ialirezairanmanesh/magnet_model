@@ -2386,79 +2386,69 @@
     <bcf:citekey order="15" intorder="1">AndroidSecurity</bcf:citekey>
     <bcf:citekey order="16" intorder="1">Drebin</bcf:citekey>
     <bcf:citekey order="17" intorder="1">Marastoni2022</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Nataraj2011</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Alsaleh2023</bcf:citekey>
     <bcf:citekey order="20" intorder="1">Alsaleh2023</bcf:citekey>
     <bcf:citekey order="21" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Hochreiter1997</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Cho2014</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">sanchez-lengeling2021a</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Kipf2017</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Velickovic2018</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Hochreiter1997</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Cho2014</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">sanchez-lengeling2021a</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Kipf2017</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Velickovic2018</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">sanchez-lengeling2021a</bcf:citekey>
     <bcf:citekey order="28" intorder="1">sanchez-lengeling2021a</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">sanchez-lengeling2021a</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">attention</bcf:citekey>
     <bcf:citekey order="30" intorder="1">attention</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Devlin2019</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Radford2018</bcf:citekey>
-    <bcf:citekey order="32" intorder="2">Radford2019</bcf:citekey>
-    <bcf:citekey order="32" intorder="3">Brown2020</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Dosovitskiy2021</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">Yun2019</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">attention</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">attention</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">AndroidMalwareSurvey</bcf:citekey>
-    <bcf:citekey order="38" intorder="2">Demontis2017</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">Kingma2015</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">attention</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">attention</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">AndroidMalwareSurvey</bcf:citekey>
+    <bcf:citekey order="34" intorder="2">Demontis2017</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Dunning2010</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">LeQuy2023</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">PirateGame</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">AndroidMalwareSurvey</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Drebin</bcf:citekey>
     <bcf:citekey order="41" intorder="1">AndroidMalwareSurvey</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Yuan2014</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Zhu2018</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">AndroidMalwareSurvey</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">TaintDroid</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">NetworkAnalysis</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">DeepLearningMalware</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">DeepLearningMalware</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">ZhangNix2017</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">ZhangNix2017</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">Demontis2017</bcf:citekey>
     <bcf:citekey order="49" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">TaintDroid</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">ZhangNix2017</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Demontis2017</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">spreitzenbarth2013mobile</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">attention</bcf:citekey>
-    <bcf:citekey order="56" intorder="2">Kipf2017</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">attention</bcf:citekey>
+    <bcf:citekey order="50" intorder="2">Kipf2017</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">ZhangNix2017</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">ZhangNix2017</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Demontis2017</bcf:citekey>
     <bcf:citekey order="58" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">ZhangNix2017</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">Demontis2017</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">PIRATES</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">Alsaleh2023</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">Alsaleh2023</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Alsaleh2023</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">TransformerMalware</bcf:citekey>
     <bcf:citekey order="68" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">Alsaleh2023</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">Drebin</bcf:citekey>
     <bcf:citekey order="73" intorder="1">Alsaleh2023</bcf:citekey>
     <bcf:citekey order="74" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">ZhangNix2017</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">PIRATES</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">Optuna2019</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">GooglePlayProtect</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">ZhangNix2017</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">GooglePlayProtect</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

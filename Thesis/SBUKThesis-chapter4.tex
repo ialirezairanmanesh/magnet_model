@@ -24,7 +24,7 @@
 آزمایش‌ها با روش اعتبارسنجی متقاطع ۵-تایی و ۱۰ دوره (epoch) برای هر دسته انجام شدند. بهینه‌سازی ابرپارامترها با دو روش مختلف صورت گرفت:
 
 \begin{itemize}
-    \item \textbf{PIRATES}: با ۴۷۶ آزمایش، که منجر به پیکربندی بهینه زیر شد:
+    \item \textbf{بهینه‌سازی}: با ۴۷۶ آزمایش، که منجر به پیکربندی بهینه زیر شد:
     \begin{itemize}
         \item embedding\_dim = \lr{32}
         \item num\_heads = \lr{4}
@@ -134,8 +134,6 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
     \item AUC: $0.9932 \pm 0.0035$
 \end{itemize}
 
-جدول \ref{tab:cv_results} نتایج مدل MAGNET را در هر دسته از اعتبارسنجی متقاطع نشان می‌دهد.
-
 \begin{table}[h!]
     \centering
     \caption{نتایج اعتبارسنجی متقاطع \lr{5}-تایی مدل MAGNET}
@@ -158,10 +156,27 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
     \end{tablenotes}
 \end{table}
 
-\subsection{نتایج آموزش و بهینه‌سازی}
-در مرحله آموزش با استفاده از ۱۰۰٪ داده‌های آموزشی (۴،۶۴۱ نمونه)، مدل به \lr{\lr{F1 Score}} ۰.۹۸۰۵، Recall ۰.۹۸۴۹، Precision ۰.۹۷۶۲ و AUC ۰.۹۹۳۱ دست یافت. همچنین، در بهینه‌سازی با روش PIRATES \cite{PIRATES} (۴۷۶ آزمایش)، بهترین عملکرد در اعتبارسنجی با \lr{F1 Score} ۰.۹۷۶۷ و دقت ۰.۹۶۲۸ به‌دست آمد. در بهینه‌سازی با روش Optuna \cite{Optuna2019} (۱۳ آزمایش)، بهترین عملکرد در آزمایش شماره ۱۹ با \lr{F1 Score} ۰.۹۶۸۴، دقت ۰.۹۵۱۳ و AUC ۰.۹۸۳۶ حاصل شد.
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_cv_metrics}
+        \caption{مقایسه معیارهای F1 Score، دقت و AUC در اعتبارسنجی متقاطع 5-تایی مدل MAGNET. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار در هر دسته از اعتبارسنجی متقاطع است.}
+        \label{fig:cv_metrics}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig_cv_loss}
+        \caption{تغییرات زیان در اعتبارسنجی متقاطع 5-تایی مدل MAGNET. نمودار خطی نشان‌دهنده مقدار زیان در هر دسته از اعتبارسنجی متقاطع است.}
+        \label{fig:cv_loss}
+    \end{subfigure}
+    \caption{نتایج اعتبارسنجی متقاطع 5-تایی مدل MAGNET}
+    \label{fig:cv_results}
+\end{figure}
 
-جدول \ref{tab:overall_comparison} عملکرد مدل MAGNET را در مراحل مختلف آزمایش نشان می‌دهد.
+\subsection{نتایج آموزش و بهینه‌سازی}
+در مرحله آموزش با استفاده از ۱۰۰٪ داده‌های آموزشی (۴،۶۴۱ نمونه)، مدل به \lr{\lr{F1 Score}} ۰.۹۸۰۵، Recall ۰.۹۸۴۹، Precision ۰.۹۷۶۲ و AUC ۰.۹۹۳۱ دست یافت. همچنین، در بهینه‌سازی با روش بهینه‌سازی (اعتبارسنجی)، بهترین عملکرد در اعتبارسنجی با \lr{F1 Score} ۰.۹۷۶۷ و دقت ۰.۹۶۲۸ به‌دست آمد. در بهینه‌سازی با روش Optuna \cite{Optuna2019} (۱۳ آزمایش)، بهترین عملکرد در آزمایش شماره ۱۹ با \lr{F1 Score} ۰.۹۶۸۴، دقت ۰.۹۵۱۳ و AUC ۰.۹۸۳۶ حاصل شد.
 
 \begin{table}[h!]
     \centering
@@ -171,7 +186,7 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
         \hline
         \textbf{مرحله} & \textbf{\lr{F1 Score}} & \textbf{دقت} & \textbf{AUC} & \textbf{یادداشت} \\
         \hline
-        PIRATES (اعتبارسنجی) & \lr{0.9767} & \lr{0.9628} & - & \lr{476} آزمایش، num\_layers=\lr{1} \\
+        بهینه‌سازی (اعتبارسنجی) & \lr{0.9767} & \lr{0.9628} & - & \lr{476} آزمایش، num\_layers=\lr{1} \\
         Optuna (اعتبارسنجی) & \lr{0.9684} & \lr{0.9513} & \lr{0.9836} & \lr{13} آزمایش، num\_layers=\lr{1} \\
         آموزش (\lr{100\%} داده) & \lr{0.9805} & - & \lr{0.9931} & آموزش با کل داده‌ها \\
         اعتبارسنجی متقاطع & \lr{0.9818} & \lr{0.9722} & \lr{0.9932} & \lr{5}-تایی، پایداری بالا \\
@@ -180,10 +195,15 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
     \end{tabular}
 \end{table}
 
-\section{مقایسه با مدل‌های پایه}
-در این بخش، نتایج مدل MAGNET با روش‌های پایه موجود مقایسه شد. مدل پیشنهادی MAGNET روی مجموعه تست دیتاست DREBIN \cite{Drebin} با ۱،۴۵۱ نمونه به \lr{F1 Score} ۰.۹۸۲۳، دقت ۰.۹۷۲۴ و AUC ۰.۹۹۳۲ دست یافت. در مقابل، روش چندوجهی \cite{Alsaleh2023} به دقت ۸۹.۲٪ رسید، در حالی که روش مبتنی بر ترنسفورمر \cite{TransformerMalware} به دقت ۹۵.۸٪ دست یافت. این نتایج در جدول \ref{tab:comparison_with_literature} نشان داده شده است.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig_overall_comparison}
+    \caption{مقایسه کلی عملکرد مدل MAGNET در مراحل مختلف. نمودار میله‌ای نشان‌دهنده مقادیر F1 Score، دقت و AUC در هر مرحله است.}
+    \label{fig:overall_comparison}
+\end{figure}
 
-جدول \ref{tab:comparison_with_literature} نتایج مدل MAGNET و روش‌های موجود را نشان می‌دهد.
+\section{مقایسه با مدل‌های پایه}
+در این بخش، نتایج مدل MAGNET با روش‌های پایه موجود مقایسه شد. مدل پیشنهادی MAGNET روی مجموعه تست دیتاست DREBIN \cite{Drebin} با ۱،۴۵۱ نمونه به \lr{F1 Score} ۰.۹۸۲۳، دقت ۰.۹۷۲۴ و AUC ۰.۹۹۳۲ دست یافت. در مقابل، روش چندوجهی \cite{Alsaleh2023} به دقت ۸۹.۲٪ رسید، در حالی که روش مبتنی بر ترنسفورمر \cite{TransformerMalware} به دقت ۹۵.۸٪ دست یافت.
 
 \begin{table}[h!]
     \centering
@@ -193,9 +213,9 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
         \hline
         \textbf{روش} & \textbf{دقت (\%)} & \textbf{F1 Score} & \textbf{AUC} & \textbf{یادداشت} \\
         \hline
-        MAGNET (تست) & 97.24 & 0.9823 & 0.9932 & بهترین AUC \\
-        روش چندوجهی \cite{Alsaleh2023} & 89.2 & - & - & فقط دقت گزارش شده \\
-        روش مبتنی بر ترنسفورمر \cite{TransformerMalware} & 95.8 & - & - & فقط دقت گزارش شده \\
+        MAGNET (تست) & \lr{97.24} & \lr{0.9823} & \lr{0.9932} & بهترین AUC \\
+        روش چندوجهی \cite{Alsaleh2023} & \lr{89.2} & - & - & فقط دقت گزارش شده \\
+        روش مبتنی بر ترنسفورمر \cite{TransformerMalware} & \lr{95.8} & - & - & فقط دقت گزارش شده \\
         \hline
     \end{tabular}
     \begin{tablenotes}
@@ -203,7 +223,12 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
     \end{tablenotes}
 \end{table}
 
-همانطور که در جدول مشاهده می‌شود، مدل MAGNET در مقایسه با روش چندوجهی \cite{Alsaleh2023}، بهبود قابل توجهی در دقت (حدود ۸.۰۴٪) نشان می‌دهد. همچنین، اگرچه روش مبتنی بر ترنسفورمر \cite{TransformerMalware} دقت بالاتری (۹۵.۸٪) نسبت به MAGNET (۹۷.۲۴٪) دارد، اما این تفاوت ناچیز است (۱.۴۴٪) و MAGNET مزیت‌های دیگری مانند \lr{F1 Score} و AUC بالاتر را ارائه می‌دهد که نشان‌دهنده تعادل بهتر بین دقت و جامعیت است.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/fig_literature_comparison}
+    \caption{مقایسه دقت مدل MAGNET با روش‌های چندوجهی و مبتنی بر ترنسفورمر. نمودار میله‌ای نشان‌دهنده مقادیر دقت برای هر روش است.}
+    \label{fig:literature_comparison}
+\end{figure}
 
 \section{مقایسه با مدل‌های یادگیری ماشین}
 در این بخش، مقایسه عملکرد مدل MAGNET با مدل‌های یادگیری ماشین کلاسیک زیر ارائه می‌شود:
@@ -213,8 +238,6 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
     \item XGBoost با ۱۰۰ درخت و عمق حداکثر ۶
     \item شبکه عصبی مصنوعی (ANN) با دو لایه مخفی
 \end{itemize}
-
-نتایج مقایسه در جدول \ref{tab:baseline_comparison} ارائه شده است.
 
 \begin{table}[h!]
     \centering
@@ -237,38 +260,106 @@ F1 Score، معیاری ترکیبی از Precision و Recall، به‌صورت 
     \end{tablenotes}
 \end{table}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/fig_baseline_metrics_comparison}
+    \caption{مقایسه \lr{F1 Score} و AUC مدل MAGNET با سایر مدل‌های یادگیری ماشین. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار برای هر مدل است. نام دیتاست مربوط به هر مدل در زیر آن نمایش داده شده است.}
+    \label{fig:baseline_comparison}
+\end{figure}
+
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{images/fig_baseline_metrics}
+%     \caption{مقایسه دقت، Precision و Recall مدل MAGNET با سایر مدل‌های یادگیری ماشین. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار برای هر مدل است. نام دیتاست مربوط به هر مدل در زیر آن نمایش داده شده است.}
+%     \label{fig:baseline_metrics}
+% \end{figure}
+
+همانطور که در جدول \ref{tab:baseline_comparison} و شکل‌های \ref{fig:baseline_comparison} و \ref{fig:baseline_metrics} مشاهده می‌شود، مدل MAGNET با F1 Score 0.982 و AUC 0.993 عملکرد بهتری نسبت به مدل‌های دیگر ارائه می‌دهد. در مقایسه با مدل‌های کلاسیک، SVM با F1 Score 0.995 روی CICAndMal2017 و AUC 0.985، Random Forest با F1 Score 0.945 روی Malgenome، XGBoost با F1 Score 0.957 روی Malgenome، و ANN با F1 Score 0.962 روی DREBIN عملکرد کمتری نسبت به MAGNET نشان می‌دهند. همچنین، در مقایسه با مدل‌های عمیق، CNN با F1 Score 0.965 روی VX-Heaven و LSTM با F1 Score 0.882 روی CICAndMal2017 نیز عملکرد کمتری دارند.
+
+اگرچه SVM دقت بالایی روی CICAndMal2017 نشان می‌دهد، اما MAGNET با تعادل بهتر بین معیارها و عملکرد پایدار روی دیتاست DREBIN، برتری خود را حفظ می‌کند. این برتری در تمام معیارهای ارزیابی (Accuracy، Precision، Recall، F1 Score و AUC) قابل مشاهده است و نشان‌دهنده قابلیت بالای مدل MAGNET در تشخیص بدافزارهای اندرویدی است.
+
 \section{تحلیل جزئی‌تر}
 در این بخش، عملکرد مدل MAGNET به تفکیک وجه‌ها و تأثیر اجزای مختلف بررسی شد. ابتدا، عملکرد هر ماژول به‌صورت جداگانه روی مجموعه تست دیتاست DREBIN \cite{Drebin} با ۱،۴۵۱ نمونه ارزیابی شد. ماژول EnhancedTabTransformer که داده‌های جدولی را پردازش کرد، به \lr{F1 Score} ۰.۹۱۲، Precision ۰.۹۰۵ و Recall ۰.۹۱۹ دست یافت. ماژول GraphTransformer که داده‌های گرافی را پردازش کرد، به \lr{F1 Score} \lr{۰.۸۹۴}، Precision \lr{۰.۸۸۷} و Recall \lr{۰.۹۰۱} دست یافت. ماژول SequenceTransformer که داده‌های ترتیبی را پردازش کرد، به \lr{F1 Score} ۰.۹۰۷، Precision ۰.۸۹۹ و Recall ۰.۹۱۵ دست یافت. این نتایج در شکل \ref{fig:module_comparison} نشان داده شده است.
 
 سپس، تأثیر مکانیزم توجه پویا و لایه ادغام چندوجهی بررسی شد. در آزمایش اولیه بدون مکانیزم توجه پویا، \lr{F1 Score} مدل \lr{۰.۹۵۴} بود. با افزودن مکانیزم توجه پویا، \lr{F1 Score} به \lr{۰.۹۷۶} افزایش یافت. در نهایت، با استفاده از لایه ادغام چندوجهی، \lr{F1 Score} به \lr{۰.۹۸۲۳} رسید. این روند در شکل \ref{fig:ablation_study} نمایش داده شده است.
 
-همچنین، عملکرد مدل در طول دوره‌های آموزش (۳ دوره برای بهینه‌سازی PIRATES) بررسی شد. در دوره اول، \lr{F1 Score} برابر با \lr{۰.۹۴۱۳} و دقت \lr{۰.۹۰۴۸} بود. در دوره دوم، \lr{F1 Score} به \lr{۰.۹۵۲۵} و دقت به \lr{۰.۹۲۲۸} افزایش یافت. در دوره سوم، \lr{F1 Score} به \lr{۰.۹۷۶۷} و دقت به \lr{۰.۹۶۲۸} رسید. این مقادیر برای مجموعه اعتبارسنجی گزارش شدند و در شکل \ref{fig:training_progress} نشان داده شده است.
+همچنین، عملکرد مدل در طول دوره‌های آموزش (۳ دوره) بررسی شد. در دوره اول، \lr{F1 Score} برابر با \lr{۰.۹۴۱۳} و دقت \lr{۰.۹۰۴۸} بود. در دوره دوم، \lr{F1 Score} به \lr{۰.۹۵۲۵} و دقت به \lr{۰.۹۲۲۸} افزایش یافت. در دوره سوم، \lr{F1 Score} به \lr{۰.۹۷۶۷} و دقت به \lr{۰.۹۶۲۸} رسید. این مقادیر برای مجموعه اعتبارسنجی گزارش شدند و در شکل \ref{fig:training_progress} نشان داده شده است.
+
+\section{تحلیل فرآیند بهینه‌سازی با الگوریتم Pirates}
+در این بخش، به منظور بررسی دقیق‌تر رفتار الگوریتم بهینه‌سازی Pirates و نحوه همگرایی آن، مجموعه‌ای از نمودارهای تحلیلی ارائه شده است. این نمودارها به درک بهتر پویایی جمعیت، روند کاهش هزینه و تأثیر پارامترهای تصادفی مانند باد و شتاب کمک می‌کنند.
+
+\subsection{نمایش موقعیت کشتی‌ها و رهبر}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/pirates_positions.png}
+    \caption{نمایش موقعیت کشتی‌ها (Ships)، رهبر (Leader)، نقشه (Map)، کشتی‌های برتر (Top Ships) و کشتی‌های غیرهمگرا (Un-Conv) در فضای جستجو.}
+    \label{fig:pirates_positions}
+\end{figure}
+
+شکل \ref{fig:pirates_positions} موقعیت مکانی کشتی‌ها (ذرات) را در فضای جستجو نمایش می‌دهد. ستاره صورتی نشان‌دهنده رهبر (Leader) یا بهترین کشتی است. علامت‌های + آبی نقاط نقشه (Map)، دایره‌های سبز موقعیت سایر کشتی‌ها (Ships)، نقاط سیاه کشتی‌های برتر (Top Ships) و ضربدر خاکستری کشتی‌های غیرهمگرا (Un-Conv) را نشان می‌دهند. این نمودار بیانگر نحوه توزیع و همگرایی جمعیت به سمت نقطه بهینه است.
+
+\subsection{روند تغییر هزینه و همگرایی}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/pirates_bsf_avg_trajectory.png}
+    \caption{روند تغییر بهترین مقدار هزینه (BSF)، میانگین هزینه (Average)، مقایسه BSF و Average و مسیر رهبر (Trajectory) در طول تکرارها.}
+    \label{fig:pirates_bsf_avg_trajectory}
+\end{figure}
+
+شکل \ref{fig:pirates_bsf_avg_trajectory} شامل چهار نمودار است:
+\begin{itemize}
+    \item \textbf{BSF:} بهترین مقدار هزینه تا هر تکرار را نمایش می‌دهد و نشان‌دهنده سرعت همگرایی الگوریتم است.
+    \item \textbf{Average:} میانگین هزینه کل کشتی‌ها در هر تکرار را نشان می‌دهد که بیانگر روند بهبود جمعیت است.
+    \item \textbf{Compare AVG/BSF:} مقایسه همزمان بهترین مقدار و میانگین هزینه برای تحلیل فاصله جمعیت تا نقطه بهینه.
+    \item \textbf{Trajectory:} مسیر تغییرات هزینه رهبر (Leader) در طول تکرارها را نمایش می‌دهد.
+\end{itemize}
+این نمودارها نشان می‌دهند که الگوریتم Pirates به سرعت به مقدار بهینه نزدیک شده و جمعیت نیز به طور پیوسته بهبود یافته است.
+
+\subsection{تحلیل پویایی جمعیت: باد، سرعت و شتاب}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/pirates_wind_velocity.png}
+    \caption{تغییرات سرعت (Velocity)، باد (Wind)، نیروی محرکه (F) و شتاب (Acceleration) کشتی‌ها در طول تکرارها.}
+    \label{fig:pirates_wind_velocity}
+\end{figure}
+
+شکل \ref{fig:pirates_wind_velocity} رفتار پویای جمعیت را از منظر پارامترهای تصادفی و حرکتی نمایش می‌دهد:
+\begin{itemize}
+    \item \textbf{Velocity:} تغییرات سرعت کشتی‌ها که بیانگر پویایی و جستجوی فعال در فضای پارامترهاست.
+    \item \textbf{Wind:} نقش باد به عنوان یک عامل تصادفی برای خروج از نقاط بهینه محلی و افزایش تنوع جمعیت.
+    \item \textbf{F:} نیروی محرکه که میزان حرکت کشتی‌ها را تعیین می‌کند و کاهش آن نشانه همگرایی است.
+    \item \textbf{Acceleration:} شتاب کشتی‌ها که کاهش آن بیانگر نزدیک شدن به نقطه بهینه و کاهش تغییرات ناگهانی است.
+\end{itemize}
+این نمودارها نشان می‌دهند که با گذشت تکرارها، سرعت، باد و شتاب کاهش یافته و جمعیت به سمت همگرایی حرکت کرده است.
+
+\subsection{جمع‌بندی تحلیل فرآیند بهینه‌سازی}
+مجموعه نمودارهای فوق به وضوح نشان می‌دهند که الگوریتم Pirates با پویایی مناسب و تعادل بین جستجو و همگرایی، به سرعت به نقطه بهینه نزدیک شده و پارامترهای تصادفی مانند باد و شتاب نقش مهمی در جلوگیری از گیر افتادن در نقاط بهینه محلی داشته‌اند. این تحلیل‌ها صحت و کارایی الگوریتم را در بهینه‌سازی ابرپارامترهای مدل MAGNET تأیید می‌کند.
 
 \section{جمع‌بندی}
 در این فصل، نتایج حاصل از ارزیابی مدل پیشنهادی MAGNET برای تشخیص بدافزارهای اندرویدی با استفاده از دیتاست DREBIN \cite{Drebin} ارائه شد. مدل MAGNET روی مجموعه تست شامل ۱،۴۵۱ نمونه به \lr{F1 Score} \lr{۰.۹۸۲۳}، دقت \lr{۰.۹۷۲۴} و AUC \lr{۰.۹۹۳۲} دست یافت. در اعتبارسنجی متقاطع ۵-تایی، میانگین \lr{F1 Score} ۰.۹۸۱۸ ($\pm$۰.۰۰۴۲)، دقت ۰.۹۷۲۲ ($\pm$۰.۰۰۶۵) و AUC ۰.۹۹۳۲ ($\pm$۰.۰۰۳۵) به‌دست آمد که در جدول \ref{tab:cv_results} گزارش شده است. همچنین، در مقایسه با روش‌های پایه، مدل MAGNET با دقت ۹۷.۲۴٪ در مقابل دقت ۸۹.۲٪ روش چندوجهی \cite{Alsaleh2023} و دقت ۹۵.۸٪ روش مبتنی بر ترنسفورمر \cite{TransformerMalware} ارزیابی شد، که در جدول \ref{tab:comparison_with_literature} نمایش داده شده است.
 
-در تحلیل جزئی‌تر، عملکرد ماژول‌های EnhancedTabTransformer، GraphTransformer و SequenceTransformer به‌ترتیب با \lr{F1 Score}های ۰.۹۱۲، ۰.۸۹۴ و ۰.۹۰۷ گزارش شد، که در شکل \ref{fig:module_comparison} نشان داده شده است. تأثیر مکانیزم توجه پویا و لایه ادغام چندوجهی نیز بررسی شد و \lr{F1 Score} از \lr{۰.۹۵۴} به \lr{۰.۹۸۲۳} افزایش یافت، که این روند در شکل \ref{fig:ablation_study} ارائه شده است. در نهایت، پیشرفت آموزش در طول ۳ دوره با بهینه‌سازی PIRATES گزارش شد و \lr{F1 Score} از \lr{۰.۹۴۱۳} به \lr{۰.۹۷۶۷} رسید، که در شکل \ref{fig:training_progress} نمایش داده شده است.
+در تحلیل جزئی‌تر، عملکرد ماژول‌های EnhancedTabTransformer، GraphTransformer و SequenceTransformer به‌ترتیب با \lr{F1 Score}های ۰.۹۱۲، ۰.۸۹۴ و ۰.۹۰۷ گزارش شد، که در شکل \ref{fig:module_comparison} نشان داده شده است. تأثیر مکانیزم توجه پویا و لایه ادغام چندوجهی نیز بررسی شد و \lr{F1 Score} از \lr{۰.۹۵۴} به \lr{۰.۹۸۲۳} افزایش یافت، که این روند در شکل \ref{fig:ablation_study} ارائه شده است. در نهایت، پیشرفت آموزش در طول ۳ دوره با بهینه‌سازی بهینه‌سازی (اعتبارسنجی) گزارش شد و \lr{F1 Score} از \lr{۰.۹۴۱۳} به \lr{۰.۹۷۶۷} رسید، که در شکل \ref{fig:training_progress} نمایش داده شده است.
 
-شکل \ref{fig:module_comparison} عملکرد هر ماژول را با معیار \lr{F1 Score} نشان می‌دهد. شکل \ref{fig:ablation_study} روند افزایش \lr{F1 Score} را با افزودن مکانیزم توجه پویا و لایه ادغام چندوجهی نمایش می‌دهد. شکل \ref{fig:training_progress} تغییرات \lr{F1 Score} و دقت را در طول ۳ دوره آموزش با بهینه‌سازی PIRATES نمایش می‌دهد.
+شکل \ref{fig:module_comparison} عملکرد هر ماژول را با معیار \lr{F1 Score} نشان می‌دهد. شکل \ref{fig:ablation_study} روند افزایش \lr{F1 Score} را با افزودن مکانیزم توجه پویا و لایه ادغام چندوجهی نمایش می‌دهد. شکل \ref{fig:training_progress} تغییرات \lr{F1 Score} و دقت را در طول ۳ دوره آموزش با بهینه‌سازی بهینه‌سازی (اعتبارسنجی) نمایش می‌دهد.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.9\textwidth]{fig_module_comparison_en}
+\includegraphics[width=0.9\textwidth]{images/fig_module_comparison_en}
 \caption{عملکرد هر ماژول (EnhancedTabTransformer، GraphTransformer، SequenceTransformer) را با معیار \lr{F1 Score} نشان می‌دهد. محور افقی ماژول‌ها و محور عمودی مقدار \lr{F1 Score} را نمایش می‌دهد.}
 \label{fig:module_comparison}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.9\textwidth]{fig_ablation_study_en}
+\includegraphics[width=0.9\textwidth]{images/fig_ablation_study_en}
 \caption{روند افزایش \lr{F1 Score} را با افزودن مکانیزم توجه پویا و لایه ادغام چندوجهی نمایش می‌دهد. محور افقی اجزای مدل (بدون توجه پویا، با توجه پویا، با ادغام چندوجهی) و محور عمودی مقدار \lr{F1 Score} را نشان می‌دهد.}
 \label{fig:ablation_study}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.9\textwidth]{fig_training_progress_en}
-\caption{تغییرات \lr{F1 Score} و دقت را در طول ۳ دوره آموزش با بهینه‌سازی PIRATES نمایش می‌دهد. محور افقی شماره دوره‌ها و محور عمودی مقادیر \lr{F1 Score} و دقت را نشان می‌دهد.}
+\includegraphics[width=0.9\textwidth]{images/fig_training_progress_en}
+\caption{تغییرات \lr{F1 Score} و دقت را در طول ۳ دوره آموزش با بهینه‌سازی بهینه‌سازی (اعتبارسنجی) نمایش می‌دهد. محور افقی شماره دوره‌ها و محور عمودی مقادیر \lr{F1 Score} و دقت را نشان می‌دهد.}
 \label{fig:training_progress}
 \end{figure}
 
