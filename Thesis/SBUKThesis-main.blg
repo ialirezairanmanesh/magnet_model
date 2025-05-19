@@ -1,15 +1,17 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'SBUKThesis-main.blg'
-[133] biber:340> INFO - === Fri May 16, 2025, 23:48:02
-[192] Biber.pm:420> INFO - Reading 'SBUKThesis-main.bcf'
-[299] Biber.pm:994> INFO - Found 24 citekeys in bib section 0
-[325] Biber.pm:4463> INFO - Processing section 0
-[340] Biber.pm:4654> INFO - Looking for bibtex file 'SBUKThesis-bibliography.bib' for section 0
-[342] bibtex.pm:1713> INFO - LaTeX decoding ...
-[382] bibtex.pm:1519> INFO - Found BibTeX data source 'SBUKThesis-bibliography.bib'
-[750] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[750] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[750] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[750] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[773] bbl.pm:676> INFO - Writing 'SBUKThesis-main.bbl' with encoding 'UTF-8'
-[797] bbl.pm:779> INFO - Output to SBUKThesis-main.bbl
+[1] Config.pm:308> INFO - This is Biber 2.20
+[1] Config.pm:311> INFO - Logfile is 'SBUKThesis-main.blg'
+[166] biber:340> INFO - === Sat May 17, 2025, 11:30:18
+[189] Biber.pm:420> INFO - Reading 'SBUKThesis-main.bcf'
+[304] Biber.pm:994> INFO - Found 30 citekeys in bib section 0
+[337] Biber.pm:4463> INFO - Processing section 0
+[356] Biber.pm:4654> INFO - Looking for bibtex file 'SBUKThesis-bibliography.bib' for section 0
+[361] bibtex.pm:1713> INFO - LaTeX decoding ...
+[418] bibtex.pm:1519> INFO - Found BibTeX data source 'SBUKThesis-bibliography.bib'
+[870] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[870] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[870] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[870] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[908] bbl.pm:676> INFO - Writing 'SBUKThesis-main.bbl' with encoding 'UTF-8'
+[940] bbl.pm:779> INFO - Output to SBUKThesis-main.bbl
+[941] Biber.pm:131> WARN - I didn't find a database entry for 'ThisThesis' (section 0)
+[941] Biber.pm:133> INFO - WARNINGS: 1

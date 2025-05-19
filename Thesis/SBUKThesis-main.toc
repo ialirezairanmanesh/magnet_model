@@ -101,28 +101,34 @@
 \contentsline {section}{\numberline {4-6}نتایج کلی مدل MAGNET}{56}{section.4.6}%
 \contentsline {subsection}{\numberline {4-6-1}ماتریس درهم‌ریختگی و عملکرد به تفکیک کلاس}{56}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4-6-2}نتایج اعتبارسنجی متقاطع}{57}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4-6-3}نتایج آموزش و بهینه‌سازی}{57}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4-7}مقایسه با مدل‌های پایه}{58}{section.4.7}%
-\contentsline {section}{\numberline {4-8}مقایسه با مدل‌های یادگیری ماشین}{59}{section.4.8}%
-\contentsline {section}{\numberline {4-9}تحلیل جزئی‌تر}{60}{section.4.9}%
-\contentsline {section}{\numberline {4-10}جمع‌بندی}{61}{section.4.10}%
-\contentsline {chapter}{\numberline {5}نتیجه گیری و پیشنهادات آتی}{64}{chapter.5}%
-\contentsline {section}{\numberline {5-1}نتیجه‌گیری}{65}{section.5.1}%
-\contentsline {section}{\numberline {5-2}پیشنهادات آتی}{65}{section.5.2}%
-\contentsline {subsection}{\numberline {5-2-1}پژوهش‌های تکمیلی}{65}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5-2-2}پیشنهادات اجرایی}{65}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5-2-3}تولید داده‌های جدید}{66}{subsection.5.2.3}%
-\contentsline {chapter}{\numberline {6}مراجع}{67}{chapter.6}%
-\contentsline {chapter}{پیوست}{71}{chapter.6}%
-\contentsline {section}{\numberline {-1}پیوست A: کدهای پیاده‌سازی مدل MAGNET}{72}{section.Alph0.1}%
-\contentsline {subsection}{\numberline {-1-1}کد معماری مدل MAGNET}{72}{subsection.Alph0.1.1}%
-\contentsline {subsection}{\numberline {-1-2}کد بهینه‌سازی با PIRATES}{73}{subsection.Alph0.1.2}%
-\contentsline {section}{\numberline {-2}پیوست \lr {B}: داده‌های خام و پیش‌پردازش}{74}{section.Alph0.2}%
-\contentsline {subsection}{\numberline {-2-1}نمونه داده‌های خام DREBIN}{74}{subsection.Alph0.2.1}%
-\contentsline {subsection}{\numberline {-2-2}توضیحات پیش‌پردازش}{75}{subsection.Alph0.2.2}%
-\contentsline {section}{\numberline {-3}پیوست \lr {C}: جزئیات سخت‌افزاری و نرم‌افزاری}{75}{section.Alph0.3}%
-\contentsline {subsection}{\numberline {-3-1}مشخصات سخت‌افزاری}{75}{subsection.Alph0.3.1}%
-\contentsline {subsection}{\numberline {-3-2}مشخصات نرم‌افزاری}{75}{subsection.Alph0.3.2}%
-\contentsline {section}{\numberline {-4}پیوست \lr {D}: نتایج اضافی و ماتریس‌های کامل}{76}{section.Alph0.4}%
-\contentsline {subsection}{\numberline {-4-1}ماتریس درهم‌ریختگی کامل}{76}{subsection.Alph0.4.1}%
-\contentsline {subsection}{\numberline {-4-2}گزارش طبقه‌بندی برای هر دسته}{76}{subsection.Alph0.4.2}%
+\contentsline {subsection}{\numberline {4-6-3}تحلیل عملکرد کلی مدل در مراحل مختلف}{58}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4-7}مقایسه با روش‌های پایه و پیشرفته}{60}{section.4.7}%
+\contentsline {subsection}{\numberline {4-7-1}مقایسه با روش‌های پایه}{60}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4-7-2}مقایسه با روش‌های پیشرفته}{60}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4-7-3}تحلیل مقایسه با روش‌های پیشرفته}{61}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4-7-4}نتایج مقایسه با روش‌های پایه}{62}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4-7-5}تحلیل عملکرد ماژول‌های مدل}{63}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4-7-6}مطالعه حذف اجزا}{63}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4-7-7}روند آموزش}{64}{subsection.4.7.7}%
+\contentsline {section}{\numberline {4-8}جمع‌بندی}{64}{section.4.8}%
+\contentsline {chapter}{\numberline {5}نتیجه‌گیری و پیشنهادات آتی}{67}{chapter.5}%
+\contentsline {section}{\numberline {5-1}نتیجه‌گیری}{68}{section.5.1}%
+\contentsline {section}{\numberline {5-2}پیشنهادات آتی}{69}{section.5.2}%
+\contentsline {subsection}{\numberline {5-2-1}پژوهش‌های تکمیلی}{69}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5-2-2}پیشنهادات اجرایی}{70}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5-2-3}تولید داده‌های جدید}{70}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5-2-4}تحلیل‌های آینده}{70}{subsection.5.2.4}%
+\contentsline {chapter}{\numberline {6}مراجع}{72}{chapter.6}%
+\contentsline {chapter}{پیوست}{77}{chapter.6}%
+\contentsline {section}{\numberline {-1}پیوست A: کدهای پیاده‌سازی مدل MAGNET}{78}{section.Alph0.1}%
+\contentsline {subsection}{\numberline {-1-1}کد معماری مدل MAGNET}{78}{subsection.Alph0.1.1}%
+\contentsline {subsection}{\numberline {-1-2}کد بهینه‌سازی با PIRATES}{79}{subsection.Alph0.1.2}%
+\contentsline {section}{\numberline {-2}پیوست \lr {B}: داده‌های خام و پیش‌پردازش}{80}{section.Alph0.2}%
+\contentsline {subsection}{\numberline {-2-1}نمونه داده‌های خام DREBIN}{80}{subsection.Alph0.2.1}%
+\contentsline {subsection}{\numberline {-2-2}توضیحات پیش‌پردازش}{81}{subsection.Alph0.2.2}%
+\contentsline {section}{\numberline {-3}پیوست \lr {C}: جزئیات سخت‌افزاری و نرم‌افزاری}{81}{section.Alph0.3}%
+\contentsline {subsection}{\numberline {-3-1}مشخصات سخت‌افزاری}{81}{subsection.Alph0.3.1}%
+\contentsline {subsection}{\numberline {-3-2}مشخصات نرم‌افزاری}{81}{subsection.Alph0.3.2}%
+\contentsline {section}{\numberline {-4}پیوست \lr {D}: نتایج اضافی و ماتریس‌های کامل}{82}{section.Alph0.4}%
+\contentsline {subsection}{\numberline {-4-1}ماتریس درهم‌ریختگی کامل}{82}{subsection.Alph0.4.1}%
+\contentsline {subsection}{\numberline {-4-2}گزارش طبقه‌بندی برای هر دسته}{82}{subsection.Alph0.4.2}%

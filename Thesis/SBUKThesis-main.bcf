@@ -2432,23 +2432,18 @@
     <bcf:citekey order="59" intorder="1">Alsaleh2023</bcf:citekey>
     <bcf:citekey order="60" intorder="1">TransformerMalware</bcf:citekey>
     <bcf:citekey order="61" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">Optuna2019</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">Drebin</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">Alsaleh2023</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">TransformerMalware</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">ZhangNix2017</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">Optuna2019</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">GooglePlayProtect</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">Alsaleh2023</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Drebin</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">Alsaleh2023</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">TransformerMalware</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">AndroZoo</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">Optuna2019</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">GooglePlayProtect</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">CICMalDroid</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">VirusShare</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
