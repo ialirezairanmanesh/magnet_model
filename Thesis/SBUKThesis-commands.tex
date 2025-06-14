@@ -1,5 +1,6 @@
 % !TeX root=SBUKThesis-main.tex
-\usepackage{natbib}	
+% بسته natbib حذف شد زیرا با biblatex تداخل دارد
+%\usepackage{natbib}	
 \usepackage{longtable}
 \usepackage{setspace}
 %بسته های برای تایپ متون ریاضی و محیط های شماره دار
@@ -18,7 +19,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % بسته‌‌ای برای ظاهر شدن شکل‌ها و تصاویر متن
 \usepackage{graphicx}
-\usepackage{svg}
+%\usepackage{svg} % کامنت شد تا مشکل xcolor برطرف شود
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % بسته‌ای برای رسم کادر
 \usepackage{framed}
@@ -39,6 +40,13 @@
 %برای حروف چینی محیط شعر پارسی
 \usepackage{bidipoem}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% بسته مورد نیاز برای نوشتن کدهای برنامه نویسی در نوشتار و رنگ
+\usepackage{listings}
+% تعریف رنگ‌ها و گزینه‌های xcolor
+\usepackage[table]{xcolor}
+\definecolor{Blue}{rgb}{0,0,.55}
+\definecolor{mybluecolor}{HTML}{80C4E9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
 \usepackage[colorlinks=true,linkcolor=Blue,urlcolor=Blue,citecolor=Blue]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -53,10 +61,6 @@
 \usepackage[nottoc,notlof,notlot]{tocbibind}
 \usepackage{appendix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% بسته مورد نیاز برای نوشتن کدهای برنامه نویسی در نوشتار و رنگ
-\usepackage{listings}
-\usepackage{color}
-\definecolor{Blue}{rgb}{0,0,.55}
 %%تنظیمات مورد نظر خروجی بسته listings
 \lstset{
 	tabsize=6,%4
@@ -87,15 +91,9 @@ tabsize=1
 \usepackage{array}
 \usepackage{courier}
 \usepackage{multirow}
-\usepackage{array}
 \usepackage{float}
-\usepackage{hyperref}
-\usepackage[table]{xcolor}
-\definecolor{mybluecolor}{HTML}{80C4E9}
 \usepackage[most, breakable]{tcolorbox}
 %%%%%%%%%%%%%%%%%%
-
-
 
 % فراخوانی بسته زی‌پرشین و تعریف قلم فارسی و انگلیسی
 \usepackage[extrafootnotefeatures]{xepersian}

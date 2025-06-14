@@ -1,23 +1,22 @@
-\vspace {-1.5cm}\textbf {عنوان}~\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
+\vspace {-1.5cm}\textbf {عنوان}\nobreakspace {}\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2-1}{\ignorespaces ساختار کلی یک شبکه عصبی کانولوشنی (CNN): ابتدا تصویر ورودی یا ماتریس ویژگی وارد شبکه می‌شود. در مرحله استخراج ویژگی، لایه‌های کانولوشنی و تجمعی به ترتیب ویژگی‌های محلی را استخراج و ابعاد داده را کاهش می‌دهند. سپس داده‌ها به یک بردار یک‌بعدی تبدیل شده (Flattening) و وارد لایه‌های کاملاً متصل می‌شوند تا فرایند طبقه‌بندی نهایی انجام گیرد. این ساختار باعث می‌شود شبکه بتواند به صورت خودکار و بدون نیاز به مهندسی ویژگی دستی، الگوهای پیچیده را شناسایی کند. برگرفته از \blx@tocontentsinit {0}\cite {Alsaleh2023}.}}{16}{figure.caption.6}%
-\contentsline {figure}{\numberline {2-2}{\ignorespaces نمایی از یک مدل شبکه عصبی گرافی (GNN): ابتدا گراف ورودی (با ویژگی‌های اولیه گره‌ها و ساختار اتصالات) به مدل داده می‌شود. سپس در چندین بلوک GNN (لایه)، اطلاعات گره‌ها با تجمیع اطلاعات از همسایگان و به‌روزرسانی با استفاده از شبکه‌های عصبی کوچک، به‌طور مکرر پالایش می‌شود تا بازنمایی‌های غنی‌تری (گراف تبدیل‌شده) حاصل شود. در نهایت، این بازنمایی‌ها می‌توانند برای وظایف مختلف مانند طبقه‌بندی کل گراف (مثلاً بدافزار/سالم)، طبقه‌بندی گره‌ها (مثلاً شناسایی توابع مخرب) یا پیش‌بینی لبه‌ها استفاده شوند. برگرفته و بازطراحی‌شده بر اساس \blx@tocontentsinit {0}\cite {sanchez-lengeling2021a}.}}{18}{figure.caption.7}%
-\contentsline {figure}{\numberline {2-3}{\ignorespaces ساختار کلی معماری ترنسفورمر شامل بخش کدگذار (Encoder) در سمت چپ و گشاینده (Decoder) در سمت راست. هر دو بخش از پشته‌ای از لایه‌های یکسان تشکیل شده‌اند که عمدتاً شامل مکانیزم توجه چندسر (Multi-Head Attention) و شبکه‌های عصبی پیش‌خور (Feed Forward) هستند. اتصالات باقیمانده (Add) و نرمال‌سازی لایه‌ای (Norm) نیز برای پایداری آموزش استفاده می‌شوند. گشاینده علاوه بر توجه خودی، از توجه متقابل (Cross-Attention) برای در نظر گرفتن خروجی کدگذار نیز بهره می‌برد. این معماری امکان پردازش موازی و مدل‌سازی وابستگی‌های بلندمدت را فراهم می‌کند. برگرفته و بازطراحی‌شده بر اساس \blx@tocontentsinit {0}\cite {attention}.}}{20}{figure.caption.8}%
+\contentsline {figure}{\numberline {2-1}{\ignorespaces ساختار کلی شبکه عصبی کانولوشنی (CNN) شامل لایه‌های کانولوشنی، تجمعی و کاملاً متصل برای طبقه‌بندی. برگرفته از \blx@tocontentsinit {0}\cite {Alsaleh2023}.\relax }}{16}{figure.caption.6}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces ساختار شبکه عصبی گرافی (GNN) برای پردازش داده‌های گرافی و طبقه‌بندی. برگرفته از \blx@tocontentsinit {0}\cite {sanchez-lengeling2021a}.\relax }}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces معماری ترنسفورمر شامل کدگذار و گشاینده با مکانیزم توجه چندسر. برگرفته از \blx@tocontentsinit {0}\cite {attention}.\relax }}{20}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces معماری مدل MAGNET شامل سه ماژول تخصصی (EnhancedTabTransformer، GraphTransformer، SequenceTransformer)، لایه ادغام چندوجهی و طبقه‌بند باینری.}}{39}{figure.caption.9}%
+\contentsline {figure}{\numberline {3-1}{\ignorespaces معماری کلی مدل MAGNET.\relax }}{40}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces نمایش موقعیت کشتی‌ها (Ships)، رهبر (Leader)، نقشه (Map)، کشتی‌های برتر (\lr {Top Ships}) و کشتی‌های غیرهمگرا (Un-Conv) در فضای جستجو.}}{49}{figure.caption.10}%
-\contentsline {figure}{\numberline {4-2}{\ignorespaces روند تغییر بهترین مقدار هزینه (BSF)، میانگین هزینه (Average)، مقایسه BSF و Average و مسیر رهبر (Trajectory) در طول تکرارها.}}{50}{figure.caption.11}%
-\contentsline {figure}{\numberline {4-3}{\ignorespaces تغییرات سرعت (Velocity)، باد (Wind)، نیروی محرکه (F) و شتاب (Acceleration) کشتی‌ها در طول تکرارها.}}{51}{figure.caption.12}%
-\contentsline {figure}{\numberline {4-4}{\ignorespaces مقایسه معیارهای F1 Score، دقت و AUC در اعتبارسنجی متقاطع 5-تایی مدل MAGNET. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار در هر دسته از اعتبارسنجی متقاطع است.}}{58}{figure.caption.14}%
-\contentsline {figure}{\numberline {4-5}{\ignorespaces تغییرات زیان در اعتبارسنجی متقاطع 5-تایی مدل MAGNET. نمودار خطی نشان‌دهنده مقدار زیان در هر دسته از اعتبارسنجی متقاطع است.}}{58}{figure.caption.15}%
-\contentsline {figure}{\numberline {4-6}{\ignorespaces مقایسه کلی عملکرد مدل MAGNET در مراحل مختلف. نمودار میله‌ای نشان‌دهنده مقادیر \lr {F1 Score}، دقت و AUC در هر مرحله است.}}{59}{figure.caption.17}%
-\contentsline {figure}{\numberline {4-7}{\ignorespaces مقایسه دقت روش‌های مختلف. نمودار میله‌ای نشان‌دهنده مقادیر دقت برای هر روش است.}}{62}{figure.caption.19}%
-\contentsline {figure}{\numberline {4-8}{\ignorespaces مقایسه F1 Score و AUC روش‌های مختلف. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار برای هر روش است.}}{62}{figure.caption.20}%
-\contentsline {figure}{\numberline {4-9}{\ignorespaces مقایسه \lr {F1 Score} و AUC مدل MAGNET با سایر مدل‌های یادگیری ماشین. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار برای هر مدل است. برتری مدل MAGNET در هر دو معیار به وضوح قابل مشاهده است.}}{63}{figure.caption.22}%
-\contentsline {figure}{\numberline {4-10}{\ignorespaces عملکرد هر ماژول (EnhancedTabTransformer، GraphTransformer، SequenceTransformer) را با معیار \lr {F1 Score} نشان می‌دهد. این نمودار به درک سهم هر ماژول در عملکرد کلی مدل کمک می‌کند.}}{65}{figure.caption.23}%
-\contentsline {figure}{\numberline {4-11}{\ignorespaces روند افزایش \lr {F1 Score} را با افزودن مکانیزم توجه پویا و لایه ادغام چندوجهی نمایش می‌دهد. این نمودار اهمیت هر یک از این اجزا را در بهبود عملکرد مدل نشان می‌دهد.}}{65}{figure.caption.24}%
-\contentsline {figure}{\numberline {4-12}{\ignorespaces تغییرات \lr {F1 Score} و دقت را در طول ۳ دوره آموزش نمایش می‌دهد. این نمودار نشان می‌دهد که مدل به سرعت همگرا می‌شود و عملکرد پایدار دارد.}}{66}{figure.caption.25}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces نمایش اجزای الگوریتم PIRATES در فضای جستجو.\relax }}{50}{figure.caption.10}%
+\contentsline {figure}{\numberline {4-2}{\ignorespaces روند همگرایی الگوریتم PIRATES.\relax }}{51}{figure.caption.11}%
+\contentsline {figure}{\numberline {4-3}{\ignorespaces تغییرات پارامترهای الگوریتم PIRATES در طول تکرارها.\relax }}{52}{figure.caption.12}%
+\contentsline {figure}{\numberline {4-4}{\ignorespaces نتایج اعتبارسنجی متقاطع ۵-تایی مدل MAGNET.\relax }}{58}{figure.caption.14}%
+\contentsline {figure}{\numberline {4-5}{\ignorespaces تغییرات زیان در اعتبارسنجی متقاطع ۵-تایی.\relax }}{59}{figure.caption.15}%
+\contentsline {figure}{\numberline {4-6}{\ignorespaces مقایسه عملکرد مدل MAGNET در مراحل مختلف.\relax }}{59}{figure.caption.17}%
+\contentsline {figure}{\numberline {4-7}{\ignorespaces مقایسه دقت روش‌های مختلف.\relax }}{62}{figure.caption.19}%
+\contentsline {figure}{\numberline {4-8}{\ignorespaces مقایسه F1 Score و AUC روش‌های مختلف.\relax }}{63}{figure.caption.20}%
+\contentsline {figure}{\numberline {4-9}{\ignorespaces مقایسه F1 Score و AUC مدل MAGNET با سایر مدل‌ها.\relax }}{64}{figure.caption.22}%
+\contentsline {figure}{\numberline {4-10}{\ignorespaces عملکرد ماژول‌های مختلف مدل MAGNET.\relax }}{65}{figure.caption.23}%
+\contentsline {figure}{\numberline {4-11}{\ignorespaces تأثیر مکانیزم توجه پویا و لایه ادغام چندوجهی بر عملکرد.\relax }}{66}{figure.caption.24}%
+\contentsline {figure}{\numberline {4-12}{\ignorespaces روند آموزش مدل در طول ۳ دوره.\relax }}{66}{figure.caption.25}%
 \addvspace {10\p@ }

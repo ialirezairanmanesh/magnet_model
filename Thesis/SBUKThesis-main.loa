@@ -1,7 +1,7 @@
-\vspace {-1.5cm}\textbf {عنوان}~\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
-\contentsline {algorithm}{\numberline {3-1}{\ignorespaces EnhancedTabTransformer Module Structure}}{40}{algorithm.1}%
-\contentsline {algorithm}{\numberline {3-2}{\ignorespaces GraphTransformer Module Structure}}{41}{algorithm.2}%
-\contentsline {algorithm}{\numberline {3-3}{\ignorespaces SequenceTransformer Module Structure}}{41}{algorithm.3}%
-\contentsline {algorithm}{\numberline {3-4}{\ignorespaces Dynamic Attention Mechanism}}{41}{algorithm.4}%
-\contentsline {algorithm}{\numberline {3-5}{\ignorespaces Modality Fusion}}{42}{algorithm.5}%
-\contentsline {algorithm}{\numberline {3-6}{\ignorespaces Final MAGNET Model}}{42}{algorithm.6}%
+\vspace {-1.5cm}\textbf {عنوان}\nobreakspace {}\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
+\contentsline {algorithm}{\numberline {3-1}{\ignorespaces EnhancedTabTransformer Module Structure\relax }}{41}{algorithm.1}%
+\contentsline {algorithm}{\numberline {3-2}{\ignorespaces GraphTransformer Module Structure\relax }}{41}{algorithm.2}%
+\contentsline {algorithm}{\numberline {3-3}{\ignorespaces SequenceTransformer Module Structure\relax }}{42}{algorithm.3}%
+\contentsline {algorithm}{\numberline {3-4}{\ignorespaces Dynamic Attention Mechanism\relax }}{42}{algorithm.4}%
+\contentsline {algorithm}{\numberline {3-5}{\ignorespaces Modality Fusion\relax }}{43}{algorithm.5}%
+\contentsline {algorithm}{\numberline {3-6}{\ignorespaces Final MAGNET Model\relax }}{43}{algorithm.6}%

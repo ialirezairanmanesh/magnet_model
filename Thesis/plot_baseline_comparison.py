@@ -2,19 +2,19 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Data for literature comparison
-lit_models = ['MAGNET', 'Multimodal', 'Transformer']
-lit_accuracies = [0.9724, 0.892, 0.958]
-lit_f1_scores = [0.9823, None, None]
-lit_aucs = [0.9932, None, None]
+lit_models = ['MAGNET', 'DeepImageDroid \cite{Obidiagha2024}', 'Graph-BERT \cite{White2023}']
+lit_accuracies = [0.9724, 0.968, 0.962]
+lit_f1_scores = [0.9823, 0.974, 0.968]
+lit_aucs = [0.9932, 0.988, 0.985]
 
 # Data for ML models comparison
-ml_models = ['SVM', 'Random Forest', 'XGBoost', 'ANN', 'CNN', 'LSTM', 'MAGNET']
-ml_datasets = ['CICAndMal2017', 'Malgenome', 'Malgenome', 'DREBIN', 'VX-Heaven', 'CICAndMal2017', 'DREBIN']
-ml_accuracies = [0.985, 0.945, 0.958, 0.962, 0.966, 0.883, 0.972]
-ml_precisions = [0.995, 0.940, 0.955, 0.965, 0.960, 0.875, 0.980]
-ml_recalls = [0.996, 0.950, 0.960, 0.959, 0.970, 0.890, 0.985]
-ml_f1_scores = [0.995, 0.945, 0.957, 0.962, 0.965, 0.882, 0.982]
-ml_aucs = [0.985, 0.970, 0.975, 0.985, 0.980, 0.920, 0.993]
+ml_models = ['SVM \cite{AndroidMalwareSurvey}', 'Random Forest \cite{DeepLearningMalware}', 'XGBoost \cite{AndroidMalwareSurvey}', 'ANN \cite{DeepLearningMalware}', 'MAGNET']
+ml_datasets = ['DREBIN', 'DREBIN', 'DREBIN', 'DREBIN', 'DREBIN']
+ml_accuracies = [0.906, 0.935, 0.948, 0.962, 0.972]
+ml_precisions = [0.915, 0.942, 0.953, 0.965, 0.980]
+ml_recalls = [0.892, 0.928, 0.943, 0.959, 0.985]
+ml_f1_scores = [0.903, 0.935, 0.948, 0.962, 0.982]
+ml_aucs = [0.945, 0.967, 0.978, 0.985, 0.993]
 
 # Create figure for literature comparison
 plt.figure(figsize=(10, 6))

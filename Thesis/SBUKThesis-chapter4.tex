@@ -59,7 +59,7 @@
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{images/pirates_positions.png}
-    \caption{نمایش موقعیت کشتی‌ها (Ships)، رهبر (Leader)، نقشه (Map)، کشتی‌های برتر (\lr{Top Ships}) و کشتی‌های غیرهمگرا (Un-Conv) در فضای جستجو.}
+    \caption{نمایش اجزای الگوریتم PIRATES در فضای جستجو.}
     \label{fig:pirates_positions}
 \end{figure}
 
@@ -69,7 +69,7 @@
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{images/pirates_bsf_avg_trajectory.png}
-    \caption{روند تغییر بهترین مقدار هزینه (BSF)، میانگین هزینه (Average)، مقایسه BSF و Average و مسیر رهبر (Trajectory) در طول تکرارها.}
+    \caption{روند همگرایی الگوریتم PIRATES.}
     \label{fig:pirates_bsf_avg_trajectory}
 \end{figure}
 
@@ -86,7 +86,7 @@
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{images/pirates_wind_velocity.png}
-    \caption{تغییرات سرعت (Velocity)، باد (Wind)، نیروی محرکه (F) و شتاب (Acceleration) کشتی‌ها در طول تکرارها.}
+    \caption{تغییرات پارامترهای الگوریتم PIRATES در طول تکرارها.}
     \label{fig:pirates_wind_velocity}
 \end{figure}
 
@@ -188,7 +188,7 @@
     \item \textbf{روش‌های یادگیری ماشین کلاسیک}:
     \begin{itemize}
         \item ماشین بردار پشتیبان (\lr{SVM}) با کرنل \lr{RBF}
-        \item جنگل تصادفی (\lr{Random Forest}) با \lr{100} درخت
+        \item جنگل تصادفی \LTRfootnote{Random Forest} با \lr{100} درخت
         \item \lr{XGBoost} با \lr{100} درخت و عمق حداکثر \lr{6}
         \item شبکه عصبی مصنوعی (\lr{ANN}) با دو لایه مخفی
     \end{itemize}
@@ -292,14 +292,14 @@ Recall نسبت نمونه‌های درست مثبت به کل نمونه‌ه�
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{fig_cv_metrics}
-    \caption{مقایسه معیارهای F1 Score، دقت و AUC در اعتبارسنجی متقاطع 5-تایی مدل MAGNET. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار در هر دسته از اعتبارسنجی متقاطع است.}
+    \caption{نتایج اعتبارسنجی متقاطع ۵-تایی مدل MAGNET.}
     \label{fig:cv_metrics}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{fig_cv_loss}
-    \caption{تغییرات زیان در اعتبارسنجی متقاطع 5-تایی مدل MAGNET. نمودار خطی نشان‌دهنده مقدار زیان در هر دسته از اعتبارسنجی متقاطع است.}
+    \caption{تغییرات زیان در اعتبارسنجی متقاطع ۵-تایی.}
     \label{fig:cv_loss}
 \end{figure}
 
@@ -327,7 +327,7 @@ Recall نسبت نمونه‌های درست مثبت به کل نمونه‌ه�
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{fig_overall_comparison}
-    \caption{مقایسه کلی عملکرد مدل MAGNET در مراحل مختلف. نمودار میله‌ای نشان‌دهنده مقادیر \lr{F1 Score}، دقت و AUC در هر مرحله است.}
+    \caption{مقایسه عملکرد مدل MAGNET در مراحل مختلف.}
     \label{fig:overall_comparison}
 \end{figure}
 
@@ -355,7 +355,7 @@ Recall نسبت نمونه‌های درست مثبت به کل نمونه‌ه�
 برای ارزیابی عملکرد مدل MAGNET، ابتدا آن را با روش‌های یادگیری ماشین کلاسیک مقایسه می‌کنیم. این مقایسه شامل:
 \begin{itemize}
     \item \textbf{ماشین بردار پشتیبان (SVM)}: به عنوان یکی از روش‌های پایه در تشخیص بدافزار که به دلیل عملکرد خوب در فضاهای با ابعاد بالا و مقاومت نسبی در برابر بیش‌برازش، به‌طور گسترده‌ای استفاده می‌شود.
-    \item \textbf{جنگل تصادفی (Random Forest)}: به عنوان یک روش یادگیری گروهی که از ترکیب چندین درخت تصمیم استفاده می‌کند.
+    \item \textbf{جنگل تصادفی \lr{(Random Forest)}}: به عنوان یک روش یادگیری گروهی که از ترکیب چندین درخت تصمیم استفاده می‌کند.
     \item \textbf{XGBoost}: به عنوان یک روش پیشرفته‌تر یادگیری گروهی که از گرادیان‌بوستینگ استفاده می‌کند.
     \item \textbf{شبکه عصبی مصنوعی (ANN)}: به عنوان یک روش یادگیری عمیق ساده با دو لایه مخفی.
 \end{itemize}
@@ -412,14 +412,14 @@ Recall نسبت نمونه‌های درست مثبت به کل نمونه‌ه�
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{images/fig_literature_comparison_accuracy}
-    \caption{مقایسه دقت روش‌های مختلف. نمودار میله‌ای نشان‌دهنده مقادیر دقت برای هر روش است.}
+    \caption{مقایسه دقت روش‌های مختلف.}
     \label{fig:literature_comparison_accuracy}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{images/fig_literature_comparison_metrics}
-    \caption{مقایسه F1 Score و AUC روش‌های مختلف. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار برای هر روش است.}
+    \caption{مقایسه F1 Score و AUC روش‌های مختلف.}
     \label{fig:literature_comparison_metrics}
 \end{figure}
 
@@ -455,7 +455,7 @@ Recall نسبت نمونه‌های درست مثبت به کل نمونه‌ه�
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.9\textwidth]{images/fig_baseline_metrics_comparison}
-    \caption{مقایسه \lr{F1 Score} و AUC مدل MAGNET با سایر مدل‌های یادگیری ماشین. نمودار میله‌ای نشان‌دهنده مقادیر هر معیار برای هر مدل است. برتری مدل MAGNET در هر دو معیار به وضوح قابل مشاهده است.}
+    \caption{مقایسه F1 Score و AUC مدل MAGNET با سایر مدل‌ها.}
     \label{fig:baseline_comparison}
 \end{figure}
 
@@ -478,21 +478,21 @@ Recall نسبت نمونه‌های درست مثبت به کل نمونه‌ه�
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.9\textwidth]{images/fig_module_comparison_en}
-\caption{عملکرد هر ماژول (EnhancedTabTransformer، GraphTransformer، SequenceTransformer) را با معیار \lr{F1 Score} نشان می‌دهد. این نمودار به درک سهم هر ماژول در عملکرد کلی مدل کمک می‌کند.}
+    \caption{عملکرد ماژول‌های مختلف مدل MAGNET.}
 \label{fig:module_comparison}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.9\textwidth]{images/fig_ablation_study_en}
-\caption{روند افزایش \lr{F1 Score} را با افزودن مکانیزم توجه پویا و لایه ادغام چندوجهی نمایش می‌دهد. این نمودار اهمیت هر یک از این اجزا را در بهبود عملکرد مدل نشان می‌دهد.}
+    \caption{تأثیر مکانیزم توجه پویا و لایه ادغام چندوجهی بر عملکرد.}
 \label{fig:ablation_study}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.9\textwidth]{images/fig_training_progress_en}
-\caption{تغییرات \lr{F1 Score} و دقت را در طول ۳ دوره آموزش نمایش می‌دهد. این نمودار نشان می‌دهد که مدل به سرعت همگرا می‌شود و عملکرد پایدار دارد.}
+    \caption{روند آموزش مدل در طول ۳ دوره.}
 \label{fig:training_progress}
 \end{figure}
 
