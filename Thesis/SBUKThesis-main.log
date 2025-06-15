@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  15 JUN 2025 10:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  15 JUN 2025 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1744,8 +1744,8 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 (./SBUKThesis-student.aux) (./SBUKThesis-dedication.aux)
 (./SBUKThesis-acknowledgments.aux) (./SBUKThesis-persian-abstract.aux)
 (./SBUKThesis-chapter1.aux) (./SBUKThesis-chapter2.aux)
-(./SBUKThesis-chapter6.aux) (./SBUKThesis-chapter3.aux)
-(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
+(./SBUKThesis-chapter3.aux) (./SBUKThesis-chapter4.aux)
+(./SBUKThesis-chapter5.aux) (./SBUKThesis-chapter6.aux)
 (./SBUKThesis-references.aux) (./SBUKThesis-peyvast.aux)
 (./SBUKThesis-appendix1.aux) (./lasttable.aux)
 (./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
@@ -1996,104 +1996,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--39
 ]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 15.0pt on input line 41.
- (./SBUKThesis-main.toc
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.92004pt on input line 28.
- [8
+ (./SBUKThesis-main.toc [8
 
 
 ]
-Overfull \hbox (3.28125pt too wide) detected at line 31
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۶-‏۰-‏۱ 
- []
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.92004pt on input line 41.
 
-
-Overfull \hbox (3.28125pt too wide) detected at line 34
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۸-‏۰-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 35
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۸-‏۰-‏۲ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 36
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۸-‏۰-‏۳ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 48
-\TU/XBZar(0)/m/n/12 ۲-‏۳-‏۴-‏۳-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 54
-\TU/XBZar(0)/m/n/12 ۲-‏۴-‏۱-‏۳-‏۱ 
- []
-
-[9]
-Overfull \hbox (3.28125pt too wide) detected at line 59
-\TU/XBZar(0)/m/n/12 ۲-‏۴-‏۲-‏۳-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 60
-\TU/XBZar(0)/m/n/12 ۲-‏۴-‏۲-‏۳-‏۲ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 83
+Overfull \hbox (3.28125pt too wide) detected at line 55
 \TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۱ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 84
+Overfull \hbox (3.28125pt too wide) detected at line 56
 \TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۲ 
  []
 
-[10]
-Overfull \hbox (3.28125pt too wide) detected at line 85
+[9]
+Overfull \hbox (3.28125pt too wide) detected at line 57
 \TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۳ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 86
+Overfull \hbox (3.28125pt too wide) detected at line 58
 \TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۴ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 87
+Overfull \hbox (3.28125pt too wide) detected at line 59
 \TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۵ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 88
+Overfull \hbox (3.28125pt too wide) detected at line 60
 \TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۶ 
  []
 
-[11] [12])
+[10] [11])
 \tf@toc=\write6
 \openout6 = `SBUKThesis-main.toc'.
 
- [13] (./SBUKThesis-main.lot)
+ [12] (./SBUKThesis-main.lot)
 \tf@lot=\write7
 \openout7 = `SBUKThesis-main.lot'.
 
- [14
+ [13
 
 ] (./SBUKThesis-main.lof)
 \tf@lof=\write8
 \openout8 = `SBUKThesis-main.lof'.
 
- [15
+ [14
 
 ]
 (./SBUKThesis-main.loa)
 \tf@loa=\write9
 \openout9 = `SBUKThesis-main.loa'.
 
- [16
+ [15
 
 
 ]
@@ -2187,9 +2147,9 @@ Overfull \hbox (9.24446pt too wide) in paragraph at lines 395--396
  []
 
 ) [34]
-\openout2 = `SBUKThesis-chapter6.aux'.
+\openout2 = `SBUKThesis-chapter3.aux'.
 
- (./SBUKThesis-chapter6.tex
+ (./SBUKThesis-chapter3.tex
 فصل 3.
 [35
 
@@ -2200,9 +2160,9 @@ Overfull \hbox (9.24446pt too wide) in paragraph at lines 395--396
 ] [36
 
 ]) [37]
-\openout2 = `SBUKThesis-chapter3.aux'.
+\openout2 = `SBUKThesis-chapter4.aux'.
 
- (./SBUKThesis-chapter3.tex
+ (./SBUKThesis-chapter4.tex
 فصل 4.
 [38
 
@@ -2256,9 +2216,9 @@ Overfull \hbox (0.15298pt too wide) in paragraph at lines 276--277
  []
 
 [48]) [49]
-\openout2 = `SBUKThesis-chapter4.aux'.
+\openout2 = `SBUKThesis-chapter5.aux'.
 
- (./SBUKThesis-chapter4.tex
+ (./SBUKThesis-chapter5.tex
 فصل 5.
 [50
 
@@ -3068,9 +3028,9 @@ File: images/fig_training_progress_en.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [68] [69]
-\openout2 = `SBUKThesis-chapter5.aux'.
+\openout2 = `SBUKThesis-chapter6.aux'.
 
- (./SBUKThesis-chapter5.tex
+ (./SBUKThesis-chapter6.tex
 فصل 6.
 [70
 
@@ -3381,8 +3341,8 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (./SBUKThesis-student.aux) (./SBUKThesis-dedication.aux)
 (./SBUKThesis-acknowledgments.aux) (./SBUKThesis-persian-abstract.aux)
 (./SBUKThesis-chapter1.aux) (./SBUKThesis-chapter2.aux)
-(./SBUKThesis-chapter6.aux) (./SBUKThesis-chapter3.aux)
-(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
+(./SBUKThesis-chapter3.aux) (./SBUKThesis-chapter4.aux)
+(./SBUKThesis-chapter5.aux) (./SBUKThesis-chapter6.aux)
 (./SBUKThesis-references.aux) (./SBUKThesis-peyvast.aux)
 (./SBUKThesis-appendix1.aux) (./lasttable.aux)
 (./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
@@ -3393,19 +3353,36 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
-(rerunfilecheck)             Checksum: 7BED6BA4D6FD6B37CFA5B72DE5D30B11;32050.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `SBUKThesis-main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SBUKThesis-main.out':
+(rerunfilecheck)             Before: 658930B51D56BA6E51C3A4F5D21A5C3B;25951
+(rerunfilecheck)             After:  7BED6BA4D6FD6B37CFA5B72DE5D30B11;32050.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                SBUKThesis-main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'SBUKThesis-main.run.xml'.
 \openout1 = `SBUKThesis-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44802 strings out of 476191
- 954729 string characters out of 5812073
- 2077551 words of memory out of 5000000
- 64501 multiletter control sequences out of 15000+600000
+ 44794 strings out of 476191
+ 954562 string characters out of 5812073
+ 2069583 words of memory out of 5000000
+ 64493 multiletter control sequences out of 15000+600000
  483390 words of font info for 153 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  98i,13n,104p,4868b,5104s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SBUKThesis-main.pdf (105 pages).
+Output written on SBUKThesis-main.pdf (104 pages).
