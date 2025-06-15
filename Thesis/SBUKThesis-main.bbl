@@ -63,8 +63,8 @@
       \strng{authorbibnamehash}{91874167cfe24c703f2ab04c86687ac0}
       \strng{authornamehash}{91874167cfe24c703f2ab04c86687ac0}
       \strng{authorfullhash}{d0591a6e9048ff6e99eea56677e035a4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
@@ -107,8 +107,8 @@
       \strng{authorbibnamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
       \strng{authornamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
       \strng{authorfullhash}{62b993fdfdafbda78ac571267067b09c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACM Computing Surveys}
@@ -146,8 +146,8 @@
       \strng{authorbibnamehash}{1459e37648a1b479eb9cb425acc2d26b}
       \strng{authornamehash}{1459e37648a1b479eb9cb425acc2d26b}
       \strng{authorfullhash}{1459e37648a1b479eb9cb425acc2d26b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Security}
@@ -194,8 +194,8 @@
       \strng{authorbibnamehash}{f14f102b70056ab687ebe185a89008f2}
       \strng{authornamehash}{f14f102b70056ab687ebe185a89008f2}
       \strng{authorfullhash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 21st Annual Network and Distributed System Security Symposium (NDSS)}
@@ -234,8 +234,8 @@
       \strng{authorbibnamehash}{039021cc34bd1cf081b4f2e48bda60e3}
       \strng{authornamehash}{039021cc34bd1cf081b4f2e48bda60e3}
       \strng{authorfullhash}{dd0277515a7ac71922e5554a039af936}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 13th International Conference on Mining Software Repositories}
@@ -286,8 +286,8 @@
       \strng{authorbibnamehash}{8a469761d40bb31284c86919d0aa01ec}
       \strng{authornamehash}{8a469761d40bb31284c86919d0aa01ec}
       \strng{authorfullhash}{32dd5a2547ed52fa4b808dbd4728168b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Access}
@@ -449,8 +449,8 @@
       \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
       \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
       \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Neural Computation}
@@ -510,8 +510,8 @@
       \strng{authorbibnamehash}{9b1920db887fe0d658725c1e606b61f4}
       \strng{authornamehash}{9b1920db887fe0d658725c1e606b61f4}
       \strng{authorfullhash}{93de344d8644049cc7e61f1b9095d310}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1406.1078}
@@ -726,8 +726,8 @@
       \strng{authorbibnamehash}{7dcb8f2f4be2b72aef2a5e0bf21b5ecf}
       \strng{authornamehash}{7dcb8f2f4be2b72aef2a5e0bf21b5ecf}
       \strng{authorfullhash}{f6a4c437603f369a60ffbb3305b0585d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Internet of Things Journal}
@@ -970,8 +970,8 @@
       \strng{authorbibnamehash}{a88dfc5c55489606792d411cce65410b}
       \strng{authornamehash}{a88dfc5c55489606792d411cce65410b}
       \strng{authorfullhash}{7c1a98db5c68ca15fe23c656250cd59b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Programming}
@@ -982,6 +982,690 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1155/2020/5190138
+      \endverb
+    \endentry
+    \entry{nowsecure2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{fullhash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{bibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorbibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NowSecure Documentation}
+      \field{title}{NowSecure Mobile App Security Testing Platform}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/platform
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/platform
+      \endverb
+    \endentry
+    \entry{nowsecure2024platform}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{fullhash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{bibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorbibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NowSecure Documentation}
+      \field{title}{Automated Mobile App Security Testing}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/platform/automated-testing
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/platform/automated-testing
+      \endverb
+    \endentry
+    \entry{nowsecure2024automation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{fullhash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{bibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorbibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NowSecure Documentation}
+      \field{title}{CI/CD Integration for Mobile Security}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/platform/ci-cd
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/platform/ci-cd
+      \endverb
+    \endentry
+    \entry{nowsecure2024synopsys}{article}{}
+      \name{author}{2}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+        {{hash=f02d2fd18e61198dd6c2fbf4509422f8}{%
+           family={Synopsys},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{844e155656ec487407c987c6af85b603}
+      \strng{fullhash}{844e155656ec487407c987c6af85b603}
+      \strng{bibnamehash}{844e155656ec487407c987c6af85b603}
+      \strng{authorbibnamehash}{844e155656ec487407c987c6af85b603}
+      \strng{authornamehash}{844e155656ec487407c987c6af85b603}
+      \strng{authorfullhash}{844e155656ec487407c987c6af85b603}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Press Release}
+      \field{title}{NowSecure and Synopsys Partnership}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/news/nowsecure-synopsys-partnership
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/news/nowsecure-synopsys-partnership
+      \endverb
+    \endentry
+    \entry{qualys2024vmdr}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ceb74079aad6f46570610c9eda254682}{%
+           family={Qualys},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{fullhash}{ceb74079aad6f46570610c9eda254682}
+      \strng{bibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorbibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Qualys Documentation}
+      \field{title}{VMDR Mobile Security Solution}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.qualys.com/vmdr-mobile
+      \endverb
+      \verb{url}
+      \verb https://www.qualys.com/vmdr-mobile
+      \endverb
+    \endentry
+    \entry{qualys2024inventory}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ceb74079aad6f46570610c9eda254682}{%
+           family={Qualys},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{fullhash}{ceb74079aad6f46570610c9eda254682}
+      \strng{bibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorbibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Qualys Documentation}
+      \field{title}{Mobile Asset Inventory and Vulnerability Management}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.qualys.com/vmdr-mobile/inventory
+      \endverb
+      \verb{url}
+      \verb https://www.qualys.com/vmdr-mobile/inventory
+      \endverb
+    \endentry
+    \entry{qualys2024patching}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ceb74079aad6f46570610c9eda254682}{%
+           family={Qualys},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{fullhash}{ceb74079aad6f46570610c9eda254682}
+      \strng{bibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorbibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Qualys Documentation}
+      \field{title}{Mobile Vulnerability Remediation}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.qualys.com/vmdr-mobile/remediation
+      \endverb
+      \verb{url}
+      \verb https://www.qualys.com/vmdr-mobile/remediation
+      \endverb
+    \endentry
+    \entry{qualys2024mdm}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ceb74079aad6f46570610c9eda254682}{%
+           family={Qualys},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{fullhash}{ceb74079aad6f46570610c9eda254682}
+      \strng{bibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorbibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
+      \field{extraname}{4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Qualys Documentation}
+      \field{title}{MDM/EMM Integration}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.qualys.com/vmdr-mobile/mdm-integration
+      \endverb
+      \verb{url}
+      \verb https://www.qualys.com/vmdr-mobile/mdm-integration
+      \endverb
+    \endentry
+    \entry{checkmarx2024sast}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1bbcb2b6f2fa663788ae2a6cac7d70fd}{%
+           family={Checkmarx},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{fullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{bibnamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authorbibnamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authornamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authorfullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Checkmarx Documentation}
+      \field{title}{SAST for Mobile Applications}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.checkmarx.com/solutions/mobile-security
+      \endverb
+      \verb{url}
+      \verb https://www.checkmarx.com/solutions/mobile-security
+      \endverb
+    \endentry
+    \entry{checkmarx2024mobile}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1bbcb2b6f2fa663788ae2a6cac7d70fd}{%
+           family={Checkmarx},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{fullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{bibnamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authorbibnamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authornamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authorfullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Checkmarx Documentation}
+      \field{title}{Mobile Application Security Testing}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.checkmarx.com/solutions/mobile-security/testing
+      \endverb
+      \verb{url}
+      \verb https://www.checkmarx.com/solutions/mobile-security/testing
+      \endverb
+    \endentry
+    \entry{nowsecure2024sast}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{fullhash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{bibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorbibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
+      \field{extraname}{4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NowSecure Documentation}
+      \field{title}{Static Analysis for Mobile Apps}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/platform/static-analysis
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/platform/static-analysis
+      \endverb
+    \endentry
+    \entry{nowsecure2024dast}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{fullhash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{bibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorbibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
+      \field{extraname}{5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NowSecure Documentation}
+      \field{title}{Dynamic Analysis for Mobile Apps}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/platform/dynamic-analysis
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/platform/dynamic-analysis
+      \endverb
+    \endentry
+    \entry{qualys2024vuln}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ceb74079aad6f46570610c9eda254682}{%
+           family={Qualys},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{fullhash}{ceb74079aad6f46570610c9eda254682}
+      \strng{bibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorbibnamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
+      \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
+      \field{extraname}{5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Qualys Documentation}
+      \field{title}{Mobile Vulnerability Management}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.qualys.com/vmdr-mobile/vulnerability-management
+      \endverb
+      \verb{url}
+      \verb https://www.qualys.com/vmdr-mobile/vulnerability-management
+      \endverb
+    \endentry
+    \entry{nowsecure2024mtd}{article}{}
+      \name{author}{1}{}{%
+        {{hash=30ecdd83ba39522bf17d73935a098741}{%
+           family={NowSecure},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{fullhash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{bibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorbibnamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
+      \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
+      \field{extraname}{6}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NowSecure Documentation}
+      \field{title}{Mobile Threat Defense}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.nowsecure.com/platform/mobile-threat-defense
+      \endverb
+      \verb{url}
+      \verb https://www.nowsecure.com/platform/mobile-threat-defense
+      \endverb
+    \endentry
+    \entry{checkmarx2024cicd}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1bbcb2b6f2fa663788ae2a6cac7d70fd}{%
+           family={Checkmarx},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{fullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{bibnamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authorbibnamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authornamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \strng{authorfullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
+      \field{extraname}{3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Checkmarx Documentation}
+      \field{title}{CI/CD Integration for Mobile Security}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.checkmarx.com/solutions/mobile-security/ci-cd
+      \endverb
+      \verb{url}
+      \verb https://www.checkmarx.com/solutions/mobile-security/ci-cd
+      \endverb
+    \endentry
+    \entry{Milosevic2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=59a64b9ed51729996103f6c29e0d6bd8}{%
+           family={Milosevic},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=945724f0e7bd844e7de8f25923ac2870}{%
+           family={Dehghantanha},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be320798e15e70046243da310750f38e}{%
+           family={Choo},
+           familyi={C\bibinitperiod},
+           given={K.-K.\bibnamedelimi R.},
+           giveni={K\bibinithyphendelim K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{00bdfcfca41dd4b26f6afc1457c6d905}
+      \strng{fullhash}{00bdfcfca41dd4b26f6afc1457c6d905}
+      \strng{bibnamehash}{00bdfcfca41dd4b26f6afc1457c6d905}
+      \strng{authorbibnamehash}{00bdfcfca41dd4b26f6afc1457c6d905}
+      \strng{authornamehash}{00bdfcfca41dd4b26f6afc1457c6d905}
+      \strng{authorfullhash}{00bdfcfca41dd4b26f6afc1457c6d905}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers & Security}
+      \field{title}{Machine Learning Aided Android Malware Detection}
+      \field{volume}{67}
+      \field{year}{2017}
+      \field{pages}{266\bibrangedash 280}
+      \range{pages}{15}
+    \endentry
+    \entry{Pendlebury2020}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cbf3bf53f77815fb6761140d55029f5f}{%
+           family={Pendlebury},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=637346ec125522e6557ceb42b79c4bef}{%
+           family={Pierazzi},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c6fad83ea7504d300d1ed906cbd04604}{%
+           family={Jordaney},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c57e3b999949334cd5fa3c369ab6d94d}{%
+           family={Kinder},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4b5582181da9455abd32e2cb2b72e1af}{%
+           family={Cavallaro},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e209d598505dc77d0264de34c5132440}
+      \strng{fullhash}{44d49021a3f45dc51aec4769b65f8717}
+      \strng{bibnamehash}{e209d598505dc77d0264de34c5132440}
+      \strng{authorbibnamehash}{e209d598505dc77d0264de34c5132440}
+      \strng{authornamehash}{e209d598505dc77d0264de34c5132440}
+      \strng{authorfullhash}{44d49021a3f45dc51aec4769b65f8717}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Mobile Computing}
+      \field{number}{5}
+      \field{title}{PIKADROID: Context-Aware Android Malware Detection}
+      \field{volume}{19}
+      \field{year}{2020}
+      \field{pages}{1234\bibrangedash 1245}
+      \range{pages}{12}
+    \endentry
+    \entry{Martin2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=eaea332f7b08db00433a4d09ca9ff7c7}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=042c7475431016a8e06aa19168e65775}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=163fe031a0af6cb6e352417a422f3c47}{%
+           family={Camacho},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{83d8f664e64b5e316fb31271b44525b9}
+      \strng{fullhash}{83d8f664e64b5e316fb31271b44525b9}
+      \strng{bibnamehash}{83d8f664e64b5e316fb31271b44525b9}
+      \strng{authorbibnamehash}{83d8f664e64b5e316fb31271b44525b9}
+      \strng{authornamehash}{83d8f664e64b5e316fb31271b44525b9}
+      \strng{authorfullhash}{83d8f664e64b5e316fb31271b44525b9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Virology and Hacking Techniques}
+      \field{number}{2}
+      \field{title}{CrossMalDroid: Multi-Version Feature Selection for Android Malware Detection}
+      \field{volume}{17}
+      \field{year}{2021}
+      \field{pages}{89\bibrangedash 102}
+      \range{pages}{14}
+    \endentry
+    \entry{Aafer2013}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=a9d97807b719fc0b72cf395b4d439efa}{%
+           family={Aafer},
+           familyi={A\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=76fff9e2193f2667e90a3dbcfea16b6f}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d2c98597f95b4e5de3ecaabeed2e3c10}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0eeb1614905066b9df69e1efb5177bd}
+      \strng{fullhash}{b0eeb1614905066b9df69e1efb5177bd}
+      \strng{bibnamehash}{b0eeb1614905066b9df69e1efb5177bd}
+      \strng{authorbibnamehash}{b0eeb1614905066b9df69e1efb5177bd}
+      \strng{authornamehash}{b0eeb1614905066b9df69e1efb5177bd}
+      \strng{authorfullhash}{b0eeb1614905066b9df69e1efb5177bd}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Security and Privacy in Communication Networks}
+      \field{title}{DroidAPIMiner: Mining API-Level Features for Robust Malware Detection in Android}
+      \field{volume}{130}
+      \field{year}{2013}
+      \field{pages}{86\bibrangedash 103}
+      \range{pages}{18}
+    \endentry
+    \entry{Obidiagha2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5c445bc916e0e62d5ab5760ad5a0f7cd}{%
+           family={Obidiagha},
+           familyi={O\bibinitperiod},
+           given={Chidiebere\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5bdd4b3b49cc77cee123aef3094bc053}{%
+           family={Rahouti},
+           familyi={R\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2aaf82c968237f86d74c176ab5bbb466}{%
+           family={Hayajneh},
+           familyi={H\bibinitperiod},
+           given={Tareq},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{676373e6e61d13771c343754dbf1b891}
+      \strng{fullhash}{676373e6e61d13771c343754dbf1b891}
+      \strng{bibnamehash}{676373e6e61d13771c343754dbf1b891}
+      \strng{authorbibnamehash}{676373e6e61d13771c343754dbf1b891}
+      \strng{authornamehash}{676373e6e61d13771c343754dbf1b891}
+      \strng{authorfullhash}{676373e6e61d13771c343754dbf1b891}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{DeepImageDroid: A Hybrid Framework Leveraging Visual Transformers and Convolutional Neural Networks for Robust Android Malware Detection}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{145678\bibrangedash 145690}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3485593
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10753854
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10753854
+      \endverb
+    \endentry
+    \entry{Kumar2024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7a110b64ffafc6f38bee48acb5a4db36}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Anupam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ec378dc070c8572ab07e0de55a1e6d6b}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Bhupendra},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f0c5d1a40e16254ac25a37b476f8212}
+      \strng{fullhash}{5f0c5d1a40e16254ac25a37b476f8212}
+      \strng{bibnamehash}{5f0c5d1a40e16254ac25a37b476f8212}
+      \strng{authorbibnamehash}{5f0c5d1a40e16254ac25a37b476f8212}
+      \strng{authornamehash}{5f0c5d1a40e16254ac25a37b476f8212}
+      \strng{authorfullhash}{5f0c5d1a40e16254ac25a37b476f8212}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{24017}
+      \field{title}{Deep learning-based improved transformer model on android malware detection and classification in internet of vehicles}
+      \field{volume}{14}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1038/s41598-024-74017-z
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-024-74017-z
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-024-74017-z
+      \endverb
+    \endentry
+    \entry{White2023}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1e4d5f67ea76657c76cab14495a19e7a}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e934f2e162b3b9b3063cb2aab573bedc}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Benevento, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{1184ca77fad54efc89c1a90de3adc48f}
+      \strng{fullhash}{1184ca77fad54efc89c1a90de3adc48f}
+      \strng{bibnamehash}{1184ca77fad54efc89c1a90de3adc48f}
+      \strng{authorbibnamehash}{1184ca77fad54efc89c1a90de3adc48f}
+      \strng{authornamehash}{1184ca77fad54efc89c1a90de3adc48f}
+      \strng{authorfullhash}{1184ca77fad54efc89c1a90de3adc48f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 18th International Conference on Availability, Reliability and Security}
+      \field{series}{ARES '23}
+      \field{title}{Graph-Based Android Malware Detection and Categorization through BERT Transformer}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1145/3600160.3605057
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3600160.3605057
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3600160.3605057
       \endverb
     \endentry
   \enddatalist

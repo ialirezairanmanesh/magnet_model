@@ -1,7 +1,7 @@
 % !TeX root=SBUKThesis-main.tex
 \clearpage
 \thispagestyle{empty}
-\chapter{نتیجه‌گیری و پیشنهادات آتی}\label{chap5}
+\chapter{نتیجه‌گیری و پیشنهادات آتی}\label{chap6}
 
 \section{نتیجه‌گیری}
 در این پژوهش، یک مدل چندوجهی مبتنی بر ترنسفورمر به نام MAGNET برای تشخیص بدافزار اندروید پیشنهاد شد که از سه ماژول اصلی تشکیل شده است: EnhancedTabTransformer برای پردازش ویژگی‌های جدولی، GraphTransformer برای تحلیل گراف فراخوانی، و SequenceTransformer برای پردازش توالی‌های API. این مدل با هدف بهبود دقت تشخیص بدافزار در محیط‌های اندروید طراحی شد و از الگوریتم‌های بهینه‌سازی Adam و CosineAnnealingWarmRestarts برای تنظیم پارامترها استفاده کرد. بهینه‌سازی ابرپارامترها با دو روش مختلف انجام شد: بهینه‌سازی دستی\LTRfootnote{PIRATES با ۴۷۶ آزمایش} و روش Optuna\LTRfootnote{با ۱۳ آزمایش} \cite{Optuna2019}. دیتاست DREBIN \cite{Drebin} با \lr{6,092} نمونه (\lr{4,641} نمونه برای آموزش و \lr{1,451} نمونه برای تست) برای ارزیابی مدل به کار گرفته شد.

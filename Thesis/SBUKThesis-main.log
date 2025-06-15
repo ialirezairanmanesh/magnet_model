@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  14 JUN 2025 17:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  15 JUN 2025 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1744,9 +1744,10 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 (./SBUKThesis-student.aux) (./SBUKThesis-dedication.aux)
 (./SBUKThesis-acknowledgments.aux) (./SBUKThesis-persian-abstract.aux)
 (./SBUKThesis-chapter1.aux) (./SBUKThesis-chapter2.aux)
-(./SBUKThesis-chapter3.aux) (./SBUKThesis-chapter4.aux)
-(./SBUKThesis-chapter5.aux) (./SBUKThesis-references.aux)
-(./SBUKThesis-peyvast.aux) (./SBUKThesis-appendix1.aux) (./lasttable.aux)
+(./SBUKThesis-chapter6.aux) (./SBUKThesis-chapter3.aux)
+(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
+(./SBUKThesis-references.aux) (./SBUKThesis-peyvast.aux)
+(./SBUKThesis-appendix1.aux) (./lasttable.aux)
 (./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
 \openout1 = `SBUKThesis-main.aux'.
 
@@ -2042,57 +2043,57 @@ Overfull \hbox (3.28125pt too wide) detected at line 60
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 73
-\TU/XBZar(0)/m/n/12 ۳-‏۱-‏۳-‏۲-‏۱ 
+Overfull \hbox (3.28125pt too wide) detected at line 83
+\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۱ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 74
-\TU/XBZar(0)/m/n/12 ۳-‏۱-‏۳-‏۲-‏۲ 
+Overfull \hbox (3.28125pt too wide) detected at line 84
+\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۲ 
+ []
+
+[10]
+Overfull \hbox (3.28125pt too wide) detected at line 85
+\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۳ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 75
-\TU/XBZar(0)/m/n/12 ۳-‏۱-‏۳-‏۲-‏۳ 
+Overfull \hbox (3.28125pt too wide) detected at line 86
+\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۴ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 76
-\TU/XBZar(0)/m/n/12 ۳-‏۱-‏۳-‏۲-‏۴ 
+Overfull \hbox (3.28125pt too wide) detected at line 87
+\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۵ 
  []
 
 
-Overfull \hbox (3.28125pt too wide) detected at line 77
-\TU/XBZar(0)/m/n/12 ۳-‏۱-‏۳-‏۲-‏۵ 
+Overfull \hbox (3.28125pt too wide) detected at line 88
+\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۶ 
  []
 
-
-Overfull \hbox (3.28125pt too wide) detected at line 78
-\TU/XBZar(0)/m/n/12 ۳-‏۱-‏۳-‏۲-‏۶ 
- []
-
-[10] [11])
+[11] [12])
 \tf@toc=\write6
 \openout6 = `SBUKThesis-main.toc'.
 
- [12] (./SBUKThesis-main.lot)
+ [13] (./SBUKThesis-main.lot)
 \tf@lot=\write7
 \openout7 = `SBUKThesis-main.lot'.
 
- [13
+ [14
 
 ] (./SBUKThesis-main.lof)
 \tf@lof=\write8
 \openout8 = `SBUKThesis-main.lof'.
 
- [14
+ [15
 
 ]
 (./SBUKThesis-main.loa)
 \tf@loa=\write9
 \openout9 = `SBUKThesis-main.loa'.
 
- [15
+ [16
 
 
 ]
@@ -2186,9 +2187,9 @@ Overfull \hbox (9.24446pt too wide) in paragraph at lines 395--396
  []
 
 ) [34]
-\openout2 = `SBUKThesis-chapter3.aux'.
+\openout2 = `SBUKThesis-chapter6.aux'.
 
- (./SBUKThesis-chapter3.tex
+ (./SBUKThesis-chapter6.tex
 فصل 3.
 [35
 
@@ -2196,24 +2197,36 @@ Overfull \hbox (9.24446pt too wide) in paragraph at lines 395--396
 
 
 
-
 ] [36
+
+]) [37]
+\openout2 = `SBUKThesis-chapter3.aux'.
+
+ (./SBUKThesis-chapter3.tex
+فصل 4.
+[38
+
+
+
+
+
+] [39
 
 ]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 23.
- [37] [38]
+(Font)              scaled to size 12.0pt on input line 24.
+ [40] [41]
 File: images/magnet_architecture.png Graphic file (type bmp)
 <images/magnet_architecture.png>
- [39]
+ [42]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 111.
- [40] [41]
+put line 112.
+ [43] [44]
 Missing character: There is no ۶ ("6F6) in font cmr12!
 Missing character: There is no ۴ ("6F4) in font cmr12!
 Missing character: There is no ۸ ("6F8) in font cmr12!
 Missing character: There is no ۸ ("6F8) in font cmr12!
-[42]
+[45]
 Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۰ ("6F0) in font cmr12!
@@ -2224,44 +2237,44 @@ Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
-[43]
+[46]
 Missing character: There is no ۸ (U+06F8) in font [lmmono12-regular]:!
 Missing character: There is no ۴ (U+06F4) in font [lmmono12-regular]:!
 Missing character: There is no ۰ (U+06F0) in font [lmmono12-regular]:!
 Missing character: There is no ‏ (U+200F) in font [lmmono12-regular]:!
 Missing character: There is no ۲ (U+06F2) in font [lmmono12-regular]:!
 
-Overfull \hbox (5.66568pt too wide) in paragraph at lines 269--270
+Overfull \hbox (5.66568pt too wide) in paragraph at lines 270--271
 [][]\TU/XBZar(0)/m/n/12 فرآیند پیش‌پردازش داده‌ها، طراحی دقیق هر یک از اجزای مد
 ل، استراتژی آموزش و بهینه‌سازی ابرپارامترها[]
  []
 
-[44]
-Overfull \hbox (0.15298pt too wide) in paragraph at lines 275--276
+[47]
+Overfull \hbox (0.15298pt too wide) in paragraph at lines 276--277
 [][]\TU/XBZar(0)/b/n/12 افزایش تفسیرپذیری (Explainability)\TU/XBZar(0)/m/n/12 :
  توسعه روش‌هایی برای تفسیر تصمیمات مدل MAG-[]
  []
 
-[45]) [46]
+[48]) [49]
 \openout2 = `SBUKThesis-chapter4.aux'.
 
  (./SBUKThesis-chapter4.tex
-فصل 4.
-[47
+فصل 5.
+[50
 
 
 
 
 
 ]
-Overfull \hbox (3.08064pt too wide) in paragraph at lines 5--6
+Overfull \hbox (3.08064pt too wide) in paragraph at lines 8--9
 [][]\TU/XBZar(0)/m/n/12 در این فصل، نتایج حاصل از پیاده‌سازی و ارزیابی مدل پیشن
 هادی MAGNET برای تشخیص بدافزارهای[]
  []
 
-[48
+[51
 
-] [49]
+] [52]
 File: images/pirates_positions.png Graphic file (type bmp)
 <images/pirates_positions.png>
 File: images/pirates_bsf_avg_trajectory.png Graphic file (type bmp)
@@ -2270,18 +2283,18 @@ File: images/pirates_bsf_avg_trajectory.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50]
+[53]
 File: images/pirates_wind_velocity.png Graphic file (type bmp)
 <images/pirates_wind_velocity.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51] [52] [53] [54] [55] [56]
+[54] [55] [56] [57] [58] [59]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722}
+l.262     \item دقت: $\lr{0.9722}
                                   \pm \lr{0.0065}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2289,7 +2302,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.259     \item دقت: $\lr{0.9722}
+l.262     \item دقت: $\lr{0.9722}
                                   \pm \lr{0.0065}$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2300,7 +2313,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722}
+l.262     \item دقت: $\lr{0.9722}
                                   \pm \lr{0.0065}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2308,7 +2321,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722}
+l.262     \item دقت: $\lr{0.9722}
                                   \pm \lr{0.0065}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2316,7 +2329,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten \endgroup.
 \lr #1->\LRE {\resetlatinfont #1}
                                  
-l.259     \item دقت: $\lr{0.9722}
+l.262     \item دقت: $\lr{0.9722}
                                   \pm \lr{0.0065}$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2327,7 +2340,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722} \pm
+l.262     \item دقت: $\lr{0.9722} \pm
                                       \lr{0.0065}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2335,7 +2348,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
+l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2343,7 +2356,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.259     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
+l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
                                                  $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2354,7 +2367,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
+l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2362,7 +2375,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.259     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
+l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2370,431 +2383,8 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten \endgroup.
 \lr #1->\LRE {\resetlatinfont #1}
                                  
-l.259     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
+l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
                                                  $
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260     \item
-                Precision: $\lr{0.9810} \pm \lr{0.0102}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260     \item P
-                 recision: $\lr{0.9810} \pm \lr{0.0102}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260     \item P
-                 recision: $\lr{0.9810} \pm \lr{0.0102}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.260     \item Precision: $\lr{0.9810} \pm
-                                            \lr{0.0102}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.260 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.260 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.260 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.260 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.260 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261     \item
-                Recall: $\lr{0.9828} \pm \lr{0.0072}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261     \item R
-                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.261     \item R
-                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 259--261
-[][]\TU/XBZar(0)/m/n/12 دقت: $[]$$$[]\TU/TimesNewRoman(0)/b/n/12 0.9722 $\OMS/c
-msy/m/n/12 ^^F[]$[]$$[]\TU/TimesNewRoman(0)/b/n/12 0.0065$\OML/cmm/m/it/12 Prec
-ision \OT1/cmr/m/n/12 :$[]\TU/TimesNewRoman(0)/b/n/12 0.9810[] $\OMS/cmsy/m/n/1
-2 ^^F[]$[]$$[]\TU/TimesNewRoman(0)/b/n/12 0.0102$[][]$ [][]
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.261     \item R
-                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[57]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.261     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.261     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261     \item Recall: $\lr{0.9828} \pm
-                                         \lr{0.0072}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.261 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.261 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.261 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262     \item
-                \lr{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262     \item \lr
-                   {F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262     \item \lr
-                   {F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.262     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.262     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.262     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.262     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item \lr{F1 Score}: $\lr{0.9818} \pm
-                                                \lr{0.0042}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.262 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.262 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2809,6 +2399,429 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.263     \item
+                Precision: $\lr{0.9810} \pm \lr{0.0102}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263     \item P
+                 recision: $\lr{0.9810} \pm \lr{0.0102}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263     \item P
+                 recision: $\lr{0.9810} \pm \lr{0.0102}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.263     \item Precision: $\lr{0.9810} \pm
+                                            \lr{0.0102}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
+                                                  $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+\lr #1->\LRE {\resetlatinfont #1}
+                                 
+l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
+                                                  $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264     \item
+                Recall: $\lr{0.9828} \pm \lr{0.0072}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264     \item R
+                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.264     \item R
+                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 262--264
+[][]\TU/XBZar(0)/m/n/12 دقت: $[]$$$[]\TU/TimesNewRoman(0)/b/n/12 0.9722 $\OMS/c
+msy/m/n/12 ^^F[]$[]$$[]\TU/TimesNewRoman(0)/b/n/12 0.0065$\OML/cmm/m/it/12 Prec
+ision \OT1/cmr/m/n/12 :$[]\TU/TimesNewRoman(0)/b/n/12 0.9810[] $\OMS/cmsy/m/n/1
+2 ^^F[]$[]$$[]\TU/TimesNewRoman(0)/b/n/12 0.0102$[][]$ [][]
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.264     \item R
+                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[60]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264     \item Recall: $\lr{0.9828}
+                                     \pm \lr{0.0072}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.264     \item Recall: $\lr{0.9828}
+                                     \pm \lr{0.0072}$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264     \item Recall: $\lr{0.9828}
+                                     \pm \lr{0.0072}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264     \item Recall: $\lr{0.9828}
+                                     \pm \lr{0.0072}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+\lr #1->\LRE {\resetlatinfont #1}
+                                 
+l.264     \item Recall: $\lr{0.9828}
+                                     \pm \lr{0.0072}$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264     \item Recall: $\lr{0.9828} \pm
+                                         \lr{0.0072}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
+                                                  $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+\lr #1->\LRE {\resetlatinfont #1}
+                                 
+l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
+                                                  $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265     \item
+                \lr{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265     \item \lr
+                   {F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265     \item \lr
+                   {F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}
+                             : $\lr{0.9818} \pm \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.265     \item \lr{F1 Score}
+                             : $\lr{0.9818} \pm \lr{0.0042}$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}
+                             : $\lr{0.9818} \pm \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}
+                             : $\lr{0.9818} \pm \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+\lr #1->\LRE {\resetlatinfont #1}
+                                 
+l.265     \item \lr{F1 Score}
+                             : $\lr{0.9818} \pm \lr{0.0042}$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}: $\lr{0.9818}
+                                            \pm \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.265     \item \lr{F1 Score}: $\lr{0.9818}
+                                            \pm \lr{0.0042}$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}: $\lr{0.9818}
+                                            \pm \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}: $\lr{0.9818}
+                                            \pm \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+\lr #1->\LRE {\resetlatinfont #1}
+                                 
+l.265     \item \lr{F1 Score}: $\lr{0.9818}
+                                            \pm \lr{0.0042}$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265     \item \lr{F1 Score}: $\lr{0.9818} \pm
+                                                \lr{0.0042}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
+                                                  $
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
+                                                  $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+\lr #1->\LRE {\resetlatinfont #1}
+                                 
+l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
+                                                  $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266     \item
                 AUC: $\lr{0.9932} \pm \lr{0.0035}$
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2816,7 +2829,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item A
+l.266     \item A
                  UC: $\lr{0.9932} \pm \lr{0.0035}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2824,7 +2837,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.263     \item A
+l.266     \item A
                  UC: $\lr{0.9932} \pm \lr{0.0035}$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2835,7 +2848,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.263     \item A
+l.266     \item A
                  UC: $\lr{0.9932} \pm \lr{0.0035}$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2846,7 +2859,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932}
+l.266     \item AUC: $\lr{0.9932}
                                   \pm \lr{0.0035}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2854,7 +2867,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.263     \item AUC: $\lr{0.9932}
+l.266     \item AUC: $\lr{0.9932}
                                   \pm \lr{0.0035}$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2865,7 +2878,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932}
+l.266     \item AUC: $\lr{0.9932}
                                   \pm \lr{0.0035}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2873,7 +2886,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932}
+l.266     \item AUC: $\lr{0.9932}
                                   \pm \lr{0.0035}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2881,7 +2894,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten \endgroup.
 \lr #1->\LRE {\resetlatinfont #1}
                                  
-l.263     \item AUC: $\lr{0.9932}
+l.266     \item AUC: $\lr{0.9932}
                                   \pm \lr{0.0035}$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2892,7 +2905,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932} \pm
+l.266     \item AUC: $\lr{0.9932} \pm
                                       \lr{0.0035}$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2900,7 +2913,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
+l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2908,7 +2921,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.263     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
+l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
                                                  $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2919,7 +2932,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
+l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2927,7 +2940,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
+l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
                                                  $
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2935,7 +2948,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten \endgroup.
 \lr #1->\LRE {\resetlatinfont #1}
                                  
-l.263     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
+l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
                                                  $
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2950,7 +2963,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 \end{itemize}
+l.267 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2962,7 +2975,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 \end{itemize}
+l.267 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2974,7 +2987,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 \end{itemize}
+l.267 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2982,7 +2995,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.264 \end{itemize}
+l.267 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2991,9 +3004,9 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.96452pt on input line 268.
+(Font)              scaled to size 9.96452pt on input line 271.
 
-Overfull \hbox (3.8334pt too wide) in paragraph at lines 270--288
+Overfull \hbox (3.8334pt too wide) in paragraph at lines 273--291
  [][][][] 
  []
 
@@ -3009,37 +3022,38 @@ File: fig_overall_comparison.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58] [59] [60]
-Overfull \hbox (2.95572pt too wide) in paragraph at lines 369--370
+[61] [62] [63]
+Overfull \hbox (2.95572pt too wide) in paragraph at lines 372--373
 [][]\TU/XBZar(0)/b/n/12 CrossMalDroid\TU/XBZar(0)/m/n/12 : روشی که از انتخاب وی
 ژگی استفاده می‌کند و روی مجموعه داده Malgenome[]
  []
 
 
-Overfull \hbox (55.35822pt too wide) in paragraph at lines 381--403
- [][][][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[64]
+File: images/fig_literature_comparison_accuracy.png Graphic file (type bmp)
+<images/fig_literature_comparison_accuracy.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61]
-File: images/fig_literature_comparison_accuracy.png Graphic file (type bmp)
-<images/fig_literature_comparison_accuracy.png>
 File: images/fig_literature_comparison_metrics.png Graphic file (type bmp)
 <images/fig_literature_comparison_metrics.png>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62]
+[65]
 File: images/fig_baseline_metrics_comparison.png Graphic file (type bmp)
 <images/fig_baseline_metrics_comparison.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[63] [64]
+[66] [67]
 File: images/fig_module_comparison_en.png Graphic file (type bmp)
 <images/fig_module_comparison_en.png>
 File: images/fig_ablation_study_en.png Graphic file (type bmp)
@@ -3053,19 +3067,18 @@ File: images/fig_training_progress_en.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [65] [66]
+) [68] [69]
 \openout2 = `SBUKThesis-chapter5.aux'.
 
  (./SBUKThesis-chapter5.tex
-فصل 5.
-[67
+فصل 6.
+[70
 
 
 
 
 
-
-] [68
+] [71
 
 ]
 Overfull \hbox (1.31625pt too wide) in paragraph at lines 25--26
@@ -3074,7 +3087,7 @@ Overfull \hbox (1.31625pt too wide) in paragraph at lines 25--26
 s[]\TU/XBZar(0)/m/n/12 )[]
  []
 
-[69]
+[72]
 Overfull \hbox (6.4479pt too wide) in paragraph at lines 33--34
 [][]\TU/XBZar(0)/b/n/12 ارزیابی در دستگاه‌های واقعی\TU/XBZar(0)/m/n/12 : آزمایش
  مدل روی دستگاه‌های اندرویدی واقعی (به جای شبیه‌سازی)[]
@@ -3086,7 +3099,7 @@ Overfull \hbox (2.2897pt too wide) in paragraph at lines 39--40
 ‌های جدید مانند الگوهای رفتاری کاربران (مانند الگوهای[]
  []
 
-[70]) [71]
+[73]) [74]
 \openout2 = `SBUKThesis-references.aux'.
 
  (./SBUKThesis-references.tex
@@ -3094,7 +3107,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 21.84009pt on input line 3.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 21.84009pt on input line 3.
- [72
+ [75
 
 
 
@@ -3113,12 +3126,80 @@ Overfull \hbox (13.68628pt too wide) in paragraph at lines 3--3
 omputers & Security 93 (2020), p. 101792.[]
  []
 
-[73
+[76
 
-] [74] [75])
+] [77]
+Overfull \hbox (10.3386pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 NowSecure. “CI/CD Integration for Mobile Secur
+ity”. In: NowSecure Documentation (2024).[]
+ []
+
+
+Overfull \hbox (9.162pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 NowSecure and Synopsys. “NowSecure and Synopsy
+s Partnership”. In: Press Release (2024).[]
+ []
+
+
+Overfull \hbox (15.316pt too wide) in paragraph at lines 3--3
+[]\TU/TimesNewRoman(0)/m/it/12 URL: [][][]$[][][][][] [] [] [] [][][] [] [][][]
+[][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][] [][] [][][][][][][][] 
+[][] [][][][][][][][][][][]$[][][]. []
+ []
+
+
+Overfull \hbox (14.12631pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 Qualys. “VMDR Mobile Security Solution”. In: Q
+ualys Documentation (2024). URL: [][][]$[][][][][] []$[][]
+ []
+
+
+Overfull \hbox (3.08711pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 Checkmarx. “SAST for Mobile Applications”. In:
+ Checkmarx Documentation (2024). URL:[]
+ []
+
+
+Overfull \hbox (1.08574pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 Checkmarx. “Mobile Application Security Testin
+g”. In: Checkmarx Documentation (2024).[]
+ []
+
+
+Overfull \hbox (2.45601pt too wide) in paragraph at lines 3--3
+[]\TU/TimesNewRoman(0)/m/it/12 URL: [][][]$[][][][][] [] [] [] [][][] [] [][][]
+[][][][][][] [] [][][] [] [][][][][][][][][] [] [][][][][][] [][] [][][][][][][
+][] [] [][][][][][][]$[][][]. []
+ []
+
+[78]
+Overfull \hbox (10.41342pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 NowSecure. “Mobile Threat Defense”. In: NowSec
+ure Documentation (2024). URL: [][][]$[][][][][] []$[][]
+ []
+
+
+Overfull \hbox (9.1229pt too wide) in paragraph at lines 3--3
+[][]\TU/TimesNewRoman(0)/m/it/12 Checkmarx. “CI/CD Integration for Mobile Secur
+ity”. In: Checkmarx Documentation (2024).[]
+ []
+
+! Misplaced alignment tab character &.
+<argument> Computers &
+                       Security
+l.3 ...bliography[heading=bibintoc, title={مراجع}]
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[79] [80])
 \openout2 = `SBUKThesis-peyvast.aux'.
 
- (./SBUKThesis-peyvast.tex [76
+ (./SBUKThesis-peyvast.tex [81
 
 
 
@@ -3128,13 +3209,13 @@ omputers & Security 93 (2020), p. 101792.[]
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [77
+) [82
 
-] [78]
+] [83]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 11.83005pt on input line 122.
 
-[79] [80]) [81]
+[84] [85]) [86]
 \openout2 = `SBUKThesis-appendix1.aux'.
 
  (./SBUKThesis-appendix1.tex)
@@ -3186,7 +3267,7 @@ LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 77.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 8.0pt on input line 77.
-[82
+[87
 
 
 
@@ -3268,7 +3349,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 13.65005pt on input line 2.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 12.74005pt on input line 2.
-) [83
+) [88
 
 
 
@@ -3291,7 +3372,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 14.56006pt on input line 17.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 14.56006pt on input line 26.
-) [84
+) [89
 
 
 
@@ -3300,9 +3381,10 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (./SBUKThesis-student.aux) (./SBUKThesis-dedication.aux)
 (./SBUKThesis-acknowledgments.aux) (./SBUKThesis-persian-abstract.aux)
 (./SBUKThesis-chapter1.aux) (./SBUKThesis-chapter2.aux)
-(./SBUKThesis-chapter3.aux) (./SBUKThesis-chapter4.aux)
-(./SBUKThesis-chapter5.aux) (./SBUKThesis-references.aux)
-(./SBUKThesis-peyvast.aux) (./SBUKThesis-appendix1.aux) (./lasttable.aux)
+(./SBUKThesis-chapter6.aux) (./SBUKThesis-chapter3.aux)
+(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
+(./SBUKThesis-references.aux) (./SBUKThesis-peyvast.aux)
+(./SBUKThesis-appendix1.aux) (./lasttable.aux)
 (./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3311,34 +3393,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `SBUKThesis-main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SBUKThesis-main.out':
-(rerunfilecheck)             Before: C4E9EECEAC1E14072D75D9708DC6E582;30102
-(rerunfilecheck)             After:  29E23F50DF40C64CB15CB78323E150E6;30164.
-
-Package biblatex Warning: Please rerun LaTeX.
-
+Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
+(rerunfilecheck)             Checksum: 7BED6BA4D6FD6B37CFA5B72DE5D30B11;32050.
 Package logreq Info: Writing requests to 'SBUKThesis-main.run.xml'.
 \openout1 = `SBUKThesis-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44697 strings out of 476191
- 950344 string characters out of 5812073
- 2069898 words of memory out of 5000000
- 64403 multiletter control sequences out of 15000+600000
+ 44802 strings out of 476191
+ 954729 string characters out of 5812073
+ 2077551 words of memory out of 5000000
+ 64501 multiletter control sequences out of 15000+600000
  483390 words of font info for 153 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,13n,104p,4868b,5103s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,13n,104p,4868b,5104s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SBUKThesis-main.pdf (99 pages).
+Output written on SBUKThesis-main.pdf (105 pages).

@@ -1,0 +1,61 @@
+% !TeX root=SBUKThesis-main.tex
+\clearpage
+\thispagestyle{empty}
+
+\chapter{مطالعه موردی: شرکت‌های پیشرو در امنیت اندروید}\label{chap3}
+
+\section{هدف فصل}
+در این فصل، شرکت‌هایی که در حوزه امنیت اپلیکیشن‌ها و دستگاه‌های اندروید فعال هستند، بررسی شده و روش‌ها و ابزارهای آن‌ها تحلیل می‌شوند.
+
+\section{معیارهای انتخاب}
+انتخاب شرکت‌ها بر مبنای: پوشش کامل چرخه توسعه \lr{(SAST، DAST، MTD)}، اعتبار جهانی، نوآوری، و امکان استخراج تجربه‌های عملی صورت گرفته است.
+
+\section{مطالعه موردی شرکت‌ها}
+
+\subsection{NowSecure}
+NowSecure یک شرکت آمریکایی فعال در امنیت موبایل است \cite{nowsecure2024}.
+\begin{itemize}
+  \item استفاده از SAST، DAST، behavioral testing \cite{nowsecure2024platform}.
+  \item ارائه پلتفرمی برای خودکارسازی تست‌ها \lr{(NowSecure Platform)} \cite{nowsecure2024automation}.
+  \item همکاری با Synopsys برای یکپارچه‌سازی تست نسل بعدی \cite{nowsecure2024synopsys}.
+\end{itemize}
+
+\subsection{\lr{Qualys (VMDR Mobile)}}
+Qualys با افزودن ماژول \lr{VMDR Mobile}، راهکار یکپارچه مدیریت آسیب‌پذیری برای دستگاه‌ها و اپلیکیشن‌ها ارائه می‌دهد \cite{qualys2024vmdr}.
+\begin{itemize}
+  \item انبارش خودکار دستگاه و اپ‌ها، شناسایی \LR{CVE}ها و \LR{misconfiguration}ها \cite{qualys2024inventory}.
+  \item تصحیح از راه دور (OTA)، پچ خودکار، مدیریت وضعیت امنیتی \cite{qualys2024patching}.
+  \item ادغام با MDM/EMM مانند Intune برای ورود خودکار داده \cite{qualys2024mdm}.
+\end{itemize}
+
+\subsection{Checkmarx / Synopsys}
+\begin{itemize}
+  \item SAST قوی در محیط \lr{CI/CD}، تشخیص آسیب‌پذیری‌های کد منبع با پوشش بیش از ۳۵ زبان برنامه‌نویسی \cite{checkmarx2024sast}.
+  \item ادغام با ابزارهای تست موبایل از جمله همکاری با NowSecure برای پوشش MAST \cite{checkmarx2024mobile}.
+\end{itemize}
+
+\section{روش‌ها و ابزارهای مشترک}
+\begin{itemize}
+  \item \textbf{تست ایستا (SAST)}: ابزارهایی مانند NowSecure و Checkmarx برای اسکن کد در مراحل اولیه توسعه \cite{nowsecure2024sast}.
+  \item \textbf{تست پویا (DAST)}: بررسی رفتار اپ در اجرا، NowSecure نمونه‌ای موفق \cite{nowsecure2024dast}.
+  \item \textbf{مدیریت آسیب‌پذیری و پچ (VMDR)}: Qualys برای شناسایی و تصحیح خودکار آسیب‌پذیری‌ها \cite{qualys2024vuln}.
+  \item \textbf{تحلیل رفتاری و MTD}: تشخیص رفتار مخرب در زمان اجرا \lr{(NowSecure و Qualys)} \cite{nowsecure2024mtd}.
+  \item \textbf{ادغام CI/CD و DevSecOps}: خودکارسازی در pipeline با \lr{NowSecure}، Checkmarx و Qualys \cite{checkmarx2024cicd}.
+\end{itemize}
+
+\section{مقایسه و تحلیل}
+با مقایسه ویژگی‌ها:
+\begin{itemize}
+  \item پوشش چرخه توسعه: به ترتیب NowSecure\LTRfootnote{SAST+DAST+behavior}، Qualys\LTRfootnote{inventory+vuln+response}، Checkmarx\LTRfootnote{SAST}.
+  \item امکان اجرا در pipeline و سرعت ادغام.
+  \item پوشش موبایل گرچه NowSecure و Qualys کامل‌تر است؛ Checkmarx بیشتر بر کد متمرکز است.
+\end{itemize}
+
+\section{جمع‌بندی}
+هر سه راهکار مزایا و محدودیت دارند:
+\begin{itemize}
+  \item \lr{NowSecure}: کامل‌ترین پوشش، اما نیازمند پیاده‌سازی مستقل.
+  \item \lr{Qualys}: مدیریت یکپارچه و مناسب برای سازمان‌های دارای \lr{MDM/EMM}.
+  \item \lr{Checkmarx}: قوی در \lr{SAST}، ولی MAST را تنها از طریق همکاری‌های خارجی پوشش می‌دهد.
+\end{itemize}
+این تحلیل کمک می‌کند تا با توجه به مقیاس و امکانات پژوهش یا پروژه، مناسب‌ترین انتخاب انجام شود. 
