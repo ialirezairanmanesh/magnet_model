@@ -1,0 +1,33 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'MAGNET_English_Paper.blg'
+[124] biber:340> INFO - === Sun Jul 13, 2025, 01:03:34
+[147] Biber.pm:418> INFO - Reading 'MAGNET_English_Paper.bcf'
+[268] Biber.pm:972> INFO - Found 22 citekeys in bib section 0
+[288] Biber.pm:4383> INFO - Processing section 0
+[305] Biber.pm:4574> INFO - Looking for bibtex file 'SBUKThesis-bibliography.bib' for section 0
+[308] bibtex.pm:1713> INFO - LaTeX decoding ...
+[366] bibtex.pm:1518> INFO - Found BibTeX data source 'SBUKThesis-bibliography.bib'
+[485] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[485] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[485] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[485] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[490] bbl.pm:654> INFO - Writing 'MAGNET_English_Paper.bbl' with encoding 'UTF-8'
+[496] bbl.pm:757> INFO - Output to MAGNET_English_Paper.bbl
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'AndroidMarketShare2024' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'AVTestReport2023' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'MalwareStatistics2023' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'ObfuscationTechniques2023' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'ZeroDayThreats2023' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'AdversarialML2023' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'BehavioralMimicry2023' (section 0)
+[497] Biber.pm:130> WARN - I didn't find a database entry for 'StaticAnalysisLimitations2023' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'DynamicAnalysisConstraints2023' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'SingleModalLimitations2023' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'ScalabilityChallenge2023' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'DrebinPaper' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'StaticAnalysisFramework' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'DeepDroid' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'DroidDeepLearner' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'DroidMultiModal' (section 0)
+[498] Biber.pm:130> WARN - I didn't find a database entry for 'MultiModalGraphML' (section 0)
+[499] Biber.pm:132> INFO - WARNINGS: 17

@@ -1,0 +1,125 @@
+%% !TEX root=SBUKThesis-main.tex
+%% !TEX TS-program = XeLaTeX
+%% Last version 1395.11.7
+% نمونه رساله دکتری دانشگاه شهید باهنر کرمان (SBUK)
+% فرید صابری موحد، گروه ریاضی دانشگاه تحصیلات تکمیلی صنعتی و فناوری پیشرفته
+%نظرات اصلاحی همه عزیزان را در ارتباط با قالب پایان نامه طراحی شده به دیده منت می‌نهیم و با کمال سپاس و قدردانی مورد استفاده قرار خواهیم داد (fdsaberi@gmail.com).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% تقدیم به آقای دکتر سید احمد موسوی که در زمینه رشد و ترویج نرم افزار لاتک در استان کرمان زحمات بسیار بسیار زیادی را کشیدند.
+% با تشکر از تمام اعضای فعال گروه پارسی‌لاتک http://www.parsilatex.com بویژه آقای دکتر وفا خلیقی، که زحمات بسیاری در زمینه رشد و توسعه علم حروف چینی لاتک در ایران کشیده اند.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,oneside,12pt]{report}
+%در صورت xنیاز به فراخوانی بسته‌های اضافی، آن‌ها را در فایل commands.tex و قبل از
+%بسته زی‌پرشین فراخوانی کنید.
+\usepackage{threeparttable}
+\include{SBUKThesis-commands}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%\PersianMathsDigits
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{SBUKThesis-bibliography.bib}
+
+
+% تنظیمات زی‌پرشین
+% \usepackage[extrafootnotefeatures]{xepersian}
+% \settextfont[Scale=1.2]{XB Zar}
+% \setdigitfont[Scale=1.2]{XB Zar}
+
+\begin{document}
+\pagenumbering{myabjad}
+%در صورتی که می خواهید دو صفحه خالی در ابتدای پایان نامه باشد، دو خط زیر فعال شود
+%\include{blankpage}
+%\cleardoublepage
+\include{SBUKThesis-inthenameofGod}%صفحه بسم الله الرحمن الرحیم
+\include{SBUKThesis-persian-cover}%صفحه جلد فارسی
+%\include{SBUKThesis-sign}%صفحه امضا تیم داوری
+\include{SBUKThesis-taeed}%منشور اخلاق پژوهش
+\include{SBUKThesis-student}%صفحه تایید پایان نامه
+\include{SBUKThesis-dedication}%صفحه تقدیم به
+\include{SBUKThesis-acknowledgments}%صفحه تشکر و قدردانی 
+\include{SBUKThesis-persian-abstract}%صفحه چکیده فارسی
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents%فهرست منابع
+\cleardoublepage
+\setlength{\cftfignumwidth}{2.5em}
+%فهرست جداول
+{
+	\let\oldnumberline\numberline%
+	\renewcommand{\numberline}{\tablename~\oldnumberline}%
+\listoftables%
+}
+\cleardoublepage
+%\listoffigures%
+{
+	\let\oldnumberline\numberline%
+	\renewcommand{\numberline}{\figurename~\oldnumberline}%
+	\listoffigures%
+}
+\cleardoublepage
+%فهرست الگوریتم ها
+{
+	\let\oldnumberline\numberline%
+	\renewcommand{\numberline}{الگوریتم~\oldnumberline}%
+\listofalgorithms%
+}
+\cleardoublepage
+%\include{SBUKThesis-alaem}%فهرست علائم اختصاری
+\cleardoublepage
+%\include{SBUKThesis-ekhtesar}%فهرست کلمات اختصاری
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+\titleformat{\chapter}[display]
+{\vspace{5cm}\filcenter}
+{\filcenter \LARGE\bfseries
+\chaptertitlename\ \justwords{\thechapter}\!:}
+{1ex}
+{\filcenter\fontsize{24}{25}\selectfont\bfseries\thispagestyle{empty}}
+[\vfill\clearpage]
+\def\justwords#1{\ifcase#1 \or اول \or دوم \or سوم \or چهارم \or پنجم \or ششم \or هفتم etc.\fi}
+%%%%%%%%%%
+ \titleformat*{\section}{\bfseries\fontsize{13}{14}\selectfont}
+\titleformat*{\subsection}{\bfseries\fontsize{12}{13}\selectfont}
+\titleformat*{\subsubsection}{\bfseries\fontsize{11}{12}\selectfont}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\parindent}{20pt}
+\include{SBUKThesis-chapter1}%فصل اول
+\cleardoublepage
+\include{SBUKThesis-chapter2}%فصل دوم
+\include{SBUKThesis-chapter3}%فصل سوم
+\include{SBUKThesis-chapter4}%فصل چهارم
+\include{SBUKThesis-chapter5}%فصل پنجم
+\include{SBUKThesis-chapter6}%فصل ششم
+\cleardoublepage
+\include{SBUKThesis-references}%فهرست مراجع
+\cleardoublepage
+\setlength{\parindent}{0pt}
+\cleardoublepage
+\appendix
+\include{SBUKThesis-peyvast}%پیوست
+\include{SBUKThesis-appendix1}
+%\include{SBUKThesis-appendix2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{lasttable}%صفحه استخراج مقاله
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%
+\titleformat{\chapter}[display]
+{}{}{1ex}{\filcenter}[]
+%\include{SBUKThesis-dic-en2fa}%واژگان انگلیسی به فارسی
+\cleardoublepage
+%\include{SBUKThesis-dic-fa2en}%واژگان فارسی به انگلیسی
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+\newgeometry{left=4cm,right=3cm,top=3cm,bottom=3cm}
+\titleformat{\chapter}[display]
+{}{}{1ex}{\bfseries\raggedright\fontsize{15}{16}\selectfont}[]
+\begin{latin}
+\include{SBUKThesis-english-abstract}%چکیده انگلیسی
+\include{SBUKThesis-english-cover}%صفحه عنوان انگلیسی
+%در صورتی که می خواهید دو صفحه خالی در انتهای پایان نامه باشد، دو خط زیر فعال شود
+%\cleardoublepage
+%\include{blankpage}
+\end{latin}
+\end{document}
+%% End of file `SBUKThesis-main.tex'.
+%% End of file `SBUKThesis-main.tex'.

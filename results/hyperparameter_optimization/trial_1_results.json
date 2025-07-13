@@ -1,0 +1,57 @@
+{
+  "trial_number": 1,
+  "params": {
+    "embedding_dim": 64,
+    "num_heads": 8,
+    "num_layers": 2,
+    "dim_feedforward": 64,
+    "dropout": 0.2,
+    "batch_size": 16,
+    "learning_rate": 0.00023406119840067301,
+    "weight_decay": 0.008633585625833898,
+    "num_epochs": 10,
+    "patience": 5,
+    "data_percentage": 50,
+    "optimizer": "AdamW",
+    "scheduler": "ReduceLROnPlateau"
+  },
+  "metrics": {
+    "accuracy": 0.9245670803930679,
+    "precision": 0.9442434230585451,
+    "recall": 0.9589882945970012,
+    "f1": 0.9512130927263002,
+    "auc": 0.9649557104608851
+  },
+  "fold_metrics": [
+    {
+      "epoch": 9,
+      "train_loss": 0.2411404671339491,
+      "val_loss": 0.39585000806849224,
+      "accuracy": 0.9289405684754521,
+      "precision": 0.9424,
+      "recall": 0.96875,
+      "f1": 0.9553933495539335,
+      "auc": 0.9720493817374762
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.30289634025281237,
+      "val_loss": 0.24721114394464055,
+      "accuracy": 0.9184993531694696,
+      "precision": 0.9630281690140845,
+      "recall": 0.9286926994906621,
+      "f1": 0.9455488331892826,
+      "auc": 0.9653521074776702
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.25785478550134244,
+      "val_loss": 0.45752252783740355,
+      "accuracy": 0.926261319534282,
+      "precision": 0.9273021001615509,
+      "recall": 0.9795221843003413,
+      "f1": 0.9526970954356846,
+      "auc": 0.9574656421675092
+    }
+  ]
+}

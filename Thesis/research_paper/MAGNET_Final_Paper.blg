@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'MAGNET_Final_Paper.blg'
+[175] biber:340> INFO - === Sun Jul 13, 2025, 00:40:46
+[208] Biber.pm:418> INFO - Reading 'MAGNET_Final_Paper.bcf'
+[372] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[403] Biber.pm:4383> INFO - Processing section 0
+[426] Biber.pm:4574> INFO - Looking for bibtex file 'SBUKThesis-bibliography.bib' for section 0
+[431] bibtex.pm:1713> INFO - LaTeX decoding ...
+[524] bibtex.pm:1518> INFO - Found BibTeX data source 'SBUKThesis-bibliography.bib'
+[881] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[881] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[882] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[882] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[898] bbl.pm:654> INFO - Writing 'MAGNET_Final_Paper.bbl' with encoding 'UTF-8'
+[918] bbl.pm:757> INFO - Output to MAGNET_Final_Paper.bbl

@@ -1,0 +1,3 @@
+number,value,datetime_start,datetime_complete,duration,params_batch_size,params_dim_feedforward,params_dropout,params_embedding_dim,params_learning_rate,params_num_heads,params_num_layers,params_optimizer,params_scheduler,params_weight_decay,state
+0,0.8762999319185268,2025-04-20 14:58:04.202814,2025-04-20 15:19:09.042077,0 days 00:21:04.839263,16,64,0.2,16,0.00014837154209034243,4,1,RMSprop,OneCycleLR,0.0029090774469748447,COMPLETE
+1,,2025-04-20 15:19:09.043594,2025-04-20 15:23:33.078975,0 days 00:04:24.035381,32,256,0.1,32,0.0004351359807798165,4,2,Adam,OneCycleLR,0.0016840535263537007,FAIL

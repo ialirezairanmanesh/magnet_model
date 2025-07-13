@@ -1,0 +1,8 @@
+ERROR: No module named 'seaborn'
+
+Traceback (most recent call last):
+  File "/home/alireza/Documents/final_magnet/magnet_model/run_with_debug.py", line 14, in main
+    from pirates_optimization.pirates_hyperparameter_tuning import main
+  File "/home/alireza/Documents/final_magnet/magnet_model/pirates_optimization/pirates_hyperparameter_tuning.py", line 34, in <module>
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'

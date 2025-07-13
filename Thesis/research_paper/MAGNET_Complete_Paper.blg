@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'MAGNET_Complete_Paper.blg'
+[78] biber:340> INFO - === Sun Jun 22, 2025, 22:45:11
+[91] Biber.pm:418> INFO - Reading 'MAGNET_Complete_Paper.bcf'
+[148] Biber.pm:972> INFO - Found 9 citekeys in bib section 0
+[160] Biber.pm:4383> INFO - Processing section 0
+[172] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[174] bibtex.pm:1713> INFO - LaTeX decoding ...
+[214] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[312] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[312] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[321] bbl.pm:654> INFO - Writing 'MAGNET_Complete_Paper.bbl' with encoding 'UTF-8'
+[332] bbl.pm:757> INFO - Output to MAGNET_Complete_Paper.bbl

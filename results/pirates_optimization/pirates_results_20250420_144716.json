@@ -1,0 +1,176 @@
+{
+    "study_name": "pirates_optimization",
+    "datetime_start": "2025-04-20 14:47:16",
+    "best_trial": {
+        "number": 1,
+        "value": 0.5,
+        "params": {
+            "embedding_dim": 231.8252447737923,
+            "num_heads": 6.329999420254785,
+            "num_layers": 3.17368845589931,
+            "dim_feedforward": 320.13645328552235,
+            "dropout": 0.10330953267297471
+        },
+        "metrics": {
+            "f1_score": 0.5,
+            "accuracy": 0.5,
+            "precision": 0.5,
+            "recall": 0.5
+        }
+    },
+    "trials": [
+        {
+            "number": 1,
+            "value": 0.5,
+            "params": {
+                "embedding_dim": 231.8252447737923,
+                "num_heads": 6.329999420254785,
+                "num_layers": 3.17368845589931,
+                "dim_feedforward": 320.13645328552235,
+                "dropout": 0.10330953267297471
+            },
+            "datetime": "2025-04-20 14:47:16",
+            "state": "COMPLETE",
+            "metrics": {
+                "f1_score": 0.5,
+                "accuracy": 0.5,
+                "precision": 0.5,
+                "recall": 0.5
+            }
+        },
+        {
+            "number": 2,
+            "value": 0.5,
+            "params": {
+                "embedding_dim": 231.8252447737923,
+                "num_heads": 6.329999420254785,
+                "num_layers": 3.17368845589931,
+                "dim_feedforward": 320.13645328552235,
+                "dropout": 0.10330953267297471
+            },
+            "datetime": "2025-04-20 14:47:16",
+            "state": "COMPLETE",
+            "metrics": {
+                "f1_score": 0.5,
+                "accuracy": 0.5,
+                "precision": 0.5,
+                "recall": 0.5
+            }
+        },
+        {
+            "number": 3,
+            "value": 0.5,
+            "params": {
+                "embedding_dim": 231.8252447737923,
+                "num_heads": 6.329999420254785,
+                "num_layers": 3.17368845589931,
+                "dim_feedforward": 320.13645328552235,
+                "dropout": 0.10330953267297471
+            },
+            "datetime": "2025-04-20 14:47:17",
+            "state": "COMPLETE",
+            "metrics": {
+                "f1_score": 0.5,
+                "accuracy": 0.5,
+                "precision": 0.5,
+                "recall": 0.5
+            }
+        },
+        {
+            "number": 4,
+            "value": 0.5,
+            "params": {
+                "embedding_dim": 231.8252447737923,
+                "num_heads": 6.329999420254785,
+                "num_layers": 3.17368845589931,
+                "dim_feedforward": 320.13645328552235,
+                "dropout": 0.10330953267297471
+            },
+            "datetime": "2025-04-20 14:47:17",
+            "state": "COMPLETE",
+            "metrics": {
+                "f1_score": 0.5,
+                "accuracy": 0.5,
+                "precision": 0.5,
+                "recall": 0.5
+            }
+        },
+        {
+            "number": 5,
+            "value": 0.5,
+            "params": {
+                "embedding_dim": 231.8252447737923,
+                "num_heads": 6.329999420254785,
+                "num_layers": 3.17368845589931,
+                "dim_feedforward": 320.13645328552235,
+                "dropout": 0.10330953267297471
+            },
+            "datetime": "2025-04-20 14:47:17",
+            "state": "COMPLETE",
+            "metrics": {
+                "f1_score": 0.5,
+                "accuracy": 0.5,
+                "precision": 0.5,
+                "recall": 0.5
+            }
+        },
+        {
+            "number": 6,
+            "value": 0.5,
+            "params": {
+                "embedding_dim": 231.8252447737923,
+                "num_heads": 6.329999420254785,
+                "num_layers": 3.17368845589931,
+                "dim_feedforward": 320.13645328552235,
+                "dropout": 0.10330953267297471
+            },
+            "datetime": "2025-04-20 14:47:17",
+            "state": "COMPLETE",
+            "metrics": {
+                "f1_score": 0.5,
+                "accuracy": 0.5,
+                "precision": 0.5,
+                "recall": 0.5
+            }
+        }
+    ],
+    "config": {
+        "param_bounds": {
+            "embedding_dim": [
+                64,
+                256
+            ],
+            "num_heads": [
+                2,
+                8
+            ],
+            "num_layers": [
+                1,
+                4
+            ],
+            "dim_feedforward": [
+                128,
+                512
+            ],
+            "dropout": [
+                0.1,
+                0.5
+            ]
+        },
+        "algorithm_params": {
+            "num_ships": 20,
+            "max_iter": 30,
+            "top_ships": 5,
+            "max_wind": 0.5,
+            "max_r": 0.5,
+            "p_hr": 0.1,
+            "c": {
+                "leader": 0.5,
+                "private_map": 0.5,
+                "map": 0.5,
+                "top_ships": 0.5
+            }
+        }
+    },
+    "datetime_end": "2025-04-20 14:47:17"
+}
