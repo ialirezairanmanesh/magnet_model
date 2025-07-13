@@ -91,7 +91,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -99,7 +99,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -111,15 +111,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -317,7 +317,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -325,7 +325,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -337,15 +337,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -626,6 +626,8 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -708,6 +710,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -795,6 +798,7 @@
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2341,55 +2345,63 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">SBUKThesis-bibliography.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">../SBUKThesis-bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">AndroidMarketShare2024</bcf:citekey>
     <bcf:citekey order="2">AVTestReport2023</bcf:citekey>
     <bcf:citekey order="2">MalwareStatistics2023</bcf:citekey>
     <bcf:citekey order="3">ObfuscationTechniques2023</bcf:citekey>
-    <bcf:citekey order="4">ZeroDayThreats2023</bcf:citekey>
-    <bcf:citekey order="5">AdversarialML2023</bcf:citekey>
-    <bcf:citekey order="6">BehavioralMimicry2023</bcf:citekey>
-    <bcf:citekey order="7">StaticAnalysisLimitations2023</bcf:citekey>
-    <bcf:citekey order="8">DynamicAnalysisConstraints2023</bcf:citekey>
-    <bcf:citekey order="9">SingleModalLimitations2023</bcf:citekey>
-    <bcf:citekey order="10">ScalabilityChallenge2023</bcf:citekey>
-    <bcf:citekey order="11">DrebinPaper</bcf:citekey>
-    <bcf:citekey order="12">StaticAnalysisFramework</bcf:citekey>
-    <bcf:citekey order="13">DeepDroid</bcf:citekey>
-    <bcf:citekey order="14">DroidDeepLearner</bcf:citekey>
-    <bcf:citekey order="15">DroidMultiModal</bcf:citekey>
-    <bcf:citekey order="16">MultiModalGraphML</bcf:citekey>
-    <bcf:citekey order="17">Drebin</bcf:citekey>
-    <bcf:citekey order="18">DrebinPaper</bcf:citekey>
-    <bcf:citekey order="19">AndroidMalwareSurvey</bcf:citekey>
-    <bcf:citekey order="20">AndroidMalwareSurvey</bcf:citekey>
-    <bcf:citekey order="21">DeepLearningMalware</bcf:citekey>
-    <bcf:citekey order="22">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="23">Kipf2017</bcf:citekey>
-    <bcf:citekey order="24">AndroidMarketShare2024</bcf:citekey>
-    <bcf:citekey order="25">AVTestReport2023</bcf:citekey>
-    <bcf:citekey order="26">MalwareStatistics2023</bcf:citekey>
-    <bcf:citekey order="27">ObfuscationTechniques2023</bcf:citekey>
-    <bcf:citekey order="28">ZeroDayThreats2023</bcf:citekey>
-    <bcf:citekey order="29">AdversarialML2023</bcf:citekey>
-    <bcf:citekey order="30">BehavioralMimicry2023</bcf:citekey>
-    <bcf:citekey order="31">StaticAnalysisLimitations2023</bcf:citekey>
-    <bcf:citekey order="32">DynamicAnalysisConstraints2023</bcf:citekey>
-    <bcf:citekey order="33">SingleModalLimitations2023</bcf:citekey>
-    <bcf:citekey order="34">ScalabilityChallenge2023</bcf:citekey>
-    <bcf:citekey order="35">DrebinPaper</bcf:citekey>
-    <bcf:citekey order="36">StaticAnalysisFramework</bcf:citekey>
-    <bcf:citekey order="37">DeepDroid</bcf:citekey>
-    <bcf:citekey order="38">DroidDeepLearner</bcf:citekey>
-    <bcf:citekey order="39">DroidMultiModal</bcf:citekey>
-    <bcf:citekey order="40">MultiModalGraphML</bcf:citekey>
-    <bcf:citekey order="41">Drebin</bcf:citekey>
-    <bcf:citekey order="42">AndroidMalwareSurvey</bcf:citekey>
-    <bcf:citekey order="43">DeepLearningMalware</bcf:citekey>
-    <bcf:citekey order="44">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="45">Kipf2017</bcf:citekey>
+    <bcf:citekey order="3">ZeroDayThreats2023</bcf:citekey>
+    <bcf:citekey order="3">AdversarialML2023</bcf:citekey>
+    <bcf:citekey order="4">BehavioralMimicry2023</bcf:citekey>
+    <bcf:citekey order="5">StaticAnalysisLimitations2023</bcf:citekey>
+    <bcf:citekey order="5">DynamicAnalysisConstraints2023</bcf:citekey>
+    <bcf:citekey order="6">SingleModalLimitations2023</bcf:citekey>
+    <bcf:citekey order="7">Drebin</bcf:citekey>
+    <bcf:citekey order="8">ObfuscationTechniques2023</bcf:citekey>
+    <bcf:citekey order="9">ZeroDayThreats2023</bcf:citekey>
+    <bcf:citekey order="10">AdversarialML2023</bcf:citekey>
+    <bcf:citekey order="11">BehavioralMimicry2023</bcf:citekey>
+    <bcf:citekey order="12">ScalabilityChallenge2023</bcf:citekey>
+    <bcf:citekey order="13">DrebinPaper</bcf:citekey>
+    <bcf:citekey order="14">StaticAnalysisLimitations2023</bcf:citekey>
+    <bcf:citekey order="15">StaticAnalysisFramework</bcf:citekey>
+    <bcf:citekey order="16">DynamicAnalysisConstraints2023</bcf:citekey>
+    <bcf:citekey order="17">DeepDroid</bcf:citekey>
+    <bcf:citekey order="18">DroidDeepLearner</bcf:citekey>
+    <bcf:citekey order="19">DroidMultiModal</bcf:citekey>
+    <bcf:citekey order="20">MultiModalGraphML</bcf:citekey>
+    <bcf:citekey order="21">Drebin</bcf:citekey>
+    <bcf:citekey order="22">DrebinPaper</bcf:citekey>
+    <bcf:citekey order="23">AndroidMalwareSurvey</bcf:citekey>
+    <bcf:citekey order="24">AndroidMalwareSurvey</bcf:citekey>
+    <bcf:citekey order="25">DeepLearningMalware</bcf:citekey>
+    <bcf:citekey order="26">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="27">Kipf2017</bcf:citekey>
+    <bcf:citekey order="28">DroidMultiModal</bcf:citekey>
+    <bcf:citekey order="29">AndroidMarketShare2024</bcf:citekey>
+    <bcf:citekey order="30">AVTestReport2023</bcf:citekey>
+    <bcf:citekey order="31">MalwareStatistics2023</bcf:citekey>
+    <bcf:citekey order="32">ObfuscationTechniques2023</bcf:citekey>
+    <bcf:citekey order="33">ZeroDayThreats2023</bcf:citekey>
+    <bcf:citekey order="34">AdversarialML2023</bcf:citekey>
+    <bcf:citekey order="35">BehavioralMimicry2023</bcf:citekey>
+    <bcf:citekey order="36">StaticAnalysisLimitations2023</bcf:citekey>
+    <bcf:citekey order="37">DynamicAnalysisConstraints2023</bcf:citekey>
+    <bcf:citekey order="38">SingleModalLimitations2023</bcf:citekey>
+    <bcf:citekey order="39">Drebin</bcf:citekey>
+    <bcf:citekey order="40">ScalabilityChallenge2023</bcf:citekey>
+    <bcf:citekey order="41">DrebinPaper</bcf:citekey>
+    <bcf:citekey order="42">StaticAnalysisFramework</bcf:citekey>
+    <bcf:citekey order="43">DeepDroid</bcf:citekey>
+    <bcf:citekey order="44">DroidDeepLearner</bcf:citekey>
+    <bcf:citekey order="45">DroidMultiModal</bcf:citekey>
+    <bcf:citekey order="46">MultiModalGraphML</bcf:citekey>
+    <bcf:citekey order="47">AndroidMalwareSurvey</bcf:citekey>
+    <bcf:citekey order="48">DeepLearningMalware</bcf:citekey>
+    <bcf:citekey order="49">Vinayakumar2019</bcf:citekey>
+    <bcf:citekey order="50">Kipf2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

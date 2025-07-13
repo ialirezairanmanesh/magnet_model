@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  13 JUL 2025 00:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  13 JUL 2025 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,23 +1149,8 @@ Overfull \hbox (1.25244pt too wide) in paragraph at lines 292--293
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `MAGNET_Final_Paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MAGNET_Final_Paper.out':
-(rerunfilecheck)             Before: AA601339A9BB0E7D34DB57D5F96DD669;2637
-(rerunfilecheck)             After:  4B743006C65499B60AE429EFADB06619;2732.
-
-Package biblatex Warning: Please rerun LaTeX.
-
+Package rerunfilecheck Info: File `MAGNET_Final_Paper.out' has not changed.
+(rerunfilecheck)             Checksum: 4B743006C65499B60AE429EFADB06619;2732.
 Package logreq Info: Writing requests to 'MAGNET_Final_Paper.run.xml'.
 \openout1 = `MAGNET_Final_Paper.run.xml'.
 
@@ -1173,7 +1158,7 @@ Package logreq Info: Writing requests to 'MAGNET_Final_Paper.run.xml'.
 Here is how much of TeX's memory you used:
  23894 strings out of 476191
  461423 string characters out of 5812073
- 1238582 words of memory out of 5000000
+ 1238888 words of memory out of 5000000
  44331 multiletter control sequences out of 15000+600000
  478146 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>MAGNET_English_Paper.bcf</file>
@@ -56,7 +56,10 @@
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric.cbx</file>
+      <file>numeric-comp.bbx</file>
+      <file>ieee.bbx</file>
+      <file>numeric-comp.cbx</file>
+      <file>ieee.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
@@ -80,7 +83,7 @@
       <file>MAGNET_English_Paper.bcf</file>
     </requires>
     <requires type="editable">
-      <file>SBUKThesis-bibliography.bib</file>
+      <file>../SBUKThesis-bibliography.bib</file>
     </requires>
   </external>
 </requests>

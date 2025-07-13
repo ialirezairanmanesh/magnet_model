@@ -19,6 +19,357 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{AndroidMarketShare2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fee3fc182e02f376217580e5bfec4f51}{%
+           family={StatCounter},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fee3fc182e02f376217580e5bfec4f51}
+      \strng{fullhash}{fee3fc182e02f376217580e5bfec4f51}
+      \strng{bibnamehash}{fee3fc182e02f376217580e5bfec4f51}
+      \strng{authorbibnamehash}{fee3fc182e02f376217580e5bfec4f51}
+      \strng{authornamehash}{fee3fc182e02f376217580e5bfec4f51}
+      \strng{authorfullhash}{fee3fc182e02f376217580e5bfec4f51}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{StatCounter GlobalStats}
+      \field{title}{Android Market Share Worldwide}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://gs.statcounter.com/os-market-share/mobile/worldwide
+      \endverb
+      \verb{url}
+      \verb https://gs.statcounter.com/os-market-share/mobile/worldwide
+      \endverb
+    \endentry
+    \entry{AVTestReport2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8ddf2d860777399969b5467ee80f6844}{%
+           family={Institute},
+           familyi={I\bibinitperiod},
+           given={AV-TEST},
+           giveni={A\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ddf2d860777399969b5467ee80f6844}
+      \strng{fullhash}{8ddf2d860777399969b5467ee80f6844}
+      \strng{bibnamehash}{8ddf2d860777399969b5467ee80f6844}
+      \strng{authorbibnamehash}{8ddf2d860777399969b5467ee80f6844}
+      \strng{authornamehash}{8ddf2d860777399969b5467ee80f6844}
+      \strng{authorfullhash}{8ddf2d860777399969b5467ee80f6844}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AV-TEST Security Report}
+      \field{title}{AV-TEST Security Report 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.av-test.org/en/statistics/malware/
+      \endverb
+      \verb{url}
+      \verb https://www.av-test.org/en/statistics/malware/
+      \endverb
+    \endentry
+    \entry{MalwareStatistics2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cb137fd6fdd5282f4bb092d01f6361c7}{%
+           family={Lab},
+           familyi={L\bibinitperiod},
+           given={Kaspersky},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb137fd6fdd5282f4bb092d01f6361c7}
+      \strng{fullhash}{cb137fd6fdd5282f4bb092d01f6361c7}
+      \strng{bibnamehash}{cb137fd6fdd5282f4bb092d01f6361c7}
+      \strng{authorbibnamehash}{cb137fd6fdd5282f4bb092d01f6361c7}
+      \strng{authornamehash}{cb137fd6fdd5282f4bb092d01f6361c7}
+      \strng{authorfullhash}{cb137fd6fdd5282f4bb092d01f6361c7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kaspersky Security Bulletin}
+      \field{title}{Mobile Malware Statistics 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://securelist.com/mobile-malware-evolution-2023/
+      \endverb
+      \verb{url}
+      \verb https://securelist.com/mobile-malware-evolution-2023/
+      \endverb
+    \endentry
+    \entry{ObfuscationTechniques2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=25bbf4047d900f3760c65b01ee899dba}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=208ef8372329f926879814eb1330db31}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Huiling},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2909c7ce0a545c65dba3a93751e7c419}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fd903bc507de58459375d974764ab4ea}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c663c2a319ec42195e5ba7b259faaa3c}
+      \strng{fullhash}{a6a8022a4396713a1eaa4fb30ef8ff8e}
+      \strng{bibnamehash}{a6a8022a4396713a1eaa4fb30ef8ff8e}
+      \strng{authorbibnamehash}{a6a8022a4396713a1eaa4fb30ef8ff8e}
+      \strng{authornamehash}{c663c2a319ec42195e5ba7b259faaa3c}
+      \strng{authorfullhash}{a6a8022a4396713a1eaa4fb30ef8ff8e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Security}
+      \field{title}{Advanced Code Obfuscation Techniques in Android Malware}
+      \field{volume}{124}
+      \field{year}{2023}
+      \field{pages}{102947}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cose.2022.102947
+      \endverb
+    \endentry
+    \entry{ZeroDayThreats2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d30571882fcf746c466a57da914b08ad}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianlong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a0dff7d3b39600315fd84a217dd731d8}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Qiben},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=f79f5a7b59b9d811de4c82b462d68206}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3974cc09b5d978593682ef0afbe6523}
+      \strng{fullhash}{f3974cc09b5d978593682ef0afbe6523}
+      \strng{bibnamehash}{f3974cc09b5d978593682ef0afbe6523}
+      \strng{authorbibnamehash}{f3974cc09b5d978593682ef0afbe6523}
+      \strng{authornamehash}{f3974cc09b5d978593682ef0afbe6523}
+      \strng{authorfullhash}{f3974cc09b5d978593682ef0afbe6523}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{title}{Zero-Day Exploits in Android: Detection and Prevention}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{pages}{1234\bibrangedash 1248}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TIFS.2023.1234567
+      \endverb
+    \endentry
+    \entry{AdversarialML2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b96befdf19f27ea301c108f0ac240766}{%
+           family={Demontis},
+           familyi={D\bibinitperiod},
+           given={Ambra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=314c8303096e0dcedbf36e078e05b73e}{%
+           family={Melis},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b3c7faf22fa63880e762044976ff3740}{%
+           family={Biggio},
+           familyi={B\bibinitperiod},
+           given={Battista},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{32649d02bd2b03631c6f23bc41ee79d8}
+      \strng{fullhash}{32649d02bd2b03631c6f23bc41ee79d8}
+      \strng{bibnamehash}{32649d02bd2b03631c6f23bc41ee79d8}
+      \strng{authorbibnamehash}{32649d02bd2b03631c6f23bc41ee79d8}
+      \strng{authornamehash}{32649d02bd2b03631c6f23bc41ee79d8}
+      \strng{authorfullhash}{32649d02bd2b03631c6f23bc41ee79d8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Security \& Privacy}
+      \field{number}{3}
+      \field{title}{Adversarial Machine Learning in Android Malware Detection}
+      \field{volume}{21}
+      \field{year}{2023}
+      \field{pages}{45\bibrangedash 52}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/MSEC.2023.1234567
+      \endverb
+    \endentry
+    \entry{BehavioralMimicry2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3d0a3a6c8754daf6eb7c600b180ecf05}{%
+           family={Alzaylaee},
+           familyi={A\bibinitperiod},
+           given={Mohammed\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1d98abb4d1674cd6d8f464d28a518c6a}{%
+           family={Yerima},
+           familyi={Y\bibinitperiod},
+           given={Suleiman\bibnamedelima Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{bef2bd9bb978c3f955e159b806f7ea11}
+      \strng{fullhash}{bef2bd9bb978c3f955e159b806f7ea11}
+      \strng{bibnamehash}{bef2bd9bb978c3f955e159b806f7ea11}
+      \strng{authorbibnamehash}{bef2bd9bb978c3f955e159b806f7ea11}
+      \strng{authornamehash}{bef2bd9bb978c3f955e159b806f7ea11}
+      \strng{authorfullhash}{bef2bd9bb978c3f955e159b806f7ea11}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{2}
+      \field{title}{Behavioral Mimicry in Android Malware: A Survey}
+      \field{volume}{56}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1145/3547335
+      \endverb
+    \endentry
+    \entry{StaticAnalysisLimitations2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=208ef8372329f926879814eb1330db31}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Huiling},
+           giveni={H\bibinitperiod}}}%
+        {{hash=25bbf4047d900f3760c65b01ee899dba}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2909c7ce0a545c65dba3a93751e7c419}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{40175e9fbf2ba4950374e61a1a8ff87b}
+      \strng{fullhash}{40175e9fbf2ba4950374e61a1a8ff87b}
+      \strng{bibnamehash}{40175e9fbf2ba4950374e61a1a8ff87b}
+      \strng{authorbibnamehash}{40175e9fbf2ba4950374e61a1a8ff87b}
+      \strng{authornamehash}{40175e9fbf2ba4950374e61a1a8ff87b}
+      \strng{authorfullhash}{40175e9fbf2ba4950374e61a1a8ff87b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Security}
+      \field{number}{4}
+      \field{title}{Limitations of Static Analysis in Modern Android Malware Detection}
+      \field{volume}{31}
+      \field{year}{2023}
+      \field{pages}{567\bibrangedash 589}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.3233/JCS-2023-1234
+      \endverb
+    \endentry
+    \entry{DynamicAnalysisConstraints2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fd903bc507de58459375d974764ab4ea}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d30571882fcf746c466a57da914b08ad}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianlong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a0dff7d3b39600315fd84a217dd731d8}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Qiben},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{8729a6733cdcbe44279c43e1a292995b}
+      \strng{fullhash}{8729a6733cdcbe44279c43e1a292995b}
+      \strng{bibnamehash}{8729a6733cdcbe44279c43e1a292995b}
+      \strng{authorbibnamehash}{8729a6733cdcbe44279c43e1a292995b}
+      \strng{authornamehash}{8729a6733cdcbe44279c43e1a292995b}
+      \strng{authorfullhash}{8729a6733cdcbe44279c43e1a292995b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Security}
+      \field{title}{Dynamic Analysis Constraints in Android Malware Detection}
+      \field{volume}{125}
+      \field{year}{2023}
+      \field{pages}{103012}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cose.2023.103012
+      \endverb
+    \endentry
+    \entry{SingleModalLimitations2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f79f5a7b59b9d811de4c82b462d68206}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f67895f351a1964153a455b6672b7a28}{%
+           family={Velickovic},
+           familyi={V\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c30bc5878e196747275a7ff581c6ed22}{%
+           family={Cucurull},
+           familyi={C\bibinitperiod},
+           given={Guillem},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f8417cff1477d90961e831b92b30622}
+      \strng{fullhash}{3f8417cff1477d90961e831b92b30622}
+      \strng{bibnamehash}{3f8417cff1477d90961e831b92b30622}
+      \strng{authorbibnamehash}{3f8417cff1477d90961e831b92b30622}
+      \strng{authornamehash}{3f8417cff1477d90961e831b92b30622}
+      \strng{authorfullhash}{3f8417cff1477d90961e831b92b30622}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Single-Modal Approaches in Android Malware Detection: Limitations and Challenges}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{45678\bibrangedash 45695}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2023.1234567
+      \endverb
+    \endentry
     \entry{Drebin}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=fc644b3e88de9799a0007d9e24faa015}{%
@@ -47,12 +398,94 @@
            given={Konrad},
            giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{f14f102b70056ab687ebe185a89008f2}
+      \strng{namehash}{fbb7f3980bb90e7042db607bb8ad4468}
       \strng{fullhash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
-      \strng{bibnamehash}{f14f102b70056ab687ebe185a89008f2}
-      \strng{authorbibnamehash}{f14f102b70056ab687ebe185a89008f2}
-      \strng{authornamehash}{f14f102b70056ab687ebe185a89008f2}
+      \strng{bibnamehash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \strng{authorbibnamehash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \strng{authornamehash}{fbb7f3980bb90e7042db607bb8ad4468}
       \strng{authorfullhash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21st Annual Network and Distributed System Security Symposium (NDSS)}
+      \field{title}{Drebin: Efficient and Explainable Detection of Android Malware in Your Pocket}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.14722/ndss.2014.23247
+      \endverb
+    \endentry
+    \entry{ScalabilityChallenge2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=26d8bcbda6afaf96334bf47c8fb88a75}{%
+           family={Kipf},
+           familyi={K\bibinitperiod},
+           given={Thomas\bibnamedelima N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \strng{fullhash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \strng{bibnamehash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \strng{authorbibnamehash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \strng{authornamehash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \strng{authorfullhash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Mobile Computing}
+      \field{number}{8}
+      \field{title}{Scalability Challenges in Real-Time Android Malware Detection}
+      \field{volume}{22}
+      \field{year}{2023}
+      \field{pages}{2345\bibrangedash 2358}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TMC.2023.1234567
+      \endverb
+    \endentry
+    \entry{DrebinPaper}{article}{}
+      \name{author}{5}{}{%
+        {{hash=fc644b3e88de9799a0007d9e24faa015}{%
+           family={Arp},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=69149e2d202d822b28013a6167a09e5d}{%
+           family={Spreitzenbarth},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a6f68402bf23c228044e92c3c2095172}{%
+           family={Hubner},
+           familyi={H\bibinitperiod},
+           given={Malte},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3ef661a965acaa727b25948cd37328e8}{%
+           family={Gascon},
+           familyi={G\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=47449209bde605e33642aeb4dcc23bf2}{%
+           family={Rieck},
+           familyi={R\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbb7f3980bb90e7042db607bb8ad4468}
+      \strng{fullhash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \strng{bibnamehash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \strng{authorbibnamehash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \strng{authornamehash}{fbb7f3980bb90e7042db607bb8ad4468}
+      \strng{authorfullhash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -62,6 +495,245 @@
       \field{year}{2014}
       \verb{doi}
       \verb 10.14722/ndss.2014.23247
+      \endverb
+    \endentry
+    \entry{StaticAnalysisFramework}{article}{}
+      \name{author}{7}{}{%
+        {{hash=c79ac2fea7b2697962789a4eddf14ba1}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ffa67d6594dc75d57c00f348f2d74db3}{%
+           family={Bye},
+           familyi={B\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6d37a617d321e8bba2d9fdd8fec589cc}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Hans-Gunther},
+           giveni={H\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=df9d23e5e69ef1b6c921e15fd41fe730}{%
+           family={Clausen},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=284071cefcbb534ca30d92c6548261bb}{%
+           family={Kiraz},
+           familyi={K\bibinitperiod},
+           given={Osman},
+           giveni={O\bibinitperiod}}}%
+        {{hash=206884fcf8d4baa9c2abc64f19c672db}{%
+           family={Yüksel},
+           familyi={Y\bibinitperiod},
+           given={Kamer},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e74fd318f8814c85b51cae4f7b17251f}{%
+           family={Albayrak},
+           familyi={A\bibinitperiod},
+           given={Sahin},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a4f0aa2ee014be5b898841e74855ae3}
+      \strng{fullhash}{445c93f366ccec6cd83381d8049afbee}
+      \strng{bibnamehash}{7a4f0aa2ee014be5b898841e74855ae3}
+      \strng{authorbibnamehash}{7a4f0aa2ee014be5b898841e74855ae3}
+      \strng{authornamehash}{7a4f0aa2ee014be5b898841e74855ae3}
+      \strng{authorfullhash}{445c93f366ccec6cd83381d8049afbee}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computer Security}
+      \field{number}{4}
+      \field{title}{A Framework for Static Analysis of Android Applications}
+      \field{volume}{17}
+      \field{year}{2009}
+      \field{pages}{561\bibrangedash 589}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.3233/JCS-2009-0347
+      \endverb
+    \endentry
+    \entry{DeepDroid}{article}{}
+      \name{author}{5}{}{%
+        {{hash=675a320e6e389c5cbe56dd59673971f1}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={TaeGuen},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7d80b26cd9af07722d093495d5c36db5}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={BooJoong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8042c5ae1315d01a70acc733b17398ec}{%
+           family={Rho},
+           familyi={R\bibinitperiod},
+           given={MinSeok},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e28f46004da0a8f9c890b6f5cf600105}{%
+           family={Sezer},
+           familyi={S\bibinitperiod},
+           given={Sakir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=13b8d1a276bc4fa09a1ff55672555403}{%
+           family={Im},
+           familyi={I\bibinitperiod},
+           given={Eul\bibnamedelima Gyu},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9ca9eb48f30f0d22727c22fa3a36a09}
+      \strng{fullhash}{648083493cfaf44ed367b8769134af55}
+      \strng{bibnamehash}{648083493cfaf44ed367b8769134af55}
+      \strng{authorbibnamehash}{648083493cfaf44ed367b8769134af55}
+      \strng{authornamehash}{e9ca9eb48f30f0d22727c22fa3a36a09}
+      \strng{authorfullhash}{648083493cfaf44ed367b8769134af55}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{DeepDroid: Deep Learning for Android Malware Detection}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{66364\bibrangedash 66378}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2913434
+      \endverb
+    \endentry
+    \entry{DroidDeepLearner}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c7a7a826b23381cf98a59161f42cf24e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=afd5ec4d6b66d138407db00ab6780314}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jianqiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7d405dc8c3ba97bdd21d7ea41fcd9b3b}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xiapu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3e721f4b9524d13de5cabf42707a6f51}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xianzhi},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe88af1e5438ea7d9779022d5389c919}
+      \strng{fullhash}{300e6c1059567f09cedd1a956dbc2568}
+      \strng{bibnamehash}{300e6c1059567f09cedd1a956dbc2568}
+      \strng{authorbibnamehash}{300e6c1059567f09cedd1a956dbc2568}
+      \strng{authornamehash}{fe88af1e5438ea7d9779022d5389c919}
+      \strng{authorfullhash}{300e6c1059567f09cedd1a956dbc2568}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{number}{10}
+      \field{title}{DroidDeepLearner: A Deep Learning Framework for Android Malware Detection}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{2525\bibrangedash 2536}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TIFS.2019.2906668
+      \endverb
+    \endentry
+    \entry{DroidMultiModal}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3d0a3a6c8754daf6eb7c600b180ecf05}{%
+           family={Alzaylaee},
+           familyi={A\bibinitperiod},
+           given={Mohammed\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1d98abb4d1674cd6d8f464d28a518c6a}{%
+           family={Yerima},
+           familyi={Y\bibinitperiod},
+           given={Suleiman\bibnamedelima Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e28f46004da0a8f9c890b6f5cf600105}{%
+           family={Sezer},
+           familyi={S\bibinitperiod},
+           given={Sakir},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1459e37648a1b479eb9cb425acc2d26b}
+      \strng{fullhash}{1459e37648a1b479eb9cb425acc2d26b}
+      \strng{bibnamehash}{1459e37648a1b479eb9cb425acc2d26b}
+      \strng{authorbibnamehash}{1459e37648a1b479eb9cb425acc2d26b}
+      \strng{authornamehash}{1459e37648a1b479eb9cb425acc2d26b}
+      \strng{authorfullhash}{1459e37648a1b479eb9cb425acc2d26b}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Security}
+      \field{title}{Multi-Modal Deep Learning for Android Malware Detection}
+      \field{volume}{89}
+      \field{year}{2020}
+      \field{pages}{101663}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cose.2019.101663
+      \endverb
+    \endentry
+    \entry{MultiModalGraphML}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d30571882fcf746c466a57da914b08ad}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianlong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a0dff7d3b39600315fd84a217dd731d8}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Qiben},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=f79f5a7b59b9d811de4c82b462d68206}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3492f793cc21c607353c55f1b9946b00}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdf700c69057b1055508499a9742aa7f}
+      \strng{fullhash}{fd9309a25371d50e88f803e406c2c3f4}
+      \strng{bibnamehash}{fd9309a25371d50e88f803e406c2c3f4}
+      \strng{authorbibnamehash}{fd9309a25371d50e88f803e406c2c3f4}
+      \strng{authornamehash}{bdf700c69057b1055508499a9742aa7f}
+      \strng{authorfullhash}{fd9309a25371d50e88f803e406c2c3f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks and Learning Systems}
+      \field{number}{8}
+      \field{title}{Graph Neural Networks for Multi-Modal Android Malware Detection}
+      \field{volume}{33}
+      \field{year}{2022}
+      \field{pages}{3456\bibrangedash 3468}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TNNLS.2021.3101234
       \endverb
     \endentry
     \entry{AndroidMalwareSurvey}{article}{}
@@ -88,8 +760,9 @@
       \strng{authorbibnamehash}{1459e37648a1b479eb9cb425acc2d26b}
       \strng{authornamehash}{1459e37648a1b479eb9cb425acc2d26b}
       \strng{authorfullhash}{1459e37648a1b479eb9cb425acc2d26b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Security}
@@ -125,11 +798,11 @@
            given={Shouhuai},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{8002495ac0be5a9b33b89cf004a2a8e5}
+      \strng{namehash}{7b691a47c1cb336585f3ab6efaaa6398}
       \strng{fullhash}{62b993fdfdafbda78ac571267067b09c}
-      \strng{bibnamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
-      \strng{authorbibnamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
-      \strng{authornamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
+      \strng{bibnamehash}{62b993fdfdafbda78ac571267067b09c}
+      \strng{authorbibnamehash}{62b993fdfdafbda78ac571267067b09c}
+      \strng{authornamehash}{7b691a47c1cb336585f3ab6efaaa6398}
       \strng{authorfullhash}{62b993fdfdafbda78ac571267067b09c}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -174,11 +847,11 @@
            given={Sitalakshmi},
            giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{a395f46d78914c5ea239a04983cea549}
+      \strng{namehash}{e5f17232d0d08ea76f362e73fa7527fc}
       \strng{fullhash}{743924ff3615deec2cf341d3cf74d1d1}
-      \strng{bibnamehash}{a395f46d78914c5ea239a04983cea549}
-      \strng{authorbibnamehash}{a395f46d78914c5ea239a04983cea549}
-      \strng{authornamehash}{a395f46d78914c5ea239a04983cea549}
+      \strng{bibnamehash}{743924ff3615deec2cf341d3cf74d1d1}
+      \strng{authorbibnamehash}{743924ff3615deec2cf341d3cf74d1d1}
+      \strng{authornamehash}{e5f17232d0d08ea76f362e73fa7527fc}
       \strng{authorfullhash}{743924ff3615deec2cf341d3cf74d1d1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -213,6 +886,7 @@
       \strng{authorbibnamehash}{e04e5808dc0d0ec733212b81e1f8c78a}
       \strng{authornamehash}{e04e5808dc0d0ec733212b81e1f8c78a}
       \strng{authorfullhash}{e04e5808dc0d0ec733212b81e1f8c78a}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -222,23 +896,6 @@
       \field{year}{2017}
     \endentry
   \enddatalist
-  \missing{AVTestReport2023}
-  \missing{AdversarialML2023}
-  \missing{AndroidMarketShare2024}
-  \missing{BehavioralMimicry2023}
-  \missing{DeepDroid}
-  \missing{DrebinPaper}
-  \missing{DroidDeepLearner}
-  \missing{DroidMultiModal}
-  \missing{DynamicAnalysisConstraints2023}
-  \missing{MalwareStatistics2023}
-  \missing{MultiModalGraphML}
-  \missing{ObfuscationTechniques2023}
-  \missing{ScalabilityChallenge2023}
-  \missing{SingleModalLimitations2023}
-  \missing{StaticAnalysisFramework}
-  \missing{StaticAnalysisLimitations2023}
-  \missing{ZeroDayThreats2023}
 \endrefsection
 \endinput
 
