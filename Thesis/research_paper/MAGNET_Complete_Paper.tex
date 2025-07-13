@@ -1,0 +1,374 @@
+% !TeX program = XeLaTeX
+\documentclass[a4paper,11pt]{article}
+
+% بسته‌های اولیه
+\usepackage[top=25mm, bottom=25mm, left=20mm, right=20mm, columnsep=8mm]{geometry}
+\usepackage{amsmath,amsthm,amssymb,mathtools}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage[table]{xcolor}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{url}
+
+% بسته bibliography با biber
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+% تنظیمات رنگ‌ها
+\definecolor{Blue}{rgb}{0,0,0.55}
+\definecolor{mybluecolor}{HTML}{80C4E9}
+
+% بسته hyperref قبل از xepersian
+\usepackage[colorlinks=true,
+            linkcolor=black,
+            citecolor=black,
+            urlcolor=black,
+            filecolor=black,
+            menucolor=black,
+            runcolor=black,
+            linktoc=all,
+            pdfstartview=FitH,
+            breaklinks=true]{hyperref}
+
+% بسته xepersian برای پشتیبانی از فارسی
+\usepackage{xepersian}
+
+% تنظیمات فونت
+\settextfont[Scale=1]{XB Zar}
+\setlatintextfont[Scale=0.91]{Times New Roman}
+\setdigitfont[Scale=0.9]{XB Zar}
+
+% تنظیمات فاصله‌گذاری
+\linespread{1.5}
+
+\begin{document}
+
+% عنوان و نویسندگان
+\title{\Large\textbf{مدل MAGNET: رویکردی ترکیبی مبتنی بر یادگیری عمیق برای تشخیص بدافزار اندروید با استفاده از ویژگی‌های چندگانه}}
+\author{
+  \textbf{علیرضا ایرانمنش}\thanks{دانشگاه شهید باهنر، دانشکده مهندسی کامپیوتر، کرمان، ایران. ایمیل: \lr{alirezairanmanesh78@gmail.com}} \and
+  \textbf{دکتر حمید میروزیری}\thanks{دانشگاه شهید باهنر، دانشکده مهندسی کامپیوتر، باهنر، ایران. ایمیل: \lr{h.mirvaziri@gmail.com}}
+}
+\maketitle
+\vspace{-1em}
+
+% چکیده فارسی
+\begin{abstract}
+  \section*{چکیده}
+  \textbf{زمینه و هدف:} با گسترش روزافزون استفاده از دستگاه‌های اندرویدی و افزایش حجم تهدیدات سایبری، تشخیص دقیق و به‌موقع بدافزارها به یکی از چالش‌های حیاتی امنیت اطلاعات تبدیل شده است. روش‌های سنتی تشخیص بدافزار که عمدتاً بر تحلیل تک‌وجهی متکی‌اند، در مواجهه با بدافزارهای پیچیده و تکنیک‌های مبهم‌سازی پیشرفته کارایی محدودی نشان می‌دهند. \textbf{روش:} این پژوهش مدل نوین چندوجهی \lr{MAGNET} (\lr{Multi-modal Analysis for Graph-based NEtwork Threats}) را معرفی می‌کند که با ترکیب هوشمندانه سه نوع داده—جدولی (ویژگی‌های ایستا)، گرافی (گراف‌های فراخوانی توابع)، و ترتیبی (توالی‌های فراخوانی \lr{API})—و بهره‌گیری از معماری‌های پیشرفته یادگیری عمیق شامل ترنسفورمرها و شبکه‌های عصبی گراف، دقت تشخیص بدافزار را بهبود می‌بخشد. مدل پیشنهادی شامل سه ماژول تخصصی \lr{EnhancedTabTransformer}، \lr{GraphTransformer}، و \lr{SequenceTransformer} به همراه مکانیزم توجه پویا و لایه ادغام چندوجهی است. \textbf{یافته‌ها:} ارزیابی‌های تجربی بر روی مجموعه داده استاندارد \lr{DREBIN} شامل \lr{6,092} نمونه (\lr{4,641} برای آموزش و \lr{1,451} برای تست) نشان می‌دهد که مدل \lr{MAGNET} با دقت \lr{97.24±0.65}\%、 معیار \lr{F1-Score} برابر \lr{0.9823±0.0042}، و \lr{AUC} برابر \lr{0.9932±0.0035}، عملکردی برتر نسبت به روش‌های مرجع از جمله \lr{SVM} (\lr{90.6}\%)، \lr{Random Forest} (\lr{93.5}\%)، \lr{XGBoost} (\lr{94.8}\%)، و \lr{ANN} (\lr{96.2}\%) ارائه می‌دهد. مطالعه \lr{ablation} نشان می‌دهد که حذف هر یک از اجزای مدل منجر به کاهش قابل‌توجه عملکرد می‌شود. \textbf{نتیجه‌گیری:} نتایج تأیید می‌کند که رویکرد چندوجهی و استفاده از معماری‌های نوین یادگیری عمیق، پتانسیل قابل‌توجهی در مقابله با تهدیدات پیچیده و نوظهور اندرویدی دارد و می‌تواند به عنوان راه‌حلی مؤثر در سیستم‌های امنیتی عملیاتی مورد استفاده قرار گیرد.
+
+  \textbf{واژگان کلیدی:} تشخیص بدافزار اندروید، یادگیری چندوجهی، شبکه‌های عصبی گراف، ترنسفورمر، تحلیل امنیتی، \lr{DREBIN}، \lr{MAGNET}
+\end{abstract}
+
+\newpage
+
+\begin{latin}
+  \section*{MAGNET: A Hybrid Deep Learning Approach for Android Malware Detection Using Multi-feature Analysis}
+  \begin{abstract}
+    \section*{Abstract}
+    \normalsize
+    \textbf{Background:} With the increasing prevalence of Android devices and cybersecurity threats, accurate malware detection has become crucial. Traditional single-modal approaches show limitations against sophisticated malware. \textbf{Method:} This research introduces MAGNET (Multi-modal Analysis for Graph-based NEtwork Threats), integrating three data modalities—tabular (static features), graph (function call graphs), and sequential (API sequences)—through specialized neural architectures (EnhancedTabTransformer, GraphTransformer, and SequenceTransformer) with dynamic attention and multimodal fusion. \textbf{Results:} Evaluation on the DREBIN dataset (6,092 samples) shows MAGNET achieves 97.24±0.65\% accuracy, 0.9823±0.0042 F1-Score, and 0.9932±0.0035 AUC, outperforming baselines (SVM: 90.6\%, Random Forest: 93.5\%, XGBoost: 94.8\%, ANN: 96.2\%). Ablation studies confirm each component’s significance. \textbf{Conclusion:} The multimodal approach demonstrates strong potential for operational security systems against emerging Android threats.
+
+    \textbf{Keywords:} Android malware detection, Multimodal deep learning, Graph neural networks, Transformer architecture, Security analysis, DREBIN dataset, MAGNET
+  \end{abstract}
+\end{latin}
+
+\newpage
+\twocolumn
+
+\section{مقدمه}
+سیستم‌عامل اندروید با بیش از \lr{70}\% سهم بازار جهانی دستگاه‌های هوشمند، به بزرگ‌ترین پلتفرم موبایل جهان تبدیل شده است. این محبوبیت گسترده، همراه با معماری باز و انعطاف‌پذیر اندروید، آن را به هدف اصلی حملات سایبری تبدیل کرده است. گزارش‌های امنیتی نشان می‌دهند که تعداد بدافزارهای شناسایی‌شده برای پلتفرم اندروید از \lr{3.2} میلیون نمونه در سال \lr{2020} به بیش از \lr{5.8} میلیون نمونه در سال \lr{2023} افزایش یافته است~\cite{AVTestReport2023}.
+
+روش‌های سنتی تشخیص بدافزار که عمدتاً بر امضاهای ایستا و تحلیل تک‌بعدی متکی هستند، در مواجهه با تکنیک‌های پیچیده مبهم‌سازی، رمزگذاری، و پیکربندی پویای کد دچار محدودیت‌های جدی می‌شوند~\cite{SignatureBasedLimitations}. علاوه بر این، ظهور بدافزارهای تولیدشده با هوش مصنوعی و تکنیک‌های تطبیقی، چالش‌های جدیدی را برای سیستم‌های امنیتی ایجاد کرده است.
+
+این پژوهش با هدف مقابله با این چالش‌ها، مدل نوآورانه \lr{MAGNET} (\lr{Multi-modal Analysis for Graph-based NEtwork Threats}) را معرفی می‌کند. این مدل با بهره‌گیری از رویکرد چندوجهی، سه نوع داده مختلف شامل ویژگی‌های جدولی (مجوزها، اجزای برنامه)، ساختارهای گرافی (گراف‌های فراخوانی توابع)، و توالی‌های زمانی (\lr{API} کال‌ها) را به‌صورت هم‌زمان تحلیل می‌کند.
+
+نوآوری‌های کلیدی این پژوهش عبارتند از:
+\begin{itemize}
+  \item طراحی معماری چندوجهی یکپارچه با سه ماژول تخصصی
+  \item توسعه مکانیزم توجه پویا برای ادغام بهینه اطلاعات چندوجهی
+  \item پیاده‌سازی الگوریتم بهینه‌سازی \lr{PIRATES} برای تنظیم خودکار پارامترها
+  \item ارزیابی جامع بر روی مجموعه داده استاندارد \lr{DREBIN}
+\end{itemize}
+
+\section{کارهای مرتبط}
+\subsection{تکامل روش‌های تشخیص بدافزار اندروید}
+تحقیقات اولیه در زمینه تشخیص بدافزار اندروید عمدتاً بر تحلیل ایستا متمرکز بودند. \lr{Arp} و همکاران~\cite{DrebinPaper} با معرفی سیستم \lr{DREBIN}، یکی از تأثیرگذارترین کارهای این حوزه را ارائه دادند. آن‌ها از ویژگی‌هایی نظیر مجوزها، فراخوانی‌های \lr{API}، اجزای برنامه، و فیلترهای \lr{Intent} استفاده کردند و با بهره‌گیری از الگوریتم \lr{SVM}، دقت \lr{94}\% در تشخیص بدافزار حاصل کردند.
+
+\lr{Schmidt} و همکاران~\cite{StaticAnalysisFramework} چارچوبی جامع برای تحلیل ایستا برنامه‌های اندرویدی طراحی کردند که شامل استخراج اطلاعات از فایل \lr{AndroidManifest.xml}، تحلیل کد \lr{DEX}، و بررسی منابع برنامه بود. این چارچوب قابلیت تشخیص \lr{87.3}\% از بدافزارهای مجموعه آزمایش را داشت اما در مواجهه با تکنیک‌های مبهم‌سازی کارایی چندانی نداشت.
+
+\subsection{رویکردهای مبتنی بر یادگیری عمیق}
+با پیشرفت‌های اخیر در یادگیری عمیق، محققان شروع به استفاده از شبکه‌های عصبی پیچیده برای تشخیص بدافزار کردند. \lr{Kim} و همکاران~\cite{DeepDroid} اولین کار مهم در استفاده از \lr{Deep Belief Networks} (DBN) برای تحلیل بدافزار اندروید را ارائه دادند. آن‌ها با استفاده از ویژگی‌های \lr{API} و دستیابی به دقت \lr{96.5}\%، کارایی بالای روش‌های یادگیری عمیق را نشان دادند.
+
+\lr{Wang} و همکاران~\cite{DroidDeepLearner} سیستم \lr{DroidDeepLearner} را توسعه دادند که از \lr{Deep Belief Networks} برای تحلیل ویژگی‌های ایستا و پویا استفاده می‌کرد. این سیستم توانست دقت \lr{97.8}\% در تشخیص بدافزارهای خانواده‌های مختلف کسب کند.
+
+\subsection{تحلیل چندوجهی}
+\lr{Alzaylaee} و همکاران~\cite{DroidMultiModal} یکی از اولین تلاش‌های جامع برای استفاده از داده‌های چندوجهی در تشخیص بدافزار اندروید را ارائه دادند. آن‌ها از ترکیب ویژگی‌های ایستا، پویا، و متنی استفاده کردند و با بهره‌گیری از روش‌های ادغام مختلف، دقت \lr{98.2}\% حاصل کردند.
+
+\lr{Chen} و همکاران~\cite{MultiModalGraphML} رویکرد جدیدی مبتنی بر تحلیل گراف چندوجهی ارائه دادند که از \lr{Graph Neural Networks} (GNN) برای یادگیری نمایش‌های پیچیده از ساختار برنامه‌ها استفاده می‌کرد. این روش با دقت \lr{96.7}\% نتایج امیدوارکننده‌ای نشان داد.
+
+\section{روش پیشنهادی}
+\subsection{معماری کلی مدل MAGNET}
+مدل \lr{MAGNET} یک معماری چندوجهی یکپارچه است که از سه جریان داده مجزا برای پردازش انواع مختلف اطلاعات استفاده می‌کند. هر جریان توسط یک ماژول تخصصی پردازش می‌شود و در نهایت، خروجی‌ها از طریق یک مکانیزم توجه پویا ادغام می‌شوند.
+
+\textbf{ماژول ویژگی‌های جدولی (EnhancedTabTransformer):}
+این ماژول برای پردازش ویژگی‌های ایستا طراحی شده است. ویژگی‌های ورودی شامل:
+\begin{itemize}
+  \item مجوزهای درخواست‌شده توسط برنامه (\lr{128} ویژگی)
+  \item اجزای برنامه مانند \lr{Activities}، \lr{Services}، و \lr{Receivers}
+  \item فراخوانی‌های \lr{API} ایستا
+  \item اطلاعات \lr{AndroidManifest.xml}
+\end{itemize}
+
+\textbf{ماژول ساختار گراف (GraphTransformer):}
+این ماژول برای تحلیل گراف‌های فراخوانی توابع طراحی شده است. گراف‌های ورودی دارای مشخصات زیر هستند:
+\begin{itemize}
+  \item میانگین \lr{1,245} گره و \lr{3,872} یال در هر نمونه
+  \item ویژگی‌های گره: نوع تابع، فراوانی فراخوانی (\lr{64} بعد)
+  \item ویژگی‌های یال: فراوانی و نوع فراخوانی (\lr{32} بعد)
+\end{itemize}
+
+\textbf{ماژول توالی‌های API (SequenceTransformer):}
+این ماژول برای تحلیل توالی‌های فراخوانی \lr{API} طراحی شده است:
+\begin{itemize}
+  \item میانگین طول \lr{87} فراخوانی \lr{API} در هر نمونه
+  \item رمزگذاری توالی‌ها با استفاده از \lr{Word2Vec}
+  \item حفظ اطلاعات ترتیب زمانی فراخوانی‌ها
+\end{itemize}
+
+\subsection{جزئیات پیاده‌سازی}
+\textbf{مکانیزم توجه پویا:}
+برای ادغام اطلاعات سه ماژول، مکانیزم توجه پویای زیر طراحی شده است:
+\begin{equation}
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+\end{equation}
+که در آن $Q$، $K$، و $V$ به ترتیب ماتریس‌های \lr{Query}، \lr{Key}، و \lr{Value} هستند.
+
+\textbf{لایه ادغام چندوجهی:}
+خروجی نهایی از طریق ترکیب وزنی خروجی‌های سه ماژول محاسبه می‌شود:
+\begin{equation}
+\text{Output} = \alpha \cdot h_{\text{tab}} + \beta \cdot h_{\text{graph}} + \gamma \cdot h_{\text{seq}}
+\end{equation}
+که وزن‌های $\alpha$، $\beta$، و $\gamma$ به صورت تطبیقی یاد گرفته می‌شوند.
+
+\section{پیاده‌سازی و ارزیابی}
+\subsection{مجموعه داده}
+برای ارزیابی مدل \lr{MAGNET} از مجموعه داده استاندارد \lr{DREBIN}~\cite{Drebin} استفاده شد که شامل \lr{6,092} نمونه است:
+\begin{itemize}
+  \item \textbf{lu آموزش:} \lr{4,641} نمونه
+  \item \textbf{تست:} \lr{1,451} نمونه (\lr{327} نمونه سالم، \lr{1,124} نمونه بدافزار)
+  \item \textbf{دوره زمانی:} \lr{2010-2014}
+  \item \textbf{خانواده‌های بدافزار:} شامل انواع مختلف بدافزار
+\end{itemize}
+
+\subsection{تنظیمات آزمایش}
+\textbf{سخت‌افزار:}
+\begin{itemize}
+  \item \lr{CPU: Intel Core i7-8700K}
+  \item \lr{GPU: NVIDIA RTX 3080} (10GB VRAM)
+  \item \lr{RAM: 32GB DDR4-3200}
+  \item \lr{Storage: 256GB NVMe SSD}
+\end{itemize}
+
+\textbf{نرم‌افزار:}
+\begin{itemize}
+  \item \lr{Python 3.8.10}
+  \item \lr{PyTorch 1.12.0}
+  \item \lr{PyTorch Geometric 2.1.0}
+  \item \lr{CUDA 11.6}
+\end{itemize}
+
+\textbf{بهینه‌سازی پارامترها:}
+بهینه‌سازی ابرپارامترها با دو روش انجام شد:
+\begin{itemize}
+  \item \textbf{بهینه‌سازی دستی:} الگوریتم \lr{PIRATES} با \lr{476} آزمایش
+  \item \textbf{بهینه‌سازی \lr{Optuna}:} \lr{13} آزمایش هدفمند
+\end{itemize}
+
+\section{نتایج}
+\subsection{عملکرد کلی}
+مدل \lr{MAGNET} در ارزیابی بر روی مجموعه تست شامل \lr{1,451} نمونه به نتایج زیر دست یافت:
+\begin{itemize}
+    \item \textbf{دقت:} \lr{97.24}\%
+    \item \textbf{\lr{F1-Score}:} \lr{0.9823}
+    \item \textbf{\lr{Precision}:} \lr{0.9796}
+    \item \textbf{\lr{Recall}:} \lr{0.9849}
+    \item \textbf{\lr{AUC}:} \lr{0.9932}
+\end{itemize}
+
+\subsection{نتایج اعتبارسنجی متقاطع}
+در اعتبارسنجی متقاطع \lr{5}-تایی، میانگین معیارها به صورت زیر به‌دست آمد:
+\begin{table*}
+  \centering
+  \caption{نتایج اعتبارسنجی متقاطع \lr{5}-تایی مدل \lr{MAGNET}}
+  \begin{tabular}{|l|c|}
+    \hline
+    \textbf{معیار} & \textbf{مقدار} \\
+    \hline
+    \hline
+    دقت & \lr{0.9722 ± 0.0065} \\
+    \hline
+    \lr{Precision} & \lr{0.9810 ± 0.0102} \\
+    \hline
+    \lr{Recall} & \lr{0.9828 ± 0.0072} \\
+    \hline
+    \lr{F1-Score} & \lr{0.9818 ± 0.0042} \\
+    \hline
+    \lr{AUC} & \lr{0.9932 ± 0.0035} \\
+  \end{tabular}
+\end{table*}
+
+\subsection{مقایسه با روش‌های مرجع}
+\begin{table*}
+  \centering
+    \caption{مقایسه عملکرد مدل \lr{MAGNET} با روش‌های مرجع}
+  \begin{tabular}{|l|c|c|c|c|c|}
+    \hline
+    \textbf{روش} & \textbf{دقت} & \textbf{\lr{F1-Priceision}} & \textbf{\lr{Recall}} & \textbf{\lr{F1-Score}} & \textbf{\lr{AUC}} \\
+    \hline
+    \lr{SVM} & \lr{0.906} & \lr{0.915} & \lr{0.892} & \lr{0.903} & \lr{0.945} \\
+    \hline
+    \lr{Random Forest} & \lr{0.935} & \lr{0.942} & \lr{0.928} & \lr{0.935} & \lr{0.967} \\
+    \hline
+    \lr{XGBoost} & \lr{0.948} & \lr{0.953} & \lr{0.943} & \lr{0.948} & \lr{0.978} \\
+    \hline
+    \lr{ANN} & \lr{0.962} & \lr{0.965} & \lr{0.959} & \lr{0.962} & \lr{0.985} \\
+    \hline
+    \textbf{\lr{MAGNET}} & \textbf{\lr{0.972}} & \textbf{\0.980}} & \textbf{\lr{0.985}} & \textbf{\lr{0.982}} & \textbf{\lr{0.993}} \\
+    \hline
+  \end{tabular}
+\end{table*}
+
+\subsection{تحلیل عملکرد ماژول‌ها}
+عملکرد تک‌تک ماژول‌های مدل \lr{MAGNET} بر اساس نتایج پایان‌نامه:
+\begin{itemize}
+    \item \textbf{\lr{EnhancedTabTransformer}} \lr{F1-Score = 0.945}
+    \item \textbf{\lr{GraphTransformer}} \lr{F1-Score} = 0.894}
+    \item \textbf{\lr{SequenceTransformer}} \lr{F1-Score} = 0.907}
+    \item \textbf{مدل ترکیبی:} \lr{F1-Score = 0.982}
+\end{itemize}
+
+\subsection{مطالعه حذف اجزا (Ablation Study)}
+بر اساس مطالعه حذف اجزا انجام‌شده در پایان‌نامه:
+\begin{itemize}
+  \item \textbf{بدون مکانیزم توجه پویا:} \lr{F1-Score = 0.954}
+  \item \textbf{بدون لایه ادغام چندوجهی:} \lr{F1-Score = 0.967}
+  \item \textbf{مدل کامل \lr{MAGNET}} \lr{F1-Score = 0.982}
+\end{itemize}
+
+\subsection{ماتریس درهم‌ریختگی}
+نتایج تست نهایی بر روی \lr{1,451} نمونه تست:
+\begin{itemize}
+    \item \textbf{درست منفی (\lr{TN})}: \lr{304} نمونه
+    \item \textbf{نادرست مثبت (\lr{FP})}: \lr{23} نمونه
+    \item \textbf{نادرست منفی (\lr{FN})}: \lr{17} نمونه
+    \item \textbf{درست مثبت (\lr{TP})}: \lr{1,107} نمونه
+\end{itemize}
+
+\subsection{مقایسه با روش‌های پیشرفته}
+\begin{table*}
+  \centering
+  \caption{مقایسه با روش‌های پیشرفته}
+  \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{روش} & \textbf{دقت (\%)} & \textbf{\lr{F1-Score}} & \textbf{\lr{AUC}} & \textbf{یادداشت} \\
+    \hline
+    \textbf{\lr{MAGNET}} & \textbf{\lr{97.24}} & \textbf{\lr{0.9823}} & \textbf{\lr{0.9932}} & بهترین عملکرد، \lr{DREBIN} \\
+    \hline
+    \lr{DREBIN} (\lr{SVM}) & \lr{92.3} & \lr{0.933} & \lr{0.955} & رویکرد ایستا \\
+    \hline
+    \lr{PIKADROID} & \lr{96.8} & \lr{0.974} & \lr{0.988} & تحلیل \lr{API}، \lr{DREBIN} \\
+    \hline
+    \lr{CrossMalDroid} & \lr{95.2} & \lr{0.952} & \lr{0.976} & انتخاب ویژگی، \lr{Malgenome} \\
+    \hline
+    \lr{DroidAPIMiner} & \lr{89.7} & \lr{0.891} & \lr{0.927} & فرکانس \lr{API}، \lr{DREBIN} \\
+    \hline
+    \lr{DeepImageDroid} & \lr{96.0} & \lr{0.960} & \lr{0.982} & ترنسفورمر بصری و \lr{CNN} \\
+    \hline
+    \lr{BERT-Graph} & \lr{95.5} & \lr{0.950} & \lr{0.975} & \lr{BERT} و گراف \lr{API} \\
+  \hline
+\end{tabular}
+\end{table*}
+
+\section{بحث و تحلیل}
+\subsection{تحلیل نتایج}
+نتایج به‌دست آمده نشان می‌دهد که مدل \lr{MAGNET} با دقت \lr{97.24\%} و \lr{F1-Score} برابر \lr{0.9823} عملکرد برتری نسبت به روش‌های مرجع و حتی بسیاری از روش‌های پیشرفته دارد. این بهبود عملکرد را می‌توان به عوامل زیر نسبت داد:
+\textbf{تنوع اطلاعات:}
+استفاده از سه نوع داده مختلف (جدولی، گرافی، ترتیبی) اطلاعات جامع‌تری از ساختار و رفتار برنامه‌ها فراهم می‌کند.
+\textbf{معماری پیشرفته:}
+استفاده از ترنسفورمرهای تخصصی امکان استخراج الگوهای پیچیده را فراهم می‌کند.
+\textbf{مکانیزم توجه پویا:}
+این مکانیزم امکان تمرکز بر اطلاعات مهم و نادیده گرفتن اطلاعات نامربوط را فراهم می‌کند.
+
+\subsection{مقایسه با کارهای پیشین}
+در مقایسه با کارهای پیشین:
+\begin{itemize}
+    \item \textbf{\lr{DREBIN} اصلی:} دقت \lr{94}\% - بهبود \lr{3.24}\%
+    \item \textbf{روش‌های چندوجهی قبلی:} دقت حدود \lr{89-96}\% - بهبود قابل‌توجه
+    \item \textbf{روش‌های مبتنی بر \lr{GNN}:} دقت حدود \lr{95-97}\% - رقابتی یا بهتر
+\end{itemize}
+
+\subsection{محدودیت‌ها}
+علی‌رغم نتایج مثبت، مدل \lr{MAGNET} دارای محدودیت‌هایی است:
+\textbf{پیچیدگی محاسباتی:}
+پردازش سه نوع داده مختلف نیازمند منابع قابل‌توجه است.
+\textbf{وابستگی به کیفیت داده:}
+عملکرد مدل به کیفیت استخراج ویژگی و پیش‌پردازش داده‌ها وابسته است.
+\textbf{تعمیمی‌پذیری:}
+آموزش بر روی مجموعه داده \lr{DREBIN} که مربوط به سال‌های \lr{2010-2014} است، ممکن است تعمیم‌پذیری مدل را محدود کند.
+
+\section{نتیجه‌گیری}
+این پژوهش مدل نوآورانه \lr{MAGNET} را برای تشخیص بدافزار اندروید معرفی کرد که از رویکرد چندوجهی و معماری‌های پیشرفته استفاده می‌کند. نتایج ارزیابی بر روی مجموعه داده \lr{DREBIN} نشان می‌دهد که با دقت \lr{97.24}\% و \lr{F1-Score} برابر \lr{0.9823} عملکرد برتری نسبت به روش‌ها دارد.
+
+دستاوردهای کلیدی عبارتند از:
+\begin{itemize}
+    \item طراحی معماری چندوجهی یکپارچه با سه ماژول تخصصی شامل \lr{EnhancedTabTransformer}، \lr{GraphTransformer}، و \lr{SequenceTransformer}
+    \item توسعه مکانیزم توجه پویا برای ادغام بهینه اطلاعات با وزن‌های تطبیقی
+    \item نشان دادن اهمیت استفاده از اطلاعات متنوع شامل ویژگی‌های جدولی، گرافی و ترتیبی
+    \item ارائه راه‌حلی عملی برای سیستم‌های امنیتی با دقت بالا و نرخ خطای پایین
+    \item استفاده موثر از از الگوریتم بهینه‌سازی \lr{PIRATES} برای تنظیم خودکار
+\end{itemize}
+
+مطالعه حذف اجزا تأیید کرد که هر ماژول نقش مهمی دارد و حذف آن‌ها منجر به کاهش دقت می‌شود. ماتریس درهم‌ریختگی نشان داد توانایی در تفکیک صحیح نمونه‌های مخرب و سالم دارد.
+
+\section{پیشنهادات آتی}
+\subsection{بهبودهای فنی}
+\begin{itemize}
+    \item ارزیابی مدل بر روی مجموعه داده‌های جدیدتر و متنوع‌تر شامل بدافزارهای سال‌های اخیر
+    \item بهینه‌سازی معماری برای کاهش پیچیدگی محاسباتی و افزایش سرعت پردازش
+    \item توسعه تکنیک‌های فشرده‌سازی مدل برای اجرا بر روی دستگاه‌های با منابع محدود
+    \item پیاده‌سازی یادگیری انتقالی برای تطبیق سریع با انواع جدید بدافزار
+\end{itemize}
+
+\subsection{کاربردهای عملی}
+\begin{itemize}
+    \item بررسی قابلیت اعمال مدل در محیط‌های عملیاتی و سیستم‌های تولیدی
+    \item توسعه رابط کاربری برای استفاده آسان توسط متخصصان امنیت
+    \item ادغام مدل با سیستم‌های موجود آنتی‌ویروس و امنیتی
+    \item بررسی عملکرد مدل در تشخیص \textit{real-time} بدافزارها
+\end{itemize}
+
+\subsection{تحقیقات آینده}
+\begin{itemize}
+    \item توسعه روش‌های تفسیرپذیری برای درک بهتر فرآیند تصمیم‌گیری مدل
+    \item بررسی مقاومت مدل در برابر حملات تضاد و تکنیک‌های فرار پیشرفته
+    \item توسعه مدل‌های تطبیقی که بتوانند با تکامل بدافزارها به‌روزرسانی شوند
+    \item بررسی کاربرد مدل برای تشخیص انواع دیگر نرم‌افزارهای مخرب در پلتفرم‌های مختلف
+\end{itemize}
+
+\onecolumn
+\newpage
+\begin{latin}
+  \printbibliography[heading=bibintoc,title={مراجع}]
+\end{latin}
+
+\end{document}
