@@ -1,0 +1,61 @@
+%% !TEX root=main.tex
+%% !TEX TS-program = XeLaTeX
+% گزارش پروژه AI Mining
+% پروژه استخراج داده با استفاده از هوش مصنوعی
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,oneside,12pt]{report}
+%در صورت نیاز به فراخوانی بسته‌های اضافی، آن‌ها را در فایل commands.tex و قبل از
+%بسته زی‌پرشین فراخوانی کنید.
+\usepackage{threeparttable}
+\include{SBUKThesis-commands}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%\PersianMathsDigits
+% \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+% \addbibresource{bibliography.bib}
+
+% تنظیمات زی‌پرشین
+% \usepackage[extrafootnotefeatures]{xepersian}
+% \settextfont[Scale=1.2]{XB Zar}
+% \setdigitfont[Scale=1.2]{XB Zar}
+
+\begin{document}
+\pagenumbering{myabjad}
+%در صورتی که می خواهید دو صفحه خالی در ابتدای گزارش باشد، دو خط زیر فعال شود
+%\include{blankpage}
+%\cleardoublepage
+\include{cover}%صفحه جلد
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents%فهرست مطالب
+\cleardoublepage
+\setlength{\cftfignumwidth}{2.5em}
+%\listoffigures%
+{
+	\let\oldnumberline\numberline%
+	\renewcommand{\numberline}{\figurename~\oldnumberline}%
+	\listoffigures%
+}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+\titleformat{\chapter}[display]
+{\vspace{5cm}\filcenter}
+{\filcenter \LARGE\bfseries
+\chaptertitlename\ \justwords{\thechapter}\!:}
+{1ex}
+{\filcenter\fontsize{24}{25}\selectfont\bfseries\thispagestyle{empty}}
+[\vfill\clearpage]
+\def\justwords#1{\ifcase#1 \or اول \or دوم \or سوم \or چهارم \or پنجم \or ششم \or هفتم etc.\fi}
+%%%%%%%%%%
+ \titleformat*{\section}{\bfseries\fontsize{13}{14}\selectfont}
+\titleformat*{\subsection}{\bfseries\fontsize{12}{13}\selectfont}
+\titleformat*{\subsubsection}{\bfseries\fontsize{11}{12}\selectfont}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\parindent}{20pt}
+\include{introduction}%معرفی شخصی
+\include{resume}%رزومه و سوابق کاری
+\include{ai_mining}%تحقیقات و نوآوری‌های هوش مصنوعی در معدن
+\include{mineral_processing}%تحقیقات و نوآوری‌های هوش مصنوعی در فرآوری مواد معدنی
+\include{projects}%پروژه‌های مهم منتخب
+\include{conclusion}%جمع‌بندی و پیشنهادات آینده
+\end{document}
+%% End of file `main.tex'.

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  7 SEP 2025 08:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  6 SEP 2025 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**SBUKThesis-main.tex
-(./SBUKThesis-main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -30,7 +30,7 @@ Package: threeparttable 2003/06/13  v 3.0
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 15.
+e 10.
 
 (./SBUKThesis-commands.tex
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
@@ -1502,281 +1502,36 @@ Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 \c@nok=\count425
 
 We succeded in redefining \@chapter
-) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count426
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+) (./main.aux (./cover.aux) (./introduction.aux) (./resume.aux)
+(./ai_mining.aux) (./mineral_processing.aux) (./projects.aux) (./conclusion.aux
 ))
-\c@tabx@nest=\count427
-\c@listtotal=\count428
-\c@listcount=\count429
-\c@liststart=\count430
-\c@liststop=\count431
-\c@citecount=\count432
-\c@citetotal=\count433
-\c@multicitecount=\count434
-\c@multicitetotal=\count435
-\c@instcount=\count436
-\c@maxnames=\count437
-\c@minnames=\count438
-\c@maxitems=\count439
-\c@minitems=\count440
-\c@citecounter=\count441
-\c@maxcitecounter=\count442
-\c@savedcitecounter=\count443
-\c@uniquelist=\count444
-\c@uniquename=\count445
-\c@refsection=\count446
-\c@refsegment=\count447
-\c@maxextratitle=\count448
-\c@maxextratitleyear=\count449
-\c@maxextraname=\count450
-\c@maxextradate=\count451
-\c@maxextraalpha=\count452
-\c@abbrvpenalty=\count453
-\c@highnamepenalty=\count454
-\c@lownamepenalty=\count455
-\c@maxparens=\count456
-\c@parenlevel=\count457
-\blx@tempcnta=\count458
-\blx@tempcntb=\count459
-\blx@tempcntc=\count460
-\c@blx@maxsection=\count461
-\c@blx@maxsegment@0=\count462
-\blx@notetype=\count463
-\blx@parenlevel@text=\count464
-\blx@parenlevel@foot=\count465
-\c@blx@sectionciteorder@0=\count466
-\blx@entrysetcounter=\count467
-\blx@biblioinstance=\count468
-\labelnumberwidth=\skip113
-\labelalphawidth=\skip114
-\biblabelsep=\skip115
-\bibitemsep=\skip116
-\bibnamesep=\skip117
-\bibinitsep=\skip118
-\bibparsep=\skip119
-\bibhang=\skip120
-\blx@bcfin=\read4
-\blx@bcfout=\write4
-\blx@langwohyphens=\language87
-\c@mincomprange=\count469
-\c@maxcomprange=\count470
-\c@mincompwidth=\count471
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
+\openout1 = `main.aux'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count472
-\c@savedafterword=\count473
-\c@annotator=\count474
-\c@savedannotator=\count475
-\c@author=\count476
-\c@savedauthor=\count477
-\c@bookauthor=\count478
-\c@savedbookauthor=\count479
-\c@commentator=\count480
-\c@savedcommentator=\count481
-\c@editor=\count482
-\c@savededitor=\count483
-\c@editora=\count484
-\c@savededitora=\count485
-\c@editorb=\count486
-\c@savededitorb=\count487
-\c@editorc=\count488
-\c@savededitorc=\count489
-\c@foreword=\count490
-\c@savedforeword=\count491
-\c@holder=\count492
-\c@savedholder=\count493
-\c@introduction=\count494
-\c@savedintroduction=\count495
-\c@namea=\count496
-\c@savednamea=\count497
-\c@nameb=\count498
-\c@savednameb=\count499
-\c@namec=\count500
-\c@savednamec=\count501
-\c@translator=\count502
-\c@savedtranslator=\count503
-\c@shortauthor=\count504
-\c@savedshortauthor=\count505
-\c@shorteditor=\count506
-\c@savedshorteditor=\count507
-\c@labelname=\count508
-\c@savedlabelname=\count509
-\c@institution=\count510
-\c@savedinstitution=\count511
-\c@lista=\count512
-\c@savedlista=\count513
-\c@listb=\count514
-\c@savedlistb=\count515
-\c@listc=\count516
-\c@savedlistc=\count517
-\c@listd=\count518
-\c@savedlistd=\count519
-\c@liste=\count520
-\c@savedliste=\count521
-\c@listf=\count522
-\c@savedlistf=\count523
-\c@location=\count524
-\c@savedlocation=\count525
-\c@organization=\count526
-\c@savedorganization=\count527
-\c@origlocation=\count528
-\c@savedoriglocation=\count529
-\c@origpublisher=\count530
-\c@savedorigpublisher=\count531
-\c@publisher=\count532
-\c@savedpublisher=\count533
-\c@language=\count534
-\c@savedlanguage=\count535
-\c@origlanguage=\count536
-\c@savedoriglanguage=\count537
-\c@pageref=\count538
-\c@savedpageref=\count539
-\shorthandwidth=\skip121
-\shortjournalwidth=\skip122
-\shortserieswidth=\skip123
-\shorttitlewidth=\skip124
-\shortauthorwidth=\skip125
-\shorteditorwidth=\skip126
-\locallabelnumberwidth=\skip127
-\locallabelalphawidth=\skip128
-\localshorthandwidth=\skip129
-\localshortjournalwidth=\skip130
-\localshortserieswidth=\skip131
-\localshorttitlewidth=\skip132
-\localshortauthorwidth=\skip133
-\localshorteditorwidth=\skip134
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count540
-\c@textcitetotal=\count541
-\c@textcitemaxnames=\count542
-\c@biburlbigbreakpenalty=\count543
-\c@biburlbreakpenalty=\count544
-\c@biburlnumpenalty=\count545
-\c@biburlucpenalty=\count546
-\c@biburllcpenalty=\count547
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count548
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count549
-\c@bbx:relatedtotal=\count550
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2022-01-21 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
-))
-\@quotelevel=\count551
-\@quotereset=\count552
-
-(./SBUKThesis-main.aux (./SBUKThesis-inthenameofGod.aux)
-(./SBUKThesis-persian-cover.aux) (./SBUKThesis-approval.aux)
-(./SBUKThesis-taeed.aux) (./SBUKThesis-student.aux)
-(./SBUKThesis-dedication.aux) (./SBUKThesis-acknowledgments.aux)
-(./SBUKThesis-persian-abstract.aux) (./SBUKThesis-chapter1.aux)
-(./SBUKThesis-chapter2.aux) (./SBUKThesis-chapter3.aux)
-(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
-(./SBUKThesis-chapter6.aux) (./SBUKThesis-references.aux)
-(./SBUKThesis-peyvast.aux) (./SBUKThesis-appendix1.aux) (./lasttable.aux)
-(./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
-\openout1 = `SBUKThesis-main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+1.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1812,8 +1567,8 @@ LaTeX Font Info:    ... okay on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count553
-Package hyperref Info: Link coloring ON on input line 27.
+\c@lstlisting=\count426
+Package hyperref Info: Link coloring ON on input line 21.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1823,1380 +1578,242 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count554
+\c@section@level=\count427
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
-(./SBUKThesis-main.out) (./SBUKThesis-main.out)
-\@outlinefile=\write5
-\openout5 = `SBUKThesis-main.out'.
+(./main.out) (./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+\openout2 = `cover.aux'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `SBUKThesis-main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'SBUKThesis-main.bbl' found.
-
-(./SBUKThesis-main.bbl)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
-\openout2 = `SBUKThesis-inthenameofGod.aux'.
-
- (./SBUKThesis-inthenameofGod.tex
+ (./cover.tex
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 24.0pt on input line 5.
+(Font)              scaled to size 18.0pt on input line 6.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 24.0pt on input line 5.
+(Font)              scaled to size 18.0pt on input line 6.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 14.0pt on input line 8.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 12.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 16.0pt on input line 12.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 14.0pt on input line 17.
  [1
 
 
 ])
-\openout2 = `SBUKThesis-persian-cover.aux'.
-
-
-(./SBUKThesis-persian-cover.tex
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 5.
+(Font)              scaled to size 15.0pt on input line 28.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 14.0pt on input line 5.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 20.
+(Font)              scaled to size 15.0pt on input line 28.
+ (./main.toc
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 20.
-) [2
-
-
-
-]
-\openout2 = `SBUKThesis-approval.aux'.
-
- (./SBUKThesis-approval.tex
-File: images/approval.jpg Graphic file (type bmp)
-<images/approval.jpg>
-
-Overfull \hbox (42.67946pt too wide) in paragraph at lines 47--48
- [][][][][] 
- []
-
-) [3
-
-
-
-]
-\openout2 = `SBUKThesis-taeed.aux'.
-
- (./SBUKThesis-taeed.tex
-LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
-
-
-LaTeX Font Warning: Font shape `TU/IranNastaliq(0)/b/n' undefined
-(Font)              using `TU/IranNastaliq(0)/m/n' instead on input line 1.
-
-LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [4
-
-
-
-]
-\openout2 = `SBUKThesis-student.aux'.
-
-
-(./SBUKThesis-student.tex
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 7.
+)
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.01004pt on input line 11.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 12.
+(Font)              scaled to size 10.92004pt on input line 9.
+)
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [1
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 12.
+] (./main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 12.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 12.
-
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 12.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 27.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 27.
-File: images/sign2.jpg Graphic file (type bmp)
-<images/sign2.jpg>
-) [5
-
-
+[2
 
 ]
-\openout2 = `SBUKThesis-dedication.aux'.
+\openout2 = `introduction.aux'.
 
- (./SBUKThesis-dedication.tex
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 15.0pt on input line 2.
-) [6
-
-
-
-
-]
-\openout2 = `SBUKThesis-acknowledgments.aux'.
-
- (./SBUKThesis-acknowledgments.tex)
-[7
-
-
-
-
-]
-\openout2 = `SBUKThesis-persian-abstract.aux'.
-
- (./SBUKThesis-persian-abstract.tex)
-Overfull \hbox (7.50943pt too wide) in paragraph at lines 8--40
-[][]\TU/XBZar(0)/b/n/12 واژگان کلیدی: تشخیص بدافزار، ترنسفورمر، یادگیری عمیق، د
-اده‌های چندوجهی، امنیت اندروید.[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--40
-[][]
- []
-
-[8
-
-
-
-
-]
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 15.0pt on input line 42.
- (./SBUKThesis-main.toc
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.92004pt on input line 28.
- [9
-
-
-]
-Overfull \hbox (3.28125pt too wide) detected at line 31
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۶-‏۰-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 34
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۸-‏۰-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 35
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۸-‏۰-‏۲ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 36
-\TU/XBZar(0)/m/n/12 ۲-‏۲-‏۸-‏۰-‏۳ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 48
-\TU/XBZar(0)/m/n/12 ۲-‏۳-‏۴-‏۳-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 54
-\TU/XBZar(0)/m/n/12 ۲-‏۴-‏۱-‏۳-‏۱ 
- []
-
-[10]
-Overfull \hbox (3.28125pt too wide) detected at line 59
-\TU/XBZar(0)/m/n/12 ۲-‏۴-‏۲-‏۳-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 60
-\TU/XBZar(0)/m/n/12 ۲-‏۴-‏۲-‏۳-‏۲ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 83
-\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۱ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 84
-\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۲ 
- []
-
-[11]
-Overfull \hbox (3.28125pt too wide) detected at line 85
-\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۳ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 86
-\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۴ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 87
-\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۵ 
- []
-
-
-Overfull \hbox (3.28125pt too wide) detected at line 88
-\TU/XBZar(0)/m/n/12 ۴-‏۱-‏۳-‏۲-‏۶ 
- []
-
-[12] [13])
-\tf@toc=\write6
-\openout6 = `SBUKThesis-main.toc'.
-
- [14] (./SBUKThesis-main.lot)
-\tf@lot=\write7
-\openout7 = `SBUKThesis-main.lot'.
-
- [15
-
-] (./SBUKThesis-main.lof)
-\tf@lof=\write8
-\openout8 = `SBUKThesis-main.lof'.
-
- [16
-
-]
-(./SBUKThesis-main.loa)
-\tf@loa=\write9
-\openout9 = `SBUKThesis-main.loa'.
-
- [17
-
-
-]
-\openout2 = `SBUKThesis-chapter1.aux'.
-
- (./SBUKThesis-chapter1.tex
+ (./introduction.tex
 فصل 1.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 57.
+(Font)              scaled to size 20.74pt on input line 2.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 57.
+(Font)              scaled to size 20.74pt on input line 2.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 24.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 24.0pt on input line 2.
 [1
 
 
 
+]
+Overfull \hbox (2.67545pt too wide) in paragraph at lines 4--6
+[][]\TU/XBZar(0)/m/n/12 اینجانب علیرضا ایرانمنش، فارغ‌التحصیل مقطع کارشناسی فنا
+وری اطلاعات و دانشجوی کارشناسی‌ارشد[]
+ []
+
+) [2
+
+]
+\openout2 = `resume.aux'.
+
+ (./resume.tex
+فصل 2.
+[3
+
 
 
 
 ]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 70.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 71.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.10004pt on input line 71.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 6.37003pt on input line 71.
- [2
+(Font)              scaled to size 13.0pt on input line 4.
+ [4
 
-] [3] [4]) [5]
-\openout2 = `SBUKThesis-chapter2.aux'.
+]) [5]
+\openout2 = `ai_mining.aux'.
 
- (./SBUKThesis-chapter2.tex
-فصل 2.
+ (./ai_mining.tex
+فصل 3.
 [6
 
 
 
 
+]
+Overfull \hbox (10.56314pt too wide) in paragraph at lines 10--11
+[][]\TU/XBZar(0)/b/n/12 بهینه‌سازی عملیات استخراج: \TU/XBZar(0)/m/n/12 طراحی مد
+ل‌هایی برای بهبود فرآیند استخراج، حمل‌ونقل و ذخیره‌سازی[]
+ []
 
 
-] [7
+Overfull \hbox (4.14713pt too wide) in paragraph at lines 11--12
+[][]\TU/XBZar(0)/b/n/12 پایش و نگهداری تجهیزات: \TU/XBZar(0)/m/n/12 تشخیص و پیش
+‌بینی خرابی تجهیزات معدنی با استفاده از الگوریتم‌های[]
+ []
 
-] [8]
+
+Overfull \hbox (1.41373pt too wide) in paragraph at lines 18--19
+[][]\TU/XBZar(0)/m/n/12 طراحی و پیاده‌سازی مدل‌های پردازش تصویر برای شناسایی و 
+طبقه‌بندی نمونه‌های معدنی در آزمایشگاه[]
+ []
+
+[7
+
+]) [8]
+\openout2 = `mineral_processing.aux'.
+
+ (./mineral_processing.tex
+فصل 4.
+[9
+
+
+
+
+]
+File: images/mining_flow.jpg Graphic file (type bmp)
+<images/mining_flow.jpg>
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 12.
 LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 64.
+(Font)              scaled to size 11.0pt on input line 22.
+ [10
 
+] [11]
+Missing character: There is no → (U+2192) in font XB Zar/OT:script=arab;languag
+e=dflt;mapping=persian-tex-text;!
 
 LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/b/n' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 72.
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 68.
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 10.92004pt on input line 72.
-[9] [10] [11] [12] [13] [14] [15]
-File: images/cnn_structure.png Graphic file (type bmp)
-<images/cnn_structure.png>
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 141.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 10.01004pt on input line 145.
-
-Overfull \hbox (8.07695pt too wide) in paragraph at lines 148--149
-[][]\TU/XBZar(0)/m/n/12 یکی از چالش‌های اصلی []\TU/TimesNewRoman(0)/b/n/12 RNN[
-]\TU/XBZar(0)/m/n/12 های ساده، مشکل محو یا انفجار گرادیان [][][][][][][][][][][
-][] در هنگام یادگیری وابستگی‌های[]
+(Font)              scaled to size 10.92004pt on input line 68.
+[12]
+Overfull \hbox (2.96187pt too wide) in paragraph at lines 79--80
+[][]\TU/XBZar(0)/b/n/12 شنیدن صدای سنگ‌شکن ([]\TU/TimesNewRoman(0)/b/n/12 AI[] 
+\TU/XBZar(0)/b/n/12 صوتی): \TU/XBZar(0)/m/n/12 از روی فرکانس صدا تشخیص می‌دهد ک
+ی سنگ غیرمعمول[]
  []
 
-[16] [17]
-File: images/gnn_structure.png Graphic file (type bmp)
-<images/gnn_structure.png>
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 173.
-
-[18] [19]
-File: images/transformer_structure.png Graphic file (type bmp)
-<images/transformer_structure.png>
- [20]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 203.
-
-[21] [22] [23] [24] [25] [26]
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 282.
- [27] [28] [29] [30] [31] [32] [33]
-Overfull \hbox (9.24446pt too wide) in paragraph at lines 395--396
-[]\TU/XBZar(0)/m/n/12 بدافزارهای اندرویدی ارائه گردید. ابتدا، مفاهیم پایه‌ای شا
-مل انواع بدافزارها (باج‌افزار، تروجان، جاسوس‌افزار،[]
+File: images/crusher.jpg Graphic file (type bmp)
+<images/crusher.jpg>
+[13]
+Overfull \hbox (0.2409pt too wide) in paragraph at lines 100--101
+[][]\TU/XBZar(0)/b/n/12 بهینه‌سازی دینامیکی گلوله‌ها: \TU/XBZar(0)/m/n/12 الگور
+یتم []\TU/TimesNewRoman(0)/b/n/12 AI[] \TU/XBZar(0)/m/n/12 محاسبه می‌کند چه ترک
+یبی از گلوله‌های کوچک/بزرگ[]
  []
 
-) [34]
-\openout2 = `SBUKThesis-chapter3.aux'.
+File: images/mill.jpeg Graphic file (type bmp)
+<images/mill.jpeg>
+Missing character: There is no → (U+2192) in font XB Zar/OT:script=arab;languag
+e=dflt;mapping=persian-tex-text;!
+[14]
+File: images/flotation_cell.jpg Graphic file (type bmp)
+<images/flotation_cell.jpg>
 
- (./SBUKThesis-chapter3.tex
-فصل 3.
-[35
+Missing character: There is no → (U+2192) in font XB Zar/OT:script=arab;languag
+e=dflt;mapping=persian-tex-text;!
+File: images/gravity_separation.jpg Graphic file (type bmp)
+<images/gravity_separation.jpg>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[15] [16]
+File: images/thickener.jpg Graphic file (type bmp)
+<images/thickener.jpg>
+) [17] [18]
+\openout2 = `projects.aux'.
 
-
-
-] [36
-
-]) [37]
-\openout2 = `SBUKThesis-chapter4.aux'.
-
- (./SBUKThesis-chapter4.tex
-فصل 4.
-[38
-
-
-
-
-
-] [39
-
-]
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 24.
- [40] [41]
-File: images/magnet_architecture.png Graphic file (type bmp)
-<images/magnet_architecture.png>
- [42]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 112.
- [43] [44]
-Missing character: There is no ۶ ("6F6) in font cmr12!
-Missing character: There is no ۴ ("6F4) in font cmr12!
-Missing character: There is no ۸ ("6F8) in font cmr12!
-Missing character: There is no ۸ ("6F8) in font cmr12!
-[45]
-Missing character: There is no ۰ ("6F0) in font cmr12!
-Missing character: There is no ۰ ("6F0) in font cmr12!
-Missing character: There is no ۰ ("6F0) in font cmr12!
-Missing character: There is no ۱ ("6F1) in font cmr12!
-Missing character: There is no ۰ ("6F0) in font cmr12!
-Missing character: There is no ۹ ("6F9) in font cmr12!
-Missing character: There is no ۰ ("6F0) in font cmr12!
-Missing character: There is no ۹ ("6F9) in font cmr12!
-Missing character: There is no ۹ ("6F9) in font cmr12!
-Missing character: There is no ۹ ("6F9) in font cmr12!
-[46]
-Missing character: There is no ۸ (U+06F8) in font [lmmono12-regular]:!
-Missing character: There is no ۴ (U+06F4) in font [lmmono12-regular]:!
-Missing character: There is no ۰ (U+06F0) in font [lmmono12-regular]:!
-Missing character: There is no ‏ (U+200F) in font [lmmono12-regular]:!
-Missing character: There is no ۲ (U+06F2) in font [lmmono12-regular]:!
-
-Overfull \hbox (5.66568pt too wide) in paragraph at lines 270--271
-[][]\TU/XBZar(0)/m/n/12 فرآیند پیش‌پردازش داده‌ها، طراحی دقیق هر یک از اجزای مد
-ل، استراتژی آموزش و بهینه‌سازی ابرپارامترها[]
- []
-
-[47]
-Overfull \hbox (0.15298pt too wide) in paragraph at lines 276--277
-[][]\TU/XBZar(0)/b/n/12 افزایش تفسیرپذیری (Explainability)\TU/XBZar(0)/m/n/12 :
- توسعه روش‌هایی برای تفسیر تصمیمات مدل MAG-[]
- []
-
-[48]) [49]
-\openout2 = `SBUKThesis-chapter5.aux'.
-
- (./SBUKThesis-chapter5.tex
+ (./projects.tex
 فصل 5.
-[50
+[19
 
 
 
 
+]) [20
 
 ]
-Overfull \hbox (3.08064pt too wide) in paragraph at lines 8--9
-[][]\TU/XBZar(0)/m/n/12 در این فصل، نتایج حاصل از پیاده‌سازی و ارزیابی مدل پیشن
-هادی MAGNET برای تشخیص بدافزارهای[]
- []
+\openout2 = `conclusion.aux'.
 
-[51
-
-] [52]
-File: images/pirates_positions.png Graphic file (type bmp)
-<images/pirates_positions.png>
-File: images/pirates_bsf_avg_trajectory.png Graphic file (type bmp)
-<images/pirates_bsf_avg_trajectory.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[53]
-File: images/pirates_wind_velocity.png Graphic file (type bmp)
-<images/pirates_wind_velocity.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[54] [55] [56] [57] [58] [59]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722}
-                                  \pm \lr{0.0065}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.262     \item دقت: $\lr{0.9722}
-                                  \pm \lr{0.0065}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722}
-                                  \pm \lr{0.0065}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722}
-                                  \pm \lr{0.0065}$
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.262     \item دقت: $\lr{0.9722}
-                                  \pm \lr{0.0065}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722} \pm
-                                      \lr{0.0065}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
-                                                 $
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
-                                                 $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
-                                                 $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
-                                                 $
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.262     \item دقت: $\lr{0.9722} \pm \lr{0.0065}
-                                                 $
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263     \item
-                Precision: $\lr{0.9810} \pm \lr{0.0102}$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263     \item P
-                 recision: $\lr{0.9810} \pm \lr{0.0102}$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263     \item P
-                 recision: $\lr{0.9810} \pm \lr{0.0102}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.263     \item Precision: $\lr{0.9810} \pm
-                                            \lr{0.0102}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.263 ...m Precision: $\lr{0.9810} \pm \lr{0.0102}
-                                                  $
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.264     \item
-                Recall: $\lr{0.9828} \pm \lr{0.0072}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264     \item R
-                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.264     \item R
-                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
-? 
-
-\endL or \endR problem (0 missing, 1 extra) in paragraph at lines 262--264
-[][]\TU/XBZar(0)/m/n/12 دقت: $[]$$$[]\TU/TimesNewRoman(0)/b/n/12 0.9722 $\OMS/c
-msy/m/n/12 ^^F[]$[]$$[]\TU/TimesNewRoman(0)/b/n/12 0.0065$\OML/cmm/m/it/12 Prec
-ision \OT1/cmr/m/n/12 :$[]\TU/TimesNewRoman(0)/b/n/12 0.9810[] $\OMS/cmsy/m/n/1
-2 ^^F[]$[]$$[]\TU/TimesNewRoman(0)/b/n/12 0.0102$[][]$ [][]
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.264     \item R
-                 ecall: $\lr{0.9828} \pm \lr{0.0072}$
-? 
-[60]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.264     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.264     \item Recall: $\lr{0.9828}
-                                     \pm \lr{0.0072}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264     \item Recall: $\lr{0.9828} \pm
-                                         \lr{0.0072}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.264 ...item Recall: $\lr{0.9828} \pm \lr{0.0072}
-                                                  $
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265     \item
-                \lr{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265     \item \lr
-                   {F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265     \item \lr
-                   {F1 Score}: $\lr{0.9818} \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.265     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.265     \item \lr{F1 Score}
-                             : $\lr{0.9818} \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.265     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.265     \item \lr{F1 Score}: $\lr{0.9818}
-                                            \pm \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265     \item \lr{F1 Score}: $\lr{0.9818} \pm
-                                                \lr{0.0042}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.265 ...r{F1 Score}: $\lr{0.9818} \pm \lr{0.0042}
-                                                  $
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.266     \item
-                AUC: $\lr{0.9932} \pm \lr{0.0035}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item A
-                 UC: $\lr{0.9932} \pm \lr{0.0035}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.266     \item A
-                 UC: $\lr{0.9932} \pm \lr{0.0035}$
-? 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.266     \item A
-                 UC: $\lr{0.9932} \pm \lr{0.0035}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932}
-                                  \pm \lr{0.0035}$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.266     \item AUC: $\lr{0.9932}
-                                  \pm \lr{0.0035}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932}
-                                  \pm \lr{0.0035}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932}
-                                  \pm \lr{0.0035}$
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.266     \item AUC: $\lr{0.9932}
-                                  \pm \lr{0.0035}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932} \pm
-                                      \lr{0.0035}$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
-                                                 $
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
-                                                 $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
-                                                 $
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
-                                                 $
-? 
-! Extra }, or forgotten \endgroup.
-\lr #1->\LRE {\resetlatinfont #1}
-                                 
-l.266     \item AUC: $\lr{0.9932} \pm \lr{0.0035}
-                                                 $
-? 
-
-! LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.267 \end{itemize}
-                   
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.267 \end{itemize}
-                   
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.267 \end{itemize}
-                   
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.267 \end{itemize}
-                   
-? 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 9.96452pt on input line 271.
-
-Overfull \hbox (3.8334pt too wide) in paragraph at lines 273--291
- [][][][] 
- []
-
-File: fig_cv_metrics.png Graphic file (type bmp)
-<fig_cv_metrics.png>
-File: fig_cv_loss.png Graphic file (type bmp)
-<fig_cv_loss.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: fig_overall_comparison.png Graphic file (type bmp)
-<fig_overall_comparison.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[61] [62] [63]
-Overfull \hbox (2.95572pt too wide) in paragraph at lines 372--373
-[][]\TU/XBZar(0)/b/n/12 CrossMalDroid\TU/XBZar(0)/m/n/12 : روشی که از انتخاب وی
-ژگی استفاده می‌کند و روی مجموعه داده Malgenome[]
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[64]
-File: images/fig_literature_comparison_accuracy.png Graphic file (type bmp)
-<images/fig_literature_comparison_accuracy.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/fig_literature_comparison_metrics.png Graphic file (type bmp)
-<images/fig_literature_comparison_metrics.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65]
-File: images/fig_baseline_metrics_comparison.png Graphic file (type bmp)
-<images/fig_baseline_metrics_comparison.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[66] [67]
-File: images/fig_module_comparison_en.png Graphic file (type bmp)
-<images/fig_module_comparison_en.png>
-File: images/fig_ablation_study_en.png Graphic file (type bmp)
-<images/fig_ablation_study_en.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/fig_training_progress_en.png Graphic file (type bmp)
-<images/fig_training_progress_en.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [68] [69]
-\openout2 = `SBUKThesis-chapter6.aux'.
-
- (./SBUKThesis-chapter6.tex
+ (./conclusion.tex
 فصل 6.
-[70
+[21
 
 
 
 
+]) [22
 
-] [71
-
-]
-Overfull \hbox (1.31625pt too wide) in paragraph at lines 25--26
-[][]\TU/XBZar(0)/b/n/12 مقاومت در برابر حملات گریز\TU/XBZar(0)/m/n/12 : بررسی م
-قاومت مدل در برابر حملات گریز ([]\TU/TimesNewRoman(0)/b/n/12 Adversarial Attack
-s[]\TU/XBZar(0)/m/n/12 )[]
- []
-
-[72]
-Overfull \hbox (6.4479pt too wide) in paragraph at lines 33--34
-[][]\TU/XBZar(0)/b/n/12 ارزیابی در دستگاه‌های واقعی\TU/XBZar(0)/m/n/12 : آزمایش
- مدل روی دستگاه‌های اندرویدی واقعی (به جای شبیه‌سازی)[]
- []
-
-
-Overfull \hbox (2.2897pt too wide) in paragraph at lines 39--40
-[][]\TU/XBZar(0)/b/n/12 افزودن ویژگی‌های جدید\TU/XBZar(0)/m/n/12 : افزودن ویژگی
-‌های جدید مانند الگوهای رفتاری کاربران (مانند الگوهای[]
- []
-
-[73]) [74]
-\openout2 = `SBUKThesis-references.aux'.
-
- (./SBUKThesis-references.tex
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 21.84009pt on input line 3.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 21.84009pt on input line 3.
- [75
-
-
-
-
-
-]
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/it' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 3.
-
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
-(Font)              scaled to size 10.92004pt on input line 3.
-
-Overfull \hbox (13.68628pt too wide) in paragraph at lines 3--3
-[]\TU/TimesNewRoman(0)/m/it/12 Malware Detection Using Machine Learning”. In: C
-omputers & Security 93 (2020), p. 101792.[]
- []
-
-[76
-
-] [77]
-Overfull \hbox (10.3386pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 NowSecure. “CI/CD Integration for Mobile Secur
-ity”. In: NowSecure Documentation (2024).[]
- []
-
-
-Overfull \hbox (9.162pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 NowSecure and Synopsys. “NowSecure and Synopsy
-s Partnership”. In: Press Release (2024).[]
- []
-
-
-Overfull \hbox (15.316pt too wide) in paragraph at lines 3--3
-[]\TU/TimesNewRoman(0)/m/it/12 URL: [][][]$[][][][][] [] [] [] [][][] [] [][][]
-[][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][] [][] [][][][][][][][] 
-[][] [][][][][][][][][][][]$[][][]. []
- []
-
-
-Overfull \hbox (14.12631pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 Qualys. “VMDR Mobile Security Solution”. In: Q
-ualys Documentation (2024). URL: [][][]$[][][][][] []$[][]
- []
-
-
-Overfull \hbox (3.08711pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 Checkmarx. “SAST for Mobile Applications”. In:
- Checkmarx Documentation (2024). URL:[]
- []
-
-
-Overfull \hbox (1.08574pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 Checkmarx. “Mobile Application Security Testin
-g”. In: Checkmarx Documentation (2024).[]
- []
-
-
-Overfull \hbox (2.45601pt too wide) in paragraph at lines 3--3
-[]\TU/TimesNewRoman(0)/m/it/12 URL: [][][]$[][][][][] [] [] [] [][][] [] [][][]
-[][][][][][] [] [][][] [] [][][][][][][][][] [] [][][][][][] [][] [][][][][][][
-][] [] [][][][][][][]$[][][]. []
- []
-
-[78]
-Overfull \hbox (10.41342pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 NowSecure. “Mobile Threat Defense”. In: NowSec
-ure Documentation (2024). URL: [][][]$[][][][][] []$[][]
- []
-
-
-Overfull \hbox (9.1229pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(0)/m/it/12 Checkmarx. “CI/CD Integration for Mobile Secur
-ity”. In: Checkmarx Documentation (2024).[]
- []
-
-! Misplaced alignment tab character &.
-<argument> Computers &
-                       Security
-l.3 ...bliography[heading=bibintoc, title={مراجع}]
-                                                  
-? 
-[79] [80])
-\openout2 = `SBUKThesis-peyvast.aux'.
-
- (./SBUKThesis-peyvast.tex [81
-
-
-
-
-
-
-]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [82
-
-] [83]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 11.83005pt on input line 122.
-
-[84] [85]) [86]
-\openout2 = `SBUKThesis-appendix1.aux'.
-
- (./SBUKThesis-appendix1.tex)
-\openout2 = `lasttable.aux'.
-
- (./lasttable.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(28.45274pt, 483.69687pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=674.33032pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-23.91173pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 13.
-
-LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 49.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 77.
-LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 77.
-[87
-
-
-
-
-
-
-
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=426.79135pt
-* \textheight=674.33032pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-23.91173pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-)
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=398.3386pt
-* \textheight=674.33032pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
-* \topmargin=-23.91173pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\openout2 = `SBUKThesis-english-abstract.aux'.
-
- (./SBUKThesis-english-abstract.tex
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 13.65005pt on input line 2.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 12.74005pt on input line 2.
-) [88
-
-
-
-
-
-
-
-
-
-
-]
-\openout2 = `SBUKThesis-english-cover.aux'.
-
- (./SBUKThesis-english-cover.tex
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 12.74005pt on input line 8.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 14.56006pt on input line 17.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 14.56006pt on input line 26.
-) [89
-
-
-
-] (./SBUKThesis-main.aux (./SBUKThesis-inthenameofGod.aux)
-(./SBUKThesis-persian-cover.aux) (./SBUKThesis-approval.aux)
-(./SBUKThesis-taeed.aux) (./SBUKThesis-student.aux)
-(./SBUKThesis-dedication.aux) (./SBUKThesis-acknowledgments.aux)
-(./SBUKThesis-persian-abstract.aux) (./SBUKThesis-chapter1.aux)
-(./SBUKThesis-chapter2.aux) (./SBUKThesis-chapter3.aux)
-(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
-(./SBUKThesis-chapter6.aux) (./SBUKThesis-references.aux)
-(./SBUKThesis-peyvast.aux) (./SBUKThesis-appendix1.aux) (./lasttable.aux)
-(./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
-
+] (./main.aux (./cover.aux) (./introduction.aux) (./resume.aux)
+(./ai_mining.aux) (./mineral_processing.aux) (./projects.aux) (./conclusion.aux
+))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
-(rerunfilecheck)             Checksum: 7BED6BA4D6FD6B37CFA5B72DE5D30B11;32050.
-Package logreq Info: Writing requests to 'SBUKThesis-main.run.xml'.
-\openout1 = `SBUKThesis-main.run.xml'.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 335309BCADF13F309701C126003A90D8;3622.
  ) 
 Here is how much of TeX's memory you used:
- 44839 strings out of 476191
- 955985 string characters out of 5812073
- 2080727 words of memory out of 5000000
- 64530 multiletter control sequences out of 15000+600000
- 483390 words of font info for 153 fonts, out of 8000000 for 9000
+ 36347 strings out of 476191
+ 771171 string characters out of 5812073
+ 1211782 words of memory out of 5000000
+ 56242 multiletter control sequences out of 15000+600000
+ 474648 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,13n,104p,4868b,5104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,5n,104p,4857b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SBUKThesis-main.pdf (106 pages).
+Output written on main.pdf (25 pages).
