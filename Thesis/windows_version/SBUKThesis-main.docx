@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پایان نامه - کاور فارسی و انگلیسی</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        
+        .page {
+            width: 21cm;
+            height: 29.7cm;
+            margin: 0 auto;
+            padding: 2.5cm;
+            box-sizing: border-box;
+            page-break-after: always;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .persian-cover {
+            direction: rtl;
+        }
+        
+        .english-cover {
+            direction: ltr;
+        }
+        
+        .logo {
+            height: 3cm;
+            margin-bottom: 0.7cm;
+        }
+        
+        .university-name {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        
+        .faculty-name {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        
+        .department-name {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 0.7cm;
+        }
+        
+        .thesis-type {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 1.5cm;
+        }
+        
+        .title-line {
+            height: 1.5pt;
+            background-color: black;
+            margin: 0.3mm 0;
+        }
+        
+        .title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 2cm 0;
+            line-height: 1.2;
+        }
+        
+        .author-label {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        
+        .author-name {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 1cm;
+        }
+        
+        .supervisor-label {
+            font-size: 16pt;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        
+        .supervisor-name {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 1cm;
+        }
+        
+        .date {
+            font-size: 14pt;
+            font-weight: bold;
+        }
+        
+        .english-logo {
+            height: 2cm;
+            margin-bottom: 1cm;
+        }
+        
+        .english-title {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 2cm 0;
+            line-height: 1.2;
+        }
+        
+        .english-thesis-type {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 1cm 0 1.5cm 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- کاور فارسی -->
+    <div class="page persian-cover">
+        <img src="images/logo.png" alt="لوگو دانشگاه" class="logo">
+        <div class="university-name">دانشکده فنی و مهندسی</div>
+        <div class="faculty-name">بخش مهندسی کامپیوتر</div>
+        
+        <div class="thesis-type">
+            پایان نامه تحصیلی برای دریافت درجه کارشناسی ارشد<br>
+            رشته مهندسی کامپیوتر گرایش هوش مصنوعی
+        </div>
+        
+        <div class="title-line"></div>
+        <div class="title-line"></div>
+        
+        <div class="title">
+            تشخیص قدرتمند بدافزار‌های اندروید با استفاده از شبکه‌های عصبی ترنسفورمر
+        </div>
+        
+        <div class="title-line"></div>
+        <div class="title-line"></div>
+        
+        <div class="author-label">مؤلف:</div>
+        <div class="author-name">علیرضا ایرانمنش</div>
+        
+        <div class="supervisor-label">استاد راهنما:</div>
+        <div class="supervisor-name">دکتر حمید میروزیری</div>
+        
+        <div class="date">خرداد 1404</div>
+    </div>
+    
+    <!-- کاور انگلیسی -->
+    <div class="page english-cover">
+        <img src="images/logo.png" alt="University Logo" class="english-logo">
+        <div class="university-name">Shahid Bahonar University of Kerman</div>
+        <div class="faculty-name">Faculty of Engineering</div>
+        <div class="department-name">Department of Computer Engineering</div>
+        
+        <div class="title-line"></div>
+        
+        <div class="english-title">
+            Robust Android Malware Detection using Transformer Neural Networks
+        </div>
+        
+        <div class="title-line"></div>
+        
+        <div class="author-label">Prepared by:</div>
+        <div class="author-name">Alireza Iranmanesh</div>
+        
+        <div class="supervisor-label">Supervisor:</div>
+        <div class="supervisor-name">Dr. Hamid Mirvaziri</div>
+        
+        <div class="english-thesis-type">
+            A Thesis Submitted as a Partial Fulfillment of the Requirements for the Degree of Master of Science in Computer Engineering (M. Sc.)
+        </div>
+        
+        <div class="date">April 2025</div>
+    </div>
+</body>
+</html>
