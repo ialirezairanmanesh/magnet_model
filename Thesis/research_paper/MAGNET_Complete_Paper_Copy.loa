@@ -1,0 +1,7 @@
+\vspace {-1.5cm}\textbf {عنوان}\nobreakspace {}\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
+\contentsline {algorithm}{\numberline {01}{\ignorespaces EnhancedTabTransformer Module Structure\relax }}{3}{algorithm.01}%
+\contentsline {algorithm}{\numberline {02}{\ignorespaces GraphTransformer Module Structure\relax }}{4}{algorithm.02}%
+\contentsline {algorithm}{\numberline {03}{\ignorespaces SequenceTransformer Module Structure\relax }}{4}{algorithm.03}%
+\contentsline {algorithm}{\numberline {04}{\ignorespaces Dynamic Attention Mechanism\relax }}{5}{algorithm.04}%
+\contentsline {algorithm}{\numberline {05}{\ignorespaces Modality Fusion\relax }}{5}{algorithm.05}%
+\contentsline {algorithm}{\numberline {06}{\ignorespaces Final MAGNET Model\relax }}{5}{algorithm.06}%

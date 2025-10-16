@@ -63,11 +63,11 @@
       \strng{authorbibnamehash}{91874167cfe24c703f2ab04c86687ac0}
       \strng{authornamehash}{91874167cfe24c703f2ab04c86687ac0}
       \strng{authorfullhash}{d0591a6e9048ff6e99eea56677e035a4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Communications Surveys \& Tutorials}
+      \field{journaltitle}{IEEE Communications Surveys and Tutorials}
       \field{number}{2}
       \field{title}{Android Security: A Survey of Issues, Malware Penetration, and Defenses}
       \field{volume}{17}
@@ -107,8 +107,8 @@
       \strng{authorbibnamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
       \strng{authornamehash}{8002495ac0be5a9b33b89cf004a2a8e5}
       \strng{authorfullhash}{62b993fdfdafbda78ac571267067b09c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ACM Computing Surveys}
@@ -146,11 +146,11 @@
       \strng{authorbibnamehash}{1459e37648a1b479eb9cb425acc2d26b}
       \strng{authornamehash}{1459e37648a1b479eb9cb425acc2d26b}
       \strng{authorfullhash}{1459e37648a1b479eb9cb425acc2d26b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers \& Security}
+      \field{journaltitle}{Computers and Security}
       \field{title}{A Survey on Android Malware Detection Using Machine Learning}
       \field{volume}{93}
       \field{year}{2020}
@@ -194,8 +194,8 @@
       \strng{authorbibnamehash}{f14f102b70056ab687ebe185a89008f2}
       \strng{authornamehash}{f14f102b70056ab687ebe185a89008f2}
       \strng{authorfullhash}{bf1db8cc0dc1a8e9484af74d8e03c61f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 21st Annual Network and Distributed System Security Symposium (NDSS)}
@@ -234,8 +234,8 @@
       \strng{authorbibnamehash}{039021cc34bd1cf081b4f2e48bda60e3}
       \strng{authornamehash}{039021cc34bd1cf081b4f2e48bda60e3}
       \strng{authorfullhash}{dd0277515a7ac71922e5554a039af936}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 13th International Conference on Mining Software Repositories}
@@ -286,8 +286,8 @@
       \strng{authorbibnamehash}{8a469761d40bb31284c86919d0aa01ec}
       \strng{authornamehash}{8a469761d40bb31284c86919d0aa01ec}
       \strng{authorfullhash}{32dd5a2547ed52fa4b808dbd4728168b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Access}
@@ -449,8 +449,8 @@
       \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
       \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
       \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Neural Computation}
@@ -510,8 +510,8 @@
       \strng{authorbibnamehash}{9b1920db887fe0d658725c1e606b61f4}
       \strng{authornamehash}{9b1920db887fe0d658725c1e606b61f4}
       \strng{authorfullhash}{93de344d8644049cc7e61f1b9095d310}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1406.1078}
@@ -726,8 +726,8 @@
       \strng{authorbibnamehash}{7dcb8f2f4be2b72aef2a5e0bf21b5ecf}
       \strng{authornamehash}{7dcb8f2f4be2b72aef2a5e0bf21b5ecf}
       \strng{authorfullhash}{f6a4c437603f369a60ffbb3305b0585d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Internet of Things Journal}
@@ -922,7 +922,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining}
+      \field{journaltitle}{Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
       \field{title}{Optuna: A Next-generation Hyperparameter Optimization Framework}
       \field{year}{2019}
       \field{pages}{2623\bibrangedash 2631}
@@ -970,8 +970,8 @@
       \strng{authorbibnamehash}{a88dfc5c55489606792d411cce65410b}
       \strng{authornamehash}{a88dfc5c55489606792d411cce65410b}
       \strng{authorfullhash}{7c1a98db5c68ca15fe23c656250cd59b}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Programming}
@@ -1080,8 +1080,8 @@
       \strng{authorbibnamehash}{844e155656ec487407c987c6af85b603}
       \strng{authornamehash}{844e155656ec487407c987c6af85b603}
       \strng{authorfullhash}{844e155656ec487407c987c6af85b603}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Press Release}
@@ -1107,8 +1107,8 @@
       \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
       \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Qualys Documentation}
@@ -1134,8 +1134,8 @@
       \strng{authornamehash}{ceb74079aad6f46570610c9eda254682}
       \strng{authorfullhash}{ceb74079aad6f46570610c9eda254682}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Qualys Documentation}
@@ -1350,8 +1350,8 @@
       \strng{authornamehash}{30ecdd83ba39522bf17d73935a098741}
       \strng{authorfullhash}{30ecdd83ba39522bf17d73935a098741}
       \field{extraname}{6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{NowSecure Documentation}
@@ -1377,8 +1377,8 @@
       \strng{authornamehash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
       \strng{authorfullhash}{1bbcb2b6f2fa663788ae2a6cac7d70fd}
       \field{extraname}{3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Checkmarx Documentation}
@@ -1415,11 +1415,11 @@
       \strng{authorbibnamehash}{00bdfcfca41dd4b26f6afc1457c6d905}
       \strng{authornamehash}{00bdfcfca41dd4b26f6afc1457c6d905}
       \strng{authorfullhash}{00bdfcfca41dd4b26f6afc1457c6d905}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers & Security}
+      \field{journaltitle}{Computers and Security}
       \field{title}{Machine Learning Aided Android Malware Detection}
       \field{volume}{67}
       \field{year}{2017}
@@ -1460,8 +1460,8 @@
       \strng{authorbibnamehash}{e209d598505dc77d0264de34c5132440}
       \strng{authornamehash}{e209d598505dc77d0264de34c5132440}
       \strng{authorfullhash}{44d49021a3f45dc51aec4769b65f8717}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Mobile Computing}
@@ -1496,8 +1496,8 @@
       \strng{authorbibnamehash}{83d8f664e64b5e316fb31271b44525b9}
       \strng{authornamehash}{83d8f664e64b5e316fb31271b44525b9}
       \strng{authorfullhash}{83d8f664e64b5e316fb31271b44525b9}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computer Virology and Hacking Techniques}

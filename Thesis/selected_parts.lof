@@ -1,0 +1,23 @@
+\vspace {-1.5cm}\textbf {عنوان}\nobreakspace {}\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces ساختار کلی شبکه عصبی کانولوشنی (CNN) شامل لایه‌های کانولوشنی، تجمعی و کاملاً متصل برای طبقه‌بندی. برگرفته از \blx@tocontentsinit {0}\cite {Alsaleh2023}.\relax }}{16}{figure.caption.6}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces ساختار شبکه عصبی گرافی (GNN) برای پردازش داده‌های گرافی و طبقه‌بندی. برگرفته از \blx@tocontentsinit {0}\cite {sanchez-lengeling2021a}.\relax }}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces معماری ترنسفورمر شامل کدگذار و گشاینده با مکانیزم توجه چندسر. برگرفته از \blx@tocontentsinit {0}\cite {attention}.\relax }}{20}{figure.caption.8}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces معماری کلی مدل MAGNET.\relax }}{43}{figure.caption.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5-1}{\ignorespaces نمایش اجزای الگوریتم PIRATES در فضای جستجو.\relax }}{53}{figure.caption.10}%
+\contentsline {figure}{\numberline {5-2}{\ignorespaces روند همگرایی الگوریتم PIRATES.\relax }}{54}{figure.caption.11}%
+\contentsline {figure}{\numberline {5-3}{\ignorespaces تغییرات پارامترهای الگوریتم PIRATES در طول تکرارها.\relax }}{55}{figure.caption.12}%
+\contentsline {figure}{\numberline {5-4}{\ignorespaces نتایج اعتبارسنجی متقاطع ۵-تایی مدل MAGNET.\relax }}{61}{figure.caption.14}%
+\contentsline {figure}{\numberline {5-5}{\ignorespaces تغییرات زیان در اعتبارسنجی متقاطع ۵-تایی.\relax }}{62}{figure.caption.15}%
+\contentsline {figure}{\numberline {5-6}{\ignorespaces مقایسه عملکرد مدل MAGNET در مراحل مختلف.\relax }}{62}{figure.caption.17}%
+\contentsline {figure}{\numberline {5-7}{\ignorespaces مقایسه دقت روش‌های مختلف.\relax }}{66}{figure.caption.19}%
+\contentsline {figure}{\numberline {5-8}{\ignorespaces مقایسه F1 Score و AUC روش‌های مختلف.\relax }}{66}{figure.caption.20}%
+\contentsline {figure}{\numberline {5-9}{\ignorespaces مقایسه F1 Score و AUC مدل MAGNET با سایر مدل‌ها.\relax }}{67}{figure.caption.22}%
+\contentsline {figure}{\numberline {5-10}{\ignorespaces عملکرد ماژول‌های مختلف مدل MAGNET.\relax }}{68}{figure.caption.23}%
+\contentsline {figure}{\numberline {5-11}{\ignorespaces تأثیر مکانیزم توجه پویا و لایه ادغام چندوجهی بر عملکرد.\relax }}{69}{figure.caption.24}%
+\contentsline {figure}{\numberline {5-12}{\ignorespaces روند آموزش مدل در طول ۳ دوره.\relax }}{69}{figure.caption.25}%
+\addvspace {10\p@ }
