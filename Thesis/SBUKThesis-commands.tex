@@ -33,6 +33,34 @@
 % برای مدیریت بر ساختار عناوین، هدر و ... مربوط به فصل، بخش و ...
 \usepackage{emptypage}
 \usepackage{titlesec}
+
+% تنظیمات استایل‌های تایتل‌ها مطابق فرمت نگارش پایان‌نامه
+% استایل فصل
+\titleformat{\chapter}[display]
+{\fontsize{16}{18}\selectfont\bfseries\centering}
+{\chaptertitlename\ \thechapter}{20pt}
+{\fontsize{16}{18}\selectfont\bfseries\centering}
+
+% استایل بخش
+\titleformat{\section}
+{\fontsize{14}{16}\selectfont\bfseries}
+{\thesection}{1em}{}
+
+% استایل زیربخش
+\titleformat{\subsection}
+{\fontsize{12}{14}\selectfont\bfseries}
+{\thesubsection}{1em}{}
+
+% استایل زیرزیربخش
+\titleformat{\subsubsection}
+{\fontsize{12}{14}\selectfont\bfseries}
+{\thesubsubsection}{1em}{}
+
+% فاصله‌گذاری تایتل‌ها
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % مورد استفاده در تعاریف با استفاده از newcommand
 \usepackage{xspace}
@@ -98,7 +126,10 @@ tabsize=1
 % فراخوانی بسته زی‌پرشین و تعریف قلم فارسی و انگلیسی
 \usepackage[extrafootnotefeatures]{xepersian}
 \settextfont[Scale=1]{B Zar}
+\setdigitfont[Scale=1]{Times New Roman}
 \setlatintextfont[Scale=0.91]{Times New Roman}
+% تنظیم فونت برای کلمات انگلیسی در متن فارسی
+\settextfont[Scale=1,Script=Latin]{Times New Roman}
 % تعریف قلم‌های فارسی و انگلیسی اضافی برای استفاده در بعضی از قسمت‌های متن
 \defpersianfont\nastaliq[Scale=1]{IranNastaliq}
 \defpersianfont\titr[Scale=1.3]{B Zar}
@@ -136,7 +167,10 @@ tabsize=1
 \newcommand{\danesh}{دانشگاه شهید باهنر کرمان\xspace}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %برای مدیریت فاصله ها، مثل فاصله خطوط
-\renewcommand{\baselinestretch}{1.6}
+\renewcommand{\baselinestretch}{1.5}
+% تنظیم فاصله پاراگراف‌ها
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{1.5cm}
 % فولدر شامل تصاویر را برای تک شناسایی می کند.
 \graphicspath{{images/}}
 % دستوری برای تعریف واژه‌نامه انگلیسی به فارسی
@@ -171,16 +205,16 @@ tabsize=1
 \renewcommand{\listfigurename}{\hfill فهرست اشکال \hfill}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % تعیین اندازه عبارات "فهرست مطالب"، "فهرست تصاویر" و "فهرست جداول"
-\renewcommand{\cfttoctitlefont}{\fontsize{15pt}{15pt}\selectfont\bfseries} %% فهرست مطالب
+\renewcommand{\cfttoctitlefont}{\fontsize{16pt}{18pt}\selectfont\bfseries} %% فهرست مطالب
 \renewcommand{\cftaftertoctitle}{}
 
-\renewcommand{\cftloftitlefont}{\fontsize{15pt}{15pt}\selectfont\bfseries} %% فهرست اشکال
+\renewcommand{\cftloftitlefont}{\fontsize{16pt}{18pt}\selectfont\bfseries} %% فهرست اشکال
 \renewcommand{\cftafterloftitle}{}
 
-\renewcommand{\cftlottitlefont}{\fontsize{15pt}{15pt}\selectfont\bfseries} %% فهرست جداول
+\renewcommand{\cftlottitlefont}{\fontsize{16pt}{18pt}\selectfont\bfseries} %% فهرست جداول
 \renewcommand{\cftafterlottitle}{}
 %فهرست الگوریتم ها
-\renewcommand{\listalgorithmname}{\vspace{-2.7cm}\fontsize{15}{16}\selectfont\bfseries\centering فهرست الگوریتم‌ها}
+\renewcommand{\listalgorithmname}{\vspace{-2.7cm}\fontsize{16}{18}\selectfont\bfseries\centering فهرست الگوریتم‌ها}
 \renewcommand{\thealgorithm}{\arabic{chapter}\@SepMark\arabic{algorithm}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \addtocontents{toc}{\vspace{-1.5cm}\textbf{عنوان}~\hfill\textbf{صفحه}\vskip 1mm
