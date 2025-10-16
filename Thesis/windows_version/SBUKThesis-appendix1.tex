@@ -1,0 +1,245 @@
+% % !TeX root=SBUKThesis-main.tex
+
+% \chapter*{توضیحات تکمیلی}
+% \addcontentsline{toc}{chapter}{توضیحات تکمیلی}
+% \section*{مقدمه}
+% \addcontentsline{toc}{section}{مقدمه}
+% در پیوست در ابتدا، اعلان های دستوری که برای تنظیم کردن مدل زبانی استفاده شده اند ، آورده شده اند که شامل سه بخش نمونه\/گیری روش مولد اعلان ساده ، ارزیابی روش مولد اعلان ساده و اعلان های دستوری سایر روش ها می\/باشد. سپس اعلان های دستوری تولید شده توسط مولد اعلان ساده برای هر مجموعه داده آورده شده اند.
+
+% \section*{اعلان های دستوری برای نمونه\/گیری روش مولد اعلان ساده}
+% \addcontentsline{toc}{section}{اعلان های دستوری برای نمونه\/گیری روش مولد اعلان ساده}
+
+% در روش مولد اعلان ساده از سه رویکرد برای نمونه\/گیری اعلان های دستوری جدید استفاده کردیم، رویکرد اول نمونه\/گیری براساس توضیح مسئله مربوط به مجموعه داده بود. اعلان دستوری برای این رویکرد در کادر \ref{p_s1} آورده شده است.
+
+% \begin{tcolorbox}[breakable,colframe=mybluecolor!100, colback=mybluecolor!20, title=اعلان دستوری برای نمونه\/گیری براساس توضیح مسئله] \label{p_s1}
+% 	\begin{LTR}
+% 	Given a task description, produce a detailed system prompt to guide a language model in completing the task effectively.
+	
+% 	\textbf{Guidelines:}
+% 	\begin{itemize}
+% 		\item \textbf{Understand the Task:} Grasp the core objective, goals, and expected output of the problem as described in the problem description. Identify any implicit requirements or constraints.
+% 		\item \textbf{Minimal Changes:} Since this is a zero-shot approach, use only the information available in the problem description without assuming any additional context or knowledge. Clarify instructions where needed, but avoid adding new elements unless absolutely necessary for comprehension.
+% 		\item \textbf{Reasoning Before Conclusions:} Guide the model to break down the problem step by step before arriving at any conclusions. Structure the prompt to ensure that reasoning is fully explored before the final solution is given.
+% 		\begin{itemize}
+% 			\item Reverse the order if reasoning is provided after conclusions in any sample content. Always start with the reasoning.
+% 		\end{itemize}
+% 		\item \textbf{Clarity and Conciseness:} Make sure that the prompt uses clear, specific language. The instructions should avoid unnecessary complexity or ambiguity.
+% 		\item \textbf{Examples:} Since no examples are provided in a zero-shot context, ensure the problem is fully explained with placeholders for any variables or specifics that may vary.
+% 		\item \textbf{Formatting:} Use markdown for readability. Present steps clearly and in order.
+% 		\item \textbf{Preserve User Content:} Focus entirely on the problem description without bringing in external examples, but structure it logically.
+% 	\end{itemize}
+	
+% 	\textbf{Steps:}
+% 	\begin{enumerate}
+% 		\item Parse the problem description.
+% 		\item Identify key variables or constraints.
+% 		\item Guide the model to explore reasoning steps (list if applicable).
+% 		\item Ensure any assumptions or logical pathways are clearly outlined.
+% 	\end{enumerate}
+	
+% 	\textbf{Output Format:}  
+% 	The output should be structured as detailed paragraphs or step-by-step instructions, depending on the problem complexity.
+	
+% 	\textbf{Notes:}  
+% 	Edge cases: Ensure prompts remain flexible for a variety of inputs, even though no examples are provided.
+% \end{LTR}
+	
+% \end{tcolorbox}
+
+% در رویکرد دوم از مدل زبانی خواسته می\/شد که براساس توضیح مسئله و چند نمونه مثال به همراه جواب از مجموعه داده اقدام به تولید اعلان های دستوری مناسب کند، اعلان دستوری برای این امر در کادر \ref{p_s2} آورده شده است.
+% \begin{tcolorbox}[breakable,colframe=mybluecolor!100, colback=mybluecolor!20, title=اعلان دستوری برای نمونه\/گیری براساس توضیح مسئله و چند نمونه مثال از مجموعه داده] \label{p_s2}
+% 	\begin{LTR}
+		
+	
+% 	\textbf{Given a problem description and two example Q\&A pairs, produce a detailed system prompt to guide a language model in completing the task effectively.}
+	
+% 	\textbf{Guidelines}
+	
+% 	\begin{itemize}
+% 		\item \textbf{Understand the Task:} Use the problem description to understand the overall goal. Supplement this understanding with the two provided examples to clarify the problem’s scope.
+% 		\item \textbf{Minimal Changes:} Incorporate key elements from the examples into the prompt, while maintaining the structure of the problem description. Only adjust where clarity or better instruction flow is necessary.
+% 		\item \textbf{Reasoning Before Conclusions:} Guide the model to analyze the examples and reasoning patterns within the example Q\&As. Ensure that prompts encourage reasoning steps before arriving at final answers.
+% 		\begin{itemize}
+% 			\item Reverse the reasoning order if necessary to ensure it starts with analysis.
+% 		\end{itemize}
+% 		\item \textbf{Examples:} Highlight the key learning points or steps from each of the two examples. Use placeholders [in brackets] to allow flexibility for future examples.
+% 		\item \textbf{Clarity and Conciseness:} Be specific in what needs to be done, and avoid vague or generalized instructions. Ensure the combination of the problem description and examples provides enough guidance.
+% 		\item \textbf{Formatting:} Use markdown for clear structure, with sections for example-based learning, reasoning, and solution paths.
+% 		\item \textbf{Preserve User Content:} Include both the problem description and examples faithfully, without losing important context.
+% 	\end{itemize}
+	
+% 	\textbf{Steps}
+	
+% 	\begin{enumerate}
+% 		\item Analyze the problem description.
+% 		\item Examine the example Q\&As for patterns in reasoning and solutions.
+% 		\item Synthesize the information to produce a prompt that mirrors the examples while remaining flexible for new problems.
+% 	\end{enumerate}
+	
+% 	\textbf{Output Format}  
+	
+% 	The output should be a structured set of instructions, with examples embedded for illustration. Use a mix of bullet points and paragraphs for clarity.
+	
+% 	\textbf{Examples}
+	
+% 	Provide example reasoning paths based on the given Q\&A pairs.
+	
+% 	\textbf{Notes}  
+	
+% 	Edge cases: Address how prompts should handle examples that deviate from common patterns found in the provided examples.
+% 	\end{LTR}
+% \end{tcolorbox}
+
+% در رویکرد سوم نمونه\/گیری، از مدل زبانی خواسته شد که با الهام از اعلان های دستوری موفق، اقدام به تولید اعلان های دستوری جدید و مشابه با پراپت های موفق کند، اعلان دستوری مربوط به این رویکرد در کادر \ref{p_s3} آورده شده است.
+
+% \begin{tcolorbox}[breakable,colframe=mybluecolor!100, colback=mybluecolor!20, title=اعلان دستوری برای نمونه\/گیری براساس اعلان های دستوری موفق] \label{p_s3}
+% 	\begin{LTR}
+% 	Given a successful prompt, produce variations of the prompt while maintaining the original task's goals and structure.
+	
+% 	\textbf{Guidelines}
+% 	\begin{itemize}
+% 		\item \textbf{Understand the Task:} Start by identifying the core objective of the successful prompt. Determine why it was effective in completing the task and maintain this focus.
+% 		\item \textbf{Minimal Changes:} Focus on slight variations in wording, structure, or approach to maintain effectiveness. Do not change the task’s essence or main steps unless necessary for clarity.
+% 		\item \textbf{Reasoning Before Conclusions:} Ensure that all variations continue to follow reasoning-first structures. If the original prompt placed conclusions before reasoning, reverse the order for variations.
+% 		\item \textbf{Clarity and Conciseness:} Variations should remain clear and to the point, without introducing ambiguity or confusion.
+% 		\item \textbf{Examples:} Highlight variations with slight changes in phrasing, while retaining the core elements of the original prompt.
+% 		\item \textbf{Formatting:} Keep formatting consistent across variations. Use bullet points or markdown headings to segment the variations clearly.
+% 		\item \textbf{Preserve User Content:} Maintain the overall flow and details of the successful prompts, making variations in small increments.
+% 	\end{itemize}
+	
+% 	\textbf{Steps}
+% 	\begin{enumerate}
+% 		\item Analyze the successful prompt to identify key elements that make it work.
+% 		\item Create multiple variations by adjusting wording, step order, or clarity points.
+% 		\item Ensure each variation follows the same reasoning and solution path, with slight differences in phrasing or structure.
+% 	\end{enumerate}
+	
+% 	\textbf{Output Format}
+	
+% 	Output only one variation in the given prompt form, with minor changes to structure, wording, or instruction flow.
+	
+% 	\textbf{Notes}
+	
+% 	Edge cases: Test how different variations might perform across a range of inputs. Identify possible weaknesses in certain phrasing and adjust accordingly.
+	
+% 	\end{LTR}  
+% \end{tcolorbox}
+
+
+
+
+
+
+
+
+
+% \section*{ارزیابی}
+% \addcontentsline{toc}{section}{ارزیابی}
+
+% همانطور که در فصل 3 بخش ارزیابی توضیح داده شد، هر اعلان دستوری تولید شده روی مجموعه داده ارزیابی می\/شود و برای سوال موجود در آن مجموعه داده، پاسخی تولید می\/کند. سپس نیاز است که این پاسخ با پاسخ واقعی مقایسه شود. این مقایسه و ارزیابی توسط مدل زبانی از طریق اعلان دستوری \ref{p_v} به عنوان دستورالعمل انجام می\/شود.
+
+% \begin{tcolorbox}[breakable,colframe=mybluecolor!100, colback=mybluecolor!20, title=اعلان دستوری برای ارزیابی جواب تولید شده] \label{p_v}
+% 	\begin{LTR}
+% 	By the provided information,  
+% 	Task:  
+% 	\begin{enumerate}
+% 		\item Compare the Predicted Answer with the Actual Answer.
+% 		\item Determine if the Predicted Answer matches the Actual Answer exactly.
+% 		\item Output "CORRECT" if the answers match, otherwise output "INCORRECT".
+% 	\end{enumerate}
+	
+% 	Response Format:  
+	
+% 	\{CORRECT or INCORRECT\} 
+% 	\end{LTR} 
+% \end{tcolorbox}
+
+% در ادامه یک سوال و جواب از مجموعه داده GSM8K به عنوان مثال و همچنین جواب تولید شده توسط بهترین اعلان دستوری برای بررسی نحوه پاسخدهی مدل زبانی آورده شده است.
+
+% \begin{tcolorbox}[breakable,colframe=mybluecolor!100, colback=mybluecolor!20, title=یک نمونه سوال و جواب از مجموعه داده GSM8K به همراه جواب تولید شده توسط روش مولد اعلان ساده ] \label{p_ex}
+% 	\begin{LTR}
+% 	\textbf{Question:}  
+% 	\lr{Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?}
+% 	\\ \\
+% 	\textbf{Answer:}  
+% 	\lr{Henry traveled 20 miles + 15 miles = \( 20 + 15 = 35 \) miles, not counting the distance between stops.}
+	
+% 	\lr{Henry traveled 60 miles - 35 miles = \( 60 - 35 = 25 \) miles between his first and second stop.}
+	
+% 	\lr{Final Answer : 25}
+% 	\\ \\
+% 	\textbf{Predicted-Answer:}
+	
+% 	\text{Analyze the Problem Description:}
+	
+% 	\lr{The problem involves finding the distance traveled between two stops during a bike trip. The initial stop was after 20 miles, and the second stop was 15 miles before the end of the trip.}
+	
+% 	\text{Example-Based Learning:}
+% 	\begin{itemize}
+% 		\item Identify the key components of the problem: initial stop distance, final stop distance, and total trip distance.
+% 		\item Understand the order of operations: find the distance between the two stops first, then subtract this value from the total trip distance to find the distance traveled between the stops.
+% 	\end{itemize}
+	
+% 	\text{Reasoning:}
+% 	\begin{itemize}
+% 		\item Find the distance between the two stops: $60 - (20 + 15) = 60 - 35 = 25$ miles.
+% 		\item \lr{The distance traveled between the first and second stops is 25 miles.}
+% 	\end{itemize}
+	
+% 	\text{Solution Paths:}
+% 	\begin{itemize}
+% 		\item Find the distance between the two stops by subtracting the sum of the initial and final stop distances from the total trip distance.
+% 		\item The distance traveled between the first and second stops is the calculated distance between the two stops.
+% 	\end{itemize}
+	
+% 	\text{\lr{Example Q\&A Pair 1 :} } \
+% 	\lr{Ken created a care package to send to his brother, who was away at boarding school. Ken placed a box on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds. Then, he added enough brownies to cause the weight to triple. Next, he added another 2 pounds of jelly beans. And finally, he added enough gummy worms to double the weight once again. What was the final weight of the box of goodies, in pounds?}
+% 	\\ \\
+% 	\text{\lr{Example Q\&A Pair 2 : }} \
+% 	\lr{James creates a media empire. He creates a movie for \$2000. Each DVD costs \$6 to make. He sells it for 2.5 times that much. He sells 500 movies a day for 5 days a week. How much profit does he make in 20 weeks?}
+% 	\\ \\
+% 	\text{Prompt and Example:}
+% 	\begin{quote}
+% 		\text{Prompt:}  
+% 		Given a problem that involves finding the distance traveled between two stops during a trip, solve it by finding the distance between the two stops first, then subtracting this value from the total trip distance to find the distance traveled between the stops.
+		
+% 		\text{Example:}  
+% 		\lr{Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?}
+		
+% 		\text{Solution:}  
+% 		\begin{itemize}
+% 			\item Find the distance between the two stops: $60 - (20 + 15) = 60 - 35 = 25$ miles.
+% 			\item \lr{The distance traveled between the first and second stops is 25 miles.}
+% 		\end{itemize}
+% 	\end{quote}
+% 	\end{LTR}
+% \end{tcolorbox}
+
+
+% \section*{سایر روش ها}
+% \addcontentsline{toc}{section}{سایر روش ها}
+% در جدول \ref{tab_prompts_arithmetic}، اعلان‌های دستوری به‌کاررفته برای هدایت مدل زبانی Mistral به‌منظور ایفای نقش به‌عنوان روش‌های زنجیره تفکر ، برنامه\/ریزی و حل، برنامه\/ریزی و حل پیشرفته، مهندس اعلان خودکار و بهینه سازی با اعلان ارائه شده است. این اعلان‌ها برگرفته از مقاله مولد اعلان \cite{PromptBreeder} می‌باشند.
+% \begin{table}[h!]
+% 	\centering
+% 	\begin{LTR}
+% 	\begin{tabular}{lp{13cm}}
+% 		\hline
+% 		\textbf{Method} & \textbf{Instruction Prompt} \\ \hline
+% 		CoT   & \lr {“Let’s think step by step.”} \\ 
+% 		PS    & \lr {“Let’s first understand the problem and devise a plan to solve the problem. Then, let’s carry out the plan and solve the problem step by step.”} \\ 
+% 		PS+   & \lr {“Let’s first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let’s carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer.”} \\ 
+% 		APE   & \lr {“Let’s work this out in a step by step way to be sure we have the right answer.”} \\ 
+% 		OPRO  & \lr{“Take a deep breath and work on this problem step-by-step.”} \\ \hline
+% 	\end{tabular}
+% 	\end{LTR}
+% 	\caption{اعلان های دستوری برای سایر روش ها جهت مقایسه نتایج }
+% 	\label{tab_prompts_arithmetic}
+% \end{table}
+
+
+
+
+
+
+
+

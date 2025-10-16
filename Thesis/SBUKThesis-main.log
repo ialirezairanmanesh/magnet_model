@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  16 OCT 2025 18:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  16 OCT 2025 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1823,6 +1823,74 @@ Package biblatex Info: ... and expl3
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
+
+Package fontspec Info: Font family 'XBZar(0)' created for font 'XB Zar' with
+(fontspec)             options [Script=Persian,Ligatures=PersianTeX,Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"XB
+(fontspec)             Zar/OT:script=arab;language=dflt;mapping=persian-tex-tex
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"XB
+(fontspec)             Zar/B/OT:script=arab;language=dflt;mapping=persian-tex-t
+ext;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"XB
+(fontspec)             Zar/I/OT:script=arab;language=dflt;mapping=persian-tex-t
+ext;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"XB
+(fontspec)             Zar/BI/OT:script=arab;language=dflt;mapping=persian-tex-
+text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Info: Redefining \persianfont on input line 25.
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
+LaTeX Info: Redefining \xepersian@textdigitfont on input line 26.
+Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
+as'Times New Roman' on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `OPERATORS' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `OPERATORS' in version `normal'
+(Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/m/n on 
+input line 26.
+LaTeX Font Info:    Overwriting symbol font `OPERATORS' in version `bold'
+(Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/m/n on 
+input line 26.
+LaTeX Font Info:    Redeclaring symbol font `new@mathbf@font@digits' on input l
+ine 26.
+LaTeX Font Info:    Overwriting symbol font `new@mathbf@font@digits' in version
+ `normal'
+(Font)                  TU/TimesNewRoman(1)/bx/n --> TU/TimesNewRoman(1)/bx/n o
+n input line 26.
+LaTeX Font Info:    Overwriting symbol font `new@mathbf@font@digits' in version
+ `bold'
+(Font)                  TU/TimesNewRoman(1)/bx/n --> TU/TimesNewRoman(1)/bx/n o
+n input line 26.
+LaTeX Font Info:    Redeclaring symbol font `new@mathit@font@digits' on input l
+ine 26.
+LaTeX Font Info:    Overwriting symbol font `new@mathit@font@digits' in version
+ `normal'
+(Font)                  TU/TimesNewRoman(1)/m/it --> TU/TimesNewRoman(1)/m/it o
+n input line 26.
+LaTeX Font Info:    Overwriting symbol font `new@mathit@font@digits' in version
+ `bold'
+(Font)                  TU/TimesNewRoman(1)/m/it --> TU/TimesNewRoman(1)/m/it o
+n input line 26.
+LaTeX Font Info:    Redeclaring symbol font `new@mathrm@font@digits' on input l
+ine 26.
+LaTeX Font Info:    Overwriting symbol font `new@mathrm@font@digits' in version
+ `normal'
+(Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/m/n on 
+input line 26.
+LaTeX Font Info:    Overwriting symbol font `new@mathrm@font@digits' in version
+ `bold'
+(Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/m/n on 
+input line 26.
+LaTeX Info: Redefining \latinfont on input line 27.
 \@quotelevel=\count551
 \@quotereset=\count552
 
@@ -1838,32 +1906,32 @@ Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 (./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
 \openout1 = `SBUKThesis-main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-7.
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1900,7 +1968,7 @@ LaTeX Font Info:    ... okay on input line 27.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count553
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1912,9 +1980,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count554
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./SBUKThesis-main.out) (./SBUKThesis-main.out)
 \@outlinefile=\write5
@@ -1935,25 +2003,19 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `SBUKThesis-main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'SBUKThesis-main.bbl' found.
+Package biblatex Info: ... file 'SBUKThesis-main.bbl' not found.
 
-(./SBUKThesis-main.bbl
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 80.
-)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+No file SBUKThesis-main.bbl.
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 \openout2 = `SBUKThesis-inthenameofGod.aux'.
 
- (./SBUKThesis-inthenameofGod.tex
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+(./SBUKThesis-inthenameofGod.tex
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 48.0pt on input line 5.
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(3)/b/n' undefined
-(Font)              using `TU/TimesNewRoman(3)/m/n' instead on input line 5.
-
-[1
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 48.0pt on input line 5.
+ [1
 
 
 ])
@@ -1962,23 +2024,12 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(3)/b/n' undefined
  (./SBUKThesis-persian-cover.tex
 File: logo.png Graphic file (type bmp)
 <logo.png>
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 5.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 5.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 18.0pt on input line 20.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
-(Font)              scaled to size 18.0pt on input line 20.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 14.0pt on input line 31.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
-(Font)              scaled to size 14.0pt on input line 31.
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/b/n' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 53.
-
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 14.0pt on input line 53.
 ) [2
@@ -1988,7 +2039,8 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 ]
 \openout2 = `SBUKThesis-approval.aux'.
 
- (./SBUKThesis-approval.tex
+
+(./SBUKThesis-approval.tex
 File: images/approval.jpg Graphic file (type bmp)
 <images/approval.jpg>
 ) [3
@@ -2052,11 +2104,11 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
  (./SBUKThesis-student.tex
 File: logo.png Graphic file (type bmp)
 <logo.png>
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 7.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 8.
@@ -2094,22 +2146,24 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 (Font)              scaled to size 7.69997pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 (Font)              scaled to size 5.5pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 27.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 27.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 27.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 27.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 27.
 File: images/sign2.jpg Graphic file (type bmp)
 <images/sign2.jpg>
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 39.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 39.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
@@ -2128,6 +2182,13 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 39.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 (Font)              scaled to size 6.0pt on input line 39.
+
+Overfull \hbox (0.89465pt too wide) in paragraph at lines 8--41
+[]\TU/XBZar(0)/m/n/11 اینجانب علیرضا ایرانمنش به شماره دانشجویی \TU/TimesNewRom
+an(0)/m/n/11 ۴۰۱۱۵۵۰۱۵ \TU/XBZar(0)/m/n/11 دانشجوی مقطع کارشناسی‌ ارشد رشته مهن
+دسی کامپیوتر-[]
+ []
+
 ) [5
 
 
@@ -2136,11 +2197,11 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 \openout2 = `SBUKThesis-dedication.aux'.
 
  (./SBUKThesis-dedication.tex
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 15.0pt on input line 2.
 ) [6
 
@@ -2160,27 +2221,39 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
 \openout2 = `SBUKThesis-persian-abstract.aux'.
 
  (./SBUKThesis-persian-abstract.tex
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 17.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 13.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 13.0pt on input line 7.
-) [8
+)
+Overfull \hbox (0.19652pt too wide) in paragraph at lines 7--41
+[][]\TU/XBZar(0)/b/n/13 واژگان کلیدی: تشخیص بدافزار، ترنسفورمر، یادگیری عمیق، د
+اده‌های چندوجهی، امنیت[]
+ []
+
+[8
 
 
 
 
-] (./SBUKThesis-main.toc
+]
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 16.0pt on input line 43.
+ (./SBUKThesis-main.toc
+
+LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/b/n' undefined
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 2.
+
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 10.92004pt on input line 28.
- [9
+[9
 
 
-] [10]
-[11] [12])
+] [10] [11] [12])
 \tf@toc=\write6
 \openout6 = `SBUKThesis-main.toc'.
 
@@ -2194,10 +2267,10 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 \tf@lof=\write8
 \openout8 = `SBUKThesis-main.lof'.
 
- [15
 
-]
-(./SBUKThesis-main.loa)
+[15
+
+] (./SBUKThesis-main.loa)
 \tf@loa=\write9
 \openout9 = `SBUKThesis-main.loa'.
 
@@ -2209,13 +2282,13 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 
  (./SBUKThesis-chapter1.tex
 فصل 1.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 57.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 20.74pt on input line 57.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 24.0pt on input line 57.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 24.0pt on input line 57.
 [1
 
@@ -2227,7 +2300,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 13.0pt on input line 70.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 71.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 71.
@@ -2235,9 +2308,32 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 9.10004pt on input line 71.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 6.37003pt on input line 71.
- [2
 
-] [3] [4]) [5]
+
+LaTeX Warning: Citation 'AndroidSecurity' on page 2 undefined on input line 71.
+
+
+
+LaTeX Warning: Citation 'DeepLearningMalware' on page 2 undefined on input line
+ 73.
+
+
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 2 undefined on input lin
+e 78.
+
+[2
+
+]
+
+LaTeX Warning: Citation 'Drebin' on page 3 undefined on input line 83.
+
+
+LaTeX Warning: Citation 'AndroZoo' on page 3 undefined on input line 83.
+
+
+LaTeX Warning: Citation 'CICMalDroid' on page 3 undefined on input line 84.
+
+[3] [4]) [5]
 \openout2 = `SBUKThesis-chapter2.aux'.
 
  (./SBUKThesis-chapter2.tex
@@ -2249,13 +2345,35 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 
 
 
-] [7
+]
 
-] [8]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/b/n' will be
+LaTeX Warning: Citation 'AndroidSecurity' on page 7 undefined on input line 37.
+
+
+
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 7 undefined on input lin
+e 37.
+
+
+LaTeX Warning: Citation 'DeepLearningMalware' on page 7 undefined on input line
+ 37.
+
+[7
+
+]
+
+LaTeX Warning: Citation 'Vinayakumar2019' on page 8 undefined on input line 59.
+
+
+[8]
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 64.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 64.
+
+
+LaTeX Warning: Citation 'AndroidSecurity' on page 9 undefined on input line 67.
+
 
 
 LaTeX Font Warning: Font shape `TU/TimesNewRoman(2)/b/n' undefined
@@ -2263,148 +2381,358 @@ LaTeX Font Warning: Font shape `TU/TimesNewRoman(2)/b/n' undefined
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 (Font)              scaled to size 10.92004pt on input line 72.
-[9] [10] [11] [12] [13] [14]
+[9] [10]
+
+LaTeX Warning: Citation 'Drebin' on page 11 undefined on input line 99.
+
+[11] [12] [13] [14]
+
+LaTeX Warning: Citation 'Marastoni2022' on page 15 undefined on input line 128.
+
+
+
+LaTeX Warning: Citation 'Vinayakumar2019' on page 15 undefined on input line 13
+4.
+
+[15]
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 16 undefined on input line 136.
+
+
+Overfull \hbox (2.73013pt too wide) in paragraph at lines 136--137
+[]\TU/XBZar(0)/m/n/12 ارائه دهند و ویژگی‌های مورد نیاز را مستقیماً از داده‌های 
+خام یا نیمه‌پردازش‌شده یاد بگیرند [[]].[]
+ []
+
 File: images/cnn_structure.png Graphic file (type bmp)
 <images/cnn_structure.png>
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 141.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 141.
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 16 undefined on input line 141.
+
+LaTeX Font Info:    Font shape `TU/XBZar(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 141.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 141.
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 16 undefined on input line 141.
+
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 (Font)              scaled to size 10.01004pt on input line 145.
- [15] [16]
+
+LaTeX Warning: Citation 'Hochreiter1997' on page 16 undefined on input line 148
+.
+
+
+LaTeX Warning: Citation 'Cho2014' on page 16 undefined on input line 148.
+
+[16]
+
+LaTeX Warning: Citation 'sanchez-lengeling2021a' on page 17 undefined on input 
+line 153.
+
+[17]
+
+LaTeX Warning: Citation 'Kipf2017' on page 18 undefined on input line 162.
+
+
+LaTeX Warning: Citation 'Velickovic2018' on page 18 undefined on input line 162
+.
+
+
+Overfull \hbox (32.97139pt too wide) in paragraph at lines 162--163
+[][]\TU/XBZar(0)/m/n/12 در این پژوهش، از []\TU/TimesNewRoman(2)/b/n/12 GNN[] \T
+U/XBZar(0)/m/n/12 (به‌طور خاص، احتمالاً مدل‌هایی مانند [][][][][][][][][][][][]
+ [[]] یا [][][][][][][][][][][][] [[]])[]
+ []
+
 File: images/gnn_structure.png Graphic file (type bmp)
 <images/gnn_structure.png>
+
+LaTeX Warning: Citation 'sanchez-lengeling2021a' on page 18 undefined on input 
+line 167.
+
+
+LaTeX Warning: Citation 'sanchez-lengeling2021a' on page 18 undefined on input 
+line 167.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 173.
 
 
-Overfull \hbox (13.66959pt too wide) in paragraph at lines 174--175
-[][] [][][]|\TU/TimesNewRoman(0)/b/n/12 ۲\TU/TimesNewRoman(1)/m/it/12 -‏\TU/Tim
-esNewRoman(0)/b/n/12 ۲\TU/TimesNewRoman(1)/m/it/12 -‏\TU/TimesNewRoman(0)/b/n/1
-2 ۶\TU/TimesNewRoman(1)/m/it/12 -‏\TU/TimesNewRoman(0)/b/n/12 ۰\TU/TimesNewRoma
-n(1)/m/it/12 -‏\TU/TimesNewRoman(0)/b/n/12 ۱ \TU/TimesNewRoman(1)/m/it/12 معرفی
- ترنسفورمر و تحول در مدل‌های یادگیری عمیق[][][] نقطه عطف برجسته‌ای در تکامل معم
-اری‌های[]
- []
+LaTeX Warning: Citation 'attention' on page 18 undefined on input line 174.
 
-[17] [18] [19]
+[18]
+
+LaTeX Warning: Citation 'TransformerMalware' on page 19 undefined on input line
+ 180.
+
+[19]
 File: images/transformer_structure.png Graphic file (type bmp)
 <images/transformer_structure.png>
 
 
+LaTeX Warning: Citation 'attention' on page 20 undefined on input line 194.
+
+
+LaTeX Warning: Citation 'attention' on page 20 undefined on input line 194.
+
+[20]
+
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 203.
 
-[20] [21] [22] [23] [24] [25]
-Overfull \hbox (12.52753pt too wide) in paragraph at lines 273--274
-[][][]\TU/TimesNewRoman(2)/b/n/12 Optuna[] \TU/TimesNewRoman(1)/m/it/12 [[][][]
-[][][]\TU/TimesNewRoman(0)/b/n/12 ۲۰[][][][][][]\TU/TimesNewRoman(1)/m/it/12 ] 
-یک چارچوب []\TU/TimesNewRoman(2)/b/n/12 Framework[] \TU/TimesNewRoman(1)/m/it/1
-2 نرم‌افزاری متن‌باز و قدرتمند برای بهینه‌سازی خودکار هایپرپارامترها[]
+
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 21 undefined on input li
+ne 210.
+
+
+LaTeX Warning: Citation 'Demontis2017' on page 21 undefined on input line 210.
+
+
+Overfull \hbox (2.48079pt too wide) in paragraph at lines 210--211
+[]\TU/XBZar(0)/m/n/12 استفاده شده است [[]، []]. اغلب، ویژگی‌های استخراج‌شده[]
  []
 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/n' will be
+[21] [22] [23] [24]
+
+LaTeX Warning: Citation 'Dunning2010' on page 25 undefined on input line 257.
+
+
+LaTeX Warning: Citation 'LeQuy2023' on page 25 undefined on input line 257.
+
+[25]
+
+LaTeX Warning: Citation 'Optuna2019' on page 26 undefined on input line 273.
+
+[26]
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 282.
-[26] [27] [28]
-Overfull \hbox (20.2728pt too wide) in paragraph at lines 327--328
-[][]\TU/TimesNewRoman(1)/m/it/12 تحلیل مجوزها []\TU/TimesNewRoman(2)/b/n/12 (Pe
-rmissions)[]\TU/TimesNewRoman(1)/m/it/12 : یکی از پرکاربردترین روش‌های ایستا، ت
-حلیل الگوهای مجوزهای درخواست‌شده[]
+ [27] [28] [29]
+
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 30 undefined on input li
+ne 322.
+
+
+LaTeX Warning: Citation 'Drebin' on page 30 undefined on input line 327.
+
+[30]
+
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 31 undefined on input li
+ne 353.
+
+[31] [32]
+
+LaTeX Warning: Citation 'DeepLearningMalware' on page 33 undefined on input lin
+e 381.
+
+
+Overfull \hbox (41.27701pt too wide) in paragraph at lines 381--382
+[]\TU/XBZar(0)/m/n/12 ترکیب کرده و به عنوان ورودی به مدل‌های یادگیری ماشین یا ی
+ادگیری عمیق می‌دهند [[]].[]
  []
 
-[29] [30] [31] [32] [33]) [34]
+[33]
+
+LaTeX Warning: Citation 'Drebin' on page 34 undefined on input line 386.
+
+
+Overfull \hbox (7.17136pt too wide) in paragraph at lines 386--387
+[]\TU/XBZar(0)/m/n/12 یافتند. در اوایل دهه \TU/TimesNewRoman(0)/b/n/12 ۲۰۱۰\TU/
+XBZar(0)/m/n/12 ، تمرکز زیادی بر استخراج ویژگی‌های ایستا (مانند مجوزها در []\TU
+/TimesNewRoman(2)/b/n/12 Drebin[] \TU/XBZar(0)/m/n/12 [[]])[]
+ []
+
+
+Overfull \hbox (2.41377pt too wide) in paragraph at lines 386--387
+[]\TU/XBZar(0)/m/n/12 و استفاده از طبقه‌بندهای کلاسیک مانند []\TU/TimesNewRoman
+(2)/b/n/12 SVM[] \TU/XBZar(0)/m/n/12 بود. سپس، روش‌های مبتنی بر تحلیل پویا (مان
+ند []\TU/TimesNewRoman(2)/b/n/12 TaintDroid[]\TU/XBZar(0)/m/n/12 )[]
+ []
+
+
+LaTeX Warning: Citation 'ZhangNix2017' on page 34 undefined on input line 390.
+
+
+LaTeX Warning: Citation 'Vinayakumar2019' on page 34 undefined on input line 39
+0.
+
+
+LaTeX Warning: Citation 'Demontis2017' on page 34 undefined on input line 390.
+
+
+Overfull \hbox (33.40695pt too wide) in paragraph at lines 390--391
+[][]\TU/XBZar(0)/m/n/12 تحقیقاتی مانند کار [] (استفاده از []\TU/TimesNewRoman(2
+)/b/n/12 CNN[] \TU/XBZar(0)/m/n/12 روی فراخوانی‌های []\TU/TimesNewRoman(2)/b/n/
+12 API[]\TU/XBZar(0)/m/n/12 ) و [][]
+ []
+
+
+Overfull \hbox (9.24446pt too wide) in paragraph at lines 395--396
+[]\TU/XBZar(0)/m/n/12 بدافزارهای اندرویدی ارائه گردید. ابتدا، مفاهیم پایه‌ای شا
+مل انواع بدافزارها (باج‌افزار، تروجان، جاسوس‌افزار،[]
+ []
+
+[34]) [35]
 \openout2 = `SBUKThesis-chapter3.aux'.
 
  (./SBUKThesis-chapter3.tex
 فصل 3.
-[35
+[36
 
 
 
 
 
-] [36
+]
 
-] [37]) [38]
+LaTeX Warning: Citation 'nowsecure2024' on page 37 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'nowsecure2024platform' on page 37 undefined on input l
+ine 18.
+
+
+LaTeX Warning: Citation 'nowsecure2024automation' on page 37 undefined on input
+ line 19.
+
+
+Overfull \hbox (25.24203pt too wide) in paragraph at lines 19--20
+[][]\TU/XBZar(0)/m/n/12 ارائه پلتفرمی برای خودکارسازی تست‌ها []\TU/TimesNewRoma
+n(2)/b/n/12 (NowSecure Platform)[] \TU/XBZar(0)/m/n/12 [[]]. []
+ []
+
+
+LaTeX Warning: Citation 'nowsecure2024synopsys' on page 37 undefined on input l
+ine 20.
+
+
+LaTeX Warning: Citation 'qualys2024vmdr' on page 37 undefined on input line 24.
+
+
+
+LaTeX Warning: Citation 'qualys2024inventory' on page 37 undefined on input lin
+e 26.
+
+
+Overfull \hbox (37.77505pt too wide) in paragraph at lines 26--27
+[][]\TU/XBZar(0)/m/n/12 انبارش خودکار دستگاه و اپ‌ها، شناسایی []CVE[]ها و []mis
+configuration[]ها [[]]. []
+ []
+
+
+LaTeX Warning: Citation 'qualys2024patching' on page 37 undefined on input line
+ 27.
+
+
+LaTeX Warning: Citation 'qualys2024mdm' on page 37 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'checkmarx2024sast' on page 37 undefined on input line 
+33.
+
+[37
+
+]
+
+LaTeX Warning: Citation 'checkmarx2024mobile' on page 38 undefined on input lin
+e 34.
+
+
+Overfull \hbox (84.09431pt too wide) in paragraph at lines 34--35
+[][]\TU/XBZar(0)/m/n/12 ادغام با ابزارهای تست موبایل از جمله همکاری با NowSecur
+e برای پوشش MAST [[]]. []
+ []
+
+
+LaTeX Warning: Citation 'nowsecure2024sast' on page 38 undefined on input line 
+39.
+
+
+LaTeX Warning: Citation 'nowsecure2024dast' on page 38 undefined on input line 
+40.
+
+
+Overfull \hbox (34.13248pt too wide) in paragraph at lines 40--41
+[][]\TU/XBZar(0)/b/n/12 تست پویا (DAST)\TU/XBZar(0)/m/n/12 : بررسی رفتار اپ در 
+اجرا، NowSecure نمونه‌ای موفق [[]]. []
+ []
+
+
+LaTeX Warning: Citation 'qualys2024vuln' on page 38 undefined on input line 41.
+
+
+
+LaTeX Warning: Citation 'nowsecure2024mtd' on page 38 undefined on input line 4
+2.
+
+
+Overfull \hbox (68.33469pt too wide) in paragraph at lines 42--43
+[][]\TU/XBZar(0)/b/n/12 تحلیل رفتاری و MTD\TU/XBZar(0)/m/n/12 : تشخیص رفتار مخر
+ب در زمان اجرا []\TU/TimesNewRoman(2)/b/n/12 (NowSecure و Qualys)[] \TU/XBZar(0
+)/m/n/12 [[]]. []
+ []
+
+
+LaTeX Warning: Citation 'checkmarx2024cicd' on page 38 undefined on input line 
+43.
+
+[38]) [39]
 \openout2 = `SBUKThesis-chapter4.aux'.
 
  (./SBUKThesis-chapter4.tex
 فصل 4.
-[39
+[40
 
 
 
 
-
-] [40
 
 ]
 
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(3)/m/it' undefined
-(Font)              using `TU/TimesNewRoman(3)/m/n' instead on input line 24.
+LaTeX Warning: Citation 'AndroidSecurity' on page 41 undefined on input line 10
+.
 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(3)/m/it' will be
+
+LaTeX Warning: Citation 'Drebin' on page 41 undefined on input line 14.
+
+[41
+
+]
+
+LaTeX Warning: Citation 'attention' on page 42 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'Kipf2017' on page 42 undefined on input line 22.
+
+LaTeX Font Info:    Font shape `TU/XBZar(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 24.
-
-Overfull \hbox (13.50162pt too wide) in paragraph at lines 34--35
-[][]\TU/TimesNewRoman(3)/m/it/12 بهینه‌سازی مؤثر: استفاده از بهینه‌ساز Adam برا
-ی به‌روزرسانی وزن‌ها و Optuna برای تنظیم ابرپارامترها،[]
- []
-
-[41]
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
-
-Overfull \hbox (8.3723pt too wide) in paragraph at lines 51--52
-[][][]\TU/TimesNewRoman(2)/b/n/12 CPU: Intel Xeon E5-2690 v4[] \TU/TimesNewRoma
-n(3)/m/it/12 با \TU/TimesNewRoman(0)/b/n/12 ۳۲ \TU/TimesNewRoman(3)/m/it/12 هست
-ه و فرکانس \TU/TimesNewRoman(0)/b/n/12 ۲\TU/TimesNewRoman(3)/m/it/12 .‏\TU/Time
-sNewRoman(0)/b/n/12 ۶ \TU/TimesNewRoman(3)/m/it/12 گیگاهرتز، برای پشتیبانی از پ
-یش‌پردازش[]
- []
-
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
 [42]
-Overfull \hbox (1.98877pt too wide) in paragraph at lines 80--81
-[][]\TU/TimesNewRoman(3)/m/it/12 فرمت‌بندی: گراف‌ها به اشیاء \TU/lmtt/m/n/12 Da
-ta \TU/TimesNewRoman(3)/m/it/12 در PyTorch Geometric تبدیل شدند و ماتریس‌های مج
-اورت[]
- []
 
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
+LaTeX Warning: Citation 'Drebin' on page 43 undefined on input line 54.
+
+[43]
 File: images/magnet_architecture.png Graphic file (type bmp)
 <images/magnet_architecture.png>
-[43]
+ [44]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 112.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 114.
- [44]
-Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
-[45]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45] [46]
 Missing character: There is no ۶ ("6F6) in font cmr12!
 Missing character: There is no ۴ ("6F4) in font cmr12!
 Missing character: There is no ۸ ("6F8) in font cmr12!
 Missing character: There is no ۸ ("6F8) in font cmr12!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46]
+[47]
 Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۰ ("6F0) in font cmr12!
@@ -2415,35 +2743,85 @@ Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
+[48]
 Missing character: There is no ۸ (U+06F8) in font [lmmono12-regular]:!
 Missing character: There is no ۴ (U+06F4) in font [lmmono12-regular]:!
 Missing character: There is no ۰ (U+06F0) in font [lmmono12-regular]:!
 Missing character: There is no ‏ (U+200F) in font [lmmono12-regular]:!
 Missing character: There is no ۲ (U+06F2) in font [lmmono12-regular]:!
-[47]
-Missing character: There is no ٔ (U+0654) in font Times New Roman/OT:language=d
-flt;mapping=persian-tex-text;!
-[48]) [49]
+
+Overfull \hbox (5.66568pt too wide) in paragraph at lines 270--271
+[][]\TU/XBZar(0)/m/n/12 فرآیند پیش‌پردازش داده‌ها، طراحی دقیق هر یک از اجزای مد
+ل، استراتژی آموزش و بهینه‌سازی ابرپارامترها[]
+ []
+
+[49]
+
+LaTeX Warning: Citation 'CICMalDroid' on page 50 undefined on input line 274.
+
+
+LaTeX Warning: Citation 'Marastoni2022' on page 50 undefined on input line 276.
+
+
+
+Overfull \hbox (0.15298pt too wide) in paragraph at lines 276--277
+[][]\TU/XBZar(0)/b/n/12 افزایش تفسیرپذیری (Explainability)\TU/XBZar(0)/m/n/12 :
+ توسعه روش‌هایی برای تفسیر تصمیمات مدل MAG-[]
+ []
+
+
+LaTeX Warning: Citation 'Demontis2017' on page 50 undefined on input line 277.
+
+
+LaTeX Warning: Citation 'Drebin' on page 50 undefined on input line 283.
+
+
+Overfull \hbox (7.17136pt too wide) in paragraph at lines 283--284
+[]\TU/XBZar(0)/m/n/12 یافتند. در اوایل دهه \TU/TimesNewRoman(0)/b/n/12 ۲۰۱۰\TU/
+XBZar(0)/m/n/12 ، تمرکز زیادی بر استخراج ویژگی‌های ایستا (مانند مجوزها در []\TU
+/TimesNewRoman(2)/b/n/12 Drebin[] \TU/XBZar(0)/m/n/12 [[]])[]
+ []
+
+
+LaTeX Warning: Citation 'ZhangNix2017' on page 50 undefined on input line 287.
+
+
+LaTeX Warning: Citation 'Vinayakumar2019' on page 50 undefined on input line 28
+7.
+
+
+LaTeX Warning: Citation 'Demontis2017' on page 50 undefined on input line 287.
+
+
+Overfull \hbox (33.40695pt too wide) in paragraph at lines 287--288
+[][]\TU/XBZar(0)/m/n/12 تحقیقاتی مانند کار [] (استفاده از []\TU/TimesNewRoman(2
+)/b/n/12 CNN[] \TU/XBZar(0)/m/n/12 روی فراخوانی‌های []\TU/TimesNewRoman(2)/b/n/
+12 API[]\TU/XBZar(0)/m/n/12 ) و [][]
+ []
+
+) [50] [51]
 \openout2 = `SBUKThesis-chapter5.aux'.
 
  (./SBUKThesis-chapter5.tex
 فصل 5.
-[50
+[52
 
 
 
 
 
 ]
-Overfull \hbox (12.56021pt too wide) in paragraph at lines 24--25
-[][]\TU/TimesNewRoman(3)/m/it/12 پس از پیش‌پردازش، ابعاد ویژگی‌ها به \TU/TimesN
-ewRoman(0)/b/n/12 ۴۳۰ \TU/TimesNewRoman(3)/m/it/12 ویژگی تنظیم شد و داده‌ها به 
-صورت بردارهای عددی نرمال‌سازی‌شده[]
+Overfull \hbox (3.08064pt too wide) in paragraph at lines 8--9
+[][]\TU/XBZar(0)/m/n/12 در این فصل، نتایج حاصل از پیاده‌سازی و ارزیابی مدل پیشن
+هادی MAGNET برای تشخیص بدافزارهای[]
  []
 
-[51
 
-] [52]
+LaTeX Warning: Citation 'Drebin' on page 53 undefined on input line 15.
+
+[53
+
+] [54]
 File: images/pirates_positions.png Graphic file (type bmp)
 <images/pirates_positions.png>
 File: images/pirates_bsf_avg_trajectory.png Graphic file (type bmp)
@@ -2452,21 +2830,40 @@ File: images/pirates_bsf_avg_trajectory.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53]
+[55]
 File: images/pirates_wind_velocity.png Graphic file (type bmp)
 <images/pirates_wind_velocity.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55] [56] [57] [58] [59] [60]
+[56] [57] [58] [59]
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 60 undefined on input line 198.
+
+
+LaTeX Warning: Citation 'TransformerMalware' on page 60 undefined on input line
+ 199.
+
+[60] [61]
+
+LaTeX Warning: Citation 'Drebin' on page 62 undefined on input line 254.
+
+[62]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 9.96452pt on input line 271.
+
+Overfull \hbox (3.8334pt too wide) in paragraph at lines 273--291
+ [][][][] 
+ []
+
 File: fig_cv_metrics.png Graphic file (type bmp)
 <fig_cv_metrics.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: fig_cv_loss.png Graphic file (type bmp)
 <fig_cv_loss.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2478,32 +2875,102 @@ File: fig_overall_comparison.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61] [62] [63]
+[63]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Text page 64 contains only floats.
 
-[64]
+[64] [65]
+Overfull \hbox (2.95572pt too wide) in paragraph at lines 372--373
+[][]\TU/XBZar(0)/b/n/12 CrossMalDroid\TU/XBZar(0)/m/n/12 : روشی که از انتخاب وی
+ژگی استفاده می‌کند و روی مجموعه داده Malgenome[]
+ []
+
+[66]
+
+LaTeX Warning: Citation 'Drebin' on page 67 undefined on input line 410.
+
+
+LaTeX Warning: Citation 'Milosevic2017' on page 67 undefined on input line 410.
+
+
+
+LaTeX Warning: Citation 'Pendlebury2020' on page 67 undefined on input line 410
+.
+
+
+LaTeX Warning: Citation 'Martin2021' on page 67 undefined on input line 410.
+
+
+LaTeX Warning: Citation 'Aafer2013' on page 67 undefined on input line 410.
+
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 67 undefined on input line 410.
+
+
+LaTeX Warning: Citation 'TransformerMalware' on page 67 undefined on input line
+ 410.
+
+
+LaTeX Warning: Citation 'Obidiagha2024' on page 67 undefined on input line 410.
+
+
+
+LaTeX Warning: Citation 'Kumar2024' on page 67 undefined on input line 410.
+
+
+LaTeX Warning: Citation 'White2023' on page 67 undefined on input line 410.
+
+[67]
 File: images/fig_literature_comparison_accuracy.png Graphic file (type bmp)
 <images/fig_literature_comparison_accuracy.png>
 File: images/fig_literature_comparison_metrics.png Graphic file (type bmp)
 <images/fig_literature_comparison_metrics.png>
 
 
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 68 undefined on input li
+ne 450.
+
+
+LaTeX Warning: Citation 'DeepLearningMalware' on page 68 undefined on input lin
+e 452.
+
+
+LaTeX Warning: Citation 'AndroidMalwareSurvey' on page 68 undefined on input li
+ne 454.
+
+
+LaTeX Warning: Citation 'DeepLearningMalware' on page 68 undefined on input lin
+e 456.
+
+
+Overfull \hbox (32.59729pt too wide) in paragraph at lines 446--462
+ [][][][] 
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[65]
+[68]
 File: images/fig_baseline_metrics_comparison.png Graphic file (type bmp)
 <images/fig_baseline_metrics_comparison.png>
+ [69]
 
+LaTeX Warning: Citation 'Drebin' on page 70 undefined on input line 485.
+
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 70 undefined on input line 485.
+
+
+LaTeX Warning: Citation 'TransformerMalware' on page 70 undefined on input line
+ 485.
+
+File: images/fig_module_comparison_en.png Graphic file (type bmp)
+<images/fig_module_comparison_en.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[66] [67]
-File: images/fig_module_comparison_en.png Graphic file (type bmp)
-<images/fig_module_comparison_en.png>
 File: images/fig_ablation_study_en.png Graphic file (type bmp)
 <images/fig_ablation_study_en.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2512,87 +2979,211 @@ File: images/fig_training_progress_en.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [68] [69]
+) [70]
+
+LaTeX Warning: Text page 71 contains only floats.
+
+[71] [72]
 \openout2 = `SBUKThesis-chapter6.aux'.
 
  (./SBUKThesis-chapter6.tex
 فصل 6.
-[70
+[73
 
 
 
 
 
 ]
-Overfull \hbox (35.76436pt too wide) in paragraph at lines 15--16
-[][]\TU/TimesNewRoman(3)/m/it/12 تحلیل حساسیت پارامترها (بخش تحلیل حساسیت پارام
-ترهای الگوریتم) نشان داد که []\TU/TimesNewRoman(2)/b/n/12 num_epochs[]\TU/Times
-NewRoman(3)/m/it/12 ، []\TU/TimesNewRoman(2)/b/n/12 embedding_dim[]\TU/TimesNew
-Roman(3)/m/it/12 ،[]
+
+LaTeX Warning: Citation 'Optuna2019' on page 74 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Drebin' on page 74 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Alsaleh2023' on page 74 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'TransformerMalware' on page 74 undefined on input line
+ 11.
+
+[74
+
+]
+
+LaTeX Warning: Citation 'AndroZoo' on page 75 undefined on input line 23.
+
+
+Overfull \hbox (1.31625pt too wide) in paragraph at lines 25--26
+[][]\TU/XBZar(0)/b/n/12 مقاومت در برابر حملات گریز\TU/XBZar(0)/m/n/12 : بررسی م
+قاومت مدل در برابر حملات گریز ([]\TU/TimesNewRoman(2)/b/n/12 Adversarial Attack
+s[]\TU/XBZar(0)/m/n/12 )[]
  []
 
-[71
 
-] [72] [73]) [74]
+LaTeX Warning: Citation 'Optuna2019' on page 75 undefined on input line 26.
+
+[75]
+Overfull \hbox (6.4479pt too wide) in paragraph at lines 33--34
+[][]\TU/XBZar(0)/b/n/12 ارزیابی در دستگاه‌های واقعی\TU/XBZar(0)/m/n/12 : آزمایش
+ مدل روی دستگاه‌های اندرویدی واقعی (به جای شبیه‌سازی)[]
+ []
+
+
+Overfull \hbox (2.2897pt too wide) in paragraph at lines 39--40
+[][]\TU/XBZar(0)/b/n/12 افزودن ویژگی‌های جدید\TU/XBZar(0)/m/n/12 : افزودن ویژگی
+‌های جدید مانند الگوهای رفتاری کاربران (مانند الگوهای[]
+ []
+
+[76]
+
+LaTeX Warning: Citation 'CICMalDroid' on page 77 undefined on input line 47.
+
+) [77]
 \openout2 = `SBUKThesis-references.aux'.
 
  (./SBUKThesis-references.tex
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
-(Font)              scaled to size 21.84009pt on input line 3.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
-(Font)              scaled to size 21.84009pt on input line 3.
- [75
+
+LaTeX Warning: Empty bibliography on input line 3.
+
+)
+\openout2 = `SBUKThesis-peyvast.aux'.
+
+ (./SBUKThesis-peyvast.tex [78
+
+
+
+
+
 
 
 
 
 
 ]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) [79
 
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(2)/m/it' undefined
-(Font)              using `TU/TimesNewRoman(2)/m/n' instead on input line 3.
+] [80]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 11.83005pt on input line 122.
 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
-(Font)              scaled to size 10.92004pt on input line 3.
+[81] [82]) [83]
+\openout2 = `SBUKThesis-appendix1.aux'.
 
-Overfull \hbox (18.87326pt too wide) in paragraph at lines 3--3
-[]\TU/TimesNewRoman(2)/m/it/12 Malware Detection Using Machine Learning”. In: C
-omputers and Security 93 (2020), p. 101792.[]
- []
+ (./SBUKThesis-appendix1.tex)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[76
+\openout2 = `SBUKThesis-english-abstract.aux'.
 
-] [77]
-Overfull \hbox (8.25266pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(2)/m/it/12 NowSecure. “CI/CD Integration for Mobile Secur
-ity”. In: NowSecure Documentation (2024).[]
- []
-
-
-Overfull \hbox (7.07607pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(2)/m/it/12 NowSecure and Synopsys. “NowSecure and Synopsy
-s Partnership”. In: Press Release (2024).[]
- []
+ (./SBUKThesis-english-abstract.tex
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 13.65005pt on input line 2.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 14.56006pt on input line 2.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 11.83005pt on input line 8.
+) [84
 
 
-Overfull \hbox (13.23006pt too wide) in paragraph at lines 3--3
-[]\TU/TimesNewRoman(2)/m/it/12 URL: [][][]$[][][][][] [] [] [] [][][] [] [][][]
-[][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][] [][] [][][][][][][][] 
-[][] [][][][][][][][][][][]$[][][]. []
- []
 
 
-Overfull \hbox (12.04037pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(2)/m/it/12 Qualys. “VMDR Mobile Security Solution”. In: Q
-ualys Documentation (2024). URL: [][][]$[][][][][] []$[][]
- []
 
 
-Overfull \hbox (17.41864pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(2)/m/it/12 Qualys. “Mobile Vulnerability Remediation”. In
-: Qualys Documentation (2024). URL: [][][]$[][][][][] []$[][]
- []
 
 
-Overfull \hbox (1.00117pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(2)/m/it/12 Checkmarx. “SAST for Mobile Applications”. 
+
+
+
+]
+\openout2 = `SBUKThesis-english-cover.aux'.
+
+ (./SBUKThesis-english-cover.tex
+File: logo.png Graphic file (type bmp)
+<logo.png>
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 12.74005pt on input line 8.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 12.74005pt on input line 8.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
+(Font)              scaled to size 14.56006pt on input line 14.
+) [85
+
+
+
+] (./SBUKThesis-main.aux
+(./SBUKThesis-inthenameofGod.aux) (./SBUKThesis-persian-cover.aux)
+(./SBUKThesis-approval.aux) (./SBUKThesis-taeed.aux) (./SBUKThesis-student.aux)
+(./SBUKThesis-dedication.aux) (./SBUKThesis-acknowledgments.aux)
+(./SBUKThesis-persian-abstract.aux) (./SBUKThesis-chapter1.aux)
+(./SBUKThesis-chapter2.aux) (./SBUKThesis-chapter3.aux)
+(./SBUKThesis-chapter4.aux) (./SBUKThesis-chapter5.aux)
+(./SBUKThesis-chapter6.aux) (./SBUKThesis-references.aux)
+(./SBUKThesis-peyvast.aux) (./SBUKThesis-appendix1.aux)
+(./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
+(rerunfilecheck)             Checksum: F8D5873A396FFCB3351C1564F0710B0E;31988.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                SBUKThesis-main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'SBUKThesis-main.run.xml'.
+\openout1 = `SBUKThesis-main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 44735 strings out of 476191
+ 951815 string characters out of 5812073
+ 2085990 words of memory out of 5000000
+ 64408 multiletter control sequences out of 15000+600000
+ 481461 words of font info for 174 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 98i,13n,104p,4867b,1988s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on SBUKThesis-main.pdf (101 pages).
