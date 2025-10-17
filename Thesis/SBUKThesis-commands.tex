@@ -72,11 +72,11 @@
 \usepackage{listings}
 % تعریف رنگ‌ها و گزینه‌های xcolor
 \usepackage[table]{xcolor}
-\definecolor{Blue}{rgb}{0,0,.55}
-\definecolor{mybluecolor}{HTML}{80C4E9}
+\definecolor{black}{rgb}{0,0,0}
+\definecolor{myblackcolor}{HTML}{000000}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
-\usepackage[colorlinks=true,linkcolor=Blue,urlcolor=Blue,citecolor=Blue]{hyperref}
+\usepackage[colorlinks=true,linkcolor=myblackcolor,urlcolor=myblackcolor,citecolor=myblackcolor,filecolor=myblackcolor,menucolor=myblackcolor,runcolor=myblackcolor]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %بسته های مربوط به ایجاد الگوریتم
 \usepackage{algorithm,algcompatible}
@@ -129,10 +129,10 @@ tabsize=1
 \setdigitfont[Scale=1]{Times New Roman}
 \setlatintextfont[Scale=0.91]{Times New Roman}
 % تنظیم فونت برای کلمات انگلیسی در متن فارسی
-\settextfont[Scale=1,Script=Latin]{Times New Roman}
+% \settextfont[Scale=1,Script=Latin]{Times New Roman}
 % تعریف قلم‌های فارسی و انگلیسی اضافی برای استفاده در بعضی از قسمت‌های متن
 \defpersianfont\nastaliq[Scale=1]{IranNastaliq}
-\defpersianfont\titr[Scale=1.3]{B Zar}
+\defpersianfont\titr[Scale=1.2]{B Zar}
 % برای شکستن فرمولهای داخل محیط align
 \allowdisplaybreaks
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -194,10 +194,10 @@ tabsize=1
 }{\typeout{We succeded in redefining \string\@chapter}}
 {\typeout{We failed in redefining \string\@chapter}}
 \makeatletter
-\setlength\cftchapnumwidth{6.5em}
-\setlength\cftsecnumwidth{4em}
-\setlength\cftsubsecnumwidth{5em}
-\setlength\cftsubsubsecnumwidth{6em}
+\setlength\cftchapnumwidth{4.2em}
+\setlength\cftsecnumwidth{3.5em}
+\setlength\cftsubsecnumwidth{4em}
+\setlength\cftsubsubsecnumwidth{4.5em}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %دستوراتی برای وسط چین شدن عبارات فهرست مطالب، فهرست جداول، فهرست شکلها
 \renewcommand{\contentsname}{\hfill فهرست مطالب \hfill\hfill}

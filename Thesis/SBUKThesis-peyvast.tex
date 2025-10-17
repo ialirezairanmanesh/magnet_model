@@ -2,13 +2,13 @@
 \chapter*{پیوست‌ها}\label{peyvast}
 
 % پیوست A: کدهای پیاده‌سازی مدل MAGNET
-\section{پیوست A: کدهای پیاده‌سازی مدل MAGNET}
+\section{پیوست \lr{A}: کدهای پیاده‌سازی مدل \lr{MAGNET}}
 
-\subsection{کد معماری مدل MAGNET}
-این بخش کد اصلی معماری مدل MAGNET را ارائه می‌دهد که در فصل 3 به‌صورت شبه‌کد توصیف شد. این کد با استفاده از PyTorch پیاده‌سازی شده است.
+\subsection{کد معماری مدل \lr{MAGNET}}
+این بخش کد اصلی معماری مدل \lr{MAGNET} را ارائه می‌دهد که در فصل 3 به‌صورت شبه‌کد توصیف شد. این کد با استفاده از \lr{PyTorch} پیاده‌سازی شده است.
 
 \begin{LTR}
-\begin{lstlisting}[language=Python, caption={کد معماری مدل MAGNET}, label={lst:magnet_architecture}, basicstyle=\scriptsize\ttfamily]
+\begin{lstlisting}[language=Python, caption={کد معماری مدل MAGNET}, label={lst:magnet-architecture}, basicstyle=\scriptsize\ttfamily]
 import torch
 import torch.nn as nn
 
@@ -49,11 +49,11 @@ class MAGNET(nn.Module):
 \end{lstlisting}
 \end{LTR}
 
-\subsection{کد بهینه‌سازی با PIRATES}
-این بخش قسمت اصلی کد بهینه‌سازی PIRATES را نشان می‌دهد که برای تنظیم ابرپارامترها استفاده شد.
+\subsection{کد بهینه‌سازی با \lr{PIRATES}}
+این بخش قسمت اصلی کد بهینه‌سازی \lr{PIRATES} را نشان می‌دهد که برای تنظیم ابرپارامترها استفاده شد.
 
 \begin{LTR}
-\begin{lstlisting}[language=Python, caption={کد بهینه‌سازی با PIRATES}, label={lst:pirates_optimization}, basicstyle=\scriptsize\ttfamily]
+\begin{lstlisting}[language=Python, caption={کد بهینه‌سازی با \lr{PIRATES}}, label={lst:pirates_optimization}, basicstyle=\scriptsize\ttfamily]
 import numpy as np
 
 class Pirates():
@@ -121,16 +121,16 @@ class Pirates():
 % پیوست B: داده‌های خام و پیش‌پردازش
 \section{پیوست \lr{B}: داده‌های خام و پیش‌پردازش}
 
-\subsection{نمونه داده‌های خام DREBIN}
-این جدول نمونه‌ای از داده‌های خام دیتاست DREBIN را نشان می‌دهد که برای آموزش مدل استفاده شد.
+\subsection{نمونه داده‌های خام \lr{DREBIN}}
+این جدول نمونه‌ای از داده‌های خام دیتاست \lr{DREBIN} را نشان می‌دهد که برای آموزش مدل استفاده شد.
 
 \begin{table}[ht]
     \centering
-    \caption{نمونه‌ای از داده‌های خام دیتاست DREBIN}
+    \caption{نمونه‌ای از داده‌های خام دیتاست \lr{DREBIN}}
     \label{tab:raw_data_sample}
     \begin{tabular}{|l|c|c|c|}
         \hline
-        \textbf{شناسه نمونه} & \textbf{تعداد مجوزها} & \textbf{فراخوانی‌های API} & \textbf{برچسب} \\ 
+        \textbf{شناسه نمونه} & \textbf{تعداد مجوزها} & \textbf{فراخوانی‌های \lr{API}} & \textbf{برچسب} \\ 
         \hline
         001 & 15 & \lr{["read\_contacts", "send\_sms"]} & 1 \\ 
         \hline
@@ -145,6 +145,7 @@ class Pirates():
 داده‌ها پیش‌پردازش شدند تا برای مدل مناسب شوند:
 
 \begin{itemize}
+    \renewcommand{\labelitemi}{\lr{$\bullet$}}
     \item تنظیم ابعاد ویژگی‌ها از (16, 32) به (16, 430)
     \item نرمال‌سازی با استفاده از استانداردسازی \lr{z-score}
     \item تبدیل داده‌های متنی به بردارهای باینری
@@ -156,6 +157,7 @@ class Pirates():
 \subsection{مشخصات سخت‌افزاری}
 آزمایش‌ها با استفاده از زیرساخت زیر اجرا شدند:
 \begin{itemize}
+    \renewcommand{\labelitemi}{\lr{$\bullet$}}
     \item \lr{GPU}: \lr{NVIDIA RTX 3090} با 24 گیگابایت \lr{VRAM}
     \item \lr{CPU}: \lr{Intel Xeon E5-2690 v4} با 32 هسته
     \item \lr{RAM}: 128 گیگابایت
@@ -164,9 +166,11 @@ class Pirates():
 \subsection{مشخصات نرم‌افزاری}
 محیط نرم‌افزاری شامل موارد زیر بود:
 \begin{itemize}
+    \renewcommand{\labelitemi}{\lr{$\bullet$}}
     \item زبان برنامه‌نویسی: \lr{Python 3.8.5}
     \item کتابخانه‌ها: 
     \begin{itemize}
+        \renewcommand{\labelitemii}{\lr{$\bullet$}}
         \item \lr{PyTorch 1.9.0}
         \item \lr{PyTorch Geometric 1.7.0}
         \item \lr{Optuna 2.10.0}
