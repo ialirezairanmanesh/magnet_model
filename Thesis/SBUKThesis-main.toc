@@ -1,144 +1,144 @@
 \vspace {-1.5cm}\textbf {عنوان}\nobreakspace {}\hfill \textbf {صفحه}\vskip 1mm \hrule height 1.5pt\vspace {.25cm}
 \contentsline {chapter}{\numberline {فصل\nobreakspace {}اول:}کلیات پژوهش}{1}{chapter.1}%
 \contentsline {section}{\numberline {1-1}مقدمه و بیان مسئله}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1-1-1}روش‌های تشخیص بدافزار}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1-1-1}روش‌های تشخیص بدافزار}{3}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1-1-2}مجموعه داده‌های مربوطه}{3}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1-2}ضرورت تحقیق و اهداف}{3}{section.1.2}%
 \contentsline {section}{\numberline {1-3}سازماندهی پایان نامه}{4}{section.1.3}%
 \contentsline {chapter}{\numberline {فصل\nobreakspace {}دوم:}پیشینه تحقیق و مفاهیم پایه}{6}{chapter.2}%
 \contentsline {section}{\numberline {2-1}مقدمه}{7}{section.2.1}%
-\contentsline {section}{\numberline {2-2}مفاهیم پایه}{7}{section.2.2}%
+\contentsline {section}{\numberline {2-2}مفاهیم پایه}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2-2-1}تکامل روش‌های یادگیری ماشین}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2-2-2}انواع بدافزار}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2-2-2}انواع بدافزار}{9}{subsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2-2-2-1}باج‌افزار}{9}{subsubsection.2.2.2.1}%
 \contentsline {subsubsection}{\numberline {2-2-2-2}تروجان}{9}{subsubsection.2.2.2.2}%
 \contentsline {subsubsection}{\numberline {2-2-2-3}جاسوس‌افزار}{10}{subsubsection.2.2.2.3}%
 \contentsline {subsubsection}{\numberline {2-2-2-4}تبلیغ‌افزار}{10}{subsubsection.2.2.2.4}%
-\contentsline {subsection}{\numberline {2-2-3}مفاهیم مرتبط با اپلیکیشن‌های اندرویدی}{10}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2-2-3-1}مجوزهای دسترسی}{10}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2-2-3-2}فایل \lr {APK}}{11}{subsubsection.2.2.3.2}%
+\contentsline {subsection}{\numberline {2-2-3}مفاهیم مرتبط با اپلیکیشن‌های اندرویدی}{11}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2-2-3-1}مجوزهای دسترسی}{11}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2-2-3-2}فایل \lr {APK}}{12}{subsubsection.2.2.3.2}%
 \contentsline {subsubsection}{\numberline {2-2-3-3}سورس‌کد}{12}{subsubsection.2.2.3.3}%
-\contentsline {subsection}{\numberline {2-2-4}داده‌های چندوجهی در تشخیص بدافزار}{12}{subsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2-2-4-1}داده‌های جدولی}{12}{subsubsection.2.2.4.1}%
-\contentsline {subsubsection}{\numberline {2-2-4-2}داده‌های گرافی}{13}{subsubsection.2.2.4.2}%
-\contentsline {subsubsection}{\numberline {2-2-4-3}داده‌های ترتیبی}{13}{subsubsection.2.2.4.3}%
-\contentsline {subsubsection}{\numberline {2-2-4-4}اهمیت و یکپارچگی داده‌های چندوجهی}{14}{subsubsection.2.2.4.4}%
-\contentsline {subsection}{\numberline {2-2-5}مدل‌های یادگیری عمیق}{14}{subsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2-2-5-1}شبکه‌های عصبی کانولوشنی (\lr {CNN})}{14}{subsubsection.2.2.5.1}%
-\contentsline {subsubsection}{\numberline {2-2-5-2}شبکه‌های عصبی بازگشتی و واحدهای حافظه بلند-کوتاه \lr {(RNN و LSTM)}}{15}{subsubsection.2.2.5.2}%
-\contentsline {subsubsection}{\numberline {2-2-5-3}شبکه‌های عصبی گرافی (\lr {GNN})}{16}{subsubsection.2.2.5.3}%
-\contentsline {subsection}{\numberline {2-2-6}ترنسفورمرها}{17}{subsection.2.2.6}%
-\contentsline {paragraph}{\numberline {2-2-6-0-1}معرفی ترنسفورمر و تحول در مدل‌های یادگیری عمیق}{17}{paragraph.2.2.6.0.1}%
-\contentsline {subsection}{\numberline {2-2-7}ترنسفورمرها در مدل \lr {MAGNET}}{18}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2-2-8}ماشین بردار پشتیبان (\lr {SVM})}{19}{subsection.2.2.8}%
-\contentsline {paragraph}{\numberline {2-2-8-0-1}انواع \lr {SVM}}{20}{paragraph.2.2.8.0.1}%
-\contentsline {paragraph}{\numberline {2-2-8-0-2}کاربرد در تشخیص بدافزار}{20}{paragraph.2.2.8.0.2}%
-\contentsline {paragraph}{\numberline {2-2-8-0-3}مزایا و معایب}{20}{paragraph.2.2.8.0.3}%
-\contentsline {section}{\numberline {2-3}تکنیک‌های آموزشی و ارزیابی}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {2-3-1}اعتبارسنجی متقاطع (\lr {Cross-Validation})}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2-3-2}مدیریت بیش‌برازش و کم‌برازش}{22}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2-3-3}روش‌های بهینه‌سازی}{23}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2-3-3-1}الگوریتم \lr {Adam}}{23}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2-3-3-2}الگوریتم \lr {PIRATES}}{23}{subsubsection.2.3.3.2}%
-\contentsline {subsubsection}{\numberline {2-3-3-3}الگوریتم \lr {Optuna}}{24}{subsubsection.2.3.3.3}%
-\contentsline {subsection}{\numberline {2-3-4}معیارهای ارزیابی عملکرد}{25}{subsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2-3-4-1}دقت (\lr {Accuracy})}{25}{subsubsection.2.3.4.1}%
-\contentsline {subsubsection}{\numberline {2-3-4-2}\lr {F1 Score}}{26}{subsubsection.2.3.4.2}%
-\contentsline {subsubsection}{\numberline {2-3-4-3}\lr {AUCArea Under the ROC Curve}}{27}{subsubsection.2.3.4.3}%
-\contentsline {paragraph}{\numberline {2-3-4-3-1}جمع‌بندی ارزیابی}{27}{paragraph.2.3.4.3.1}%
-\contentsline {section}{\numberline {2-4}مروری بر مطالعات پیشین}{27}{section.2.4}%
-\contentsline {subsection}{\numberline {2-4-1}روش‌های تحلیل ایستا}{28}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2-4-1-1}تحلیل ویژگی‌های مبتنی بر مانیفست و متاداده}{28}{subsubsection.2.4.1.1}%
-\contentsline {subsubsection}{\numberline {2-4-1-2}تحلیل کد \lr {(Code Analysis)}}{28}{subsubsection.2.4.1.2}%
-\contentsline {subsubsection}{\numberline {2-4-1-3}تحلیل ایستای ساختاری}{29}{subsubsection.2.4.1.3}%
-\contentsline {paragraph}{\numberline {2-4-1-3-1}محدودیت‌های تحلیل ایستا}{29}{paragraph.2.4.1.3.1}%
-\contentsline {subsection}{\numberline {2-4-2}روش‌های تحلیل پویا}{29}{subsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2-4-2-1}مانیتورینگ رفتار سیستم}{29}{subsubsection.2.4.2.1}%
-\contentsline {subsubsection}{\numberline {2-4-2-2}تحلیل شبکه}{30}{subsubsection.2.4.2.2}%
-\contentsline {subsubsection}{\numberline {2-4-2-3}بررسی مصرف منابع}{30}{subsubsection.2.4.2.3}%
-\contentsline {paragraph}{\numberline {2-4-2-3-1}ابزارها و محیط‌های تحلیل پویا}{30}{paragraph.2.4.2.3.1}%
-\contentsline {paragraph}{\numberline {2-4-2-3-2}محدودیت‌های تحلیل پویا}{30}{paragraph.2.4.2.3.2}%
-\contentsline {subsubsection}{\numberline {2-4-2-4}روش‌های ترکیبی \lr {Hybrid Approaches}}{31}{subsubsection.2.4.2.4}%
-\contentsline {subsection}{\numberline {2-4-3}کارهای پیشین و تاریخچه مختصر}{31}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2-5}جمع‌بندی فصل}{31}{section.2.5}%
-\contentsline {chapter}{\numberline {فصل\nobreakspace {}سوم:}مطالعه موردی: شرکت‌های پیشرو در امنیت اندروید}{33}{chapter.3}%
-\contentsline {section}{\numberline {3-1}هدف فصل}{34}{section.3.1}%
-\contentsline {section}{\numberline {3-2}معیارهای انتخاب}{34}{section.3.2}%
-\contentsline {section}{\numberline {3-3}مطالعه موردی شرکت‌ها}{34}{section.3.3}%
-\contentsline {subsection}{\numberline {3-3-1}\lr {NowSecure}}{34}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3-3-2}\lr {Qualys (VMDR Mobile)}}{34}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3-3-3}\lr {Checkmarx / Synopsys}}{34}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3-4}روش‌ها و ابزارهای مشترک}{35}{section.3.4}%
-\contentsline {section}{\numberline {3-5}مقایسه و تحلیل}{35}{section.3.5}%
-\contentsline {section}{\numberline {3-6}جمع‌بندی}{35}{section.3.6}%
-\contentsline {chapter}{\numberline {فصل\nobreakspace {}چهارم:}روش پیشنهادی}{36}{chapter.4}%
-\contentsline {section}{\numberline {4-1}روش پیشنهادی}{37}{section.4.1}%
-\contentsline {subsection}{\numberline {4-1-1}مقدمه روش پیشنهادی}{37}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4-1-2}فرضیات و ابزارهای محاسباتی}{38}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4-1-2-1}فرضیات}{38}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4-1-2-2}ابزارهای محاسباتی}{38}{subsubsection.4.1.2.2}%
-\contentsline {subsection}{\numberline {4-1-3}روش‌شناسی}{39}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4-1-3-1}پیش‌پردازش داده‌ها}{39}{subsubsection.4.1.3.1}%
-\contentsline {subsubsection}{\numberline {4-1-3-2}طراحی مدل \lr {MAGNET}}{40}{subsubsection.4.1.3.2}%
-\contentsline {paragraph}{\numberline {4-1-3-2-1}\lr {EnhancedTabTransformer} (ماژول جدولی)}{40}{paragraph.4.1.3.2.1}%
-\contentsline {paragraph}{\numberline {4-1-3-2-2}\lr {GraphTransformer} (ماژول گرافی)}{41}{paragraph.4.1.3.2.2}%
-\contentsline {paragraph}{\numberline {4-1-3-2-3}\lr {SequenceTransformer} (ماژول ترتیبی)}{42}{paragraph.4.1.3.2.3}%
-\contentsline {paragraph}{\numberline {4-1-3-2-4}مکانیزم توجه پویا}{43}{paragraph.4.1.3.2.4}%
-\contentsline {paragraph}{\numberline {4-1-3-2-5}ادغام چندوجهی}{43}{paragraph.4.1.3.2.5}%
-\contentsline {paragraph}{\numberline {4-1-3-2-6}مدل نهایی \lr {MAGNET}}{43}{paragraph.4.1.3.2.6}%
-\contentsline {subsubsection}{\numberline {4-1-3-3}آموزش مدل}{44}{subsubsection.4.1.3.3}%
-\contentsline {subsubsection}{\numberline {4-1-3-4}بهینه‌سازی ابرپارامترها}{44}{subsubsection.4.1.3.4}%
-\contentsline {subsubsection}{\numberline {4-1-3-5}ارزیابی مدل}{44}{subsubsection.4.1.3.5}%
-\contentsline {subsection}{\numberline {4-1-4}جمع‌بندی روش پیشنهادی}{45}{subsection.4.1.4}%
-\contentsline {chapter}{\numberline {فصل\nobreakspace {}پنجم:}نتایج و بحث}{47}{chapter.5}%
-\contentsline {section}{\numberline {5-1}مقدمه}{48}{section.5.1}%
-\contentsline {section}{\numberline {5-2}تنظیمات آزمایشی}{48}{section.5.2}%
-\contentsline {subsection}{\numberline {5-2-1}ویژگی‌های داده}{48}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5-2-2}پیکربندی آزمایش‌ها}{48}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5-3}تحلیل فرآیند بهینه‌سازی با الگوریتم \lr {Pirates}}{49}{section.5.3}%
-\contentsline {subsection}{\numberline {5-3-1}نمایش موقعیت کشتی‌ها و رهبر}{50}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5-3-2}روند تغییر هزینه و همگرایی}{50}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5-3-3}تحلیل پویایی جمعیت: باد، سرعت و شتاب}{52}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5-3-4}جمع‌بندی تحلیل فرآیند بهینه‌سازی}{52}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5-4}تحلیل حساسیت پارامترهای الگوریتم}{52}{section.5.4}%
-\contentsline {subsection}{\numberline {5-4-1}تحلیل حساسیت پارامترهای معماری مدل}{52}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5-4-2}تحلیل حساسیت پارامترهای آموزش}{53}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5-4-3}مقایسه حساسیت بین الگوریتم‌های بهینه‌سازی}{53}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5-4-4}توصیه‌های عملی}{54}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5-4-5}مدل‌های پایه}{55}{subsection.5.4.5}%
-\contentsline {subsection}{\numberline {5-4-6}محیط اجرا}{55}{subsection.5.4.6}%
-\contentsline {section}{\numberline {5-5}معیارهای ارزیابی}{56}{section.5.5}%
-\contentsline {section}{\numberline {5-6}نتایج کلی مدل \lr {MAGNET}}{57}{section.5.6}%
-\contentsline {subsection}{\numberline {5-6-1}ماتریس درهم‌ریختگی و عملکرد به تفکیک کلاس}{57}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5-6-2}نتایج اعتبارسنجی متقاطع}{57}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5-6-3}تحلیل عملکرد کلی مدل در مراحل مختلف}{57}{subsection.5.6.3}%
-\contentsline {section}{\numberline {5-7}مقایسه با روش‌های پایه و پیشرفته}{60}{section.5.7}%
-\contentsline {subsection}{\numberline {5-7-1}مقایسه با روش‌های پایه}{60}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5-7-2}مقایسه با روش‌های پیشرفته}{60}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5-7-3}تحلیل مقایسه با روش‌های پیشرفته}{61}{subsection.5.7.3}%
-\contentsline {subsection}{\numberline {5-7-4}نتایج مقایسه با روش‌های پایه}{62}{subsection.5.7.4}%
-\contentsline {subsection}{\numberline {5-7-5}تحلیل عملکرد ماژول‌های مدل}{63}{subsection.5.7.5}%
-\contentsline {subsection}{\numberline {5-7-6}مطالعه حذف اجزا}{63}{subsection.5.7.6}%
-\contentsline {subsection}{\numberline {5-7-7}روند آموزش}{63}{subsection.5.7.7}%
-\contentsline {section}{\numberline {5-8}جمع‌بندی}{64}{section.5.8}%
-\contentsline {chapter}{\numberline {فصل\nobreakspace {}ششم:}نتیجه‌گیری و پیشنهادات آتی}{66}{chapter.6}%
-\contentsline {section}{\numberline {6-1}نتیجه‌گیری}{67}{section.6.1}%
-\contentsline {section}{\numberline {6-2}پیشنهادات آتی}{68}{section.6.2}%
-\contentsline {subsection}{\numberline {6-2-1}پژوهش‌های تکمیلی}{68}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6-2-2}پیشنهادات اجرایی}{68}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6-2-3}تولید داده‌های جدید}{69}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6-2-4}تحلیل‌های آینده}{69}{subsection.6.2.4}%
-\contentsline {chapter}{مراجع}{72}{chapter*.26}%
-\contentsline {chapter}{پیوست}{76}{chapter*.26}%
-\contentsline {section}{\numberline {-1}پیوست \lr {A}: کدهای پیاده‌سازی مدل \lr {MAGNET}}{77}{section.Alph0.1}%
-\contentsline {subsection}{\numberline {-1-1}کد معماری مدل \lr {MAGNET}}{77}{subsection.Alph0.1.1}%
-\contentsline {subsection}{\numberline {-1-2}کد بهینه‌سازی با \lr {PIRATES}}{78}{subsection.Alph0.1.2}%
-\contentsline {section}{\numberline {-2}پیوست \lr {B}: داده‌های خام و پیش‌پردازش}{79}{section.Alph0.2}%
-\contentsline {subsection}{\numberline {-2-1}نمونه داده‌های خام \lr {DREBIN}}{79}{subsection.Alph0.2.1}%
-\contentsline {subsection}{\numberline {-2-2}توضیحات پیش‌پردازش}{79}{subsection.Alph0.2.2}%
-\contentsline {section}{\numberline {-3}پیوست \lr {C}: جزئیات سخت‌افزاری و نرم‌افزاری}{80}{section.Alph0.3}%
-\contentsline {subsection}{\numberline {-3-1}مشخصات سخت‌افزاری}{80}{subsection.Alph0.3.1}%
-\contentsline {subsection}{\numberline {-3-2}مشخصات نرم‌افزاری}{80}{subsection.Alph0.3.2}%
-\contentsline {section}{\numberline {-4}پیوست \lr {D}: نتایج اضافی و ماتریس‌های کامل}{80}{section.Alph0.4}%
-\contentsline {subsection}{\numberline {-4-1}ماتریس درهم‌ریختگی کامل}{80}{subsection.Alph0.4.1}%
-\contentsline {subsection}{\numberline {-4-2}گزارش طبقه‌بندی برای هر دسته}{80}{subsection.Alph0.4.2}%
+\contentsline {subsection}{\numberline {2-2-4}داده‌های چندوجهی در تشخیص بدافزار}{13}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2-2-4-1}داده‌های جدولی}{13}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2-2-4-2}داده‌های گرافی}{14}{subsubsection.2.2.4.2}%
+\contentsline {subsubsection}{\numberline {2-2-4-3}داده‌های ترتیبی}{14}{subsubsection.2.2.4.3}%
+\contentsline {subsubsection}{\numberline {2-2-4-4}اهمیت و یکپارچگی داده‌های چندوجهی}{15}{subsubsection.2.2.4.4}%
+\contentsline {subsection}{\numberline {2-2-5}مدل‌های یادگیری عمیق}{15}{subsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2-2-5-1}شبکه‌های عصبی کانولوشنی (\lr {CNN})}{15}{subsubsection.2.2.5.1}%
+\contentsline {subsubsection}{\numberline {2-2-5-2}شبکه‌های عصبی بازگشتی و واحدهای حافظه بلند-کوتاه \lr {(RNN و LSTM)}}{16}{subsubsection.2.2.5.2}%
+\contentsline {subsubsection}{\numberline {2-2-5-3}شبکه‌های عصبی گرافی (\lr {GNN})}{17}{subsubsection.2.2.5.3}%
+\contentsline {subsection}{\numberline {2-2-6}ترنسفورمرها}{18}{subsection.2.2.6}%
+\contentsline {paragraph}{\numberline {2-2-6-0-1}معرفی ترنسفورمر و تحول در مدل‌های یادگیری عمیق}{18}{paragraph.2.2.6.0.1}%
+\contentsline {subsection}{\numberline {2-2-7}ترنسفورمرها در مدل \lr {MAGNET}}{19}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2-2-8}ماشین بردار پشتیبان (\lr {SVM})}{21}{subsection.2.2.8}%
+\contentsline {paragraph}{\numberline {2-2-8-0-1}انواع \lr {SVM}}{21}{paragraph.2.2.8.0.1}%
+\contentsline {paragraph}{\numberline {2-2-8-0-2}کاربرد در تشخیص بدافزار}{22}{paragraph.2.2.8.0.2}%
+\contentsline {paragraph}{\numberline {2-2-8-0-3}مزایا و معایب}{22}{paragraph.2.2.8.0.3}%
+\contentsline {section}{\numberline {2-3}تکنیک‌های آموزشی و ارزیابی}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}اعتبارسنجی متقاطع (\lr {Cross-Validation})}{22}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2-3-2}مدیریت بیش‌برازش و کم‌برازش}{23}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2-3-3}روش‌های بهینه‌سازی}{25}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2-3-3-1}الگوریتم \lr {Adam}}{25}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2-3-3-2}الگوریتم \lr {PIRATES}}{25}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2-3-3-3}الگوریتم \lr {Optuna}}{26}{subsubsection.2.3.3.3}%
+\contentsline {subsection}{\numberline {2-3-4}معیارهای ارزیابی عملکرد}{27}{subsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2-3-4-1}دقت (\lr {Accuracy})}{27}{subsubsection.2.3.4.1}%
+\contentsline {subsubsection}{\numberline {2-3-4-2}\lr {F1 Score}}{28}{subsubsection.2.3.4.2}%
+\contentsline {subsubsection}{\numberline {2-3-4-3}\lr {AUCArea Under the ROC Curve}}{29}{subsubsection.2.3.4.3}%
+\contentsline {paragraph}{\numberline {2-3-4-3-1}جمع‌بندی ارزیابی}{29}{paragraph.2.3.4.3.1}%
+\contentsline {section}{\numberline {2-4}مروری بر مطالعات پیشین}{30}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}روش‌های تحلیل ایستا}{30}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2-4-1-1}تحلیل ویژگی‌های مبتنی بر مانیفست و متاداده}{30}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2-4-1-2}تحلیل کد \lr {(Code Analysis)}}{30}{subsubsection.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2-4-1-3}تحلیل ایستای ساختاری}{31}{subsubsection.2.4.1.3}%
+\contentsline {paragraph}{\numberline {2-4-1-3-1}محدودیت‌های تحلیل ایستا}{31}{paragraph.2.4.1.3.1}%
+\contentsline {subsection}{\numberline {2-4-2}روش‌های تحلیل پویا}{32}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2-4-2-1}مانیتورینگ رفتار سیستم}{32}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2-4-2-2}تحلیل شبکه}{32}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2-4-2-3}بررسی مصرف منابع}{32}{subsubsection.2.4.2.3}%
+\contentsline {paragraph}{\numberline {2-4-2-3-1}ابزارها و محیط‌های تحلیل پویا}{33}{paragraph.2.4.2.3.1}%
+\contentsline {paragraph}{\numberline {2-4-2-3-2}محدودیت‌های تحلیل پویا}{33}{paragraph.2.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {2-4-2-4}روش‌های ترکیبی \lr {Hybrid Approaches}}{33}{subsubsection.2.4.2.4}%
+\contentsline {subsection}{\numberline {2-4-3}کارهای پیشین و تاریخچه مختصر}{34}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2-5}جمع‌بندی فصل}{34}{section.2.5}%
+\contentsline {chapter}{\numberline {فصل\nobreakspace {}سوم:}مطالعه موردی: شرکت‌های پیشرو در امنیت اندروید}{36}{chapter.3}%
+\contentsline {section}{\numberline {3-1}هدف فصل}{37}{section.3.1}%
+\contentsline {section}{\numberline {3-2}معیارهای انتخاب}{37}{section.3.2}%
+\contentsline {section}{\numberline {3-3}مطالعه موردی شرکت‌ها}{37}{section.3.3}%
+\contentsline {subsection}{\numberline {3-3-1}\lr {NowSecure}}{37}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3-3-2}\lr {Qualys (VMDR Mobile)}}{37}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3-3-3}\lr {Checkmarx / Synopsys}}{37}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3-4}روش‌ها و ابزارهای مشترک}{38}{section.3.4}%
+\contentsline {section}{\numberline {3-5}مقایسه و تحلیل}{38}{section.3.5}%
+\contentsline {section}{\numberline {3-6}جمع‌بندی}{38}{section.3.6}%
+\contentsline {chapter}{\numberline {فصل\nobreakspace {}چهارم:}روش پیشنهادی}{40}{chapter.4}%
+\contentsline {section}{\numberline {4-1}روش پیشنهادی}{41}{section.4.1}%
+\contentsline {subsection}{\numberline {4-1-1}مقدمه روش پیشنهادی}{41}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4-1-2}فرضیات و ابزارهای محاسباتی}{42}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4-1-2-1}فرضیات}{42}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4-1-2-2}ابزارهای محاسباتی}{43}{subsubsection.4.1.2.2}%
+\contentsline {subsection}{\numberline {4-1-3}روش‌شناسی}{44}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4-1-3-1}پیش‌پردازش داده‌ها}{44}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4-1-3-2}طراحی مدل \lr {MAGNET}}{45}{subsubsection.4.1.3.2}%
+\contentsline {paragraph}{\numberline {4-1-3-2-1}\lr {EnhancedTabTransformer} (ماژول جدولی)}{45}{paragraph.4.1.3.2.1}%
+\contentsline {paragraph}{\numberline {4-1-3-2-2}\lr {GraphTransformer} (ماژول گرافی)}{46}{paragraph.4.1.3.2.2}%
+\contentsline {paragraph}{\numberline {4-1-3-2-3}\lr {SequenceTransformer} (ماژول ترتیبی)}{47}{paragraph.4.1.3.2.3}%
+\contentsline {paragraph}{\numberline {4-1-3-2-4}مکانیزم توجه پویا}{47}{paragraph.4.1.3.2.4}%
+\contentsline {paragraph}{\numberline {4-1-3-2-5}ادغام چندوجهی}{47}{paragraph.4.1.3.2.5}%
+\contentsline {paragraph}{\numberline {4-1-3-2-6}مدل نهایی \lr {MAGNET}}{48}{paragraph.4.1.3.2.6}%
+\contentsline {subsubsection}{\numberline {4-1-3-3}آموزش مدل}{48}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4-1-3-4}بهینه‌سازی ابرپارامترها}{49}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4-1-3-5}ارزیابی مدل}{49}{subsubsection.4.1.3.5}%
+\contentsline {subsection}{\numberline {4-1-4}جمع‌بندی روش پیشنهادی}{49}{subsection.4.1.4}%
+\contentsline {chapter}{\numberline {فصل\nobreakspace {}پنجم:}نتایج و بحث}{52}{chapter.5}%
+\contentsline {section}{\numberline {5-1}مقدمه}{53}{section.5.1}%
+\contentsline {section}{\numberline {5-2}تنظیمات آزمایشی}{53}{section.5.2}%
+\contentsline {subsection}{\numberline {5-2-1}ویژگی‌های داده}{53}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5-2-2}پیکربندی آزمایش‌ها}{54}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5-3}تحلیل فرآیند بهینه‌سازی با الگوریتم \lr {Pirates}}{55}{section.5.3}%
+\contentsline {subsection}{\numberline {5-3-1}نمایش موقعیت کشتی‌ها و رهبر}{55}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5-3-2}روند تغییر هزینه و همگرایی}{55}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5-3-3}تحلیل پویایی جمعیت: باد، سرعت و شتاب}{56}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5-3-4}جمع‌بندی تحلیل فرآیند بهینه‌سازی}{57}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5-4}تحلیل حساسیت پارامترهای الگوریتم}{58}{section.5.4}%
+\contentsline {subsection}{\numberline {5-4-1}تحلیل حساسیت پارامترهای معماری مدل}{58}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5-4-2}تحلیل حساسیت پارامترهای آموزش}{58}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5-4-3}مقایسه حساسیت بین الگوریتم‌های بهینه‌سازی}{59}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5-4-4}توصیه‌های عملی}{59}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5-4-5}مدل‌های پایه}{60}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5-4-6}محیط اجرا}{61}{subsection.5.4.6}%
+\contentsline {section}{\numberline {5-5}معیارهای ارزیابی}{61}{section.5.5}%
+\contentsline {section}{\numberline {5-6}نتایج کلی مدل \lr {MAGNET}}{62}{section.5.6}%
+\contentsline {subsection}{\numberline {5-6-1}ماتریس درهم‌ریختگی و عملکرد به تفکیک کلاس}{62}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5-6-2}نتایج اعتبارسنجی متقاطع}{63}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5-6-3}تحلیل عملکرد کلی مدل در مراحل مختلف}{63}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5-7}مقایسه با روش‌های پایه و پیشرفته}{65}{section.5.7}%
+\contentsline {subsection}{\numberline {5-7-1}مقایسه با روش‌های پایه}{66}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5-7-2}مقایسه با روش‌های پیشرفته}{66}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5-7-3}تحلیل مقایسه با روش‌های پیشرفته}{67}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5-7-4}نتایج مقایسه با روش‌های پایه}{68}{subsection.5.7.4}%
+\contentsline {subsection}{\numberline {5-7-5}تحلیل عملکرد ماژول‌های مدل}{69}{subsection.5.7.5}%
+\contentsline {subsection}{\numberline {5-7-6}مطالعه حذف اجزا}{69}{subsection.5.7.6}%
+\contentsline {subsection}{\numberline {5-7-7}روند آموزش}{69}{subsection.5.7.7}%
+\contentsline {section}{\numberline {5-8}جمع‌بندی}{70}{section.5.8}%
+\contentsline {chapter}{\numberline {فصل\nobreakspace {}ششم:}نتیجه‌گیری و پیشنهادات آتی}{73}{chapter.6}%
+\contentsline {section}{\numberline {6-1}نتیجه‌گیری}{74}{section.6.1}%
+\contentsline {section}{\numberline {6-2}پیشنهادات آتی}{75}{section.6.2}%
+\contentsline {subsection}{\numberline {6-2-1}پژوهش‌های تکمیلی}{75}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6-2-2}پیشنهادات اجرایی}{76}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6-2-3}تولید داده‌های جدید}{76}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6-2-4}تحلیل‌های آینده}{76}{subsection.6.2.4}%
+\contentsline {chapter}{مراجع}{79}{chapter*.26}%
+\contentsline {chapter}{پیوست}{83}{chapter*.26}%
+\contentsline {section}{\numberline {-1}پیوست \lr {A}: کدهای پیاده‌سازی مدل \lr {MAGNET}}{84}{section.Alph0.1}%
+\contentsline {subsection}{\numberline {-1-1}کد معماری مدل \lr {MAGNET}}{84}{subsection.Alph0.1.1}%
+\contentsline {subsection}{\numberline {-1-2}کد بهینه‌سازی با \lr {PIRATES}}{85}{subsection.Alph0.1.2}%
+\contentsline {section}{\numberline {-2}پیوست \lr {B}: داده‌های خام و پیش‌پردازش}{86}{section.Alph0.2}%
+\contentsline {subsection}{\numberline {-2-1}نمونه داده‌های خام \lr {DREBIN}}{86}{subsection.Alph0.2.1}%
+\contentsline {subsection}{\numberline {-2-2}توضیحات پیش‌پردازش}{86}{subsection.Alph0.2.2}%
+\contentsline {section}{\numberline {-3}پیوست \lr {C}: جزئیات سخت‌افزاری و نرم‌افزاری}{87}{section.Alph0.3}%
+\contentsline {subsection}{\numberline {-3-1}مشخصات سخت‌افزاری}{87}{subsection.Alph0.3.1}%
+\contentsline {subsection}{\numberline {-3-2}مشخصات نرم‌افزاری}{87}{subsection.Alph0.3.2}%
+\contentsline {section}{\numberline {-4}پیوست \lr {D}: نتایج اضافی و ماتریس‌های کامل}{87}{section.Alph0.4}%
+\contentsline {subsection}{\numberline {-4-1}ماتریس درهم‌ریختگی کامل}{87}{subsection.Alph0.4.1}%
+\contentsline {subsection}{\numberline {-4-2}گزارش طبقه‌بندی برای هر دسته}{88}{subsection.Alph0.4.2}%

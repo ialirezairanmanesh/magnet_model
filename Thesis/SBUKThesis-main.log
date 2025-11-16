@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  17 OCT 2025 19:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2025.6.4)  17 OCT 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1399,26 +1399,27 @@ Package fontspec Info: Could not resolve font "B Zar/I" (it probably doesn't
 
 
 Package fontspec Info: Font family 'BZar(0)' created for font 'B Zar' with
-(fontspec)             options [Script=Persian,Ligatures=PersianTeX,Scale=1].
+(fontspec)             options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.2].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"B
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"B
 (fontspec)             Zar/OT:script=arab;language=dflt;mapping=persian-tex-tex
 t;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"B
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"B
 (fontspec)             Zar/B/OT:script=arab;language=dflt;mapping=persian-tex-t
 ext;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"B
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.2]"B
 (fontspec)             Zar/BI/OT:script=arab;language=dflt;mapping=persian-tex-
 text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 129.
+(Font)              scaled to size 14.39996pt on input line 129.
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options
@@ -1467,7 +1468,7 @@ Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
-as'Times New Roman' on input line 130.
+as'Times New Roman' on input line 131.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
@@ -1493,7 +1494,7 @@ Package fontspec Info: Font family 'TimesNewRoman(2)' created for font 'Times
 (fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-LaTeX Info: Redefining \latinfont on input line 134.
+LaTeX Info: Redefining \latinfont on input line 135.
 
 Package fontspec Info: Could not resolve font "IranNastaliq/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1520,29 +1521,29 @@ ng=persian-tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Package fontspec Info: Could not resolve font "B Zar/I" (it probably doesn't
-(fontspec)             exist).
+Package fontspec Info: Could not resolve font "B Zar Bold/BI" (it probably
+(fontspec)             doesn't exist).
 
 
-Package fontspec Info: Font family 'BZar(1)' created for font 'B Zar' with
-(fontspec)             options
-(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1.2].
+Package fontspec Info: Could not resolve font "B Zar Bold/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "B Zar Bold/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'BZarBold(0)' created for font 'B Zar Bold'
+(fontspec)             with options
+(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"B
-(fontspec)             Zar/OT:script=arab;language=dflt;mapping=persian-tex-tex
-t;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"B Zar
+(fontspec)             Bold/OT:script=arab;language=dflt;mapping=persian-tex-te
+xt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.2]"B
-(fontspec)             Zar/B/OT:script=arab;language=dflt;mapping=persian-tex-t
-ext;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.2]"B
-(fontspec)             Zar/BI/OT:script=arab;language=dflt;mapping=persian-tex-
-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
  (/usr/share/texlive/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
@@ -1911,35 +1912,9 @@ Package biblatex Info: Reference segment=0 on input line 27.
 
  (./SBUKThesis-inthenameofGod.tex
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 46.0pt on input line 5.
-
-Package fontspec Info: Could not resolve font "B Zar Bold/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "B Zar Bold/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "B Zar Bold/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'BZarBold(0)' created for font 'B Zar Bold'
-(fontspec)             with options
-(fontspec)             [Script=Persian,Ligatures=PersianTeX,Scale=1].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"B Zar
-(fontspec)             Bold/OT:script=arab;language=dflt;mapping=persian-tex-te
-xt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-LaTeX Info: Redefining \persianfont on input line 6.
-LaTeX Font Info:    Font shape `TU/BZarBold(0)/m/n' will be
-(Font)              scaled to size 46.0pt on input line 6.
+(Font)              scaled to size 55.19986pt on input line 5.
+LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
+(Font)              scaled to size 55.19986pt on input line 5.
  [1
 
 
@@ -1951,17 +1926,17 @@ LaTeX Font Info:    Font shape `TU/BZarBold(0)/m/n' will be
 File: logo.png Graphic file (type bmp)
 <logo.png>
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 5.
+(Font)              scaled to size 19.19995pt on input line 5.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 16.0pt on input line 5.
+(Font)              scaled to size 19.19995pt on input line 5.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 18.0pt on input line 20.
+(Font)              scaled to size 21.59995pt on input line 20.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 18.0pt on input line 20.
+(Font)              scaled to size 21.59995pt on input line 20.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 31.
+(Font)              scaled to size 16.79996pt on input line 31.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 14.0pt on input line 31.
+(Font)              scaled to size 16.79996pt on input line 31.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 14.0pt on input line 53.
 ) [2
@@ -2045,103 +2020,55 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 File: logo.png Graphic file (type bmp)
 <logo.png>
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 4.
+(Font)              scaled to size 14.39996pt on input line 4.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
-LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 8.
+(Font)              scaled to size 15.59996pt on input line 4.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
-(Font)              scaled to size 10.01004pt on input line 11.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 12.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 12.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 12.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 12.
-
+(Font)              scaled to size 10.92004pt on input line 11.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 12.
+(Font)              scaled to size 12.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 12.
+(Font)              scaled to size 8.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 5.5pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <11> not avai
+(Font)              scaled to size 6.0pt on input line 12.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(1)/b/n' tried instead on input
  line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <7.69997> not
- available
+(Font)              scaled to size 12.0pt on input line 12.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <8> not avail
+able
 (Font)              Font shape `TU/TimesNewRoman(1)/b/n' tried instead on input
  line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 7.69997pt on input line 12.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <5.5> not ava
-ilable
+(Font)              scaled to size 8.0pt on input line 12.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <6> not avail
+able
 (Font)              Font shape `TU/TimesNewRoman(1)/b/n' tried instead on input
  line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 5.5pt on input line 12.
+(Font)              scaled to size 6.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
-(Font)              scaled to size 11.0pt on input line 12.
+(Font)              scaled to size 12.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
-(Font)              scaled to size 7.69997pt on input line 12.
+(Font)              scaled to size 8.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
-(Font)              scaled to size 5.5pt on input line 12.
+(Font)              scaled to size 6.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 12.
+(Font)              scaled to size 9.59998pt on input line 12.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 12.
+(Font)              scaled to size 8.0pt on input line 12.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 27.
+(Font)              scaled to size 11.99997pt on input line 27.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 27.
+(Font)              scaled to size 8.39998pt on input line 27.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 27.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 9.10004pt on input line 27.
 File: images/sign2.jpg Graphic file (type bmp)
 <images/sign2.jpg>
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <12> not avai
-lable
-(Font)              Font shape `TU/TimesNewRoman(1)/b/n' tried instead on input
- line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <8> not avail
-able
-(Font)              Font shape `TU/TimesNewRoman(1)/b/n' tried instead on input
- line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/bx/n' in size <6> not avail
-able
-(Font)              Font shape `TU/TimesNewRoman(1)/b/n' tried instead on input
- line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 39.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
-(Font)              scaled to size 6.0pt on input line 39.
 ) [5
 
 
@@ -2151,11 +2078,11 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(1)/m/it' will be
 
  (./SBUKThesis-dedication.tex
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
+(Font)              scaled to size 29.85593pt on input line 2.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
+(Font)              scaled to size 29.85593pt on input line 2.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 15.0pt on input line 2.
+(Font)              scaled to size 17.99995pt on input line 2.
 ) [6
 
 
@@ -2164,8 +2091,8 @@ LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
 ]
 \openout2 = `SBUKThesis-acknowledgments.aux'.
 
- (./SBUKThesis-acknowledgments.tex)
-[7
+
+(./SBUKThesis-acknowledgments.tex) [7
 
 
 
@@ -2175,17 +2102,26 @@ LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
 
  (./SBUKThesis-persian-abstract.tex
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 17.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
-(Font)              scaled to size 10.92004pt on input line 4.
+(Font)              scaled to size 20.39995pt on input line 2.
+
+Overfull \hbox (1.54825pt too wide) in paragraph at lines 5--7
+[]\TU/BZar(0)/m/n/12 تهدیدات جدید، از تعمیم‌پذیری مناسبی برخوردار نیستند. این م
+حدودیت‌ها، ضرورت توسعه رویکردهای[]
+ []
+
+
+Overfull \hbox (1.98346pt too wide) in paragraph at lines 5--7
+[]\TU/BZar(0)/m/n/12 مورد استفاده شامل کتابخانه‌های یادگیری عمیق مانند []\TU/Ti
+mesNewRoman(2)/m/n/12 PyTorch[]\TU/BZar(0)/m/n/12 ، تکنیک‌های استانداردسازی و ن
+رمال‌سازی[]
+ []
+
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 13.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 13.0pt on input line 7.
+(Font)              scaled to size 15.59996pt on input line 9.
 )
-Overfull \hbox (10.01309pt too wide) in paragraph at lines 7--40
+Overfull \hbox (13.36295pt too wide) in paragraph at lines 9--40
 [][]\TU/BZar(0)/b/n/13 واژگان کلیدی: تشخیص بدافزار، ترنسفورمر، یادگیری عمیق، دا
-ده‌های چندوجهی، امنیت اندروید. []
+ده‌های چندوجهی،[]
  []
 
 [8
@@ -2200,7 +2136,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 
 
 ] [10]
-Overfull \hbox (1.12152pt too wide) detected at line 74
+Overfull \hbox (1.34584pt too wide) detected at line 74
 \TU/BZar(0)/b/n/12 فصل چهارم: 
  []
 
@@ -2214,14 +2150,26 @@ Overfull \hbox (1.12152pt too wide) detected at line 74
 
  [14
 
-] (./SBUKThesis-main.lof)
+] (./SBUKThesis-main.lof
+Overfull \hbox (8.55704pt too wide) in paragraph at lines 5--5
+ [][][] [][][][][][]\TU/BZar(0)/m/n/12 شکل []ساختار شبکه عصبی گرافی ([]\TU/Time
+sNewRoman(2)/m/n/12 GNN[]\TU/BZar(0)/m/n/12 ) برای پردازش داده‌های گرافی و طبقه
+‌بندی.[][][][][] 
+ []
+
+
+Overfull \hbox (5.93861pt too wide) in paragraph at lines 6--6
+ [][][] [][][][][][]\TU/BZar(0)/m/n/12 شکل []معماری ترنسفورمر شامل کدگذار و گشا
+ینده با مکانیزم توجه چندسر. برگرفته[][][][][] 
+ []
+
+)
 \tf@lof=\write8
 \openout8 = `SBUKThesis-main.lof'.
 
  [15
 
-]
-(./SBUKThesis-main.loa)
+] (./SBUKThesis-main.loa)
 \tf@loa=\write9
 \openout9 = `SBUKThesis-main.loa'.
 
@@ -2234,13 +2182,13 @@ Overfull \hbox (1.12152pt too wide) detected at line 74
  (./SBUKThesis-chapter1.tex
 فصل 1.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 57.
+(Font)              scaled to size 24.88794pt on input line 57.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 57.
+(Font)              scaled to size 24.88794pt on input line 57.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 24.0pt on input line 57.
+(Font)              scaled to size 28.79993pt on input line 57.
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 24.0pt on input line 57.
+(Font)              scaled to size 28.79993pt on input line 57.
 [1
 
 
@@ -2251,21 +2199,23 @@ LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 13.0pt on input line 70.
-LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 71.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 71.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 6.37003pt on input line 71.
  [2
 
 ] [3]
-Overfull \hbox (2.63379pt too wide) in paragraph at lines 111--112
-[][]\TU/BZar(0)/m/n/12 در ادامه به بررسی جامع مطالعات پیشین در حوزه تشخیص بدافز
-ار اندروید پرداخته می‌شود. در این بخش، رویکردهای[]
+Overfull \hbox (17.79755pt too wide) in paragraph at lines 109--110
+[]\TU/BZar(0)/m/n/12 می‌شود. هدف این فصل ایجاد زمینه نظری مناسب برای درک اهمیت 
+تشخیص خودکار بدافزارهاست. []
  []
 
-[4]) [5]
+[4]
+Overfull \hbox (6.11708pt too wide) in paragraph at lines 123--124
+[][]\TU/BZar(0)/m/n/12 در فصل نهایی، یافته‌های اصلی تحقیق به طور خلاصه ارائه شد
+ه و به نتیجه‌گیری کلی از دستاوردهای[]
+ []
+
+) [5]
 \openout2 = `SBUKThesis-chapter2.aux'.
 
  (./SBUKThesis-chapter2.tex
@@ -2277,43 +2227,68 @@ Overfull \hbox (2.63379pt too wide) in paragraph at lines 111--112
 
 
 
+] [7
+
 ]
-Overfull \hbox (5.1084pt too wide) in paragraph at lines 47--48
-[][]\TU/BZar(0)/m/n/12 در دهه‌های \TU/TimesNewRoman(0)/m/n/12 ۱۹۵۰ \TU/BZar(0)/
-m/n/12 و \TU/TimesNewRoman(0)/m/n/12 ۱۹۶۰\TU/BZar(0)/m/n/12 ، اولین تلاش‌ها برا
-ی پردازش زبان طبیعی به وسیله‌ی روش‌های نمادین انجام شد. پژوهشگران[]
+Overfull \hbox (3.54456pt too wide) in paragraph at lines 49--50
+[][]\TU/BZar(0)/m/n/12 با گذر زمان و ورود به دهه‌های \TU/TimesNewRoman(0)/m/n/1
+2 ۱۹۶۰ \TU/BZar(0)/m/n/12 و \TU/TimesNewRoman(0)/m/n/12 ۱۹۷۰\TU/BZar(0)/m/n/12 
+، رویکردهای آماری جایگزین بخش‌هایی از روش‌های[]
  []
 
-[7
-
-]
+[8]
 LaTeX Font Info:    Font shape `TU/BZar(0)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 64.
+(Font)              scaled to size 13.19997pt on input line 64.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 64.
- [8]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 (Font)              scaled to size 10.92004pt on input line 73.
  [9] [10]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
-(Font)              scaled to size 10.01004pt on input line 103.
-
-Overfull \hbox (10.6451pt too wide) in paragraph at lines 108--109
-[][]\TU/BZar(0)/m/n/12 علاوه بر سیستم‌عامل اندروید، فایل‌های []\TU/TimesNewRoma
-n(2)/m/n/12 APK[] \TU/BZar(0)/m/n/12 را می‌توان با استفاده از شبیه‌سازها یا لای
-ه‌های سازگاری در سایر سیستم‌عامل‌ها[]
+Overfull \hbox (4.12378pt too wide) in paragraph at lines 99--100
+[][]\TU/BZar(0)/b/n/12 خطرناک []\TU/TimesNewRoman(2)/b/n/12 (Dangerous)[]\TU/BZ
+ar(0)/b/n/12 : \TU/BZar(0)/m/n/12 مجوزهایی که به اطلاعات خصوصی کاربر[][][][][][
+][][][][][][] دسترسی دارند یا می‌توانند[]
  []
 
-[11] [12] [13] [14]
+[11]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
+(Font)              scaled to size 10.01004pt on input line 103.
+ [12] [13]
+Overfull \hbox (1.72801pt too wide) in paragraph at lines 124--125
+[][]\TU/BZar(0)/m/n/12 داده‌های گرافی ساختارهایی هستند که روابط و تعاملات بین ا
+جزای مختلف یک اپلیکیشن اندرویدی[]
+ []
+
+[14]
+Overfull \hbox (1.8194pt too wide) in paragraph at lines 133--134
+[][]\TU/BZar(0)/m/n/12 یادگیری عمیق، زیرشاخه‌ای از یادگیری ماشین، از شبکه‌های ع
+صبی مصنوعی با چندین لایه (لایه‌های[]
+ []
+
+[15]
 File: images/cnn_structure.png Graphic file (type bmp)
 <images/cnn_structure.png>
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 143.
+(Font)              scaled to size 13.13995pt on input line 143.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 143.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 9.96452pt on input line 143.
- [15] [16]
+ [16]
+Overfull \hbox (6.56403pt too wide) in paragraph at lines 160--161
+[][]\TU/BZar(0)/b/n/12 تجمیع []\TU/TimesNewRoman(2)/b/n/12 (Aggregation)[]\TU/B
+Zar(0)/b/n/12 : \TU/BZar(0)/m/n/12 جمع‌آوری اطلاعات (بازنمایی‌ها) از گره‌های هم
+سایه. روش‌های مختلفی[]
+ []
+
+
+Overfull \hbox (7.89252pt too wide) in paragraph at lines 161--162
+[][]\TU/BZar(0)/b/n/12 به‌روزرسانی []\TU/TimesNewRoman(2)/b/n/12 (Update)[]\TU/
+BZar(0)/b/n/12 : \TU/BZar(0)/m/n/12 ترکیب اطلاعات تجمیع‌شده از همسایگان با اطلا
+عات خود گره (بازنمایی[]
+ []
+
+[17]
 File: images/gnn_structure.png Graphic file (type bmp)
 <images/gnn_structure.png>
 
@@ -2321,61 +2296,104 @@ File: images/gnn_structure.png Graphic file (type bmp)
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 176.
 
-[17] [18]
+
+Overfull \hbox (17.56631pt too wide) in paragraph at lines 177--178
+[][] [][][]|\TU/TimesNewRoman(0)/b/n/12 ۲\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman
+(0)/b/n/12 ۲\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/12 ۶\TU/BZar(0)/b/n/1
+2 -‏\TU/TimesNewRoman(0)/b/n/12 ۰\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/
+12 ۱ \TU/BZar(0)/b/n/12 معرفی ترنسفورمر و تحول در مدل‌های یادگیری عمیق[][][] \T
+U/BZar(0)/m/n/12 نقطه عطف برجسته‌ای[]
+ []
+
+[18] [19]
 File: images/transformer_structure.png Graphic file (type bmp)
 <images/transformer_structure.png>
- [19]
+ [20]
+Overfull \hbox (3.49687pt too wide) in paragraph at lines 204--205
+[][]\TU/BZar(0)/m/n/12 ”بهترین شکل ممکن” در []\TU/TimesNewRoman(2)/m/n/12 SVM[]
+ \TU/BZar(0)/m/n/12 به معنای یافتن ابرصفحه‌ای است که بیشترین حاشیه [][][][][][]
+[][][][][][] را با نزدیک‌ترین[]
+ []
+
+
+Overfull \hbox (2.39047pt too wide) in paragraph at lines 204--205
+[]\TU/BZar(0)/m/n/12 جداکننده‌ای با حاشیه بزرگتر، معمولاً خطای تعمیم کمتری دارد
+ و عملکرد بهتری روی داده‌های دیده‌نشده[]
+ []
+
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 206.
 
+[21]
 Missing character: There is no C (U+0043) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[20] [21] [22] [23] [24]
+[22] [23] [24] [25] [26]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 7.28003pt on input line 291.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 5.46002pt on input line 291.
- [25] [26]
-Overfull \hbox (1.31738pt too wide) in paragraph at lines 334--335
-[]\TU/BZar(0)/m/n/12 این روش‌ها معمولاً سریع‌تر از تحلیل پویا هستند و می‌توانند
- پوشش کاملی از کد برنامه را فراهم کنند. ویژگی‌های استخراج‌شده[]
+ [27]
+Overfull \hbox (0.80228pt too wide) in paragraph at lines 308--309
+[][]\TU/BZar(0)/b/n/12 یادآوری ([]\TU/TimesNewRoman(2)/b/n/12 Recall[]\TU/BZar(
+0)/b/n/12 ) یا حساسیت ([]\TU/TimesNewRoman(2)/b/n/12 Sensitivity[]\TU/BZar(0)/b
+/n/12 ) یا نرخ مثبت واقعی []\TU/TimesNewRoman(2)/b/n/12 (TPR)[]\TU/BZar(0)/b/n/
+12 : \TU/BZar(0)/m/n/12 نسبت نمونه‌هایی[]
  []
 
-[27]
-Overfull \hbox (8.11638pt too wide) in paragraph at lines 340--341
+[28] [29]
+Overfull \hbox (12.01323pt too wide) in paragraph at lines 340--341
 [][]\TU/BZar(0)/b/n/12 تحلیل مجوزها []\TU/TimesNewRoman(2)/b/n/12 (Permissions)
 []\TU/BZar(0)/b/n/12 : \TU/BZar(0)/m/n/12 یکی از پرکاربردترین روش‌های ایستا، تح
-لیل الگوهای مجوزهای درخواست‌شده[]
+لیل الگوهای مجوزهای[]
  []
 
-[28] [29] [30]
+[30]
+Overfull \hbox (16.25851pt too wide) in paragraph at lines 360--362
+[][] [][][]|\TU/TimesNewRoman(0)/b/n/12 ۲\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman
+(0)/b/n/12 ۴\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/12 ۱\TU/BZar(0)/b/n/1
+2 -‏\TU/TimesNewRoman(0)/b/n/12 ۳\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/
+12 ۱ \TU/BZar(0)/b/n/12 محدودیت‌های تحلیل ایستا[][][] \TU/BZar(0)/m/n/12 با وجو
+د مزایا، تحلیل ایستا با چالش‌هایی نیز روبروست: []
+ []
+
+[31] [32]
+Overfull \hbox (6.08809pt too wide) in paragraph at lines 402--403
+[]\TU/BZar(0)/m/n/12 ناهنجاری اولیه مبتنی بر آمار مانند [][][][][][][][][][][][
+] ([]\TU/TimesNewRoman(2)/m/n/12 Denning[]\TU/BZar(0)/m/n/12 ، \TU/TimesNewRoma
+n(0)/m/n/12 ۱۹۸۷\TU/BZar(0)/m/n/12 ) و []\TU/TimesNewRoman(2)/m/n/12 W&S[] \TU/
+BZar(0)/m/n/12 ([]\TU/TimesNewRoman(2)/m/n/12 WIDOM[]\TU/BZar(0)/m/n/12 ) در آز
+مایشگاه ملی لس‌آلاموس[]
+ []
+
+[33]
 Missing character: There is no ٪ (U+066A) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 
-Overfull \hbox (8.10645pt too wide) in paragraph at lines 413--414
-[]\TU/BZar(0)/m/n/12 ارائه گردید. ابتدا، مفاهیم پایه‌ای شامل انواع بدافزارها (ب
-اج‌افزار، تروجان، جاسوس‌افزار، تبلیغ‌افزار)، اجزای کلیدی اپلیکیشن‌های[]
+Overfull \hbox (22.09824pt too wide) in paragraph at lines 413--414
+[]\TU/BZar(0)/m/n/12 بدافزارهای اندرویدی ارائه گردید. ابتدا، مفاهیم پایه‌ای شام
+ل انواع بدافزارها (باج‌افزار، تروجان، جاسوس‌افزار،[]
  []
 
-[31]) [32]
+[34]
+Overfull \hbox (14.22226pt too wide) in paragraph at lines 415--416
+[]\TU/BZar(0)/m/n/12 تخمین قابل اعتماد عملکرد، روش‌های مدیریت بیش‌برازش و کم‌بر
+ازش (مانند []\TU/TimesNewRoman(2)/m/n/12 Dropout[] \TU/BZar(0)/m/n/12 و توقف زو
+دهنگام)،[]
+ []
+
+
+Overfull \hbox (8.22757pt too wide) in paragraph at lines 415--416
+[]\TU/BZar(0)/m/n/12 الگوریتم‌های بهینه‌سازی (مانند []\TU/TimesNewRoman(2)/m/n/
+12 Adam[]\TU/BZar(0)/m/n/12 ) و ابزارهای بهینه‌سازی هایپرپارامتر (مانند []\TU/T
+imesNewRoman(2)/m/n/12 Optuna[]\TU/BZar(0)/m/n/12 )، و نهایتاً معیارهای[]
+ []
+
+) [35]
 \openout2 = `SBUKThesis-chapter3.aux'.
 
  (./SBUKThesis-chapter3.tex
 فصل 3.
-[33
-
-
-
-
-
-] [34
-
-]) [35]
-\openout2 = `SBUKThesis-chapter4.aux'.
-
- (./SBUKThesis-chapter4.tex
-فصل 4.
 [36
 
 
@@ -2385,6 +2403,37 @@ Overfull \hbox (8.10645pt too wide) in paragraph at lines 413--414
 ] [37
 
 ]
+Overfull \hbox (18.93849pt too wide) in paragraph at lines 45--46
+[][]\TU/BZar(0)/b/n/12 مدیریت آسیب‌پذیری و پچ ([]\TU/TimesNewRoman(2)/b/n/12 VM
+DR[]\TU/BZar(0)/b/n/12 )\TU/BZar(0)/m/n/12 : []\TU/TimesNewRoman(2)/m/n/12 Qual
+ys[] \TU/BZar(0)/m/n/12 برای شناسایی و تصحیح خودکار آسیب‌پذیری‌ها[]
+ []
+
+[38]) [39]
+\openout2 = `SBUKThesis-chapter4.aux'.
+
+ (./SBUKThesis-chapter4.tex
+فصل 4.
+[40
+
+
+
+
+
+]
+Overfull \hbox (7.90146pt too wide) in paragraph at lines 16--18
+[][]\TU/BZar(0)/m/n/12 برای غلبه بر این چالش‌ها، ما ادغام داده‌های چندوجهی را پ
+یشنهاد می‌کنیم تا دیدی جامع از ویژگی‌های[]
+ []
+
+[41
+
+]
+Overfull \hbox (9.60373pt too wide) in paragraph at lines 23--24
+[]\TU/BZar(0)/m/n/12 مدل‌سازی الگوهای پیچیده در داخل و بین این وجه‌ها استفاده ش
+ده است. ترنسفورمرها در ثبت وابستگی‌های[]
+ []
+
 
 LaTeX Font Warning: Font shape `TU/BZar(0)/m/it' undefined
 (Font)              using `TU/BZar(0)/m/n' instead on input line 25.
@@ -2392,16 +2441,15 @@ LaTeX Font Warning: Font shape `TU/BZar(0)/m/it' undefined
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/it' will be
 (Font)              scaled to size 10.92004pt on input line 25.
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 25.
+(Font)              scaled to size 14.39996pt on input line 25.
 
-Overfull \hbox (1.83743pt too wide) in paragraph at lines 36--37
-[][]\TU/BZar(0)/b/n/12 بهینه‌سازی مؤثر\TU/BZar(0)/m/it/12 : استفاده از بهینه‌سا
-ز []\TU/TimesNewRoman(2)/m/n/12 Adam[] \TU/BZar(0)/m/it/12 برای به‌روزرسانی وزن
-‌ها و []\TU/TimesNewRoman(2)/m/n/12 Optuna[] \TU/BZar(0)/m/it/12 برای تنظیم ابر
-پارامترها، همگرایی[]
+Overfull \hbox (45.85364pt too wide) in paragraph at lines 25--26
+[][]\TU/BZar(0)/m/it/12 نوآوری اصلی این پژوهش در مدل []\TU/TimesNewRoman(2)/b/n
+/12 MAGNET[] \TU/BZar(0)/m/it/12 نهفته است که سه ماژول تخصصی []\TU/TimesNewRoma
+n(2)/m/it/12 EnhancedTabTransformer[]\TU/BZar(0)/m/it/12 ،[]
  []
 
-[38]
+[42]
 Missing character: There is no ٬ (U+066C) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no ٬ (U+066C) in font B Zar/OT:script=arab;language
@@ -2412,7 +2460,7 @@ Missing character: There is no ٬ (U+066C) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no ٬ (U+066C) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[39]
+[43]
 Missing character: There is no s (U+0073) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no e (U+0065) in font B Zar/OT:script=arab;language
@@ -2432,7 +2480,7 @@ Missing character: There is no e (U+0065) in font B Zar/OT:script=arab;language
 Missing character: There is no q (U+0071) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 LaTeX Font Info:    Font shape `TU/BZar(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 94.
+(Font)              scaled to size 7.19998pt on input line 94.
 Missing character: There is no s (U+0073) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no e (U+0065) in font B Zar/OT:script=arab;language
@@ -2443,16 +2491,7 @@ Missing character: There is no ٬ (U+066C) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 File: images/magnet_architecture.png Graphic file (type bmp)
 <images/magnet_architecture.png>
-
-Overfull \hbox (2.9996pt too wide) in paragraph at lines 110--112
-[][] [][][]|\TU/TimesNewRoman(0)/b/n/12 ۴\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman
-(0)/b/n/12 ۱\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/12 ۳\TU/BZar(0)/b/n/1
-2 -‏\TU/TimesNewRoman(0)/b/n/12 ۲\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/
-12 ۱ []\TU/TimesNewRoman(2)/b/n/12 EnhancedTabTransformer[] \TU/BZar(0)/b/n/12 
-(ماژول جدولی)[][][] \TU/BZar(0)/m/it/12 این ماژول داده‌های جدولی را با در نظر گ
-رفتن[]
- []
-
+[44]
 Missing character: There is no e (U+0065) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no m (U+006D) in font B Zar/OT:script=arab;language
@@ -2501,16 +2540,11 @@ Missing character: There is no m (U+006D) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no b (U+0062) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[40]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 134.
- [41]
+[45] [46]
 Missing character: There is no ٬ (U+066C) in font Times New Roman/OT:language=d
 flt;mapping=tex-text;!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[42]
 Missing character: There is no ۶ ("6F6) in font cmr12!
 Missing character: There is no ۴ ("6F4) in font cmr12!
 Missing character: There is no ۸ ("6F8) in font cmr12!
@@ -2518,7 +2552,21 @@ Missing character: There is no ۸ ("6F8) in font cmr12!
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43]
+
+Overfull \hbox (3.28827pt too wide) in paragraph at lines 212--215
+[][] [][][]|\TU/TimesNewRoman(0)/b/n/12 ۴\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman
+(0)/b/n/12 ۱\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/12 ۳\TU/BZar(0)/b/n/1
+2 -‏\TU/TimesNewRoman(0)/b/n/12 ۲\TU/BZar(0)/b/n/12 -‏\TU/TimesNewRoman(0)/b/n/
+12 ۵ \TU/BZar(0)/b/n/12 ادغام چندوجهی[][][] \TU/BZar(0)/m/it/12 لایه ادغام، خرو
+جی‌ها را با استفاده از توجه متقاطع ادغام می‌کند:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--215
+[][][][]
+ []
+
+[47]
 Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۰ ("6F0) in font cmr12!
@@ -2529,64 +2577,69 @@ Missing character: There is no ۰ ("6F0) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
 Missing character: There is no ۹ ("6F9) in font cmr12!
+[48]
 Missing character: There is no ‏ (U+200F) in font [lmmono12-regular]:!
-[44]
 Missing character: There is no ٔ (U+0654) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-
-Overfull \hbox (16.42545pt too wide) in paragraph at lines 290--291
-[]\TU/BZar(0)/m/it/12 سناریوهای شناسایی بدافزار در زمان واقعی بر روی دستگاه‌های
- موبایل یا سرورهای تحلیل، با در نظر گرفتن محدودیت‌های[]
+[49]
+Overfull \hbox (19.03337pt too wide) in paragraph at lines 291--292
+[][]\TU/BZar(0)/b/n/12 افزایش تفسیرپذیری ([]\TU/TimesNewRoman(2)/b/n/12 Explain
+ability[]\TU/BZar(0)/b/n/12 )\TU/BZar(0)/m/it/12 : توسعه روش‌هایی برای تفسیر تص
+میمات مدل []\TU/TimesNewRoman(2)/m/n/12 MAGNET[]\TU/BZar(0)/m/it/12 ،[]
  []
 
-[45]
+[50]
 Missing character: There is no ٪ (U+066A) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-) [46]
+) [51]
 \openout2 = `SBUKThesis-chapter5.aux'.
 
  (./SBUKThesis-chapter5.tex
 فصل 5.
-[47
+[52
 
 
 
 
 
-] [48
+]
+Overfull \hbox (10.01488pt too wide) in paragraph at lines 8--9
+[][]\TU/BZar(0)/m/it/12 در این فصل، نتایج حاصل از پیاده‌سازی و ارزیابی مدل پیشن
+هادی []\TU/TimesNewRoman(2)/m/n/12 MAGNET[] \TU/BZar(0)/m/it/12 برای تشخیص بداف
+زارهای[]
+ []
+
+[53
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 (Font)              scaled to size 11.83005pt on input line 62.
-
-Overfull \hbox (1.10138pt too wide) in paragraph at lines 63--64
-[][]\TU/BZar(0)/m/it/12 در این بخش، به منظور بررسی دقیق‌تر رفتار الگوریتم بهینه
-‌سازی []\TU/TimesNewRoman(2)/m/n/12 Pirates[] \TU/BZar(0)/m/it/12 و نحوه همگرای
-ی آن، مجموعه‌ای از نمودارهای[]
- []
-
+ [54]
 File: images/pirates_positions.png Graphic file (type bmp)
 <images/pirates_positions.png>
-[49]
 File: images/pirates_bsf_avg_trajectory.png Graphic file (type bmp)
 <images/pirates_bsf_avg_trajectory.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[55]
 File: images/pirates_wind_velocity.png Graphic file (type bmp)
 <images/pirates_wind_velocity.png>
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50]
+[56] [57]
+Overfull \hbox (1.55211pt too wide) in paragraph at lines 139--140
+[][]\TU/BZar(0)/b/n/12 نرخ []\TU/TimesNewRoman(2)/b/n/12 Dropout[]\TU/BZar(0)/m
+/it/12 : این پارامتر تأثیر متوسطی بر عملکرد داشت. مقدار بهینه []\TU/TimesNewRom
+an(2)/m/n/12 ۰.۳۲۸۶[] \TU/BZar(0)/m/it/12 بود که نشان‌دهنده[]
+ []
 
-LaTeX Warning: Text page 51 contains only floats.
-
-[51] [52]
+[58]
 Missing character: There is no e (U+0065) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[53]
 Missing character: There is no D (U+0044) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no r (U+0072) in font B Zar/OT:script=arab;language
@@ -2601,10 +2654,10 @@ Missing character: There is no u (U+0075) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no t (U+0074) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[54]
+[59] [60]
 Missing character: There is no v (U+0076) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[55]
+[61]
 Missing character: There is no R (U+0052) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no e (U+0065) in font B Zar/OT:script=arab;language
@@ -2653,12 +2706,10 @@ Missing character: There is no l (U+006C) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no l (U+006C) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[56]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[62]
 File: fig_cv_metrics.png Graphic file (type bmp)
 <fig_cv_metrics.png>
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2719,27 +2770,29 @@ Missing character: There is no r (U+0072) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no s (U+0073) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: fig_overall_comparison.png Graphic file (type bmp)
 <fig_overall_comparison.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57] [58] [59] [60]
+[63] [64] [65] [66]
 Missing character: There is no S (U+0053) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no V (U+0056) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no M (U+004D) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[61]
 File: images/fig_literature_comparison_accuracy.png Graphic file (type bmp)
 <images/fig_literature_comparison_accuracy.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: images/fig_literature_comparison_metrics.png Graphic file (type bmp)
 <images/fig_literature_comparison_metrics.png>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2748,15 +2801,22 @@ File: images/fig_baseline_metrics_comparison.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62]
+[68]
 Missing character: There is no ٪ (U+066A) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no ٪ (U+066A) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no ٪ (U+066A) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[63]
-Overfull \hbox (29.39551pt too wide) in paragraph at lines 511--512
+
+Overfull \hbox (0.79224pt too wide) in paragraph at lines 509--510
+[][]\TU/BZar(0)/m/it/12 در این فصل، نتایج حاصل از ارزیابی مدل پیشنهادی []\TU/Ti
+mesNewRoman(2)/m/n/12 MAGNET[] \TU/BZar(0)/m/it/12 برای تشخیص بدافزارهای اندروی
+دی[]
+ []
+
+[69]
+Overfull \hbox (57.74316pt too wide) in paragraph at lines 511--512
 [][]\TU/BZar(0)/m/it/12 در تحلیل جزئی‌تر، عملکرد ماژول‌های []\TU/TimesNewRoman(
 2)/m/n/12 EnhancedTabTransformer،[] []GraphTransformer[] \TU/BZar(0)/m/it/12 و 
 []\TU/TimesNewRoman(2)/m/n/12 SequenceTransformer[][]
@@ -2764,6 +2824,9 @@ Overfull \hbox (29.39551pt too wide) in paragraph at lines 511--512
 
 File: images/fig_module_comparison_en.png Graphic file (type bmp)
 <images/fig_module_comparison_en.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: images/fig_ablation_study_en.png Graphic file (type bmp)
 <images/fig_ablation_study_en.png>
 
@@ -2774,49 +2837,43 @@ File: images/fig_training_progress_en.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [64] [65]
+) [70]
+
+LaTeX Warning: Text page 71 contains only floats.
+
+[71] [72]
 \openout2 = `SBUKThesis-chapter6.aux'.
 
  (./SBUKThesis-chapter6.tex
 فصل 6.
-[66
+[73
 
 
 
 
+
+] [74
 
 ]
-Overfull \hbox (28.09824pt too wide) in paragraph at lines 7--8
-[]\TU/BZar(0)/m/it/12 که از سه ماژول اصلی تشکیل شده است: []\TU/TimesNewRoman(2)
-/m/n/12 EnhancedTabTransformer[] \TU/BZar(0)/m/it/12 برای پردازش ویژگی‌های جدول
-ی، []\TU/TimesNewRoman(2)/m/n/12 GraphTransformer[][]
+Overfull \hbox (1.35461pt too wide) in paragraph at lines 33--34
+[]\TU/BZar(0)/m/it/12 پویا (مانند فعالیت شبکه، دسترسی به فایل‌ها، و الگوهای زما
+ن‌بندی) دقت تشخیص را در محیط‌های[]
  []
 
-
-Overfull \hbox (17.08524pt too wide) in paragraph at lines 7--8
-[]\TU/BZar(0)/m/it/12 تشخیص بدافزار در محیط‌های اندروید طراحی شد و از الگوریتم‌
-های بهینه‌سازی []\TU/TimesNewRoman(2)/m/n/12 Adam[] \TU/BZar(0)/m/it/12 و []\TU
-/TimesNewRoman(2)/m/n/12 CosineAnnealingWarmRestarts[][]
+[75]
+Overfull \hbox (10.3452pt too wide) in paragraph at lines 34--35
+[]\TU/BZar(0)/m/it/12 یک پلتفرم ابری پیاده‌سازی شود تا بتواند داده‌های حجیم و م
+تنوع را پردازش کرده و به‌روزرسانی‌های[]
  []
 
-
-Overfull \hbox (13.3171pt too wide) in paragraph at lines 15--16
-[][]\TU/BZar(0)/m/it/12 تحلیل حساسیت پارامترها (بخش تحلیل حساسیت پارامترهای الگ
-وریتم) نشان داد که []\TU/TimesNewRoman(2)/m/n/12 num_epochs[]\TU/BZar(0)/m/it/1
-2 ، []\TU/TimesNewRoman(2)/m/n/12 embedding_dim[]\TU/BZar(0)/m/it/12 ،[]
- []
-
-[67
-
-] [68]
-Overfull \hbox (17.73811pt too wide) in paragraph at lines 51--52
+[76]
+Overfull \hbox (3.58629pt too wide) in paragraph at lines 51--52
 [][]\TU/BZar(0)/b/n/12 ارزیابی با دیتاست‌های متنوع\TU/BZar(0)/m/it/12 : آزمایش 
-مدل روی دیتاست‌های متنوع‌تر (مانند []\TU/TimesNewRoman(2)/m/n/12 CICMalDroid[] 
-\TU/BZar(0)/m/it/12 [[][][][][][]\TU/TimesNewRoman(0)/m/n/12 ۶[][][][][][]\TU/B
-Zar(0)/m/it/12 ] یا []\TU/TimesNewRoman(2)/m/n/12 VirusShare[][]
+مدل روی دیتاست‌های متنوع‌تر (مانند []\TU/TimesNewRoman(2)/m/n/12 CICMalDroid[][
+]
  []
 
-) [69] [70]
+) [77]
 \openout2 = `SBUKThesis-references.aux'.
 
  (./SBUKThesis-references.tex
@@ -2824,87 +2881,81 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 21.84009pt on input line 3.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 (Font)              scaled to size 21.84009pt on input line 3.
- [71
+ [78
 
 
 
 
 
 ]
-Overfull \hbox (16.66376pt too wide) in paragraph at lines 3--3
+Overfull \hbox (17.81921pt too wide) in paragraph at lines 3--3
 []\TU/TimesNewRoman(2)/m/n/12 Malware Detection Using Machine Learning”. In: \T
 U/TimesNewRoman(2)/m/it/12 Computers and Security \TU/TimesNewRoman(2)/m/n/12 9
 3 (2020), p. 101792.[]
  []
 
-[72
+[79
 
 ]
-Overfull \hbox (2.49727pt too wide) in paragraph at lines 3--3
-[][]\TU/TimesNewRoman(2)/m/n/12 Takuya Akiba et al. “Optuna: A Next-generation 
-Hyperparameter Optimization Framework”.[]
- []
-
-[73]
-Overfull \hbox (4.43288pt too wide) in paragraph at lines 3--3
+Overfull \hbox (5.58833pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 NowSecure. “CI/CD Integration for Mobile Securi
 ty”. In: \TU/TimesNewRoman(2)/m/it/12 NowSecure Documentation \TU/TimesNewRoman
 (2)/m/n/12 (2024).[]
  []
 
 
-Overfull \hbox (5.66635pt too wide) in paragraph at lines 3--3
+Overfull \hbox (6.82181pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 NowSecure and Synopsys. “NowSecure and Synopsys
  Partnership”. In: \TU/TimesNewRoman(2)/m/it/12 Press Release \TU/TimesNewRoman
 (2)/m/n/12 (2024).[]
  []
 
 
-Overfull \hbox (11.01521pt too wide) in paragraph at lines 3--3
+Overfull \hbox (12.17067pt too wide) in paragraph at lines 3--3
 []\TU/TimesNewRoman(2)/m/n/12 URL: [][][]$[][][][][] [] [] [] [][][] [] [][][][
 ][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][] [][] [][][][][][][][] [
 ][] [][][][][][][][][][][]$[][][]. []
  []
 
 
-Overfull \hbox (9.83087pt too wide) in paragraph at lines 3--3
+Overfull \hbox (10.98633pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 Qualys. “VMDR Mobile Security Solution”. In: \T
 U/TimesNewRoman(2)/m/it/12 Qualys Documentation \TU/TimesNewRoman(2)/m/n/12 (20
 24). URL: [][][]$[][][][][] []$[][]
  []
 
 
-Overfull \hbox (15.20914pt too wide) in paragraph at lines 3--3
+Overfull \hbox (16.3646pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 Qualys. “Mobile Vulnerability Remediation”. In:
  \TU/TimesNewRoman(2)/m/it/12 Qualys Documentation \TU/TimesNewRoman(2)/m/n/12 
 (2024). URL: [][][]$[][][][][] []$[][]
  []
 
-
-Overfull \hbox (16.41418pt too wide) in paragraph at lines 3--3
+[80]
+Overfull \hbox (17.56964pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 Qualys. “Mobile Vulnerability Management”. In: 
 \TU/TimesNewRoman(2)/m/it/12 Qualys Documentation \TU/TimesNewRoman(2)/m/n/12 (
 2024). URL: [][][]$[][][][][] []$[][]
  []
 
 
-Overfull \hbox (4.5077pt too wide) in paragraph at lines 3--3
+Overfull \hbox (5.66316pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 NowSecure. “Mobile Threat Defense”. In: \TU/Tim
 esNewRoman(2)/m/it/12 NowSecure Documentation \TU/TimesNewRoman(2)/m/n/12 (2024
 ). URL: [][][]$[][][][][] []$[][]
  []
 
 
-Overfull \hbox (4.2196pt too wide) in paragraph at lines 3--3
+Overfull \hbox (5.37506pt too wide) in paragraph at lines 3--3
 [][]\TU/TimesNewRoman(2)/m/n/12 Checkmarx. “CI/CD Integration for Mobile Securi
 ty”. In: \TU/TimesNewRoman(2)/m/it/12 Checkmarx Documentation \TU/TimesNewRoman
 (2)/m/n/12 (2024).[]
  []
 
-[74] [75])
+[81] [82])
 \openout2 = `SBUKThesis-peyvast.aux'.
 
- (./SBUKThesis-peyvast.tex [76
+ (./SBUKThesis-peyvast.tex [83
 
 
 
@@ -2997,7 +3048,7 @@ Missing character: There is no T (U+0054) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 12.
-[77
+[84
 
 ]
 Missing character: There is no L (U+004C) in font B Zar/OT:script=arab;language
@@ -3056,7 +3107,7 @@ Missing character: There is no n (U+006E) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
 Missing character: There is no g (U+0067) in font B Zar/OT:script=arab;language
 =dflt;mapping=persian-tex-text;!
-[78] [79]) [80] [81]
+[85] [86] [87]) [88]
 \openout2 = `SBUKThesis-appendix1.aux'.
 
  (./SBUKThesis-appendix1.tex)
@@ -3103,12 +3154,12 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 11.83005pt on input line 8.
 )
-Overfull \hbox (1.72119pt too wide) in paragraph at lines 8--117
+Overfull \hbox (1.72119pt too wide) in paragraph at lines 8--119
 [][]\TU/TimesNewRoman(2)/b/n/13 Keywords: Malware Detection, Transformer, Deep 
 Learning, Multi-modal Data,[]
  []
 
-[82
+[89
 
 
 
@@ -3132,7 +3183,7 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/b/n' will be
 (Font)              scaled to size 12.74005pt on input line 8.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (Font)              scaled to size 14.56006pt on input line 14.
-) [83
+) [90
 
 
 
@@ -3147,10 +3198,6 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(2)/m/n' will be
 (./SBUKThesis-peyvast.aux) (./SBUKThesis-appendix1.aux)
 (./SBUKThesis-english-abstract.aux) (./SBUKThesis-english-cover.aux))
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
-
-
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `SBUKThesis-main.out' has not changed.
@@ -3160,12 +3207,12 @@ Package logreq Info: Writing requests to 'SBUKThesis-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44964 strings out of 476191
- 961803 string characters out of 5812073
- 2091445 words of memory out of 5000000
- 64600 multiletter control sequences out of 15000+600000
- 481733 words of font info for 208 fonts, out of 8000000 for 9000
+ 44892 strings out of 476191
+ 959540 string characters out of 5812073
+ 2090529 words of memory out of 5000000
+ 64545 multiletter control sequences out of 15000+600000
+ 478762 words of font info for 179 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,13n,104p,4867b,5106s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,13n,104p,4869b,5102s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SBUKThesis-main.pdf (99 pages).
+Output written on SBUKThesis-main.pdf (106 pages).
